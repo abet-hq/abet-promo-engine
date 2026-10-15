@@ -45,7 +45,7 @@ The deploy job merges all shard artifacts, builds `state.json`, and runs
 The player is a static page. Embed with one line — it fills whatever box you give it:
 
 ```html
-<iframe src="https://abet-promo.pages.dev/embed.html"
+<iframe src="https://abet-promo.pages.dev/embed"
         width="480" height="270" style="border:0;border-radius:12px"
         allow="autoplay" loading="lazy"></iframe>
 ```
@@ -56,7 +56,7 @@ React:
 export function AbetDesk({ width = 480, height = 270 }) {
   return (
     <iframe
-      src="https://abet-promo.pages.dev/embed.html"
+      src="https://abet-promo.pages.dev/embed"
       width={width} height={height}
       style={{ border: 0, borderRadius: 12 }}
       allow="autoplay" loading="lazy" title="ABET Sports Desk"
