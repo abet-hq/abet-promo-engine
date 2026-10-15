@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "segments": [
+    {
+      "clip": "clips/open_a.webm",
+      "talent": "a",
+      "title": "COLD OPEN",
+      "captions": [
+        ["WELCOME TO THE ABET SPORTS DESK", 0.0, 2.6],
+        ["WE READ THE NUMBERS, YOU DON'T GUESS", 2.7, 4.7]
+      ],
+      "dur": 4.8
+    },
+    {
+      "clip": "clips/hook_b.webm",
+      "talent": "b",
+      "title": "TONIGHT'S BOARD",
+      "captions": [
+        ["TONIGHT'S BOARD IS STACKED", 0.0, 2.5],
+        ["THE EDGE ON THE GAMES THAT MATTER", 2.6, 4.8]
+      ],
+      "dur": 4.9
+    },
+    {
+      "clip": "clips/proof_a.webm",
+      "talent": "a",
+      "title": "PROOF",
+      "captions": [
+        ["OUR MODEL CALLED IT. AGAIN.", 0.0, 2.5],
+        ["67% AND CLIMBING", 2.6, 4.4]
+      ],
+      "dur": 4.5
+    },
+    {
+      "clip": "clips/cta_b.webm",
+      "talent": "b",
+      "title": "THE CALL",
+      "captions": [
+        ["STOP GUESSING. START WINNING.", 0.0, 3.0],
+        ["ABET.COM - BET THE EDGE", 3.1, 5.9]
+      ],
+      "dur": 6.0
+    }
+  ],
+  "ticker": "ABET SPORTS DESK - LIVE  //  STATISTICAL EDGE 67% AND CLIMBING  //  BET WITH THE MODEL, NOT THE CROWD"
+}

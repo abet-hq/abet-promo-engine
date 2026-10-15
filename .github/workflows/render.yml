@@ -1,0 +1,107 @@
+name: SCARLETT clip batch (free cloud)
+
+on:
+  workflow_dispatch:
+    inputs:
+      lines_json:
+        description: 'JSON array: [{"text":"...","name":"clip_name","talent":"a","title":"..."}]'
+        required: true
+      portrait_url:
+        description: 'URL of source portrait (jpg/png). Empty = portraits/SCARLETT_A.jpg'
+        required: false
+        default: ''
+      deploy:
+        description: 'Deploy to Cloudflare Pages after render? (needs CLOUDFLARE_API_TOKEN secret)'
+        type: choice
+        options: [no, yes]
+        default: no
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 10
+      matrix:
+        idx: [0,1,2,3,4,5,6,7,8,9]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - name: Cache SadTalker + checkpoints
+        uses: actions/cache@v4
+        with:
+          path: SadTalker
+          key: sadtalker-ckpts-v1
+
+      - name: Install deps (torch CPU + SadTalker stack + edge-tts)
+        run: |
+          pip install -q torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "numpy<2" opencv-python-headless scipy librosa scikit-image scikit-learn numba tqdm kornia safetensors yacs joblib facexlib edge-tts resampy imageio imageio-ffmpeg
+
+      - name: Fetch portrait
+        run: |
+          if [ -n "${{ inputs.portrait_url }}" ]; then
+            curl -L -o portrait.jpg "${{ inputs.portrait_url }}"
+          else
+            cp portraits/SCARLETT_A.jpg portrait.jpg
+          fi
+
+      - name: Prepare this shard's lines
+        env:
+          LINES_JSON: ${{ inputs.lines_json }}
+        run: |
+          python - << 'EOF'
+          import json, os
+          lines = json.loads(os.environ["LINES_JSON"])
+          shard = lines[${{ matrix.idx }}::10]
+          json.dump(shard, open('lines.json','w'))
+          print('shard', ${{ matrix.idx }}, '->', len(shard), 'lines')
+          EOF
+
+      - name: Render shard
+        run: python render_batch.py --lines lines.json --portrait portrait.jpg --outdir out --no-upload --no-state
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clips-shard-${{ matrix.idx }}
+          path: out/
+          if-no-files-found: ignore
+
+  deploy:
+    needs: render
+    if: ${{ inputs.deploy == 'yes' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: clips-shard-*
+          merge-multiple: true
+          path: out
+
+      - name: Assemble Pages site
+        env:
+          LINES_JSON: ${{ inputs.lines_json }}
+        run: |
+          mkdir -p deploy/clips
+          cp -r site/* deploy/
+          cp out/*.webm deploy/clips/ 2>/dev/null || true
+          python - << 'EOF'
+          import json, os
+          from render_batch import build_state
+          lines = json.loads(os.environ["LINES_JSON"])
+          state = build_state(None, lines)
+          json.dump(state, open('deploy/state.json','w'), indent=1)
+          print('state.json:', len(state['segments']), 'segments')
+          EOF
+
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: b6847328054eee51af12c25cf34a565a
+        run: |
+          npm i -g wrangler
+          wrangler pages deploy deploy --project-name abet-promo --branch main --commit-dirty=true

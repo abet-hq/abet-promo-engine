@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "segments": [
+    {
+      "clip": "clips/avatar_a.webm",
+      "talent": "a",
+      "title": "THE HOOK",
+      "captions": [
+        ["ARE YOU A LOSER?", 0.0, 1.4],
+        ["ARE YOU A LOSING BETTOR?", 1.5, 3.1],
+        ["DO YOU WANT TO WIN... STATISTICALLY?", 3.2, 6.0],
+        ["DO YOU WANT TO BEAT THE BOOKS?", 6.1, 9.8]
+      ]
+    },
+    {
+      "clip": "clips/avatar_b.webm",
+      "talent": "b",
+      "title": "THE HOOK - ALT TAKE",
+      "captions": [
+        ["ARE YOU A LOSER?", 0.0, 1.4],
+        ["ARE YOU A LOSING BETTOR?", 1.5, 3.1],
+        ["DO YOU WANT TO WIN... STATISTICALLY?", 3.2, 6.0],
+        ["DO YOU WANT TO BEAT THE BOOKS?", 6.1, 9.8]
+      ]
+    }
+  ],
+  "ticker": "ABET SPORTS DESK - LIVE  //  STATISTICAL EDGE 67% AND CLIMBING  //  BET WITH THE MODEL, NOT THE CROWD"
+}
