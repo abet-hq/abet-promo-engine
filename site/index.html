@@ -1,270 +1,73 @@
 <!doctype html><html><head><meta charset="utf-8"><title>ABET SPORTS DESK</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:Impact,'Arial Black',Arial,sans-serif;}
-#stage{position:relative;width:100vw;height:100vh;background:#050505;overflow:hidden;}
-#bg{position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;color:#2a2a2a;font-size:min(4vw,40px);letter-spacing:4px;}
-#avatar{position:absolute;right:0;bottom:0;width:55%;max-width:720px;aspect-ratio:1/1;z-index:3;pointer-events:none;}
-#avatar canvas{width:100%;height:100%;display:block;}
-#board{position:absolute;left:2%;top:12%;z-index:4;display:flex;flex-direction:column;gap:10px;max-width:42%;}
-.card{background:rgba(10,10,14,.82);border:1px solid rgba(255,192,51,.4);border-left:5px solid #ffc233;border-radius:8px;padding:10px 16px;color:#fff;min-width:230px;box-shadow:0 6px 22px rgba(0,0,0,.6);opacity:0;transform:translateX(-24px);transition:all .5s cubic-bezier(.2,.9,.3,1);}
-.card.show{opacity:1;transform:translateX(0);}
-.card .lg{font-size:11px;letter-spacing:2px;color:#ffc233;font-family:Arial,sans-serif;font-weight:700;}
-.card .row{display:flex;justify-content:space-between;gap:18px;font-size:19px;margin:2px 0;font-family:'Arial Black',Arial,sans-serif;}
-.card .row .tm{flex:1;text-align:left;}
-.card .row .sc{min-width:2.2em;text-align:right;color:#fff;}
-.card .row.win .sc{color:#7CFF9B;}
-.card .st{font-size:11px;color:#bbb;letter-spacing:1px;font-family:Arial,sans-serif;margin-top:3px;}
-.card.fresh{animation:flashin .9s ease-out;}
-@keyframes flashin{0%{border-color:#7CFF9B;box-shadow:0 0 26px rgba(124,255,155,.55);}100%{border-color:rgba(255,192,51,.4);}}
-#caption{position:absolute;top:8%;right:2%;max-width:44%;padding:12px 18px;z-index:4;border-radius:999px;background:rgba(0,0,0,.55);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,192,51,.55);color:#fff;font-size:clamp(15px,2vw,26px);font-style:italic;text-shadow:0 2px 6px #000;text-align:center;opacity:0;transition:opacity .25s;}
-#caption.show{opacity:1;}
-#segband{position:absolute;top:4%;right:2%;z-index:4;padding:6px 14px;border-radius:6px;background:linear-gradient(90deg,#b30000,#7a0000);color:#fff;font-size:clamp(12px,1.5vw,18px);letter-spacing:2px;opacity:0;transition:opacity .3s;}
+#stage{position:relative;width:100vw;height:100vh;background:#050505;}
+#content{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#2a2a2a;font-size:min(5vw,44px);letter-spacing:3px;}
+/* AVATAR ZONE: square video, bottom-right, width = min(55% of width, 64% of height).
+   The #topzone clamp below uses the SAME min() expression, so caption and anchor
+   can never intersect at ANY aspect ratio (incl. 9:16 and square). */
+#avatar{position:absolute;right:0;bottom:0;width:min(55%,64vh);z-index:3;transition:opacity .35s;}
+#avatar video{width:100%;display:block;filter:drop-shadow(0 10px 30px rgba(0,0,0,.8));}
+/* TOP ZONE: segband + caption flow-stacked right; clamped to end above avatar zone. */
+#topzone{position:absolute;top:3%;right:2%;left:auto;max-width:min(560px,58%);
+  max-height:calc(100vh - min(55vw,64vh) - 15vh);overflow:hidden;z-index:4;
+  display:flex;flex-direction:column;align-items:flex-end;gap:6px;}
+#segband{padding:6px 14px;border-radius:6px;background:linear-gradient(90deg,#b30000,#7a0000);color:#fff;font-size:clamp(13px,1.5vw,18px);letter-spacing:2px;opacity:0;transition:opacity .3s;}
 #segband.show{opacity:.95;}
-#ticker{position:absolute;left:0;right:0;bottom:0;padding:8px 14px;z-index:5;background:rgba(0,0,0,.65);border-top:1px solid rgba(255,192,51,.25);color:#ffe;font-size:clamp(13px,1.6vw,17px);white-space:nowrap;overflow:hidden;}
-#ticker span{display:inline-block;padding-left:100%;animation:tick 26s linear infinite;}
+#caption{max-width:100%;padding:12px 18px;border-radius:999px;background:rgba(0,0,0,.55);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,192,51,.55);color:#fff;font-size:clamp(16px,2vw,26px);font-style:italic;text-shadow:0 2px 6px #000;text-align:center;opacity:0;transition:opacity .25s;}
+#caption.show{opacity:1;}
+#ticker{position:absolute;left:0;right:0;bottom:0;padding:8px 14px;z-index:3;background:rgba(0,0,0,.65);color:#ffe;font-size:clamp(13px,1.6vw,17px);white-space:nowrap;overflow:hidden;}
+#ticker span{display:inline-block;padding-left:100%;animation:tick 22s linear infinite;}
 @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-100%)}}
-#nametag{position:absolute;left:2%;top:4%;padding:8px 16px;z-index:4;border-radius:0 0 12px 0;background:rgba(255,192,51,.92);color:#000;font-size:clamp(13px,1.8vw,20px);letter-spacing:1px;}
-#srcbadge{position:absolute;left:2%;bottom:10%;z-index:4;padding:6px 12px;border-radius:999px;background:rgba(0,0,0,.55);border:1px solid rgba(255,192,51,.4);color:#ffc233;font-size:11px;letter-spacing:2px;font-family:Arial,sans-serif;opacity:0;transition:opacity .4s;}
-#srcbadge.show{opacity:1;}
-#audiotoggle{position:absolute;left:2%;bottom:15%;padding:8px 14px;border-radius:999px;background:#ffc233;color:#000;font-size:14px;cursor:pointer;border:2px solid #000;z-index:6;user-select:none;-webkit-user-select:none;}
-#livebadge{position:absolute;right:2%;bottom:10%;z-index:4;padding:6px 14px;border-radius:999px;background:#b30000;color:#fff;font-size:12px;letter-spacing:2px;opacity:.95;animation:pulse 2s infinite;}
-@keyframes pulse{0%,100%{opacity:.95;}50%{opacity:.55;}}
+#nametag{position:absolute;left:2%;top:3%;padding:8px 16px;z-index:4;border-radius:0 0 12px 0;background:rgba(255,192,51,.92);color:#000;font-size:clamp(14px,1.8vw,20px);letter-spacing:1px;}
+#audiotoggle{position:absolute;left:2%;bottom:8%;padding:8px 14px;border-radius:999px;background:#ffc233;color:#000;font-size:14px;cursor:pointer;border:2px solid #000;z-index:4;}
+/* PORTRAIT / SQUARE: captions go full-width, avatar eases back. Clamp still holds. */
+@media (max-aspect-ratio: 1/1){
+  #topzone{left:2%;right:2%;max-width:none;align-items:stretch;}
+  #caption{max-width:none;font-size:clamp(14px,3vw,22px);}
+  #avatar{width:min(52%,56vh);}
+}
 </style></head><body>
 <div id="stage">
-  <div id="bg">ABET SPORTS DESK</div>
+  <div id="content">[generated highlight content slot]</div>
   <div id="nametag">ABET SPORTS DESK</div>
-  <div id="board"></div>
-  <div id="avatar"><canvas id="keyer"></canvas></div>
-  <div id="caption"></div>
-  <div id="segband"></div>
-  <div id="ticker"><span id="ticktext">ABET SPORTS DESK - LOADING LIVE SCORES…</span></div>
+  <div id="avatar"><video id="av" autoplay muted loop playsinline></video></div>
+  <div id="topzone">
+    <div id="segband"></div>
+    <div id="caption"></div>
+  </div>
+  <div id="ticker"><span id="ticktext">ABET SPORTS DESK - LIVE</span></div>
   <div id="audiotoggle" onclick="toggleAudio()">SOUND: OFF</div>
-  <div id="srcbadge">LIVE DATA: ESPN</div>
-  <div id="livebadge">&#9679; LIVE</div>
 </div>
 <script>
-/* ============================================================
-   ABET SPORTS DESK - dynamic edition (v3, 2026-10-15)
-   1) WebGL chroma-key: green-bg clips -> TRUE transparency in
-      every browser incl. Safari 15.6 / iPhone (no alpha-webm).
-   2) Live brain: ESPN keyless scoreboard API (CORS-open, free)
-      feeds ticker + scoreboard cards. Producer-rendered clips
-      carry the dynamic speech (see producer_desk.py).
-   ============================================================ */
-var cap, segband, board, state, segIdx = -1, currentSeg = null;
-var vid = null;              // hidden source <video>
-var freshGames = {};         // gameId -> true when score changed
-
-/* ---------------- WebGL chroma keyer ---------------- */
-var keyer = {
-  ok:false, gl:null, tex:null, uMode:null, mode:0,
-  VS:"attribute vec2 p; varying vec2 uv;" +
-     "void main(){ uv = p*0.5+0.5; uv.y = 1.0-uv.y; gl_Position = vec4(p,0.0,1.0); }",
-  FS:"precision mediump float; varying vec2 uv; uniform sampler2D t; uniform float mode;" +
-     "void main(){" +
-     "  vec3 c = texture2D(t, uv).rgb;" +
-     "  if (mode < 0.5) {" +
-     "    float gc = c.g - max(c.r, c.b);" +              /* green dominance */
-     "    float a = 1.0 - smoothstep(0.04, 0.16, gc);" +   /* green -> transparent */
-     "    float g2 = min(c.g, max(c.r, c.b));" +          /* despill clamp */
-     "    vec3 rgb = vec3(c.r, mix(c.g, g2, 1.0 - a), c.b);" +
-     "    gl_FragColor = vec4(rgb, a); return;" +
-     "  }" +
-     "  gl_FragColor = vec4(c, 1.0);" +
-     "}",
-  init:function(canvasId, video){
-    var c = document.getElementById(canvasId);
-    var gl = c.getContext("webgl", {alpha:true, premultipliedAlpha:false}) ||
-             c.getContext("experimental-webgl", {alpha:true, premultipliedAlpha:false});
-    if(!gl) return false;
-    function sh(type, src){
-      var s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s);
-      if(!gl.getShaderParameter(s, gl.COMPILE_STATUS)){ console.warn(gl.getShaderInfoLog(s)); return null; }
-      return s;
-    }
-    var v = sh(gl.VERTEX_SHADER, this.VS), f = sh(gl.FRAGMENT_SHADER, this.FS);
-    if(!v || !f) return false;
-    var p = gl.createProgram();
-    gl.attachShader(p, v); gl.attachShader(p, f); gl.linkProgram(p);
-    if(!gl.getProgramParameter(p, gl.LINK_STATUS)){ console.warn(gl.getProgramInfoLog(p)); return false; }
-    gl.useProgram(p);
-    var buf = gl.createBuffer();
-    gl.bindBuffer(gl.ARRAY_BUFFER, buf);
-    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
-    var loc = gl.getAttribLocation(p, "p");
-    gl.enableVertexAttribArray(loc);
-    gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
-    gl.uniform1i(gl.getUniformLocation(p, "t"), 0);
-    this.uMode = gl.getUniformLocation(p, "mode");
-    gl.uniform1f(this.uMode, 0.0);
-    gl.enable(gl.BLEND);
-    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
-    gl.clearColor(0,0,0,0);
-    this.tex = gl.createTexture();
-    gl.bindTexture(gl.TEXTURE_2D, this.tex);
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
-    this.gl = gl; this.ok = true; return true;
-  },
-  frame:function(){
-    if(!this.ok) return;
-    var gl = this.gl, v = vid;
-    if(v && v.readyState >= 2){
-      gl.bindTexture(gl.TEXTURE_2D, this.tex);
-      try{ gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, v); }catch(e){}
-    }
-    gl.clear(gl.COLOR_BUFFER_BIT);
-    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-  }
-};
-
-/* ---------------- boot ---------------- */
-function boot(){
-  fetch("/state.json").then(function(r){ return r.json(); }).then(function(s){
-    state = s;
-    cap = document.getElementById("caption");
-    segband = document.getElementById("segband");
-    board = document.getElementById("board");
-    document.getElementById("srcbadge").classList.add("show");
-
-    vid = document.createElement("video");
-    vid.crossOrigin = "anonymous";
-    vid.playsInline = true; vid.muted = true; vid.loop = true;
-    document.getElementById("avatar").appendChild(vid);
-
-    if(!keyer.init("keyer", vid)){
-      /* WebGL unavailable: show raw video small + dimmed as graceful degrade */
-      var av = document.getElementById("avatar");
-      av.style.opacity = "0.9";
-      var raw = document.createElement("video");
-      raw.autoplay = true; raw.muted = true; raw.loop = true; raw.playsInline = true;
-      raw.style.width = "100%"; raw.style.display = "block";
-      raw.style.borderRadius = "0 0 0 40%";
-      av.replaceChild(raw, document.getElementById("keyer"));
-      vid = raw;
-    }
-
-    (function loop(){ keyer.frame(); requestAnimationFrame(loop); })();
-
-    refreshScores();
-    setInterval(refreshScores, 60000);
-    playSegment(0);
-    setInterval(tickCaption, 120);
-  }).catch(function(e){
-    document.getElementById("ticktext").textContent = "STATE LOAD FAILED: " + e;
-  });
+let av, cap, segband, ticktext, state, segIdx = 0, currentSeg = null;
+async function boot(){
+  const r = await fetch('state.json'); state = await r.json();
+  av = document.getElementById('av'); cap = document.getElementById('caption');
+  segband = document.getElementById('segband'); ticktext = document.getElementById('ticktext');
+  ticktext.textContent = (state.ticker || 'ABET SPORTS DESK - LIVE') + '  //  ';
+  playSegment(0);
+  setInterval(tickCaption, 120);
 }
-
-/* ---------------- segment player ---------------- */
 function playSegment(i){
-  var segs = state.segments && state.segments.length ? state.segments : null;
+  const segs = state.segments && state.segments.length ? state.segments : null;
   if(!segs) return;
   segIdx = ((i % segs.length) + segs.length) % segs.length;
   currentSeg = segs[segIdx];
-  segband.textContent = "SEG " + (segIdx+1) + "/" + segs.length + (currentSeg.title ? " - " + currentSeg.title : "");
-  segband.classList.add("show");
-  vid.onended = function(){ playSegment(segIdx + 1); };
-  vid.loop = false;
-  vid.src = currentSeg.clip;
-  vid.load();
-  vid.play().catch(function(){});
+  segband.textContent = 'SEG ' + (segIdx+1) + '/' + segs.length + (currentSeg.title ? ' - ' + currentSeg.title : '');
+  segband.classList.add('show');
+  av.onended = () => playSegment(segIdx + 1);
+  av.loop = false;
+  av.src = currentSeg.clip;
+  av.load(); av.play().catch(()=>{});
 }
 function tickCaption(){
   if(!currentSeg) return;
-  var t = vid.currentTime || 0;
-  var list = currentSeg.captions || [];
-  for(var i = 0; i < list.length; i++){
-    if(t >= list[i][1] && t <= list[i][2]){
-      if(cap.textContent !== list[i][0]) cap.textContent = list[i][0];
-      cap.classList.add("show");
-      return;
-    }
-  }
-  cap.classList.remove("show");
+  const t = av.currentTime || 0;
+  const s = (currentSeg.captions||[]).find(x => t>=x[1] && t<=x[2]);
+  if(s){ if(cap.textContent!==s[0]) cap.textContent = s[0]; cap.classList.add('show'); }
+  else cap.classList.remove('show');
 }
-function toggleAudio(){
-  vid.muted = !vid.muted;
-  document.getElementById("audiotoggle").textContent = vid.muted ? "SOUND: OFF" : "SOUND: ON";
-  vid.play().catch(function(){});
-}
-
-/* ---------------- live scores (ESPN keyless, CORS-open) ---------------- */
-var LEAGUES = [
-  { name:"NFL", url:"https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" },
-  { name:"MLB", url:"https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard" }
-];
-var cachedScores = [];
-var prevScores = {};   /* id -> "hs:as" */
-
-function refreshScores(){
-  var jobs = LEAGUES.map(function(lg){
-    return fetch(lg.url + "?t=" + Date.now()).then(function(r){ return r.json(); }).then(function(j){
-      return (j.events || []).map(function(ev){
-        var comp = ev.competitions && ev.competitions[0];
-        if(!comp) return null;
-        var home = {}, away = {};
-        comp.competitors.forEach(function(c){
-          if(c.homeAway === "home") home = c; else if(c.homeAway === "away") away = c;
-        });
-        var t = comp.status && comp.status.type;
-        return {
-          id: String(ev.id), league: lg.name,
-          home: (home.team && home.team.abbreviation) || "?",
-          away: (away.team && away.team.abbreviation) || "?",
-          hs: home.score != null ? String(home.score) : "0",
-          as: away.score != null ? String(away.score) : "0",
-          live: !!(t && t.state === "in"),
-          state: (t && t.shortDetail) || "",
-          clock: (comp.status && comp.status.displayClock) || ""
-        };
-      }).filter(Boolean);
-    }).catch(function(){ return []; });
-  });
-  Promise.all(jobs).then(function(res){
-    var games = [].concat.apply([], res);
-    if(games.length){
-      games.forEach(function(g){
-        var sig = g.hs + ":" + g.as;
-        if(prevScores[g.id] && prevScores[g.id] !== sig) freshGames[g.id] = true;
-        prevScores[g.id] = sig;
-      });
-      cachedScores = games;
-      renderBoard(games);
-      buildTicker(games);
-    } else if(!cachedScores.length){
-      document.getElementById("ticktext").textContent =
-        "ABET SPORTS DESK - LIVE  //  NO GAMES TODAY - MODEL STILL WORKING  //  ABET.COM  //  ";
-    }
-  });
-}
-function esc(s){ var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
-function renderBoard(games){
-  var html = "";
-  var shown = games.slice(0, 4);
-  shown.forEach(function(g, i){
-    var lead = parseInt(g.hs, 10) > parseInt(g.as, 10) ? "home" : "away";
-    html += '<div class="card' + (i < 2 ? " show" : "") + (freshGames[g.id] ? " fresh" : "") + '">';
-    html += '<div class="lg">' + esc(g.league) + (g.live ? " &#9679; LIVE" : "") + " &middot; " + esc(g.state) + "</div>";
-    html += '<div class="row' + (lead === "away" ? " win" : "") + '"><span class="tm">' + esc(g.away) + '</span><span class="sc">' + esc(g.as) + "</span></div>";
-    html += '<div class="row' + (lead === "home" ? " win" : "") + '"><span class="tm">' + esc(g.home) + '</span><span class="sc">' + esc(g.hs) + "</span></div>";
-    html += '<div class="st">' + esc(g.clock || "") + "</div>";
-    html += "</div>";
-  });
-  board.innerHTML = html;
-  setTimeout(function(){
-    var nodes = board.querySelectorAll(".card");
-    for(var i = 0; i < nodes.length; i++) nodes[i].classList.add("show");
-  }, 150);
-}
-function buildTicker(games){
-  var parts = games.slice(0, 8).map(function(g){
-    return g.league + " " + g.away + " " + g.as + " - " + g.home + " " + g.hs + (g.live ? " \u25cfLIVE" : "");
-  });
-  parts.push("ABET SPORTS DESK", "STATISTICAL EDGE 67% AND CLIMBING", "BET WITH THE MODEL, NOT THE CROWD", "ABET.COM");
-  document.getElementById("ticktext").textContent = parts.join("  //  ") + "  //  ";
-}
+function toggleAudio(){ av.muted=!av.muted; document.getElementById('audiotoggle').textContent = av.muted?'SOUND: OFF':'SOUND: ON'; av.play().catch(()=>{}); }
 boot();
 </script></body></html>
