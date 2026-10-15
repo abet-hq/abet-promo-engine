@@ -2,6 +2,7 @@
 <style>
 html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:Impact,'Arial Black',Arial,sans-serif;}
 #stage{position:relative;width:100vw;height:100vh;background:#050505;}
+#bgvid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.42) saturate(.92);display:none;}
 #content{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#2a2a2a;font-size:min(5vw,44px);letter-spacing:3px;}
 /* AVATAR ZONE: square video, bottom-right, width = min(55% of width, 64% of height).
    The #topzone clamp below uses the SAME min() expression, so caption and anchor
@@ -20,15 +21,19 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:Impac
 #ticker span{display:inline-block;padding-left:100%;animation:tick 22s linear infinite;}
 @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-100%)}}
 #nametag{position:absolute;left:2%;top:3%;padding:8px 16px;z-index:4;border-radius:0 0 12px 0;background:rgba(255,192,51,.92);color:#000;font-size:clamp(14px,1.8vw,20px);letter-spacing:1px;}
+#breaking{position:absolute;left:2%;top:calc(3% + 56px);max-width:42%;padding:8px 14px;z-index:4;border-radius:6px;background:linear-gradient(90deg,#c40000,#7a0000);color:#fff;font-size:clamp(12px,1.5vw,17px);display:none;box-shadow:0 4px 14px rgba(0,0,0,.6);}
+#breaking.show{display:block;}
 #audiotoggle{position:absolute;left:2%;bottom:8%;padding:8px 14px;border-radius:999px;background:#ffc233;color:#000;font-size:14px;cursor:pointer;border:2px solid #000;z-index:4;}
 /* PORTRAIT / SQUARE: captions go full-width, avatar eases back. Clamp still holds. */
 @media (max-aspect-ratio: 1/1){
   #topzone{left:2%;right:2%;max-width:none;align-items:stretch;}
   #caption{max-width:none;font-size:clamp(14px,3vw,22px);}
   #avatar{width:min(52%,56vh);}
+  #breaking{max-width:92%;}
 }
 </style></head><body>
 <div id="stage">
+  <video id="bgvid" muted loop playsinline></video>
   <div id="content">[generated highlight content slot]</div>
   <div id="nametag">ABET SPORTS DESK</div>
   <div id="avatar"><video id="av" autoplay muted loop playsinline></video></div>
@@ -36,18 +41,37 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:Impac
     <div id="segband"></div>
     <div id="caption"></div>
   </div>
+  <div id="breaking"></div>
   <div id="ticker"><span id="ticktext">ABET SPORTS DESK - LIVE</span></div>
   <div id="audiotoggle" onclick="toggleAudio()">SOUND: OFF</div>
 </div>
 <script>
-let av, cap, segband, ticktext, state, segIdx = 0, currentSeg = null;
+let av, cap, segband, ticktext, state, segIdx = 0, currentSeg = null, desk = null, hiIdx = 0;
 async function boot(){
   const r = await fetch('state.json'); state = await r.json();
+  try { const dr = await fetch('desk_state.json', {cache:'no-store'}); if (dr.ok) desk = await dr.json(); } catch(e){}
   av = document.getElementById('av'); cap = document.getElementById('caption');
   segband = document.getElementById('segband'); ticktext = document.getElementById('ticktext');
-  ticktext.textContent = (state.ticker || 'ABET SPORTS DESK - LIVE') + '  //  ';
+  let tick = (state.ticker || 'ABET SPORTS DESK - LIVE');
+  if (desk && desk.ticker) tick = desk.ticker;
+  ticktext.textContent = tick + '  //  ';
+  if (desk && desk.breaking){
+    const b = document.getElementById('breaking');
+    b.textContent = 'BREAKING - ' + desk.breaking.title + ' - per ' + desk.breaking.source;
+    b.classList.add('show');
+  }
+  if (desk && desk.highlights && desk.highlights.length) startHighlights();
   playSegment(0);
   setInterval(tickCaption, 120);
+}
+function startHighlights(){
+  const v = document.getElementById('bgvid'), ph = document.getElementById('content');
+  const next = () => {
+    const h = desk.highlights[hiIdx++ % desk.highlights.length];
+    v.src = h.url; v.style.display = 'block'; ph.style.display = 'none';
+    v.play().catch(()=>{});
+  };
+  next(); setInterval(next, 30000);
 }
 function playSegment(i){
   const segs = state.segments && state.segments.length ? state.segments : null;
