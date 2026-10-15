@@ -1,13 +1,8 @@
 {
- "generated": "2026-10-15T21:20:49.161802+00:00",
+ "generated": "2026-10-15T21:23:50.904199+00:00",
  "version": 2,
  "ticker": "NFL: SEA 0 - DEN 0 10/15 - 8:15 PM EDT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
- "breaking": {
-  "id": "espn:50191811",
-  "title": "Aaron Rodgers vs. Todd Bowles should be quite a chess match when Steelers visit the Buccaneers",
-  "source": "ESPN NFL",
-  "age_min": 13.064905166666668
- },
+ "breaking": null,
  "games": [
   {
    "league": "NFL",
@@ -132,6 +127,28 @@
   "ops": ".218",
   "gamePk": 849811
  },
- "abet_lines": [],
- "script_hint": "BREAKING - Aaron Rodgers vs. Todd Bowles should be quite a chess match when Steelers visit the Buccaneers - per ESPN NFL."
+ "abet_lines": [
+  {
+   "event": "DET @ TOR",
+   "note": "Over Total: -315 to 146 (3 books, 13.26pp, longer) [events 720h old]",
+   "pp": 13.26,
+   "books": 3,
+   "data_age_min": 43177
+  },
+  {
+   "event": "PHI @ WSH",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 720h old]",
+   "pp": 10.91,
+   "books": 3,
+   "data_age_min": 43177
+  },
+  {
+   "event": "PHI @ WSH",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 720h old]",
+   "pp": 10.47,
+   "books": 3,
+   "data_age_min": 43177
+  }
+ ],
+ "script_hint": "SEA 0\u20110 DEN, HOU 0\u20110 JAX, CHI 0\u20110 ATL; over +146, \u2013315; Halpin two\u2011run homer; Smith .074.  [brain]"
 }
