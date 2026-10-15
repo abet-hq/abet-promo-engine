@@ -32,13 +32,19 @@ def sh(cmd, **kw):
 def ensure_repo():
     if not os.path.isdir(ST):
         sh(f"git clone --depth 1 https://github.com/OpenTalker/SadTalker.git {ST!r}")
-        # patch: neutralize gfpgan import (basicsr breaks on modern torchvision); we never use enhancer
-        p = os.path.join(ST, "src", "facerender", "animate.py")
+        log("repo cloned")
+    # patch every file importing gfpgan (basicsr breaks on modern torchvision); we never use enhancer.
+    # idempotent: skip files already guarded (marker: GFPGANer = None)
+    patched = []
+    for p in glob.glob(os.path.join(ST, "**", "*.py"), recursive=True):
         s = open(p, encoding="utf-8").read()
-        s = s.replace("from gfpgan import GFPGANer",
-                      "try:\n    from gfpgan import GFPGANer\nexcept Exception:\n    GFPGANer = None")
-        open(p, "w", encoding="utf-8").write(s)
-        log("repo cloned + gfpgan import guarded")
+        if "from gfpgan import GFPGANer" in s and "GFPGANer = None" not in s:
+            s = s.replace("from gfpgan import GFPGANer",
+                          "try:\n    from gfpgan import GFPGANer\nexcept Exception:\n    GFPGANer = None")
+            open(p, "w", encoding="utf-8").write(s)
+            patched.append(os.path.relpath(p, ST))
+    if patched:
+        log("gfpgan import guarded in:", ", ".join(patched))
 
 def ensure_ckpts():
     os.makedirs(CKPT, exist_ok=True)
