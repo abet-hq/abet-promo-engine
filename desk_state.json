@@ -1,8 +1,13 @@
 {
- "generated": "2026-10-15T21:26:25.125313+00:00",
+ "generated": "2026-10-15T21:51:21.361953+00:00",
  "version": 2,
  "ticker": "NFL: SEA 0 - DEN 0 10/15 - 8:15 PM EDT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
- "breaking": null,
+ "breaking": {
+  "id": "espn:50191830",
+  "title": "Jayden Daniels addresses teammates on gaffe, vows 'it'll never happen again'",
+  "source": "ESPN NFL",
+  "age_min": 1.5045157333333334
+ },
  "games": [
   {
    "league": "NFL",
@@ -108,24 +113,25 @@
  "highlights": [
   {
    "gamePk": 849818,
-   "title": "Petey Halpin's two-run homer",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/15/b969b639-8688ae0c-f3dde363-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Rays vs. Guardians Game 3 Highlights",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/15/0e3f6fa3-6c33d87a-379720cf-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   },
   {
    "gamePk": 849810,
-   "title": "Starting lineups for Brewers at Dodgers - October 15, 2026",
-   "url": "https://darkroom-clips.mlb.com/6255070e-5799-4a5a-80bf-61f8cde049c1.mp4"
+   "title": "Fielding alignment for Milwaukee, October 15 vs Dodgers",
+   "url": "https://darkroom-clips.mlb.com/fdec5d21-3366-4285-a9fd-bb2e6e4e434a.mp4"
   }
  ],
  "season_profile": {
-  "player": "Will Smith",
-  "team": "LAD",
-  "avg": ".074",
-  "hr": 0,
-  "rbi": 2,
-  "hits": 2,
-  "ops": ".218",
-  "gamePk": 849811
+  "player": "Chase DeLauter",
+  "team": "CLE",
+  "avg": ".287",
+  "hr": 16,
+  "rbi": 67,
+  "hits": 142,
+  "ops": ".820",
+  "gamePk": 849818,
+  "source": "statsapi /people/season"
  },
  "abet_lines": [
   {
@@ -133,22 +139,28 @@
    "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 720h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 43180
+   "data_age_min": 43204
   },
   {
    "event": "PHI @ WSH",
    "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 720h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 43180
+   "data_age_min": 43204
   },
   {
    "event": "PHI @ WSH",
    "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 720h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 43180
+   "data_age_min": 43204
   }
  ],
- "script_hint": "All zeros, but the WSH line collapsed like a house of cards\u2014time for the bettors to bounce!  [brain]"
+ "sources": {
+  "espn": true,
+  "reddit": false,
+  "mlb_statsapi": true,
+  "abet_board": true
+ },
+ "script_hint": "Daniels vows fix, yet Sunday's scoreless slumps still shake Seahawks, Falcons, Cardinals\u2014and WSH's discount spur war tight.  [brain]"
 }
