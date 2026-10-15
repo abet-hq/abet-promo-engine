@@ -189,13 +189,38 @@ def fetch_season_profile():
         log("season profile fail", e)
     return None
 
-# ---------------- ABET line watch (documented receiver-proxy; cloud-to-cloud) ----------------
+# ---------------- ABET line moves (documented board-data publish + receiver-proxy fallback) ----------------
 def fetch_abet_lines():
-    """Cross-book line watch off ABET's live board. Returns top dispersion games."""
+    """Line moves: board-data steam_events (production publish) -> receiver-proxy board (dispersion)."""
+    out = []
+    try:
+        d = get_json("https://abet-board-data.abetco.workers.dev/data/steam_events.json", timeout=25)
+        gen = d.get("generated_utc", "")
+        age = None
+        try:
+            ts = datetime.fromisoformat(gen.replace("Z", "+00:00"))
+            age = round((datetime.now(timezone.utc) - ts).total_seconds() / 60)
+        except Exception:
+            pass
+        evs = sorted(d.get("events", []), key=lambda e: -(e.get("avg_pp") or 0))
+        for e in evs[:3]:
+            mv = (e.get("movers") or [{}])[0]
+            note = (f"{e.get('selection')} {e.get('bet_type','')}: {mv.get('from')} to {mv.get('to')} "
+                    f"({e.get('n_books')} books, {e.get('avg_pp')}pp, {e.get('direction','')})").replace(" :", ":")
+            if age is not None and age > 120:
+                note += f" [events {round(age/60)}h old]"
+            out.append({"event": e.get("event", "?"), "note": note.strip(),
+                        "pp": e.get("avg_pp"), "books": e.get("n_books"), "data_age_min": age})
+    except Exception as ex:
+        log("abet steam fetch fail", ex)
+    if out:
+        log("abet steam lines:", len(out), "top pp:", out[0]["pp"])
+        return out[:3]
+    # fallback: receiver-proxy board cross-book dispersion
     try:
         d = get_json("https://abet-receiver-proxy.abetco.workers.dev/board?sport=NFL", timeout=25)
     except Exception as e:
-        log("abet board fail (fallback: no line watch)", e); return []
+        log("abet board fail (no line watch this run)", e); return []
     rows = d.get("rows", []) or []
     games = {}
     now = datetime.now(timezone.utc)
@@ -216,12 +241,11 @@ def fetch_abet_lines():
             pass
     def imp(ml):
         return (100 / (ml + 100)) if ml > 0 else ((-ml) / (-ml + 100))
-    out = []
     for key, g in games.items():
         best_sel = None
         for sel, books in g["sel"].items():
             if len(books) < 2: continue
-            bk_best = min(books.items(), key=lambda kv: imp(kv[1]))   # lowest implied = best price
+            bk_best = min(books.items(), key=lambda kv: imp(kv[1]))
             bk_worst = max(books.items(), key=lambda kv: imp(kv[1]))
             pp = round((imp(bk_worst[1]) - imp(bk_best[1])) * 100, 1)
             if pp >= 0.5 and (best_sel is None or pp > best_sel[0]):
@@ -234,26 +258,28 @@ def fetch_abet_lines():
                 note += f" [board data {round(age/60)}h old]"
             out.append({"event": g["event"], "note": note, "pp": pp, "books": nb, "data_age_min": age})
     out.sort(key=lambda x: -x["pp"])
-    log("abet lines:", len(out), "top pp:", out[0]["pp"] if out else None)
+    log("abet board lines:", len(out), "top pp:", out[0]["pp"] if out else None)
     return out[:3]
 
 # ---------------- brain (keyless, $0; falls back to template on ANY failure) ----------------
 def brain_take(facts):
-    try:
-        q = ("You are the anchor of the ABET Sports Desk. One short spoken line, max 20 words, "
-             "no emojis, no quotes, no hashtags, no URLs. Facts: " + facts)
-        url = "https://text.pollinations.ai/" + urllib.parse.quote(q, safe="")
-        req = urllib.request.Request(url, headers=UA)
-        with urllib.request.urlopen(req, timeout=15) as r:
-            txt = r.read().decode("utf-8", "replace").strip()
-        txt = re.sub(r"\s+", " ", txt)
-        txt = txt.strip("\"'")
-        if 8 < len(txt) < 200 and "http" not in txt and "{" not in txt and "#" not in txt:
-            log("brain: pollinations ok")
-            return txt
-        log("brain: rejected output:", txt[:80])
-    except Exception as e:
-        log("brain fail (template fallback):", e)
+    for attempt in (1, 2):
+        try:
+            q = ("You are the anchor of the ABET Sports Desk. One short spoken line, max 20 words, "
+                 "no emojis, no quotes, no hashtags, no URLs. Facts: " + facts)
+            url = "https://text.pollinations.ai/" + urllib.parse.quote(q, safe="")
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=35) as r:
+                txt = r.read().decode("utf-8", "replace").strip()
+            txt = re.sub(r"\s+", " ", txt)
+            txt = txt.strip("\"'")
+            if 8 < len(txt) < 200 and "http" not in txt and "{" not in txt and "#" not in txt:
+                log("brain: pollinations ok (attempt", attempt, ")")
+                return txt
+            log("brain: rejected output:", txt[:80])
+            return None
+        except Exception as e:
+            log(f"brain attempt {attempt} fail:", e)
     return None
 
 # ---------------- rundown ----------------
