@@ -4,7 +4,7 @@
 # season profiles), Reddit new.json (breaking). Anti-repeat via token Jaccard vs history.
 # Output: desk_state.json (ticker, breaking, games+win%, highlights, season_profile, script_hint)
 #         desk_history.json (seen ids, recent topics) - both committed by the workflow.
-import json, os, re, sys, time, urllib.request, urllib.error
+import json, os, re, sys, time, urllib.request, urllib.error, urllib.parse
 from datetime import datetime, timezone, timedelta
 
 UA = {"User-Agent": "abet-desk/1.0 (cloud desk engine)"}
@@ -189,12 +189,81 @@ def fetch_season_profile():
         log("season profile fail", e)
     return None
 
+# ---------------- ABET line watch (documented receiver-proxy; cloud-to-cloud) ----------------
+def fetch_abet_lines():
+    """Cross-book line watch off ABET's live board. Returns top dispersion games."""
+    try:
+        d = get_json("https://abet-receiver-proxy.abetco.workers.dev/board?sport=NFL", timeout=25)
+    except Exception as e:
+        log("abet board fail (fallback: no line watch)", e); return []
+    rows = d.get("rows", []) or []
+    games = {}
+    now = datetime.now(timezone.utc)
+    for r in rows:
+        if r.get("american_odds") is None: continue
+        if r.get("is_live"): continue
+        key = r.get("canonical_id") or r.get("id")
+        sel = (r.get("selection") or "").upper()
+        g = games.setdefault(key, {"event": r.get("participants") or key, "sel": {}, "newest": None})
+        book = (r.get("bookmaker") or "?").lower()
+        try: od = int(r["american_odds"])
+        except Exception: continue
+        g["sel"].setdefault(sel, {})[book] = od
+        try:
+            ts = datetime.fromisoformat((r.get("updated_at") or "").replace("Z", "+00:00"))
+            if g["newest"] is None or ts > g["newest"]: g["newest"] = ts
+        except Exception:
+            pass
+    def imp(ml):
+        return (100 / (ml + 100)) if ml > 0 else ((-ml) / (-ml + 100))
+    out = []
+    for key, g in games.items():
+        best_sel = None
+        for sel, books in g["sel"].items():
+            if len(books) < 2: continue
+            bk_best = min(books.items(), key=lambda kv: imp(kv[1]))   # lowest implied = best price
+            bk_worst = max(books.items(), key=lambda kv: imp(kv[1]))
+            pp = round((imp(bk_worst[1]) - imp(bk_best[1])) * 100, 1)
+            if pp >= 0.5 and (best_sel is None or pp > best_sel[0]):
+                best_sel = (pp, sel, bk_best, bk_worst, len(books))
+        if best_sel:
+            pp, sel, best, worst, nb = best_sel
+            age = round((now - g["newest"]).total_seconds() / 60) if g["newest"] else None
+            note = f"{sel}: {best[1]:+d} @ {best[0]} vs {worst[1]:+d} @ {worst[0]} ({pp}pp, {nb} books)"
+            if age is not None and age > 1440:
+                note += f" [board data {round(age/60)}h old]"
+            out.append({"event": g["event"], "note": note, "pp": pp, "books": nb, "data_age_min": age})
+    out.sort(key=lambda x: -x["pp"])
+    log("abet lines:", len(out), "top pp:", out[0]["pp"] if out else None)
+    return out[:3]
+
+# ---------------- brain (keyless, $0; falls back to template on ANY failure) ----------------
+def brain_take(facts):
+    try:
+        q = ("You are the anchor of the ABET Sports Desk. One short spoken line, max 20 words, "
+             "no emojis, no quotes, no hashtags, no URLs. Facts: " + facts)
+        url = "https://text.pollinations.ai/" + urllib.parse.quote(q, safe="")
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=15) as r:
+            txt = r.read().decode("utf-8", "replace").strip()
+        txt = re.sub(r"\s+", " ", txt)
+        txt = txt.strip("\"'")
+        if 8 < len(txt) < 200 and "http" not in txt and "{" not in txt and "#" not in txt:
+            log("brain: pollinations ok")
+            return txt
+        log("brain: rejected output:", txt[:80])
+    except Exception as e:
+        log("brain fail (template fallback):", e)
+    return None
+
 # ---------------- rundown ----------------
-def pick_script_hint(games, breaking, highlights, profile, history):
-    """Rotating desk line (the anti-repeat brain's output slot)."""
+def pick_script_hint(games, breaking, highlights, profile, abet, history):
+    """Rotating desk line (template fallback when the brain is unavailable)."""
     pool = []
     if breaking:
         pool.append(f"BREAKING - {breaking['title']} - per {breaking['source']}.")
+    for l in abet[:2]:
+        pool.append(f"Line watch - {l['event']} - {l['note']}.")
     live = [g for g in games if "Final" not in g["status"] and g["status"]]
     final = [g for g in games if "Final" in g["status"]]
     for g in live[:2]:
@@ -223,7 +292,28 @@ def main():
     breaking = fetch_news_breaking(history)
     highlights = fetch_highlights_pool(history)
     profile = fetch_season_profile()
-    hint = pick_script_hint(games, breaking, highlights, profile, history)
+    abet = fetch_abet_lines()
+
+    # brain first (keyless; pollinations), template fallback; anti-repeat on both paths
+    hint = None
+    facts = []
+    if breaking: facts.append("BREAKING: " + breaking["title"] + " (per " + breaking["source"] + ")")
+    for g in [x for x in games if x["away_score"] != ""][:3]:
+        facts.append(f"{g['league']} {g['away']} {g['away_score']} at {g['home']} {g['home_score']} ({g['status']})")
+    if abet: facts.append("line move: " + abet[0]["note"] + " (" + abet[0]["event"] + ")")
+    if highlights: facts.append("highlight: " + highlights[0]["title"])
+    if profile: facts.append(f"{profile['player']} batting {profile['avg']} avg, {profile['hr']} HR, {profile['rbi']} RBI")
+    if facts:
+        hint = brain_take("; ".join(facts))
+    if hint and too_similar(hint, history["recent_topics"]):
+        log("brain line too similar to recent; falling back")
+        hint = None
+    if hint:
+        history["recent_topics"].append(hint[:160])
+        history["recent_topics"] = history["recent_topics"][-ANTI_REPEAT_WINDOW:]
+        hint = hint + "  [brain]"
+    else:
+        hint = pick_script_hint(games, breaking, highlights, profile, abet, history)
 
     tick_parts = []
     for g in games[:5]:
@@ -233,12 +323,13 @@ def main():
 
     state = {
         "generated": datetime.now(timezone.utc).isoformat(),
-        "version": 1,
+        "version": 2,
         "ticker": ticker,
         "breaking": breaking,
         "games": games,
         "highlights": highlights,
         "season_profile": profile,
+        "abet_lines": abet,
         "script_hint": hint,
     }
     json.dump(state, open(OUT, "w", encoding="utf-8"), indent=1)
