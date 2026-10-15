@@ -1,0 +1,136 @@
+{
+ "generated": "2026-10-15T20:48:05.865590+00:00",
+ "version": 1,
+ "ticker": "NFL: SEA 0 - DEN 0 10/15 - 8:15 PM EDT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
+ "breaking": {
+  "id": "espn:50186625",
+  "title": "MLB playoffs: Takeaways from ALCS Game 3, lineups for NLCS Game 4",
+  "source": "ESPN MLB",
+  "age_min": 7.549079233333333
+ },
+ "games": [
+  {
+   "league": "NFL",
+   "name": "SEA @ DEN",
+   "away": "SEA",
+   "away_score": "0",
+   "home": "DEN",
+   "home_score": "0",
+   "status": "10/15 - 8:15 PM EDT",
+   "date": "2026-10-16T00:15Z"
+  },
+  {
+   "league": "NFL",
+   "name": "HOU VS JAX",
+   "away": "HOU",
+   "away_score": "0",
+   "home": "JAX",
+   "home_score": "0",
+   "status": "10/18 - 9:30 AM EDT",
+   "date": "2026-10-18T13:30Z"
+  },
+  {
+   "league": "NFL",
+   "name": "CHI @ ATL",
+   "away": "CHI",
+   "away_score": "0",
+   "home": "ATL",
+   "home_score": "0",
+   "status": "10/18 - 1:00 PM EDT",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "BAL @ CLE",
+   "away": "BAL",
+   "away_score": "0",
+   "home": "CLE",
+   "home_score": "0",
+   "status": "10/18 - 1:00 PM EDT",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "TEN @ IND",
+   "away": "TEN",
+   "away_score": "0",
+   "home": "IND",
+   "home_score": "0",
+   "status": "10/18 - 1:00 PM EDT",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "NYJ @ NE",
+   "away": "NYJ",
+   "away_score": "0",
+   "home": "NE",
+   "home_score": "0",
+   "status": "10/18 - 1:00 PM EDT",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "TOR @ NY",
+   "away": "TOR",
+   "away_score": "0",
+   "home": "NY",
+   "home_score": "0",
+   "status": "10/15 - 7:30 PM EDT",
+   "date": "2026-10-15T23:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "OKC @ HOU",
+   "away": "OKC",
+   "away_score": "0",
+   "home": "HOU",
+   "home_score": "0",
+   "status": "10/15 - 8:30 PM EDT",
+   "date": "2026-10-16T00:30Z"
+  },
+  {
+   "league": "MLB",
+   "name": "TB @ CLE",
+   "away": "TB",
+   "away_score": "2",
+   "home": "CLE",
+   "home_score": "3",
+   "status": "Final",
+   "date": "2026-10-15T17:00Z"
+  },
+  {
+   "league": "MLB",
+   "name": "MIL @ LAD",
+   "away": "MIL",
+   "away_score": "0",
+   "home": "LAD",
+   "home_score": "0",
+   "status": "10/15 - 8:00 PM EDT",
+   "date": "2026-10-16T00:00Z"
+  }
+ ],
+ "highlights": [
+  {
+   "gamePk": 849818,
+   "title": "Petey Halpin's two-run homer",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/15/b969b639-8688ae0c-f3dde363-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+  },
+  {
+   "gamePk": 849810,
+   "title": "Bench availability for Los Angeles, October 15 vs Brewers",
+   "url": "https://darkroom-clips.mlb.com/6fa9f2f5-9b8b-43f3-8afb-859bac7168bb.mp4"
+  }
+ ],
+ "season_profile": {
+  "player": "Will Smith",
+  "team": "LAD",
+  "avg": ".074",
+  "hr": 0,
+  "rbi": 2,
+  "hits": 2,
+  "ops": ".218",
+  "gamePk": 849811
+ },
+ "script_hint": "BREAKING - MLB playoffs: Takeaways from ALCS Game 3, lineups for NLCS Game 4 - per ESPN MLB."
+}
