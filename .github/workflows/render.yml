@@ -36,6 +36,9 @@ jobs:
           path: SadTalker
           key: sadtalker-ckpts-v1
 
+      - name: Install ffmpeg (SadTalker needs ffmpeg + ffprobe)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
       - name: Install deps (torch CPU + SadTalker stack + edge-tts)
         run: |
           pip install -q torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
