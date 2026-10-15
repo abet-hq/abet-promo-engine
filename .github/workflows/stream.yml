@@ -1,0 +1,114 @@
+name: DESK stream (RTMPS to Meld, free runner blocks)
+
+on:
+  schedule:
+    - cron: '5 */6 * * *'      # chained ~6h blocks; next run reconnects after previous block
+  workflow_dispatch:
+    inputs:
+      duration_seconds:
+        description: 'block length (default 20700 = 5h45m; use 25 for a quick ingest test)'
+        required: false
+        default: '20700'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: desk-stream
+  cancel-in-progress: false
+
+jobs:
+  stream:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg + fonts
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - name: Fetch desk state + clips (cloud-to-cloud from Pages)
+        run: |
+          mkdir -p in
+          curl -sL https://abet-promo.pages.dev/desk_state.json -o in/desk_state.json || echo '{}' > in/desk_state.json
+          curl -sL https://abet-promo.pages.dev/state.json -o in/state.json
+          python3 - << 'EOF'
+          import json, os
+          st = json.load(open('in/state.json'))
+          segs = st.get('segments', [])
+          for s in segs:
+              c = s['clip'].split('?')[0]
+              os.system(f"curl -sL 'https://abet-promo.pages.dev/{c}' -o 'in/{os.path.basename(c)}'")
+          print(len(segs), 'clips fetched')
+          EOF
+          ls -la in/ | head -20
+
+      - name: Music bed (stdlib synth)
+        run: python3 music_gen.py in/bed.wav
+
+      - name: Build playlist + background + ticker
+        run: |
+          python3 - << 'EOF'
+          import json, os
+          st = json.load(open('in/state.json'))
+          segs = st.get('segments', [])
+          files = [os.path.abspath('in/' + os.path.basename(s['clip'].split('?')[0])) for s in segs]
+          total = sum(5 for _ in segs) + 1
+          reps = int(7 * 3600 / max(total, 5)) + 20
+          with open('in/playlist.txt', 'w') as f:
+              for _ in range(reps):
+                  for fp in files:
+                      f.write('file ' + fp.replace('\\', '/') + '\n')
+          desk = json.load(open('in/desk_state.json')) if os.path.exists('in/desk_state.json') else {}
+          hi = desk.get('highlights') or []
+          bg = hi[0]['url'] if hi else ''
+          open('in/bg_url.txt', 'w').write(bg)
+          tick = (desk.get('ticker') or 'ABET SPORTS DESK - LIVE')
+          for ch in ['\\', "'", '"', ':', '%', ';']:
+              tick = tick.replace(ch, ' ')
+          open('in/ticker.txt', 'w').write(' ' + tick + ' ')
+          print('bg:', bg[:90]); print('reps:', reps)
+          EOF
+          BG=$(cat in/bg_url.txt)
+          if [ -n "$BG" ] && curl -sL --max-time 60 "$BG" -o in/bg.mp4 && [ -s in/bg.mp4 ]; then
+            echo "highlight bg downloaded"
+          else
+            ffmpeg -y -hide_banner -loglevel error -f lavfi -i "color=c=0x050505:s=1280x720:d=4,noise=alls=6:allf=t" -c:v libx264 -pix_fmt yuv420p in/bg.mp4
+            echo "fallback bg generated"
+          fi
+
+      - name: Composite preview (3s, artifact proof)
+        run: |
+          ffmpeg -y -hide_banner -loglevel error -t 3 \
+            -stream_loop -1 -i in/bg.mp4 \
+            -stream_loop -1 -f concat -safe 0 -i in/playlist.txt \
+            -stream_loop -1 -i in/bed.wav \
+            -filter_complex "[0:v]scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,eq=brightness=-0.28:saturation=0.85[bg];[1:v]scale=-2:640[av];[bg][av]overlay=W-w-24:H-h-24:format=auto,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=in/ticker.txt:fontsize=26:fontcolor=0xFFEEAA:x=(w-text_w)/2:y=h-60:box=1:boxcolor=0x000000@0.6:boxborderw=10[out];[1:a]volume=1.0[vo];[2:a]volume=0.16[mu];[vo][mu]amix=inputs=2:duration=first:dropout_transition=2[aout]" \
+            -map "[out]" -map "[aout]" -c:v libx264 -preset veryfast -b:v 3200k -pix_fmt yuv420p -c:a aac -b:a 128k in/preview.mp4
+          ls -la in/preview.mp4
+        continue-on-error: true
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stream-preview
+          path: in/preview.mp4
+          if-no-files-found: ignore
+
+      - name: STREAM BLOCK -> Meld (RTMPS)
+        env:
+          MELD_RTMP_URL: ${{ secrets.MELD_RTMP_URL }}
+        run: |
+          if [ -z "$MELD_RTMP_URL" ]; then echo "MELD_RTMP_URL secret missing"; exit 1; fi
+          D="${{ github.event.inputs.duration_seconds }}"; D=${D:-20700}
+          echo "pushing ${D}s block to Meld..."
+          ffmpeg -hide_banner -loglevel info -stats \
+            -re -stream_loop -1 -i in/bg.mp4 \
+            -re -f concat -safe 0 -i in/playlist.txt \
+            -re -stream_loop -1 -i in/bed.wav \
+            -filter_complex "[0:v]scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,eq=brightness=-0.28:saturation=0.85[bg];[1:v]scale=-2:640[av];[bg][av]overlay=W-w-24:H-h-24:format=auto,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=in/ticker.txt:fontsize=26:fontcolor=0xFFEEAA:x=(w-text_w)/2:y=h-60:box=1:boxcolor=0x000000@0.6:boxborderw=10[out];[1:a]volume=1.0[vo];[2:a]volume=0.16[mu];[vo][mu]amix=inputs=2:duration=first:dropout_transition=2[aout]" \
+            -map "[out]" -map "[aout]" \
+            -c:v libx264 -preset veryfast -tune zerolatency -b:v 3200k -maxrate 3400k -bufsize 6800k -g 60 -pix_fmt yuv420p \
+            -c:a aac -b:a 128k -ar 44100 \
+            -t "$D" -f flv "$MELD_RTMP_URL"
+          echo "block finished rc=$?"
