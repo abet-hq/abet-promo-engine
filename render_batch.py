@@ -45,6 +45,18 @@ def ensure_repo():
             patched.append(os.path.relpath(p, ST))
     if patched:
         log("gfpgan import guarded in:", ", ".join(patched))
+    # shim legacy numpy aliases (np.float etc.) that facexlib-era code still uses
+    sc = os.path.join(ST, "sitecustomize.py")
+    if not os.path.isfile(sc):
+        open(sc, "w", encoding="utf-8").write(
+            "try:\n"
+            "    import numpy as _np\n"
+            "    for _n, _t in (('float', float), ('int', int), ('bool', bool), ('object', object)):\n"
+            "        if not hasattr(_np, _n):\n"
+            "            setattr(_np, _n, _t)\n"
+            "except Exception:\n"
+            "    pass\n")
+        log("wrote sitecustomize.py numpy-alias shim")
 
 def ensure_ckpts():
     os.makedirs(CKPT, exist_ok=True)
