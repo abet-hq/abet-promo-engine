@@ -1,0 +1,34 @@
+name: DESK engine (live data rundown, cloud-only)
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'     # every 15 min; GitHub may delay under load
+  workflow_dispatch:
+
+permissions:
+  contents: write              # commit desk_state.json + desk_history.json back to repo
+
+concurrency:
+  group: desk-engine
+  cancel-in-progress: false
+
+jobs:
+  desk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Run desk engine (stdlib only - no pip)
+        run: python desk_engine.py
+      - name: Commit desk state back
+        run: |
+          git config user.email "desk-bot@users.noreply.github.com"
+          git config user.name "abet-desk-bot"
+          git add desk_state.json desk_history.json
+          git diff --cached --quiet || git commit -m "desk: rundown $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desk-state
+          path: desk_state.json
