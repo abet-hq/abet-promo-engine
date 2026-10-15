@@ -203,14 +203,22 @@ def fetch_abet_lines():
         except Exception:
             pass
         evs = sorted(d.get("events", []), key=lambda e: -(e.get("avg_pp") or 0))
-        for e in evs[:3]:
+        for e in evs[:6]:
             mv = (e.get("movers") or [{}])[0]
+            try:
+                f, t = int(mv.get("from")), int(mv.get("to"))
+                if abs(t - f) > 250:      # junk/merged rows guard
+                    continue
+            except Exception:
+                pass
             note = (f"{e.get('selection')} {e.get('bet_type','')}: {mv.get('from')} to {mv.get('to')} "
                     f"({e.get('n_books')} books, {e.get('avg_pp')}pp, {e.get('direction','')})").replace(" :", ":")
             if age is not None and age > 120:
                 note += f" [events {round(age/60)}h old]"
             out.append({"event": e.get("event", "?"), "note": note.strip(),
                         "pp": e.get("avg_pp"), "books": e.get("n_books"), "data_age_min": age})
+            if len(out) >= 3:
+                break
     except Exception as ex:
         log("abet steam fetch fail", ex)
     if out:
@@ -265,19 +273,21 @@ def fetch_abet_lines():
 def brain_take(facts):
     for attempt in (1, 2):
         try:
-            q = ("You are the anchor of the ABET Sports Desk. One short spoken line, max 20 words, "
-                 "no emojis, no quotes, no hashtags, no URLs. Facts: " + facts)
+            q = ("You are the sharp, witty anchor of the ABET Sports Desk. Write ONE spoken sentence, "
+                 "max 18 words, reacting to this update. Plain text only, never repeat the facts verbatim, "
+                 "no lists, no emojis. Update: " + facts)
             url = "https://text.pollinations.ai/" + urllib.parse.quote(q, safe="")
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=35) as r:
                 txt = r.read().decode("utf-8", "replace").strip()
             txt = re.sub(r"\s+", " ", txt)
             txt = txt.strip("\"'")
-            if 8 < len(txt) < 200 and "http" not in txt and "{" not in txt and "#" not in txt:
-                log("brain: pollinations ok (attempt", attempt, ")")
-                return txt
-            log("brain: rejected output:", txt[:80])
-            return None
+            if not (8 < len(txt) < 200) or "http" in txt or "{" in txt or "#" in txt:
+                log("brain: rejected output:", txt[:80]); return None
+            if jaccard(tokens(txt), tokens(facts)) > 0.7:
+                log("brain: fact-echo rejected:", txt[:80]); return None
+            log("brain: pollinations ok (attempt", attempt, ")")
+            return txt
         except Exception as e:
             log(f"brain attempt {attempt} fail:", e)
     return None
