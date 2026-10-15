@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-15T21:51:21.361953+00:00",
+ "generated": "2026-10-15T23:34:36.197949+00:00",
  "version": 2,
  "ticker": "NFL: SEA 0 - DEN 0 10/15 - 8:15 PM EDT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50191830",
-  "title": "Jayden Daniels addresses teammates on gaffe, vows 'it'll never happen again'",
-  "source": "ESPN NFL",
-  "age_min": 1.5045157333333334
+  "id": "espn:50192351",
+  "title": "Junior Caminero says Rays have to adjust after 13 strikeouts",
+  "source": "ESPN MLB",
+  "age_min": 4.3476618333333334
  },
  "games": [
   {
@@ -118,8 +118,8 @@
   },
   {
    "gamePk": 849810,
-   "title": "Fielding alignment for Milwaukee, October 15 vs Dodgers",
-   "url": "https://darkroom-clips.mlb.com/fdec5d21-3366-4285-a9fd-bb2e6e4e434a.mp4"
+   "title": "ALL Calls of Brewers' back-to-back homers in Game 3",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/14/883b46c9-27299468-f5198b91-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": {
@@ -136,24 +136,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 720h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 722h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 43204
+   "data_age_min": 43308
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 720h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 722h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 43204
+   "data_age_min": 43308
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 720h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 722h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 43204
+   "data_age_min": 43308
   }
  ],
  "sources": {
@@ -162,5 +162,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Daniels vows fix, yet Sunday's scoreless slumps still shake Seahawks, Falcons, Cardinals\u2014and WSH's discount spur war tight.  [brain]"
+ "script_hint": "Whoa, 13 Ks on the Rays\u2014betting line's downhill; time to adjust our game plan.  [brain]"
 }
