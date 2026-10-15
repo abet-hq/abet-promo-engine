@@ -99,9 +99,11 @@ def fetch_news_breaking(history):
                               "age_min": (datetime.now(timezone.utc) - ts).total_seconds() / 60})
         except Exception as e:
             log("espn news fail", league, e)
+    reddit_ok = False
     for sub in ("nba", "nfl", "sportsbook", "baseball", "hockey"):
         try:
             d = get_json(f"https://www.reddit.com/r/{sub}/new.json?limit=15")
+            reddit_ok = True
             for c in d.get("data", {}).get("children", []):
                 p = c.get("data", {})
                 if p.get("stickied"): continue
@@ -117,7 +119,7 @@ def fetch_news_breaking(history):
         if c["id"] not in history["seen_news_ids"]:
             history["seen_news_ids"].append(c["id"])
     history["seen_news_ids"] = history["seen_news_ids"][-400:]
-    return (fresh[0] if fresh else None)
+    return (fresh[0] if fresh else None, reddit_ok)
 
 # ---------------- MLB highlights pool (v6/v12) ----------------
 def fetch_highlights_pool(history):
@@ -138,12 +140,17 @@ def fetch_highlights_pool(history):
         # round-robin: rotate order by history cursor
         used = history.get("used_highlight_pks", [])
         ordered = [p for p in pks if p not in used] + [p for p in pks if p in used]
+        NOT_A_CLIP = re.compile(r"bench|availability|lineup|probable|pregame|injur|weather|roster|transaction|interview|press conference", re.I)
         for pk in ordered[:3]:
             try:
                 c = get_json(f"https://statsapi.mlb.com/api/v1/game/{pk}/content")
                 items = (c.get("highlights", {}) or {}).get("highlights", {}).get("items", [])
-                if not items: continue
-                it = items[0]
+                it = None
+                for cand_it in items[:8]:
+                    title_c = cand_it.get("headline", cand_it.get("title", ""))
+                    if title_c and not NOT_A_CLIP.search(title_c):
+                        it = cand_it; break
+                if not it: continue
                 pb = it.get("playbacks", [])
                 mp4 = None
                 for p in pb:
@@ -163,31 +170,53 @@ def fetch_highlights_pool(history):
         log("mlb pool fail", e)
     return out
 
-def fetch_season_profile():
-    """v12 radar: real season batting line from a recent boxscore."""
+def fetch_season_profile(prefer_pk=None):
+    """v12 radar, correctness round: TRUE season stats via people endpoint, sanity-gated.
+    Player = most at-bats in the game (not dict order). Prefers the highlighted game."""
     try:
-        d = get_json("https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=" +
-                     (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d"))
-        pk = None
-        for dt in d.get("dates", []):
-            for g in dt.get("games", []):
-                if g.get("status", {}).get("abstractGameState") == "Final":
-                    pk = g.get("gamePk"); break
-            if pk: break
+        pk = prefer_pk
+        if not pk:
+            d = get_json("https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=" +
+                         (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d"))
+            for dt in d.get("dates", []):
+                for g in dt.get("games", []):
+                    if g.get("status", {}).get("abstractGameState") == "Final":
+                        pk = g.get("gamePk"); break
+                if pk: break
         if not pk: return None
         b = get_json(f"https://statsapi.mlb.com/api/v1/game/{pk}/boxscore")
+        cand = None
         for side in ("home", "away"):
             team = b["teams"][side]
-            for pid, p in team.get("players", {}).items():
-                bat = (p.get("seasonStats", {}) or {}).get("batting", {})
-                if bat.get("atBats", 0) and bat.get("avg"):
-                    return {"player": p.get("person", {}).get("fullName", "?"),
-                            "team": team.get("team", {}).get("abbreviation", team.get("team", {}).get("name", "?")),
-                            "avg": bat.get("avg"), "hr": bat.get("homeRuns"), "rbi": bat.get("rbi"),
-                            "hits": bat.get("hits"), "ops": bat.get("ops"), "gamePk": pk}
+            for pid, p in (team.get("players", {}) or {}).items():
+                bat = ((p.get("stats", {}) or {}).get("batting", {}) or {})
+                ab = int(bat.get("atBats", 0) or 0)
+                pid_num = (p.get("person", {}) or {}).get("id")
+                if ab and pid_num and (cand is None or ab > cand[1]):
+                    cand = (pid_num, ab, p.get("person", {}).get("fullName", "?"),
+                            (team.get("team", {}) or {}).get("abbreviation", "?"))
+        if not cand: return None
+        pid_num, ab, name, team = cand
+        season = datetime.now(timezone.utc).year
+        s = get_json(f"https://statsapi.mlb.com/api/v1/people/{pid_num}/stats?stats=season&group=hitting&season={season}")
+        st = None
+        for blk in s.get("stats", []):
+            for sp in blk.get("splits", []):
+                st = sp.get("stat", {}) or None
+                if st: break
+            if st: break
+        if not st: return None
+        avg = st.get("avg")
+        try: avg_f = float(avg)
+        except Exception: return None
+        if not (0.150 <= avg_f <= 0.400):        # sanity gate: junk never reaches air
+            log("season profile REJECTED by sanity gate:", name, avg); return None
+        return {"player": name, "team": team, "avg": avg, "hr": st.get("homeRuns"),
+                "rbi": st.get("rbi"), "hits": st.get("hits"), "ops": st.get("ops"),
+                "gamePk": pk, "source": "statsapi /people/season"}
     except Exception as e:
         log("season profile fail", e)
-    return None
+        return None
 
 # ---------------- ABET line moves (documented board-data publish + receiver-proxy fallback) ----------------
 def fetch_abet_lines():
@@ -325,9 +354,9 @@ def pick_script_hint(games, breaking, highlights, profile, abet, history):
 def main():
     history = load_history()
     games = fetch_scores()
-    breaking = fetch_news_breaking(history)
+    breaking, reddit_ok = fetch_news_breaking(history)
     highlights = fetch_highlights_pool(history)
-    profile = fetch_season_profile()
+    profile = fetch_season_profile(prefer_pk=highlights[0]["gamePk"] if highlights else None)
     abet = fetch_abet_lines()
 
     # brain first (keyless; pollinations), template fallback; anti-repeat on both paths
@@ -366,6 +395,7 @@ def main():
         "highlights": highlights,
         "season_profile": profile,
         "abet_lines": abet,
+        "sources": {"espn": True, "reddit": reddit_ok, "mlb_statsapi": bool(highlights or profile), "abet_board": bool(abet)},
         "script_hint": hint,
     }
     json.dump(state, open(OUT, "w", encoding="utf-8"), indent=1)

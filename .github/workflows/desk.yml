@@ -28,6 +28,25 @@ jobs:
           git add desk_state.json desk_history.json
           git diff --cached --quiet || git commit -m "desk: rundown $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+
+      - name: Deploy to Pages (needs CLOUDFLARE_API_TOKEN secret; skips with notice if absent)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: b6847328054eee51af12c25cf34a565a
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "SKIP: CLOUDFLARE_API_TOKEN secret not set - desk_state.json is committed to the repo only."
+            echo "To enable live deploys: create a Pages:Edit token and run: gh secret set CLOUDFLARE_API_TOKEN -R abet-hq/abet-promo-engine"
+            exit 0
+          fi
+          mkdir -p deploy/clips
+          cp -r site/* deploy/
+          cp desk_state.json deploy/desk_state.json
+          for c in open_a hook_b proof_a cta_b avatar_a avatar_b; do
+            curl -sL "https://abet-promo.pages.dev/clips/$c.webm" -o "deploy/clips/$c.webm" || true
+          done
+          npm i -g wrangler
+          wrangler pages deploy deploy --project-name abet-promo --branch main --commit-dirty=true
       - uses: actions/upload-artifact@v4
         with:
           name: desk-state
