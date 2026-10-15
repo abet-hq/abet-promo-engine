@@ -38,7 +38,7 @@ jobs:
       - name: Install deps (torch CPU + SadTalker stack + edge-tts)
         run: |
           pip install -q torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-          pip install -q "numpy<2" opencv-python-headless scipy librosa scikit-image scikit-learn numba tqdm kornia safetensors yacs joblib facexlib edge-tts resampy imageio imageio-ffmpeg
+          pip install -q "numpy<2" opencv-python-headless scipy librosa scikit-image scikit-learn numba tqdm kornia safetensors yacs joblib facexlib edge-tts resampy imageio imageio-ffmpeg pydub face_alignment av pyyaml
 
       - name: Fetch portrait
         run: |
