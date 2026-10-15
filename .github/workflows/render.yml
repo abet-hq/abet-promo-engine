@@ -13,8 +13,8 @@ on:
       deploy:
         description: 'Deploy to Cloudflare Pages after render? (needs CLOUDFLARE_API_TOKEN secret)'
         type: choice
-        options: [no, yes]
-        default: no
+        options: ["no", "yes"]
+        default: "no"
 
 jobs:
   render:
