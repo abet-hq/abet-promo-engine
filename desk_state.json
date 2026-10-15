@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-15T20:48:05.865590+00:00",
- "version": 1,
+ "generated": "2026-10-15T21:20:49.161802+00:00",
+ "version": 2,
  "ticker": "NFL: SEA 0 - DEN 0 10/15 - 8:15 PM EDT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50186625",
-  "title": "MLB playoffs: Takeaways from ALCS Game 3, lineups for NLCS Game 4",
-  "source": "ESPN MLB",
-  "age_min": 7.549079233333333
+  "id": "espn:50191811",
+  "title": "Aaron Rodgers vs. Todd Bowles should be quite a chess match when Steelers visit the Buccaneers",
+  "source": "ESPN NFL",
+  "age_min": 13.064905166666668
  },
  "games": [
   {
@@ -118,8 +118,8 @@
   },
   {
    "gamePk": 849810,
-   "title": "Bench availability for Los Angeles, October 15 vs Brewers",
-   "url": "https://darkroom-clips.mlb.com/6fa9f2f5-9b8b-43f3-8afb-859bac7168bb.mp4"
+   "title": "Starting lineups for Brewers at Dodgers - October 15, 2026",
+   "url": "https://darkroom-clips.mlb.com/6255070e-5799-4a5a-80bf-61f8cde049c1.mp4"
   }
  ],
  "season_profile": {
@@ -132,5 +132,6 @@
   "ops": ".218",
   "gamePk": 849811
  },
- "script_hint": "BREAKING - MLB playoffs: Takeaways from ALCS Game 3, lineups for NLCS Game 4 - per ESPN MLB."
+ "abet_lines": [],
+ "script_hint": "BREAKING - Aaron Rodgers vs. Todd Bowles should be quite a chess match when Steelers visit the Buccaneers - per ESPN NFL."
 }
