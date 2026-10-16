@@ -1,8 +1,13 @@
 {
- "generated": "2026-10-16T06:25:46.541913+00:00",
+ "generated": "2026-10-16T11:47:57.051424+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
- "breaking": null,
+ "breaking": {
+  "id": "espn:46793185",
+  "title": "Every team's odds to win the 2026 World Series: Brewers win NLCS, Guardians lead ALCS",
+  "source": "ESPN MLB",
+  "age_min": 12.611204666666668
+ },
  "games": [
   {
    "league": "NFL",
@@ -120,24 +125,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 729h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 734h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 43719
+   "data_age_min": 44041
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 729h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 734h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 43719
+   "data_age_min": 44041
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 729h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 734h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 43719
+   "data_age_min": 44041
   }
  ],
  "sources": {
@@ -146,5 +151,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Seahawks nail OT win over Broncos; Houston, Chicago scoreless, DeLauter\u2019s .287 average sparks Philly hopes.  [brain]"
+ "script_hint": "Brewers claim NLCS, Guardians lead ALCS, NFL flippancy rules, WSH line drops, DeLauter smashes the plate.  [brain]"
 }
