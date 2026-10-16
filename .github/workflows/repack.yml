@@ -19,20 +19,17 @@ jobs:
             curl -sL "https://abet-promo.pages.dev/clips/$clip.webm" -o "/tmp/$clip-orig.webm"
             ffmpeg -y -hide_banner -loglevel error \
               -i "sources/green/$src.mp4" -i "/tmp/$clip-orig.webm" \
-              -filter_complex "[0:v]chromakey=0x18A03C:0.12:0.05,format=rgba,lutrgba=a='min(255\,val*3)',scale=640:640:flags=lanczos[v]" \
+              -filter_complex "[0:v]chromakey=0x18A03C:0.12:0.05,format=rgba,colorchannelmixer=aa=3,scale=640:640:flags=lanczos[v]" \
               -map "[v]" -map 1:a -c:v libvpx-vp9 -pix_fmt yuva420p -b:v 1.5M -auto-alt-ref 0 -c:a libopus -b:a 96k -shortest "out/$clip.webm"
             echo "$clip done"
           done
           ls -la out/
-      - name: Verify alpha (composite over white -> corners must NOT be green)
+      - name: Verify alpha (composite over white -> corners must be WHITE, never green)
         run: |
           ffmpeg -y -hide_banner -loglevel error -f lavfi -i color=c=white:s=800x800:d=1 \
             -c:v libvpx-vp9 -i out/open_a.webm \
-            -filter_complex "[1:v]scale=-2:640[av];[0:v][av]overlay=W-w:H-h[o]" -map "[o]" -frames:v 1 -ss 0.5 /tmp/alpha_check.png || \
-          ffmpeg -y -hide_banner -loglevel error -f lavfi -i color=c=white:s=800x800:d=1 \
-            -c:v libvpx-vp9 -i out/open_a.webm \
-            -filter_complex "[1:v]scale=-2:640[av];[0:v][av]overlay=W-w:H-h[o]" -map "[o]" -frames:v 1 /tmp/alpha_check.png
-          ls -la /tmp/alpha_check.png
+            -filter_complex "[1:v]scale=-2:640[av];[0:v][av]overlay=W-w:H-h[o]" -map "[o]" -frames:v 1 out/alpha_check.png
+          ls -la out/
       - uses: actions/upload-artifact@v4
         with:
           name: hardened-clips
