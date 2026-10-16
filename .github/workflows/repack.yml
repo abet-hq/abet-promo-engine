@@ -19,7 +19,7 @@ jobs:
             curl -sL "https://abet-promo.pages.dev/clips/$clip.webm" -o "/tmp/$clip-orig.webm"
             ffmpeg -y -hide_banner -loglevel error \
               -i "sources/green/$src.mp4" -i "/tmp/$clip-orig.webm" \
-              -filter_complex "[0:v]chromakey=0x18A03C:0.12:0.05,format=rgba,colorchannelmixer=aa=3,scale=640:640:flags=lanczos[v]" \
+              -filter_complex "[0:v]chromakey=0x18A03C:0.12:0.05,format=rgba,split[ck][ck2];[ck2]alphaextract,format=gray,lutyuv=y='min(255\,val*3)'[al];[ck]format=rgb24[rgb];[rgb][al]alphamerge,scale=640:640:flags=lanczos[v]" \
               -map "[v]" -map 1:a -c:v libvpx-vp9 -pix_fmt yuva420p -b:v 1.5M -auto-alt-ref 0 -c:a libopus -b:a 96k -shortest "out/$clip.webm"
             echo "$clip done"
           done
