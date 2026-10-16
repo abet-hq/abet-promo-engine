@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T11:47:57.051424+00:00",
+ "generated": "2026-10-16T16:16:26.558545+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:46793185",
-  "title": "Every team's odds to win the 2026 World Series: Brewers win NLCS, Guardians lead ALCS",
-  "source": "ESPN MLB",
-  "age_min": 12.611204666666668
+  "id": "espn:50196498",
+  "title": "NBA tells sportsbooks to stop certain bets, restrict parlays",
+  "source": "ESPN NBA",
+  "age_min": 5.18108885
  },
  "games": [
   {
@@ -71,78 +71,104 @@
   },
   {
    "league": "NBA",
-   "name": "TOR @ NY",
-   "away": "TOR",
-   "away_score": "120",
-   "home": "NY",
-   "home_score": "122",
-   "status": "Final",
-   "date": "2026-10-15T23:30Z"
+   "name": "MIA @ ORL",
+   "away": "MIA",
+   "away_score": "0",
+   "home": "ORL",
+   "home_score": "0",
+   "status": "10/16 - 7:00 PM EDT",
+   "date": "2026-10-16T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "OKC @ HOU",
-   "away": "OKC",
-   "away_score": "89",
-   "home": "HOU",
-   "home_score": "116",
-   "status": "Final",
-   "date": "2026-10-16T00:30Z"
+   "name": "BOS @ PHI",
+   "away": "BOS",
+   "away_score": "0",
+   "home": "PHI",
+   "home_score": "0",
+   "status": "10/16 - 7:00 PM EDT",
+   "date": "2026-10-16T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "TOR @ DET",
+   "away": "TOR",
+   "away_score": "0",
+   "home": "DET",
+   "home_score": "0",
+   "status": "10/16 - 7:00 PM EDT",
+   "date": "2026-10-16T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "MIL @ IND",
+   "away": "MIL",
+   "away_score": "0",
+   "home": "IND",
+   "home_score": "0",
+   "status": "10/16 - 7:00 PM EDT",
+   "date": "2026-10-16T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "ATL @ DAL",
+   "away": "ATL",
+   "away_score": "0",
+   "home": "DAL",
+   "home_score": "0",
+   "status": "10/16 - 8:00 PM EDT",
+   "date": "2026-10-17T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "SAC @ SA",
+   "away": "SAC",
+   "away_score": "0",
+   "home": "SA",
+   "home_score": "0",
+   "status": "10/16 - 8:00 PM EDT",
+   "date": "2026-10-17T00:00Z"
   },
   {
    "league": "MLB",
    "name": "TB @ CLE",
    "away": "TB",
-   "away_score": "2",
+   "away_score": "0",
    "home": "CLE",
-   "home_score": "3",
-   "status": "Final",
-   "date": "2026-10-15T17:00Z"
-  },
-  {
-   "league": "MLB",
-   "name": "MIL @ LAD",
-   "away": "MIL",
-   "away_score": "6",
-   "home": "LAD",
-   "home_score": "4",
-   "status": "Final",
-   "date": "2026-10-16T00:00Z"
+   "home_score": "0",
+   "status": "10/16 - 8:00 PM EDT",
+   "date": "2026-10-17T00:00Z"
   }
  ],
- "highlights": [],
- "season_profile": {
-  "player": "Chase DeLauter",
-  "team": "CLE",
-  "avg": ".287",
-  "hr": 16,
-  "rbi": 67,
-  "hits": 142,
-  "ops": ".820",
-  "gamePk": 849818,
-  "source": "statsapi /people/season"
- },
+ "highlights": [
+  {
+   "gamePk": 849817,
+   "title": "Shawn Armstrong against the Rays",
+   "url": "https://darkroom-clips.mlb.com/55aceb77-e21f-47b5-aabe-847280dab645.mp4"
+  }
+ ],
+ "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 734h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 738h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 44041
+   "data_age_min": 44309
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 734h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 738h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 44041
+   "data_age_min": 44309
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 734h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 738h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 44041
+   "data_age_min": 44309
   }
  ],
  "sources": {
@@ -151,5 +177,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Brewers claim NLCS, Guardians lead ALCS, NFL flippancy rules, WSH line drops, DeLauter smashes the plate.  [brain]"
+ "script_hint": "NBA drops parlay mania, yet WSH moneyline slams from 160 to 100 as NFL scorecards stay eerily flat.  [brain]"
 }
