@@ -1,12 +1,12 @@
 name: DESK stream (RTMPS to Meld, free runner blocks)
 
 on:
-  schedule:
-    - cron: '5 */6 * * *'      # chained ~6h blocks; next run reconnects after previous block
+  # PAUSED 2026-10-16: 24/7 chained blocks held pending explicit approval (ToS-risk call).
+  # To re-enable the chain: add back  schedule: [{cron: '5 */6 * * *'}]  as a sibling key.
   workflow_dispatch:
     inputs:
       duration_seconds:
-        description: 'block length (default 20700 = 5h45m; use 25 for a quick ingest test)'
+        description: 'block length (default 20700 = 5h45m; use 20 for a quick ingest test)'
         required: false
         default: '20700'
 
@@ -78,13 +78,14 @@ jobs:
           fi
 
       - name: Composite preview (3s, artifact proof)
+        timeout-minutes: 3
         run: |
-          ffmpeg -y -hide_banner -loglevel error -t 3 \
+          ffmpeg -y -hide_banner -loglevel error \
             -stream_loop -1 -i in/bg.mp4 \
             -stream_loop -1 -f concat -safe 0 -i in/playlist.txt \
             -stream_loop -1 -i in/bed.wav \
             -filter_complex "[0:v]scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,eq=brightness=-0.28:saturation=0.85[bg];[1:v]scale=-2:640[av];[bg][av]overlay=W-w-24:H-h-24:format=auto,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=in/ticker.txt:fontsize=26:fontcolor=0xFFEEAA:x=(w-text_w)/2:y=h-60:box=1:boxcolor=0x000000@0.6:boxborderw=10[out];[1:a]volume=1.0[vo];[2:a]volume=0.16[mu];[vo][mu]amix=inputs=2:duration=first:dropout_transition=2[aout]" \
-            -map "[out]" -map "[aout]" -c:v libx264 -preset veryfast -b:v 3200k -pix_fmt yuv420p -c:a aac -b:a 128k in/preview.mp4
+            -map "[out]" -map "[aout]" -c:v libx264 -preset veryfast -b:v 3200k -pix_fmt yuv420p -c:a aac -b:a 128k -t 3 in/preview.mp4
           ls -la in/preview.mp4
         continue-on-error: true
 
@@ -96,6 +97,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: STREAM BLOCK -> Meld (RTMPS)
+        timeout-minutes: 359
         env:
           MELD_RTMP_URL: ${{ secrets.MELD_RTMP_URL }}
         run: |
@@ -110,5 +112,5 @@ jobs:
             -map "[out]" -map "[aout]" \
             -c:v libx264 -preset veryfast -tune zerolatency -b:v 3200k -maxrate 3400k -bufsize 6800k -g 60 -pix_fmt yuv420p \
             -c:a aac -b:a 128k -ar 44100 \
-            -t "$D" -f flv "$MELD_RTMP_URL"
+            -t "$D" -rw_timeout 15000000 -f flv "$MELD_RTMP_URL"
           echo "block finished rc=$?"
