@@ -1,0 +1,148 @@
+<!doctype html><html><head><meta charset="utf-8"><title>ABET SPORTS DESK</title>
+<style>
+html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:Impact,'Arial Black',Arial,sans-serif;}
+#stage{position:relative;width:100vw;height:100vh;background:#050505;}
+#bgvid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.42) saturate(.92);display:none;}
+#content{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#2a2a2a;font-size:min(5vw,44px);letter-spacing:3px;}
+/* AVATAR ZONE: bottom-right square; all left elements clamp against min(55vw,64vh) */
+#avatar{position:absolute;right:0;bottom:0;width:min(55%,64vh);z-index:3;transition:opacity .35s;}
+#avatar video{width:100%;display:block;filter:drop-shadow(0 6px 14px rgba(0,0,0,.5));}
+#nametag{position:absolute;left:2%;top:3%;padding:8px 16px;z-index:5;border-radius:0 0 12px 0;background:rgba(255,192,51,.92);color:#000;font-size:clamp(14px,1.8vw,20px);letter-spacing:1px;}
+/* TOP ZONE: segband + breaking flow-stacked; narrow mode drops below the nametag */
+#topzone{position:absolute;top:3%;right:2%;left:auto;max-width:min(560px,58%);
+  max-height:calc(100vh - min(55vw,64vh) - 15vh);overflow:hidden;z-index:4;
+  display:flex;flex-direction:column;align-items:flex-end;gap:6px;}
+#segband{max-width:100%;padding:6px 14px;border-radius:6px;background:linear-gradient(90deg,#b30000,#7a0000);color:#fff;font-size:clamp(13px,1.5vw,18px);letter-spacing:2px;opacity:0;transition:opacity .3s;white-space:nowrap;}
+#segband.show{opacity:.95;}
+#breaking{max-width:100%;padding:8px 14px;border-radius:6px;background:linear-gradient(90deg,#c40000,#7a0000);color:#fff;font-size:clamp(12px,1.5vw,17px);display:none;box-shadow:0 4px 14px rgba(0,0,0,.6);}
+#breaking.show{display:block;}
+/* CARDS: scoreboard / odds / player following the desk topic. Clamped above avatar zone. */
+#cards{position:absolute;left:2%;top:calc(3% + 58px);width:min(340px,38%);z-index:4;
+  max-height:calc(100vh - min(55vw,64vh) - 15vh);overflow:hidden;
+  display:flex;flex-direction:column;gap:8px;}
+.card{background:rgba(8,10,14,.78);border-left:4px solid #ffc233;border-radius:8px;padding:8px 12px;box-shadow:0 6px 18px rgba(0,0,0,.55);}
+.card .hd{display:flex;justify-content:space-between;color:#ffc233;font-size:clamp(10px,1.2vw,13px);letter-spacing:1.5px;}
+.card .sc{color:#fff;font-size:clamp(14px,1.7vw,20px);letter-spacing:1px;margin-top:2px;}
+.card .sub{color:#9aa3ad;font-size:clamp(10px,1.2vw,13px);margin-top:3px;font-family:Arial,sans-serif;}
+.card .mod{color:#3fb950;font-family:Arial,sans-serif;font-size:clamp(10px,1.2vw,13px);margin-top:3px;}
+/* TRANSCRIPT + SOUND: bottom-left column, transcript directly beneath the toggle */
+#audiotoggle{position:absolute;left:2%;bottom:calc(2.6rem + 52px);width:44px;height:44px;border-radius:50%;background:#ffc233;color:#000;border:2px solid #000;cursor:pointer;z-index:5;display:flex;align-items:center;justify-content:center;padding:0;}
+#audiotoggle .slash{display:block;} #audiotoggle.on .slash{display:none;}
+#transcript{position:absolute;left:2%;bottom:2.6rem;max-width:min(520px,42%);box-sizing:border-box;padding:8px 14px;border-radius:999px;background:rgba(0,0,0,.62);border:1px solid rgba(255,192,51,.55);color:#fff;font-size:clamp(13px,1.6vw,20px);font-style:italic;text-shadow:0 2px 6px #000;text-align:left;opacity:0;transition:opacity .25s;z-index:4;}
+#transcript.show{opacity:1;}
+#ticker{position:absolute;left:0;right:0;bottom:0;padding:8px 14px;z-index:3;background:rgba(0,0,0,.65);color:#ffe;font-size:clamp(13px,1.6vw,17px);white-space:nowrap;overflow:hidden;}
+#ticker span{display:inline-block;padding-left:100%;animation:tick 22s linear infinite;}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+/* PORTRAIT / SQUARE */
+@media (max-aspect-ratio: 1/1){
+  #topzone{top:calc(3% + 58px);left:2%;right:2%;max-width:none;align-items:stretch;}
+  #segband{text-align:center;}
+  #avatar{width:min(52%,56vh);}
+  #cards{top:calc(3% + 150px);max-width:60%;max-height:calc(100vh - min(52vw,56vh) - 240px);}
+  #transcript{max-width:40%;}
+}
+</style></head><body>
+<div id="stage">
+  <video id="bgvid" muted loop playsinline></video>
+  <div id="content">[generated highlight content slot]</div>
+  <div id="nametag">ABET SPORTS DESK</div>
+  <div id="avatar"><video id="av" autoplay muted loop playsinline></video></div>
+  <div id="topzone">
+    <div id="segband"></div>
+    <div id="breaking"></div>
+  </div>
+  <div id="cards"></div>
+  <button id="audiotoggle" onclick="toggleAudio()" title="sound">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 4L7.5 8H4a1 1 0 00-1 1v6a1 1 0 001 1h3.5L12 20V4z"/><path d="M15.5 9.2a4 4 0 010 5.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M18 6.8a7.4 7.4 0 010 10.4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+    <svg class="slash" viewBox="0 0 24 24" width="42" height="42" style="position:absolute"><circle cx="12" cy="12" r="9" fill="none" stroke="#e33" stroke-width="2.4"/><line x1="5.8" y1="18.2" x2="18.2" y2="5.8" stroke="#e33" stroke-width="2.4"/></svg>
+  </button>
+  <div id="transcript"></div>
+  <div id="ticker"><span id="ticktext">ABET SPORTS DESK - LIVE</span></div>
+</div>
+<script>
+let av, cap, segband, ticktext, state, segIdx = 0, currentSeg = null, desk = null, hiIdx = 0;
+async function boot(){
+  const r = await fetch('state.json'); state = await r.json();
+  try { const dr = await fetch('desk_state.json', {cache:'no-store'}); if (dr.ok) desk = await dr.json(); } catch(e){}
+  av = document.getElementById('av'); cap = document.getElementById('transcript');
+  segband = document.getElementById('segband'); ticktext = document.getElementById('ticktext');
+  let tick = (state.ticker || 'ABET SPORTS DESK - LIVE');
+  if (desk && desk.ticker) tick = desk.ticker;
+  ticktext.textContent = tick + '  //  ';
+  if (desk && desk.breaking){
+    const b = document.getElementById('breaking');
+    b.textContent = 'BREAKING - ' + desk.breaking.title + ' - per ' + desk.breaking.source;
+    b.classList.add('show');
+  }
+  if (desk && desk.highlights && desk.highlights.length) startHighlights();
+  buildCards();
+  playSegment(0);
+  setInterval(tickCaption, 120);
+}
+function tk(s){ return new Set((s||'').toLowerCase().match(/[a-z0-9]+/g) || []); }
+function buildCards(){
+  if (!desk) return;
+  const wrap = document.getElementById('cards'); wrap.innerHTML = '';
+  const hint = ((desk.script_hint||'') + ' ' + (desk.ticker||'')).toLowerCase();
+  const games = desk.games || [];
+  let picks = games.filter(g => hint.includes((g.away||'').toLowerCase()) || hint.includes((g.home||'').toLowerCase()) || hint.includes((g.league||'').toLowerCase()));
+  if (!picks.length) picks = games.filter(g => g.status && !/final/i.test(g.status));
+  if (!picks.length) picks = games;
+  picks = picks.slice(0, 2);
+  for (const g of picks){
+    const el = document.createElement('div'); el.className = 'card';
+    let mod = '';
+    if (g.model_home_pct || g.model_away_pct)
+      mod = '<div class="mod">MODEL: ' + (g.home||'') + ' ' + (g.model_home_pct||'-') + '% / ' + (g.away||'') + ' ' + (g.model_away_pct||'-') + '%</div>';
+    let lw = '';
+    const l = (desk.abet_lines||[]).find(x => x.event && (hint.includes(x.event.split('@')[0].trim().toLowerCase()) || hint.includes((x.event.split('@')[1]||'').trim().toLowerCase())));
+    if (l) lw = '<div class="mod" style="color:#e3b341">LINE WATCH: ' + l.event + ' - ' + l.note + '</div>';
+    el.innerHTML = '<div class="hd"><span>' + (g.league||'') + '</span><span>' + (g.status||'') + '</span></div>'
+      + '<div class="sc">' + (g.away||'') + ' ' + (g.away_score!==''?g.away_score:'') + ' - ' + (g.home||'') + ' ' + (g.home_score!==''?g.home_score:'') + '</div>'
+      + mod + lw;
+    wrap.appendChild(el);
+  }
+  const p = desk.season_profile;
+  if (p && (hint.includes((p.player||'').toLowerCase().split(' ')[0]) || !picks.length)){
+    const el = document.createElement('div'); el.className = 'card';
+    el.innerHTML = '<div class="hd"><span>' + (p.team||'') + ' PROFILE</span><span>SEASON</span></div>'
+      + '<div class="sc">' + (p.player||'') + '</div>'
+      + '<div class="sub">AVG ' + (p.avg||'-') + ' · HR ' + (p.hr??'-') + ' · RBI ' + (p.rbi??'-') + ' · OPS ' + (p.ops||'-') + '</div>';
+    wrap.appendChild(el);
+  }
+}
+function startHighlights(){
+  const v = document.getElementById('bgvid'), ph = document.getElementById('content');
+  const next = () => {
+    const h = desk.highlights[hiIdx++ % desk.highlights.length];
+    v.src = h.url; v.style.display = 'block'; ph.style.display = 'none';
+    v.play().catch(()=>{});
+  };
+  next(); setInterval(next, 30000);
+}
+function playSegment(i){
+  const segs = state.segments && state.segments.length ? state.segments : null;
+  if(!segs) return;
+  segIdx = ((i % segs.length) + segs.length) % segs.length;
+  currentSeg = segs[segIdx];
+  segband.textContent = 'SEG ' + (segIdx+1) + '/' + segs.length + (currentSeg.title ? ' - ' + currentSeg.title : '');
+  segband.classList.add('show');
+  av.onended = () => playSegment(segIdx + 1);
+  av.loop = false;
+  av.src = currentSeg.clip;
+  av.load(); av.play().catch(()=>{});
+}
+function tickCaption(){
+  if(!currentSeg) return;
+  const t = av.currentTime || 0;
+  const s = (currentSeg.captions||[]).find(x => t>=x[1] && t<=x[2]);
+  if(s){ if(cap.textContent!==s[0]) cap.textContent = s[0]; cap.classList.add('show'); }
+  else cap.classList.remove('show');
+}
+function toggleAudio(){
+  av.muted=!av.muted;
+  document.getElementById('audiotoggle').classList.toggle('on', !av.muted);
+  av.play().catch(()=>{});
+}
+boot();
+</script></body></html>
