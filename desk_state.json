@@ -1,22 +1,17 @@
 {
- "generated": "2026-10-15T23:34:36.197949+00:00",
+ "generated": "2026-10-16T01:41:06.646826+00:00",
  "version": 2,
- "ticker": "NFL: SEA 0 - DEN 0 10/15 - 8:15 PM EDT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
- "breaking": {
-  "id": "espn:50192351",
-  "title": "Junior Caminero says Rays have to adjust after 13 strikeouts",
-  "source": "ESPN MLB",
-  "age_min": 4.3476618333333334
- },
+ "ticker": "NFL: SEA 3 - DEN 14 Halftime  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
+ "breaking": null,
  "games": [
   {
    "league": "NFL",
    "name": "SEA @ DEN",
    "away": "SEA",
-   "away_score": "0",
+   "away_score": "3",
    "home": "DEN",
-   "home_score": "0",
-   "status": "10/15 - 8:15 PM EDT",
+   "home_score": "14",
+   "status": "Halftime",
    "date": "2026-10-16T00:15Z"
   },
   {
@@ -73,20 +68,20 @@
    "league": "NBA",
    "name": "TOR @ NY",
    "away": "TOR",
-   "away_score": "0",
+   "away_score": "89",
    "home": "NY",
-   "home_score": "0",
-   "status": "10/15 - 7:30 PM EDT",
+   "home_score": "94",
+   "status": "8:57 - 4th",
    "date": "2026-10-15T23:30Z"
   },
   {
    "league": "NBA",
    "name": "OKC @ HOU",
    "away": "OKC",
-   "away_score": "0",
+   "away_score": "47",
    "home": "HOU",
-   "home_score": "0",
-   "status": "10/15 - 8:30 PM EDT",
+   "home_score": "54",
+   "status": "Halftime",
    "date": "2026-10-16T00:30Z"
   },
   {
@@ -103,10 +98,10 @@
    "league": "MLB",
    "name": "MIL @ LAD",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "3",
    "home": "LAD",
-   "home_score": "0",
-   "status": "10/15 - 8:00 PM EDT",
+   "home_score": "4",
+   "status": "Top 5th",
    "date": "2026-10-16T00:00Z"
   }
  ],
@@ -118,8 +113,8 @@
   },
   {
    "gamePk": 849810,
-   "title": "ALL Calls of Brewers' back-to-back homers in Game 3",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/14/883b46c9-27299468-f5198b91-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Shohei Ohtani's three-run home run",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/15/3bc83ad3-36b8ed2e-eed465bc-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": {
@@ -136,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 722h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 724h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 43308
+   "data_age_min": 43434
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 722h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 724h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 43308
+   "data_age_min": 43434
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 722h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 724h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 43308
+   "data_age_min": 43434
   }
  ],
  "sources": {
@@ -162,5 +157,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Whoa, 13 Ks on the Rays\u2014betting line's downhill; time to adjust our game plan.  [brain]"
+ "script_hint": "Seahawks down 11 in half; WSH moneyline dropping\u2014talk about fortunes fluctuating faster than a ticker.  [brain]"
 }
