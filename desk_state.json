@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-16T01:41:06.646826+00:00",
+ "generated": "2026-10-16T06:25:46.541913+00:00",
  "version": 2,
- "ticker": "NFL: SEA 3 - DEN 14 Halftime  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
+ "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": null,
  "games": [
   {
    "league": "NFL",
    "name": "SEA @ DEN",
    "away": "SEA",
-   "away_score": "3",
+   "away_score": "14",
    "home": "DEN",
-   "home_score": "14",
-   "status": "Halftime",
+   "home_score": "17",
+   "status": "Final/OT",
    "date": "2026-10-16T00:15Z"
   },
   {
@@ -68,20 +68,20 @@
    "league": "NBA",
    "name": "TOR @ NY",
    "away": "TOR",
-   "away_score": "89",
+   "away_score": "120",
    "home": "NY",
-   "home_score": "94",
-   "status": "8:57 - 4th",
+   "home_score": "122",
+   "status": "Final",
    "date": "2026-10-15T23:30Z"
   },
   {
    "league": "NBA",
    "name": "OKC @ HOU",
    "away": "OKC",
-   "away_score": "47",
+   "away_score": "89",
    "home": "HOU",
-   "home_score": "54",
-   "status": "Halftime",
+   "home_score": "116",
+   "status": "Final",
    "date": "2026-10-16T00:30Z"
   },
   {
@@ -98,25 +98,14 @@
    "league": "MLB",
    "name": "MIL @ LAD",
    "away": "MIL",
-   "away_score": "3",
+   "away_score": "6",
    "home": "LAD",
    "home_score": "4",
-   "status": "Top 5th",
+   "status": "Final",
    "date": "2026-10-16T00:00Z"
   }
  ],
- "highlights": [
-  {
-   "gamePk": 849818,
-   "title": "Rays vs. Guardians Game 3 Highlights",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/15/0e3f6fa3-6c33d87a-379720cf-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
-  },
-  {
-   "gamePk": 849810,
-   "title": "Shohei Ohtani's three-run home run",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/15/3bc83ad3-36b8ed2e-eed465bc-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
-  }
- ],
+ "highlights": [],
  "season_profile": {
   "player": "Chase DeLauter",
   "team": "CLE",
@@ -131,24 +120,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 724h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 729h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 43434
+   "data_age_min": 43719
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 724h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 729h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 43434
+   "data_age_min": 43719
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 724h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 729h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 43434
+   "data_age_min": 43719
   }
  ],
  "sources": {
@@ -157,5 +146,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Seahawks down 11 in half; WSH moneyline dropping\u2014talk about fortunes fluctuating faster than a ticker.  [brain]"
+ "script_hint": "Seahawks nail OT win over Broncos; Houston, Chicago scoreless, DeLauter\u2019s .287 average sparks Philly hopes.  [brain]"
 }
