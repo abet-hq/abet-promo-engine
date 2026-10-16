@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T16:16:26.558545+00:00",
+ "generated": "2026-10-16T19:39:13.552505+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50196498",
-  "title": "NBA tells sportsbooks to stop certain bets, restrict parlays",
-  "source": "ESPN NBA",
-  "age_min": 5.18108885
+  "id": "espn:50197708",
+  "title": "Jalen Hurts' health bigger than football, as teammates, coach detail QB concern",
+  "source": "ESPN NFL",
+  "age_min": 1.1395883
  },
  "games": [
   {
@@ -151,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 738h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 742h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 44309
+   "data_age_min": 44512
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 738h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 742h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 44309
+   "data_age_min": 44512
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 738h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 742h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 44309
+   "data_age_min": 44512
   }
  ],
  "sources": {
@@ -177,5 +177,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "NBA drops parlay mania, yet WSH moneyline slams from 160 to 100 as NFL scorecards stay eerily flat.  [brain]"
+ "script_hint": "Hurts\u2019 health saga eclipses on\u2011field drama, while the Browns\u2019 money\u2011line swoop shows the market\u2019s restless appetite.  [brain]"
 }
