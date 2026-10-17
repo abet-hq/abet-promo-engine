@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T06:13:42.411342+00:00",
+ "generated": "2026-10-17T09:22:57.125620+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": null,
@@ -138,32 +138,32 @@
  "highlights": [
   {
    "gamePk": 849816,
-   "title": "Stephen Vogt on ALCS Game 4 being postponed",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/16/891da912-356587b2-2a7b4e9d-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Shawn Armstrong against the Rays",
+   "url": "https://darkroom-clips.mlb.com/04cc8290-f5ec-4c1c-a200-dddc100b7de1.mp4"
   }
  ],
  "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 752h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 756h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 45147
+   "data_age_min": 45336
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 752h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 756h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 45147
+   "data_age_min": 45336
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 752h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 756h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 45147
+   "data_age_min": 45336
   }
  ],
  "sources": {
@@ -172,5 +172,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Seattle squeaked out an OT loss while the Wolves line slams, and Vogt\u2019s ALCS shift? Unexpected.  [brain]"
+ "script_hint": "Seattle cut a comeback short, Houston\u2019s scoreless lull continues, Washington\u2019s underdog line drops fire\u2014Armstrong lights up the Rays.  [brain]"
 }
