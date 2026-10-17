@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T22:12:57.411381+00:00",
+ "generated": "2026-10-17T00:32:34.762564+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50198205",
-  "title": "Steve Lacy delights crowd with 'LeBron, LeBron, LeBron' cover of 'Oh Yeah?'",
+  "id": "espn:50198707",
+  "title": "Hagan, Basketball Hall of Famer and Kentucky legend, dies at 94",
   "source": "ESPN NBA",
-  "age_min": 26.09414175
+  "age_min": 30.086183683333335
  },
  "games": [
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "MIA @ ORL",
    "away": "MIA",
-   "away_score": "0",
+   "away_score": "67",
    "home": "ORL",
-   "home_score": "0",
-   "status": "10/16 - 7:00 PM EDT",
+   "home_score": "72",
+   "status": "11:05 - 3rd",
    "date": "2026-10-16T23:00Z"
   },
   {
    "league": "NBA",
    "name": "BOS @ PHI",
    "away": "BOS",
-   "away_score": "0",
+   "away_score": "59",
    "home": "PHI",
-   "home_score": "0",
-   "status": "10/16 - 7:00 PM EDT",
+   "home_score": "65",
+   "status": "9:53 - 3rd",
    "date": "2026-10-16T23:00Z"
   },
   {
    "league": "NBA",
    "name": "TOR @ DET",
    "away": "TOR",
-   "away_score": "0",
+   "away_score": "52",
    "home": "DET",
-   "home_score": "0",
-   "status": "10/16 - 7:00 PM EDT",
+   "home_score": "59",
+   "status": "Halftime",
    "date": "2026-10-16T23:00Z"
   },
   {
    "league": "NBA",
    "name": "MIL @ IND",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "69",
    "home": "IND",
-   "home_score": "0",
-   "status": "10/16 - 7:00 PM EDT",
+   "home_score": "84",
+   "status": "6:54 - 3rd",
    "date": "2026-10-16T23:00Z"
   },
   {
    "league": "NBA",
    "name": "ATL @ DAL",
    "away": "ATL",
-   "away_score": "0",
+   "away_score": "31",
    "home": "DAL",
-   "home_score": "0",
-   "status": "10/16 - 8:00 PM EDT",
+   "home_score": "28",
+   "status": "2:20 - 1st",
    "date": "2026-10-17T00:00Z"
   },
   {
    "league": "NBA",
    "name": "SAC @ SA",
    "away": "SAC",
-   "away_score": "0",
+   "away_score": "13",
    "home": "SA",
-   "home_score": "0",
-   "status": "10/16 - 8:00 PM EDT",
+   "home_score": "33",
+   "status": "3:57 - 1st",
    "date": "2026-10-17T00:00Z"
   },
   {
@@ -136,39 +136,39 @@
    "away_score": "0",
    "home": "CLE",
    "home_score": "0",
-   "status": "10/16 - 8:00 PM EDT",
+   "status": "Delayed, Top 1st",
    "date": "2026-10-17T00:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849817,
-   "title": "Shawn Armstrong against the Rays",
-   "url": "https://darkroom-clips.mlb.com/55aceb77-e21f-47b5-aabe-847280dab645.mp4"
+   "title": "Jes\u00fas Made's leadoff home run",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/16/e60617ab-66d42272-e66c11bb-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 744h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 747h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 44666
+   "data_age_min": 44806
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 744h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 747h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 44666
+   "data_age_min": 44806
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 744h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 747h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 44666
+   "data_age_min": 44806
   }
  ],
  "sources": {
@@ -177,5 +177,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Steve Lacy\u2019s \u201cLeBron, LeBron, LeBron\u201d cover lifts the mood, while the NFL gridiron remains as tight as ever.  [brain]"
+ "script_hint": "We mourn Hagan, yet games throw curveballs as Washington\u2019s odds swing and Jes\u00fas Made takes center stage.  [brain]"
 }
