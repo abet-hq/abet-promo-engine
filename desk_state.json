@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T18:43:43.820837+00:00",
+ "generated": "2026-10-17T21:01:57.197419+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50202598",
-  "title": "Bears CB Kyler Gordon set for 2026 debut after PUP activation",
+  "id": "espn:50201828",
+  "title": "Sources: Bears plan to start QB Caleb Williams in Week 6 vs. Falcons",
   "source": "ESPN NFL",
-  "age_min": 12.936492216666666
+  "age_min": 14.02060905
  },
  "games": [
   {
@@ -121,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 765h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 767h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 45897
+   "data_age_min": 46035
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 765h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 767h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 45897
+   "data_age_min": 46035
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 765h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 767h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 45897
+   "data_age_min": 46035
   }
  ],
  "sources": {
@@ -147,5 +147,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Kyler Gordon\u2019s debut lights the bench; with the Bears hard\u2011hitting, the 2026 chips could finally pay dividends.  [brain]"
+ "script_hint": "If Williams starts, Bears might blaze a trail\u2014or flicker like a neon sign during Falcons play.  [brain]"
 }
