@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T13:06:35.597708+00:00",
+ "generated": "2026-10-17T16:25:58.736769+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50200792",
-  "title": "Jags unlikely to play 3 international games in 2027 during EverBank renovations",
-  "source": "ESPN NFL",
-  "age_min": 39.487978516666665
+  "id": "espn:50201671",
+  "title": "76ers, needing frontcourt help, convert 7-foot-6 Tacko Fall to two-way contract",
+  "source": "ESPN NBA",
+  "age_min": 2.23359445
  },
  "games": [
   {
@@ -71,63 +71,33 @@
   },
   {
    "league": "NBA",
-   "name": "MIA @ ORL",
-   "away": "MIA",
-   "away_score": "115",
-   "home": "ORL",
-   "home_score": "136",
-   "status": "Final",
-   "date": "2026-10-16T23:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "BOS @ PHI",
+   "name": "BOS @ DET",
    "away": "BOS",
-   "away_score": "125",
-   "home": "PHI",
-   "home_score": "120",
-   "status": "Final/OT",
-   "date": "2026-10-16T23:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "TOR @ DET",
-   "away": "TOR",
-   "away_score": "125",
+   "away_score": "0",
    "home": "DET",
-   "home_score": "129",
-   "status": "Final",
-   "date": "2026-10-16T23:00Z"
+   "home_score": "0",
+   "status": "10/20 - 3:00 PM EDT",
+   "date": "2026-10-20T19:00Z"
   },
   {
    "league": "NBA",
-   "name": "MIL @ IND",
-   "away": "MIL",
-   "away_score": "128",
-   "home": "IND",
-   "home_score": "127",
-   "status": "Final/OT",
-   "date": "2026-10-16T23:00Z"
+   "name": "PHI @ NY",
+   "away": "PHI",
+   "away_score": "0",
+   "home": "NY",
+   "home_score": "0",
+   "status": "10/20 - 7:00 PM EDT",
+   "date": "2026-10-20T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "ATL @ DAL",
-   "away": "ATL",
-   "away_score": "135",
-   "home": "DAL",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-10-17T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "SAC @ SA",
-   "away": "SAC",
-   "away_score": "97",
+   "name": "OKC @ SA",
+   "away": "OKC",
+   "away_score": "0",
    "home": "SA",
-   "home_score": "126",
-   "status": "Final",
-   "date": "2026-10-17T00:00Z"
+   "home_score": "0",
+   "status": "10/20 - 9:30 PM EDT",
+   "date": "2026-10-21T01:30Z"
   },
   {
    "league": "MLB",
@@ -136,8 +106,8 @@
    "away_score": "0",
    "home": "CLE",
    "home_score": "0",
-   "status": "Postponed",
-   "date": "2026-10-17T00:00Z"
+   "status": "10/17 - 8:00 PM EDT",
+   "date": "2026-10-18T00:00Z"
   }
  ],
  "highlights": [
@@ -151,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 759h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 763h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 45559
+   "data_age_min": 45759
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 759h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 763h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 45559
+   "data_age_min": 45759
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 759h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 763h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 45559
+   "data_age_min": 45759
   }
  ],
  "sources": {
@@ -177,5 +147,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Jags sidelined, Washington\u2019s line heats up, and Shawn Armstrong crushes the Rays on the mound.  [brain]"
+ "script_hint": "Holy hoops! 76ers snag a sky\u2011high stop\u2011gap, Seahawks stumble OT, WSH odds shrink, Armstrong lights Rays.  [brain]"
 }
