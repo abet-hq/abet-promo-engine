@@ -130,13 +130,15 @@ def fetch_highlights_pool(history):
         for day_off in (0, -1):
             date = (today + timedelta(days=day_off)).strftime("%Y-%m-%d")
             d = get_json(f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={date}")
-            pks = []
+            pk_final, pk_preview = [], []
             for dt in d.get("dates", []):
                 for g in dt.get("games", []):
-                    if g.get("status", {}).get("abstractGameState") in ("Final", "Live", "Preview"):
-                        pks.append(g.get("gamePk"))
+                    st = g.get("status", {}).get("abstractGameState")
+                    if st in ("Final", "Live"): pk_final.append(g.get("gamePk"))
+                    elif st == "Preview": pk_preview.append(g.get("gamePk"))
+            pks = pk_final or pk_preview
             if pks:
-                log("mlb games", date, len(pks)); break
+                log("mlb games", date, len(pks), "final/live" if pk_final else "preview"); break
         # round-robin: rotate order by history cursor
         used = history.get("used_highlight_pks", [])
         ordered = [p for p in pks if p not in used] + [p for p in pks if p in used]
@@ -356,6 +358,11 @@ def main():
     games = fetch_scores()
     breaking, reddit_ok = fetch_news_breaking(history)
     highlights = fetch_highlights_pool(history)
+    if not highlights:
+        highlights = history.get("last_highlights", [])
+        if highlights: log("highlights carry-over (last known good):", len(highlights))
+    else:
+        history["last_highlights"] = highlights
     profile = fetch_season_profile(prefer_pk=highlights[0]["gamePk"] if highlights else None)
     abet = fetch_abet_lines()
 
