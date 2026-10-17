@@ -102,13 +102,13 @@
   "espn:50199875"
  ],
  "recent_topics": [
-  "Brewers claim NLCS, Guardians lead ALCS, NFL flippancy rules, WSH line drops, DeLauter smashes the plate.",
   "NBA drops parlay mania, yet WSH moneyline slams from 160 to 100 as NFL scorecards stay eerily flat.",
   "Hurts\u2019 health saga eclipses on\u2011field drama, while the Browns\u2019 money\u2011line swoop shows the market\u2019s restless appetite.",
   "Steve Lacy\u2019s \u201cLeBron, LeBron, LeBron\u201d cover lifts the mood, while the NFL gridiron remains as tight as ever.",
   "We mourn Hagan, yet games throw curveballs as Washington\u2019s odds swing and Jes\u00fas Made takes center stage.",
   "James, Embiid still chasing rhythm; WSH line slashes; NFL playoffs flatline; ALCS hits hold.",
   "Denver's boom, Lakers' careful, NFL still flat, but Vogt\u2019s ALCS postponement stalls the playoff pulse\u2014WSH odds slip.",
+  "Seattle squeaked out an OT loss while the Wolves line slams, and Vogt\u2019s ALCS shift? Unexpected.",
   "Seattle squeaked out an OT loss while the Wolves line slams, and Vogt\u2019s ALCS shift? Unexpected."
  ],
  "used_highlight_pks": [
@@ -116,5 +116,12 @@
   849810,
   849817,
   849816
+ ],
+ "last_highlights": [
+  {
+   "gamePk": 849816,
+   "title": "Stephen Vogt on ALCS Game 4 being postponed",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/16/891da912-356587b2-2a7b4e9d-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+  }
  ]
 }
