@@ -1,13 +1,8 @@
 {
- "generated": "2026-10-17T05:51:22.614315+00:00",
+ "generated": "2026-10-17T05:56:00.012793+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
- "breaking": {
-  "id": "espn:50199875",
-  "title": "Denver Nuggets vs. Los Angeles Lakers: Game Highlights",
-  "source": "ESPN NBA",
-  "age_min": 37.884931599999994
- },
+ "breaking": null,
  "games": [
   {
    "league": "NFL",
@@ -154,21 +149,21 @@
    "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 752h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 45125
+   "data_age_min": 45129
   },
   {
    "event": "PHI @ WSH",
    "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 752h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 45125
+   "data_age_min": 45129
   },
   {
    "event": "PHI @ WSH",
    "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 752h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 45125
+   "data_age_min": 45129
   }
  ],
  "sources": {
@@ -177,5 +172,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Denver's boom, Lakers' careful, NFL still flat, but Vogt\u2019s ALCS postponement stalls the playoff pulse\u2014WSH odds slip.  [brain]"
+ "script_hint": "Seattle squeaked out an OT loss while the Wolves line slams, and Vogt\u2019s ALCS shift? Unexpected.  [brain]"
 }
