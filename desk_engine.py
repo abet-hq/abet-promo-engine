@@ -142,7 +142,7 @@ def fetch_highlights_pool(history):
         # round-robin: rotate order by history cursor
         used = history.get("used_highlight_pks", [])
         ordered = [p for p in pks if p not in used] + [p for p in pks if p in used]
-        NOT_A_CLIP = re.compile(r"bench|availability|lineup|probable|pregame|injur|weather|roster|transaction|interview|press conference|alignment|warmup|first pitch|national anthem|lineup card", re.I)
+        NOT_A_CLIP = re.compile(r"bench|availability|lineup|probable|pregame|injur|weather|roster|transaction|interview|press conference|alignment|warmup|first pitch|national anthem|lineup card|postponed|discusses|talks|reacts|previews", re.I)
         for pk in ordered[:3]:
             try:
                 c = get_json(f"https://statsapi.mlb.com/api/v1/game/{pk}/content")

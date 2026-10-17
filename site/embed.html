@@ -2,33 +2,62 @@
 <style>
 html,body{margin:0;height:100%;background:#000;overflow:hidden;
   display:flex;align-items:center;justify-content:center;}
-/* THE PLAYER: a regular 16:9 box, golden rounded edge, centered on the page. */
-#frame{position:relative;overflow:hidden;background:#050505;
-  width:min(calc(100vw - 24px), calc((100vh - 24px) * 16 / 9), 960px);
-  aspect-ratio:16/9;
+/* WRAP: player + caption pill beneath it */
+#wrap{display:flex;flex-direction:column;align-items:center;gap:14px;
+  width:min(calc(100vw - 24px), calc((100vh - 110px) * 16 / 9), 960px);}
+/* THE PLAYER: regular 16:9 box, golden rounded edge. Contains ONLY highlights + talent. */
+#frame{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;background:#050505;
   border:3px solid #e6b93f;border-radius:24px;
   box-shadow:0 0 0 1px rgba(255,220,130,.28), 0 0 26px rgba(230,185,63,.20);}
-/* AVATAR: streamer corner cutout, right side, standing on the bottom edge. */
-.vid{position:absolute;bottom:0;right:2%;height:82%;width:auto;display:block;
+#bgv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  filter:brightness(.52) saturate(.95);opacity:0;transition:opacity .45s ease;}
+#bgv.show{opacity:1;}
+/* TALENT: corner cutout, side alternates randomly per segment */
+.vid{position:absolute;bottom:0;height:82%;width:auto;display:block;z-index:2;
   opacity:0;transition:opacity .55s ease;
   filter:drop-shadow(0 6px 14px rgba(0,0,0,.5));}
+.vid.side-left{left:2%;right:auto;}
+.vid.side-right{right:2%;left:auto;}
 .vid.front{opacity:1;}
+/* CAPTION PILL: golden glowing, BENEATH the player (outside the border) */
+#captionpill{display:flex;justify-content:center;width:100%;min-height:46px;}
+#captionpill span{display:inline-block;max-width:100%;box-sizing:border-box;
+  padding:10px 24px;border-radius:999px;border:2px solid #e6b93f;
+  background:rgba(0,0,0,.74);color:#fff;font-family:Impact,'Arial Black',Arial,sans-serif;
+  font-style:italic;font-size:clamp(13px,2vw,21px);letter-spacing:.5px;text-align:center;
+  text-shadow:0 2px 6px #000;
+  box-shadow:0 0 20px rgba(230,185,63,.55), 0 0 5px rgba(230,185,63,.65);
+  opacity:0;transition:opacity .25s;}
+#captionpill span.show{opacity:1;}
 </style></head><body>
-<div id="frame">
-  <video id="va" class="vid front" muted playsinline></video>
-  <video id="vb" class="vid" muted playsinline></video>
+<div id="wrap">
+  <div id="frame">
+    <video id="bgv" muted loop playsinline></video>
+    <video id="va" class="vid" muted playsinline></video>
+    <video id="vb" class="vid" muted playsinline></video>
+  </div>
+  <div id="captionpill"><span id="captext"></span></div>
 </div>
 <script>
 const params = new URLSearchParams(location.search);
 const va = document.getElementById('va'), vb = document.getElementById('vb');
-let segs = [], idx = 0, front = va, back = vb, switching = false;
+const bgv = document.getElementById('bgv'), captext = document.getElementById('captext');
+let segs = [], hi = [], hiIdx = 0, idx = 0, front = va, back = vb, switching = false, frontSeg = null;
+function pickSide(el){ el.classList.toggle('side-left', Math.random() < 0.5); el.classList.toggle('side-right', !el.classList.contains('side-left')); }
 async function boot(){
-  let st; try { st = await (await fetch('state.json', {cache:'no-store'})).json(); } catch(e){ st = {segments: []}; }
+  let st = {segments: []}, desk = null;
+  try { st = await (await fetch('state.json', {cache:'no-store'})).json(); } catch(e){}
+  try { const dr = await fetch('desk_state.json', {cache:'no-store'}); if (dr.ok) desk = await dr.json(); } catch(e){}
   segs = (st.segments || []).filter(s => s.clip);
+  hi = ((desk && desk.highlights) || []).map(h => h.url).filter(Boolean);
+  if (hi.length) { bgv.src = hi[0]; bgv.play().then(()=>bgv.classList.add('show')).catch(()=>{}); }
+  bgv.addEventListener('error', () => { if (hi.length > 1) { hiIdx = (hiIdx + 1) % hi.length; bgv.src = hi[hiIdx]; bgv.play().catch(()=>{}); } else { bgv.classList.remove('show'); } });
   if (!segs.length) return;
   if (params.get('sound') === '1'){ va.muted = false; vb.muted = false; }
+  pickSide(front);
+  frontSeg = segs[0];
   load(front, segs[0]);
-  setInterval(checkEnd, 200);
+  setInterval(() => { checkEnd(); tickCaption(); }, 150);
 }
 function load(v, seg){ v.src = seg.clip; v.currentTime = 0; v.play().catch(()=>{}); }
 function checkEnd(){
@@ -39,13 +68,28 @@ function advance(){
   if (switching || !segs.length) return;
   switching = true;
   idx = (idx + 1) % segs.length;
-  load(back, segs[idx]);
+  const incoming = segs[idx];
+  pickSide(back);
+  load(back, incoming);
+  if (hi.length){
+    hiIdx = (hiIdx + 1) % hi.length;
+    bgv.classList.remove('show');
+    setTimeout(() => { bgv.src = hi[hiIdx]; bgv.play().then(()=>bgv.classList.add('show')).catch(()=>{}); }, 180);
+  }
   requestAnimationFrame(() => { back.classList.add('front'); front.classList.remove('front'); });
   setTimeout(() => {
     const t = front; front = back; back = t;
+    frontSeg = incoming;
     setTimeout(() => { try { back.pause(); } catch(e){} }, 150);
     switching = false;
   }, 620);
+}
+function tickCaption(){
+  const seg = frontSeg;
+  const t = front.currentTime || 0;
+  const s = seg && (seg.captions || []).find(x => t >= x[1] && t <= x[2]);
+  if (s){ if (captext.textContent !== s[0]) captext.textContent = s[0]; captext.classList.add('show'); }
+  else captext.classList.remove('show');
 }
 boot();
 </script></body></html>
