@@ -1,44 +1,14 @@
 {
- "generated": "2026-10-18T21:54:21.391309+00:00",
+ "generated": "2026-10-18T23:58:26.680659+00:00",
  "version": 2,
- "ticker": "NFL: ARI 12 - LAR 9 5:56 - 3rd  //  NFL: LAC 3 - KC 19 Halftime  //  NFL: BUF 13 - LV 13 Halftime  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final",
+ "ticker": "NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final  //  NFL: TEN 26 - IND 20 Final  //  NFL: NYJ 19 - NE 26 Final",
  "breaking": {
-  "id": "espn:50213488",
-  "title": "Steelers' Aaron Rogers throws two TDs to tie Peyton Manning on all-time list",
+  "id": "espn:50214776",
+  "title": "Buffalo Bills vs. Las Vegas Raiders: Game Highlights",
   "source": "ESPN NFL",
-  "age_min": 1.0426649333333333
+  "age_min": 1.4077686999999999
  },
  "games": [
-  {
-   "league": "NFL",
-   "name": "ARI @ LAR",
-   "away": "ARI",
-   "away_score": "12",
-   "home": "LAR",
-   "home_score": "9",
-   "status": "5:56 - 3rd",
-   "date": "2026-10-18T20:05Z"
-  },
-  {
-   "league": "NFL",
-   "name": "LAC @ KC",
-   "away": "LAC",
-   "away_score": "3",
-   "home": "KC",
-   "home_score": "19",
-   "status": "Halftime",
-   "date": "2026-10-18T20:25Z"
-  },
-  {
-   "league": "NFL",
-   "name": "BUF @ LV",
-   "away": "BUF",
-   "away_score": "13",
-   "home": "LV",
-   "home_score": "13",
-   "status": "Halftime",
-   "date": "2026-10-18T20:25Z"
-  },
   {
    "league": "NFL",
    "name": "HOU VS JAX",
@@ -66,6 +36,36 @@
    "away_score": "10",
    "home": "CLE",
    "home_score": "13",
+   "status": "Final",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "TEN @ IND",
+   "away": "TEN",
+   "away_score": "26",
+   "home": "IND",
+   "home_score": "20",
+   "status": "Final",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "NYJ @ NE",
+   "away": "NYJ",
+   "away_score": "19",
+   "home": "NE",
+   "home_score": "26",
+   "status": "Final",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "NO @ NYG",
+   "away": "NO",
+   "away_score": "34",
+   "home": "NYG",
+   "home_score": "27",
    "status": "Final",
    "date": "2026-10-18T17:00Z"
   },
@@ -103,52 +103,52 @@
    "league": "MLB",
    "name": "TB @ CLE",
    "away": "TB",
-   "away_score": "2",
+   "away_score": "3",
    "home": "CLE",
-   "home_score": "0",
-   "status": "Top 3rd",
+   "home_score": "1",
+   "status": "Bot 9th",
    "date": "2026-10-18T21:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849817,
-   "title": "Jonathan Aranda's RBI single",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/18/676bbced-61e55c79-61ec9174-csvm-diamondgcp-asset-4000K.mp4"
+   "title": "Liam Hicks' RBI single ",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/18/44434965-0cca231b-3dfbd2e1-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": {
-  "player": "Chandler Simpson",
+  "player": "Jonathan Aranda",
   "team": "TB",
-  "avg": ".306",
-  "hr": 0,
-  "rbi": 38,
-  "hits": 175,
-  "ops": ".689",
+  "avg": ".274",
+  "hr": 22,
+  "rbi": 92,
+  "hits": 159,
+  "ops": ".792",
   "gamePk": 849817,
   "source": "statsapi /people/season"
  },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 792h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 794h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 47528
+   "data_age_min": 47652
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 792h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 794h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 47528
+   "data_age_min": 47652
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 792h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 794h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 47528
+   "data_age_min": 47652
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Steelers' Aaron Rogers throws two TDs to tie Peyton Manning on all-time list",
-  "ARI 12 - LAR 9 (5:56 - 3rd)",
-  "LAC 3 - KC 19 (Halftime)",
-  "BUF 13 - LV 13 (Halftime)",
+  "BREAKING: Buffalo Bills vs. Las Vegas Raiders: Game Highlights",
   "HOU 34 - JAX 31 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 792h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 792h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 792h old]",
-  "Chandler Simpson AVG .306 HR 0",
-  "HIGHLIGHT: Jonathan Aranda's RBI single",
-  "Jonathan Aranda\u2019s single rattles the bases\u2014pure, clutch RBI that lights up the whole arena!"
+  "CHI 31 - ATL 23 (Final)",
+  "BAL 10 - CLE 13 (Final)",
+  "TEN 26 - IND 20 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 794h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 794h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 794h old]",
+  "Jonathan Aranda AVG .274 HR 22",
+  "HIGHLIGHT: Liam Hicks' RBI single ",
+  "That RBI single from Liam Hicks turns the batter into a machine\u2014Vegas suddenly feels like a brick field!"
  ],
- "script_hint": "Jonathan Aranda\u2019s single rattles the bases\u2014pure, clutch RBI that lights up the whole arena!  [brain]"
+ "script_hint": "That RBI single from Liam Hicks turns the batter into a machine\u2014Vegas suddenly feels like a brick field!  [brain]"
 }
