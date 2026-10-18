@@ -166,9 +166,12 @@ async function pollDesk(){
       // chat line
       const cl = document.getElementById('chatline');
       if(cl && s.chat && s.chat.length) cl.textContent = s.chat[s.chat.length-1];
-      // highlights refresh
+      // highlights refresh - swap background to match what anchor is talking about
       const deskHi = ((s.highlights) || []).map(h => h.url).filter(Boolean);
-      if(deskHi.length){ hi = [...deskHi, ...hi].filter((u,i,a)=>a.indexOf(u)===i); }
+      if(deskHi.length){ 
+        hi = [...deskHi, ...hi].filter((u,i,a)=>a.indexOf(u)===i);
+        if(bgv.src !== hi[0]){ bgv.classList.remove('show'); setTimeout(()=>{ bgv.src=hi[0]; bgv.play().then(()=>bgv.classList.add('show')).catch(()=>{}); }, 200); }
+      }
     }
   }catch(e){ /* silent retry */ }
 }

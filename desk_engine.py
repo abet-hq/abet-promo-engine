@@ -427,6 +427,22 @@ def pick_script_hint(games, breaking, highlights, profile, abet, history):
             return line
     return pool[0]
 
+
+def _build_ticker(breaking, games, abet, profile, hint):
+    """Build dynamic ticker items from all current content."""
+    items = []
+    if breaking and breaking.get("title"):
+        items.append("BREAKING: " + breaking["title"])
+    for g in games[:4]:
+        items.append(g["away"] + " " + str(g["away_score"]) + " - " + g["home"] + " " + str(g["home_score"]) + " (" + g.get("status", "") + ")")
+    for l in abet[:3]:
+        items.append(l["note"])
+    if profile and profile.get("player"):
+        items.append(profile["player"] + " AVG " + str(profile.get("avg", "")) + " HR " + str(profile.get("hr", "")))
+    if hint:
+        items.append(hint.replace("  [brain]", ""))
+    return items
+
 def main():
     history = load_history()
     games = fetch_scores()
@@ -478,6 +494,7 @@ def main():
         "abet_lines": abet,
         "sources": {"espn": True, "reddit": reddit_ok, "mlb_statsapi": bool(highlights or profile), "abet_board": bool(abet)},
         "chat": fetch_chat_lines(),
+        "ticker_items": _build_ticker(breaking, games, abet, profile, hint),
         "script_hint": hint,
     }
     json.dump(state, open(OUT, "w", encoding="utf-8"), indent=1)
