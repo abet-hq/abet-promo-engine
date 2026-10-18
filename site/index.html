@@ -1,4 +1,5 @@
 <!doctype html><html><head><meta charset="utf-8"><title>ABET SPORTS DESK</title>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@400;700&display=swap" rel="stylesheet">
 <style>
 html,body{margin:0;height:100%;background:#000;overflow:hidden;
   display:flex;align-items:center;justify-content:center;}
@@ -29,8 +30,11 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;
 /* TICKER: ABET line moves scrolling */
 #ticker{width:100%;height:28px;overflow:hidden;background:rgba(0,0,0,.85);
   border-top:1px solid rgba(230,185,63,.3);border-radius:0 0 8px 8px;}
-#tk-track{white-space:nowrap;color:#00ff41;font:500 14px/28px 'Courier New',monospace;
-  padding:0 12px;animation:scroll 30s linear infinite;text-shadow:0 0 4px #00ff41;}
+#tk-track{white-space:nowrap;color:#00ff41;font:700 16px/28px 'Doto',monospace;
+  padding:0 12px;animation:scroll 30s linear infinite;
+  text-shadow:0 0 2px #00ff41, 0 0 6px #00ff41, 0 0 10px rgba(0,255,65,.4);
+  letter-spacing:2px;}
+#tk-track .red{color:#ff3333;text-shadow:0 0 2px #ff3333, 0 0 6px #ff3333, 0 0 10px rgba(255,51,51,.4);}
 #tk-track .red{color:#ff3333;text-shadow:0 0 4px #ff3333;}
 @keyframes scroll{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
 /* STATSBAR: scoreboard + stats below ticker */
@@ -53,9 +57,9 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;
 </style></head><body>
 <div id="wrap">
   <div id="frame">
-    <video id="bgv" muted loop playsinline></video>
-    <video id="va" class="vid" muted playsinline></video>
-    <video id="vb" class="vid" muted playsinline></video>
+    <video id="bgv" muted loop playsinline preload="auto"></video>
+    <video id="va" class="vid" muted playsinline preload="auto"></video>
+    <video id="vb" class="vid" muted playsinline preload="auto"></video>
   </div>
   <div id="captionpill"><span id="captext"></span></div>
 <div id="ticker"><div id="tk-track"></div></div>
@@ -92,8 +96,8 @@ async function boot(){
   if (!segs.length) return;
   if (params.get('sound') === '1') setSound(true);
   pickSide(front);
-  frontSeg = segs[0];
   load(front, segs[0]);
+  front.addEventListener('playing', () => { frontSeg = segs[0]; }, {once: true});
   setInterval(() => { checkEnd(); tickCaption(); }, 150);
 }
 function load(v, seg){ v.src = seg.clip; v.currentTime = 0; v.play().catch(()=>{}); }
@@ -129,6 +133,7 @@ function advance(){
   }, FADE_MS + 80);
 }
 function tickCaption(){
+  if (!frontSeg || front.paused || front.readyState < 3) return;
   const seg = frontSeg;
   const t = front.currentTime || 0;
   const s = ccOn && seg && (seg.captions || []).find(x => t >= x[1] && t <= x[2]);
