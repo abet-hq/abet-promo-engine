@@ -1,22 +1,22 @@
 {
- "generated": "2026-10-18T10:35:02.075522+00:00",
+ "generated": "2026-10-18T14:10:26.323995+00:00",
  "version": 2,
- "ticker": "NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT  //  NFL: NYJ 0 - NE 0 10/18 - 1:00 PM EDT",
+ "ticker": "NFL: HOU 7 - JAX 0 0:15 - 1st  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT  //  NFL: NYJ 0 - NE 0 10/18 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50197687",
-  "title": "Ranking the top 10 rookie performances in Super Bowl history",
+  "id": "espn:50209856",
+  "title": "Week 6 NFL highlights: Best plays, moments, touchdowns, more",
   "source": "ESPN NFL",
-  "age_min": 8.960754316666668
+  "age_min": 5.629036666666667
  },
  "games": [
   {
    "league": "NFL",
    "name": "HOU VS JAX",
    "away": "HOU",
-   "away_score": "0",
+   "away_score": "7",
    "home": "JAX",
    "home_score": "0",
-   "status": "10/18 - 9:30 AM EDT",
+   "status": "0:15 - 1st",
    "date": "2026-10-18T13:30Z"
   },
   {
@@ -121,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 781h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 784h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 46848
+   "data_age_min": 47063
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 781h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 784h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 46848
+   "data_age_min": 47063
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 781h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 784h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 46848
+   "data_age_min": 47063
   }
  ],
  "sources": {
@@ -149,16 +149,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Ranking the top 10 rookie performances in Super Bowl history",
-  "HOU 0 - JAX 0 (10/18 - 9:30 AM EDT)",
+  "BREAKING: Week 6 NFL highlights: Best plays, moments, touchdowns, more",
+  "HOU 7 - JAX 0 (0:15 - 1st)",
   "CHI 0 - ATL 0 (10/18 - 1:00 PM EDT)",
   "BAL 0 - CLE 0 (10/18 - 1:00 PM EDT)",
   "TEN 0 - IND 0 (10/18 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 781h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 781h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 781h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 784h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 784h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 784h old]",
   "HIGHLIGHT: Drew Rasmussen against the Guardians",
-  "Drew Rasmussen\u2019s slick grab turned a lethal play into a defensive masterpiece\u2014Guardian\u2019s nightmare."
+  "Rasmussen's ninth\u2011inning flicker froze a daring base\u2011steal, sealing a dramatic Guardians win."
  ],
- "script_hint": "Drew Rasmussen\u2019s slick grab turned a lethal play into a defensive masterpiece\u2014Guardian\u2019s nightmare.  [brain]"
+ "script_hint": "Rasmussen's ninth\u2011inning flicker froze a daring base\u2011steal, sealing a dramatic Guardians win.  [brain]"
 }
