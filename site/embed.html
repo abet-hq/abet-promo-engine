@@ -74,28 +74,30 @@ const params = new URLSearchParams(location.search);
 const va = document.getElementById('va'), vb = document.getElementById('vb');
 const bgv = document.getElementById('bgv'), captext = document.getElementById('captext');
 let segs = [], hi = [], hiIdx = 0, idx = 0, front = va, back = vb, switching = false, frontSeg = null;
+let stateClips = [];
 let playsDone = 0, ccOn = true, soundOn = false;
 const PLAYS_PER_SEGMENT = 3;     // anti-frantic: each segment repeats 3x before rotating
 const FADE_MS = 1100;
 function pickSide(el){ el.classList.toggle('side-left', Math.random() < 0.5); el.classList.toggle('side-right', !el.classList.contains('side-left')); }
 async function boot(){
-  let st = {segments: []}, desk = null;
-  try { st = await (await fetch('state.json', {cache:'no-store'})).json(); } catch(e){}
+  let desk = null;
   try { const dr = await fetch('desk_state.json', {cache:'no-store'}); if (dr.ok) desk = await dr.json(); } catch(e){}
-  segs = (st.segments || []).filter(s => s.clip);
   let fb = [];
   try { const fr = await fetch('highlights_fallback.json', {cache:'no-store'}); if (fr.ok) fb = (await fr.json()).map(x => x.url).filter(Boolean); } catch(e){}
   const deskHi = ((desk && desk.highlights) || []).map(h => h.url).filter(Boolean);
   hi = [...deskHi, ...fb].filter((u, i, a) => a.indexOf(u) === i);
   if (hi.length) { bgv.src = hi[0]; bgv.play().then(()=>bgv.classList.add('show')).catch(()=>{}); }
   bgv.addEventListener('error', () => { if (hi.length > 1) { hiIdx = (hiIdx + 1) % hi.length; bgv.src = hi[hiIdx]; bgv.play().catch(()=>{}); } else { bgv.classList.remove('show'); } });
-  if (!segs.length) return;
+  // No canned segments - only highlights + anchor clips
   if (params.get('sound') === '1') setSound(true);
-  pickSide(front);
-  front.classList.add('front');
-  load(front, segs[0]);
-  front.addEventListener('playing', () => { frontSeg = segs[0]; }, {once: true});
-  setInterval(() => { checkEnd(); tickCaption(); }, 150);
+  // Show first available anchor clip if any exist
+  if (stateClips.length) {
+    pickSide(front);
+    front.classList.add('front');
+    front.src = stateClips[0]; front.currentTime = 0; front.play().catch(()=>{});
+    front.addEventListener('playing', () => { frontSeg = {clip: stateClips[0], captions: [[desk && desk.script_hint || '', 0, 999]]}; }, {once: true});
+  }
+  setInterval(() => { tickCaption(); rotateHighlight(); }, 150);
 }
 function load(v, seg){ v.src = seg.clip; v.currentTime = 0; v.play().catch(()=>{}); }
 function checkEnd(){
@@ -128,6 +130,14 @@ function advance(){
     setTimeout(() => { try { back.pause(); } catch(e){} }, 200);
     switching = false;
   }, FADE_MS + 80);
+}
+function rotateHighlight(){
+  if (!hi.length || switching) return;
+  if (bgv.ended || bgv.currentTime >= (bgv.duration || 999) - 1) {
+    hiIdx = (hiIdx + 1) % hi.length;
+    bgv.classList.remove('show');
+    setTimeout(() => { bgv.src = hi[hiIdx]; bgv.play().then(()=>bgv.classList.add('show')).catch(()=>{}); }, 220);
+  }
 }
 function tickCaption(){
   if (!frontSeg || front.paused || front.readyState < 3) return;
@@ -169,6 +179,8 @@ async function pollDesk(){
       if(cl && s.chat && s.chat.length) cl.textContent = s.chat[s.chat.length-1];
       // highlights refresh - swap background to match what anchor is talking about
       const deskHi = ((s.highlights) || []).map(h => h.url).filter(Boolean);
+      // update anchor clips if available
+      if (s.clips && s.clips.length) stateClips = s.clips;
       if(deskHi.length){ 
         hi = [...deskHi, ...hi].filter((u,i,a)=>a.indexOf(u)===i);
         if(bgv.src !== hi[0]){ bgv.classList.remove('show'); setTimeout(()=>{ bgv.src=hi[0]; bgv.play().then(()=>bgv.classList.add('show')).catch(()=>{}); }, 200); }

@@ -348,10 +348,10 @@ def brain_take(facts, highlights=None):
                     "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
                     "messages": [{"role": "user", "content": (
                         "You are the sharp, witty anchor of the ABET Sports Desk on live TV. "
-                        "The highlight playing behind you is: " + ((highlights or [{}])[0].get("title", "a game highlight")) + ". "
-                        "Write ONE punchy spoken sentence, max 20 words, reacting to THAT highlight like a real "
-                        "SportsCenter anchor. Be specific, opinionated, never repeat facts verbatim, no lists, "
-                        "no emojis, no hashtags. Context: " + facts
+                        "The ONLY highlight playing behind you is: " + ((highlights or [{}])[0].get("title", "a game highlight")) + ". "
+                        "Write ONE punchy spoken sentence, max 20 words, reacting ONLY to THAT highlight like a real "
+                        "SportsCenter anchor. Do NOT talk about anything else. Be specific, opinionated, "
+                        "never repeat facts verbatim, no lists, no emojis, no hashtags. Context: " + facts
                     )}],
                     "max_tokens": 2000,
                     "chat_template_kwargs": {"enable_thinking": True},
@@ -379,10 +379,10 @@ def brain_take(facts, highlights=None):
     for attempt in (1, 2):
         try:
             q = ("You are the sharp, witty anchor of the ABET Sports Desk on live TV. "
-                 "The highlight playing behind you is: " + ((highlights or [{}])[0].get("title", "a game highlight")) + ". "
-                 "Write ONE punchy spoken sentence, max 20 words, reacting to THAT highlight like a real "
-                 "SportsCenter anchor. Be specific, opinionated, never repeat facts verbatim, no lists, "
-                 "no emojis. Context: " + facts)
+                 "The ONLY highlight playing behind you is: " + ((highlights or [{}])[0].get("title", "a game highlight")) + ". "
+                 "Write ONE punchy spoken sentence, max 20 words, reacting ONLY to THAT highlight like a real "
+                 "SportsCenter anchor. Do NOT talk about anything else. Be specific, opinionated, "
+                 "never repeat facts verbatim, no lists, no emojis. Context: " + facts)
             url = "https://text.pollinations.ai/" + urllib.parse.quote(q, safe="")
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=35) as r:

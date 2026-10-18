@@ -1,19 +1,9 @@
 {
- "generated": "2026-10-18T03:57:55.017945+00:00",
+ "generated": "2026-10-18T05:15:32.956919+00:00",
  "version": 2,
- "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
+ "ticker": "NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT  //  NFL: NYJ 0 - NE 0 10/18 - 1:00 PM EDT",
  "breaking": null,
  "games": [
-  {
-   "league": "NFL",
-   "name": "SEA @ DEN",
-   "away": "SEA",
-   "away_score": "14",
-   "home": "DEN",
-   "home_score": "17",
-   "status": "Final/OT",
-   "date": "2026-10-16T00:15Z"
-  },
   {
    "league": "NFL",
    "name": "HOU VS JAX",
@@ -65,6 +55,16 @@
    "date": "2026-10-18T17:00Z"
   },
   {
+   "league": "NFL",
+   "name": "NO @ NYG",
+   "away": "NO",
+   "away_score": "0",
+   "home": "NYG",
+   "home_score": "0",
+   "status": "10/18 - 1:00 PM EDT",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
    "league": "NBA",
    "name": "BOS @ DET",
    "away": "BOS",
@@ -107,43 +107,33 @@
  ],
  "highlights": [
   {
-   "gamePk": 849816,
-   "title": "Jonathan Aranda's three-hit, two-RBI game",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/17/e6301571-e51dab36-ff297ae5-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849817,
+   "title": "Drew Rasmussen against the Guardians",
+   "url": "https://darkroom-clips.mlb.com/52f282ab-d418-42fb-a407-c576f18a7d90.mp4"
   }
  ],
- "season_profile": {
-  "player": "Yandy D\u00edaz",
-  "team": "TB",
-  "avg": ".293",
-  "hr": 22,
-  "rbi": 85,
-  "hits": 180,
-  "ops": ".805",
-  "gamePk": 849816,
-  "source": "statsapi /people/season"
- },
+ "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 774h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 775h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 46451
+   "data_age_min": 46529
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 774h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 775h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 46451
+   "data_age_min": 46529
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 774h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 775h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 46451
+   "data_age_min": 46529
   }
  ],
  "sources": {
@@ -154,16 +144,15 @@
  },
  "chat": [],
  "ticker_items": [
-  "SEA 14 - DEN 17 (Final/OT)",
   "HOU 0 - JAX 0 (10/18 - 9:30 AM EDT)",
   "CHI 0 - ATL 0 (10/18 - 1:00 PM EDT)",
   "BAL 0 - CLE 0 (10/18 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 774h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 774h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 774h old]",
-  "Yandy D\u00edaz AVG .293 HR 22",
-  "HIGHLIGHT: Jonathan Aranda's three-hit, two-RBI game",
-  "Aranda raked three times and drove in a pair\u2014this guy belongs in the everyday lineup."
+  "TEN 0 - IND 0 (10/18 - 1:00 PM EDT)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 775h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 775h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 775h old]",
+  "HIGHLIGHT: Drew Rasmussen against the Guardians",
+  "Rasmussen got shelled by the Guardians, proving he's not the stopper Tampa needs."
  ],
- "script_hint": "Aranda raked three times and drove in a pair\u2014this guy belongs in the everyday lineup.  [brain]"
+ "script_hint": "Rasmussen got shelled by the Guardians, proving he's not the stopper Tampa needs.  [brain]"
 }
