@@ -91,6 +91,7 @@ async function boot(){
   if (!segs.length) return;
   if (params.get('sound') === '1') setSound(true);
   pickSide(front);
+  front.classList.add('front');
   load(front, segs[0]);
   front.addEventListener('playing', () => { frontSeg = segs[0]; }, {once: true});
   setInterval(() => { checkEnd(); tickCaption(); }, 150);
@@ -156,8 +157,8 @@ async function pollDesk(){
     const s = await r.json();
     if(!deskState || s.generated !== deskState.generated){
       deskState = s;
-      // captions - only show when an anchor is actually on screen
-      if(s.script_hint && frontSeg){ captext.textContent = s.script_hint; captext.classList.add('show'); }
+      // captions - only show when an anchor is actually visible on screen
+      if(s.script_hint && frontSeg && front.classList.contains('front')){ captext.textContent = s.script_hint; captext.classList.add('show'); }
 
       // ticker
       const tk = document.getElementById('tk-track');
