@@ -1,13 +1,8 @@
 {
- "generated": "2026-10-17T23:08:48.339848+00:00",
+ "generated": "2026-10-18T01:04:15.470730+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
- "breaking": {
-  "id": "espn:50205015",
-  "title": "49ers rule out Bosa for Monday, still hopeful for Evans, Juszczyk",
-  "source": "ESPN NFL",
-  "age_min": 9.923452950000001
- },
+ "breaking": null,
  "games": [
   {
    "league": "NFL",
@@ -103,42 +98,52 @@
    "league": "MLB",
    "name": "TB @ CLE",
    "away": "TB",
-   "away_score": "0",
+   "away_score": "1",
    "home": "CLE",
-   "home_score": "0",
-   "status": "10/17 - 8:00 PM EDT",
+   "home_score": "1",
+   "status": "Top 4th",
    "date": "2026-10-18T00:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849816,
-   "title": "Shawn Armstrong against the Rays",
-   "url": "https://darkroom-clips.mlb.com/04cc8290-f5ec-4c1c-a200-dddc100b7de1.mp4"
+   "title": "Chase DeLauter's RBI single",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/17/056a85f3-427c36b2-de818f48-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
- "season_profile": null,
+ "season_profile": {
+  "player": "Steven Kwan",
+  "team": "CLE",
+  "avg": ".282",
+  "hr": 3,
+  "rbi": 32,
+  "hits": 152,
+  "ops": ".731",
+  "gamePk": 849816,
+  "source": "statsapi /people/season"
+ },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 769h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 771h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 46162
+   "data_age_min": 46277
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 769h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 771h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 46162
+   "data_age_min": 46277
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 769h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 771h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 46162
+   "data_age_min": 46277
   }
  ],
  "sources": {
@@ -147,5 +152,5 @@
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Bosa's out but 49ers cling to hope\u2014league still brewing, and WSH moneyline dives for fans.  [brain]"
+ "script_hint": "Sew\u2019s OT win drops Denver\u2019s hopes, Ravens\u2019 moneyline swings down, while Kwan\u2019s 3\u2011HR burst keeps Sunday buzzing.  [brain]"
 }
