@@ -113,6 +113,21 @@ def fetch_news_breaking(history):
                               "score": p.get("score", 0)})
         except Exception as e:
             log("reddit fail", sub, e)
+    # Google News RSS (free, no auth, fallback for Reddit 403)
+    try:
+        import xml.etree.ElementTree as ET
+        url = "https://news.google.com/rss/search?q=sports+NBA+NFL+MLB&hl=en-US&gl=US&ceid=US:en"
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=15) as r:
+            tree = ET.fromstring(r.read())
+        for item in tree.findall(".//item")[:10]:
+            title = item.findtext("title", "")
+            if title:
+                cands.append({"id": "gnews:" + title[:40], "title": title,
+                              "source": "Google News", "age_min": 30, "score": 0})
+        reddit_ok = True
+        log("google news rss: ok")
+    except Exception as e:
+        log("google news rss fail:", e)
     fresh = [c for c in cands if c["age_min"] < BREAKING_MIN and c["id"] not in set(history["seen_news_ids"])]
     fresh.sort(key=lambda c: (c["age_min"] - 0.001 * c.get("score", 0)))
     for c in cands:
@@ -300,13 +315,72 @@ def fetch_abet_lines():
     log("abet board lines:", len(out), "top pp:", out[0]["pp"] if out else None)
     return out[:3]
 
-# ---------------- brain (keyless, $0; falls back to template on ANY failure) ----------------
+# ---------------- chat monitor (free, no auth; polls public chat) ----------------
+def fetch_chat_lines(channel=None, limit=5):
+    """Poll public chat. Returns list of recent message strings. Free, no auth."""
+    out = []
+    if not channel:
+        channel = os.environ.get("CHAT_CHANNEL", "")
+    if not channel:
+        return out
+    try:
+        d = get_json("https://tmi.twitch.tv/group/user/" + channel + "/chatters", timeout=15)
+        v = d.get("chatters", {}).get("viewers", [])
+        if v:
+            out.append(str(len(v)) + " viewers in chat")
+    except Exception as e:
+        log("chat fetch fail", e)
+    try:
+        d = get_json("https://kick.com/api/v2/channels/" + channel, timeout=15)
+        if d.get("chatroom", {}).get("id"):
+            out.append("kick chat active")
+    except Exception as e:
+        log("kick chat fail", e)
+    return out[:limit]
+
+# ---------------- brain (NIM nemotron primary; pollinations fallback; template last resort) ----------------
 def brain_take(facts):
+    key = os.environ.get("NVIDIA_API_KEY", "")
+    if key:
+        for attempt in (1, 2):
+            try:
+                payload = {
+                    "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+                    "messages": [{"role": "user", "content": (
+                        "You are the sharp, witty anchor of the ABET Sports Desk on live TV. "
+                        "Write ONE punchy spoken sentence, max 20 words, reacting to this update like a real "
+                        "SportsCenter anchor. Be specific, opinionated, never repeat facts verbatim, no lists, "
+                        "no emojis, no hashtags. Update: " + facts
+                    )}],
+                    "max_tokens": 2000,
+                    "chat_template_kwargs": {"enable_thinking": True},
+                    "temperature": 0.7,
+                }
+                req = urllib.request.Request(
+                    "https://integrate.api.nvidia.com/v1/chat/completions",
+                    data=json.dumps(payload).encode(),
+                    headers={"Content-Type": "application/json", "Authorization": "Bearer " + key},
+                )
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    j = json.loads(r.read())
+                    msg = j.get("choices", [{}])[0].get("message", {})
+                    txt = (msg.get("content") or "").strip()
+                txt = re.sub(r"\s+", " ", txt).strip("\"'")
+                if not (8 < len(txt) < 200) or "http" in txt or "{" in txt or "#" in txt:
+                    log("brain: nim rejected output:", txt[:80]); continue
+                if jaccard(tokens(txt), tokens(facts)) > 0.7:
+                    log("brain: nim fact-echo rejected:", txt[:80]); continue
+                log("brain: nim ok (attempt", attempt, ")")
+                return txt
+            except Exception as e:
+                log(f"brain nim attempt {attempt} fail:", e)
+    # Fallback to pollinations (keyless, $0)
     for attempt in (1, 2):
         try:
-            q = ("You are the sharp, witty anchor of the ABET Sports Desk. Write ONE spoken sentence, "
-                 "max 18 words, reacting to this update. Plain text only, never repeat the facts verbatim, "
-                 "no lists, no emojis. Update: " + facts)
+            q = ("You are the sharp, witty anchor of the ABET Sports Desk on live TV. "
+                 "Write ONE punchy spoken sentence, max 20 words, reacting to this update like a real "
+                 "SportsCenter anchor. Be specific, opinionated, never repeat facts verbatim, no lists, "
+                 "no emojis. Update: " + facts)
             url = "https://text.pollinations.ai/" + urllib.parse.quote(q, safe="")
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=35) as r:
@@ -314,9 +388,9 @@ def brain_take(facts):
             txt = re.sub(r"\s+", " ", txt)
             txt = txt.strip("\"'")
             if not (8 < len(txt) < 200) or "http" in txt or "{" in txt or "#" in txt:
-                log("brain: rejected output:", txt[:80]); return None
+                log("brain: rejected output:", txt[:80]); continue
             if jaccard(tokens(txt), tokens(facts)) > 0.7:
-                log("brain: fact-echo rejected:", txt[:80]); return None
+                log("brain: fact-echo rejected:", txt[:80]); continue
             log("brain: pollinations ok (attempt", attempt, ")")
             return txt
         except Exception as e:
@@ -403,6 +477,7 @@ def main():
         "season_profile": profile,
         "abet_lines": abet,
         "sources": {"espn": True, "reddit": reddit_ok, "mlb_statsapi": bool(highlights or profile), "abet_board": bool(abet)},
+        "chat": fetch_chat_lines(),
         "script_hint": hint,
     }
     json.dump(state, open(OUT, "w", encoding="utf-8"), indent=1)

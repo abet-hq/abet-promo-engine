@@ -25,6 +25,15 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;
   text-shadow:0 2px 10px #000, 0 0 3px #000;
   opacity:0;transition:opacity .3s;}
 #captext.show{opacity:1;}
+/* TICKER: ABET line moves scrolling */
+#ticker{width:100%;height:24px;overflow:hidden;background:rgba(0,0,0,.7);
+  border-top:1px solid rgba(230,185,63,.3);border-radius:0 0 8px 8px;}
+#tk-track{white-space:nowrap;color:#d4af37;font:500 12px/24px system-ui;
+  padding:0 12px;animation:scroll 30s linear infinite;}
+@keyframes scroll{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+/* CHAT LINE: latest chat message */
+#chatline{width:100%;min-height:20px;color:rgba(255,255,255,.7);
+  font:400 12px/20px system-ui;text-align:center;opacity:.8;}
 /* CONTROLS: caption toggle + audio toggle */
 #controls{display:flex;gap:10px;}
 .ctl{width:40px;height:40px;border-radius:50%;background:rgba(18,18,22,.9);
@@ -43,6 +52,8 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;
     <video id="vb" class="vid" muted playsinline></video>
   </div>
   <div id="captionpill"><span id="captext"></span></div>
+<div id="ticker"><div id="tk-track"></div></div>
+<div id="chatline"></div>
   <div id="controls">
     <button id="ccbtn" class="ctl" onclick="toggleCC()" title="captions">CC</button>
     <button id="sndbtn" class="ctl" onclick="toggleSound()" title="sound" style="position:relative">
@@ -129,5 +140,30 @@ function toggleCC(){
   document.getElementById('ccbtn').classList.toggle('off', !ccOn);
   if (!ccOn){ captext.classList.remove('show'); captext.textContent = ''; }
 }
+// Live desk poll — fetches desk_state.json every 20s, updates captions/ticker/chat on change
+let deskState = null;
+async function pollDesk(){
+  try{
+    const r = await fetch('desk_state.json?v=' + Date.now(), {cache:'no-store'});
+    if(!r.ok) return;
+    const s = await r.json();
+    if(!deskState || s.generated !== deskState.generated){
+      deskState = s;
+      // captions
+      if(s.script_hint){ captext.textContent = s.script_hint; captext.classList.add('show'); }
+      // ticker
+      const tk = document.getElementById('tk-track');
+      if(tk && s.abet_lines && s.abet_lines.length) tk.textContent = s.abet_lines.map(l=>l.note).join('   •   ');
+      // chat line
+      const cl = document.getElementById('chatline');
+      if(cl && s.chat && s.chat.length) cl.textContent = s.chat[s.chat.length-1];
+      // highlights refresh
+      const deskHi = ((s.highlights) || []).map(h => h.url).filter(Boolean);
+      if(deskHi.length){ hi = [...deskHi, ...hi].filter((u,i,a)=>a.indexOf(u)===i); }
+    }
+  }catch(e){ /* silent retry */ }
+}
+setInterval(pollDesk, 20000);
+pollDesk();
 boot();
 </script></body></html>
