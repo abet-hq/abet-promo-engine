@@ -1,8 +1,13 @@
 {
- "generated": "2026-10-18T05:15:32.956919+00:00",
+ "generated": "2026-10-18T05:55:35.095931+00:00",
  "version": 2,
  "ticker": "NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT  //  NFL: NYJ 0 - NE 0 10/18 - 1:00 PM EDT",
- "breaking": null,
+ "breaking": {
+  "id": "espn:50208289",
+  "title": "DeLauter's costly error deflates Guardians' hopes as Rays even ALCS in Game 4",
+  "source": "ESPN MLB",
+  "age_min": 4.648750333333334
+ },
  "games": [
   {
    "league": "NFL",
@@ -116,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 775h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 776h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 46529
+   "data_age_min": 46569
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 775h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 776h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 46529
+   "data_age_min": 46569
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 775h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 776h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 46529
+   "data_age_min": 46569
   }
  ],
  "sources": {
@@ -144,15 +149,16 @@
  },
  "chat": [],
  "ticker_items": [
+  "BREAKING: DeLauter's costly error deflates Guardians' hopes as Rays even ALCS in Game 4",
   "HOU 0 - JAX 0 (10/18 - 9:30 AM EDT)",
   "CHI 0 - ATL 0 (10/18 - 1:00 PM EDT)",
   "BAL 0 - CLE 0 (10/18 - 1:00 PM EDT)",
   "TEN 0 - IND 0 (10/18 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 775h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 775h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 775h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 776h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 776h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 776h old]",
   "HIGHLIGHT: Drew Rasmussen against the Guardians",
-  "Rasmussen got shelled by the Guardians, proving he's not the stopper Tampa needs."
+  "Rasmussen\u2019s two\u2011strike, three\u2011run double ripped the Guardians\u2019 front row into a silence only echoes can fill."
  ],
- "script_hint": "Rasmussen got shelled by the Guardians, proving he's not the stopper Tampa needs.  [brain]"
+ "script_hint": "Rasmussen\u2019s two\u2011strike, three\u2011run double ripped the Guardians\u2019 front row into a silence only echoes can fill.  [brain]"
 }
