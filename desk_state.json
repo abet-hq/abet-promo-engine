@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T03:44:56.645740+00:00",
+ "generated": "2026-10-18T03:57:55.017945+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": null,
@@ -129,21 +129,21 @@
    "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 774h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 46437
+   "data_age_min": 46451
   },
   {
    "event": "PHI @ WSH",
    "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 774h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 46437
+   "data_age_min": 46451
   },
   {
    "event": "PHI @ WSH",
    "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 774h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 46437
+   "data_age_min": 46451
   }
  ],
  "sources": {
@@ -163,7 +163,7 @@
   "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 774h old]",
   "Yandy D\u00edaz AVG .293 HR 22",
   "HIGHLIGHT: Jonathan Aranda's three-hit, two-RBI game",
-  "DEN's OT 17\u201114 surge, WSH odds collapse to"
+  "Aranda raked three times and drove in a pair\u2014this guy belongs in the everyday lineup."
  ],
- "script_hint": "DEN's OT 17\u201114 surge, WSH odds collapse to  [brain]"
+ "script_hint": "Aranda raked three times and drove in a pair\u2014this guy belongs in the everyday lineup.  [brain]"
 }
