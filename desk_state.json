@@ -1,22 +1,62 @@
 {
- "generated": "2026-10-18T19:33:27.358909+00:00",
+ "generated": "2026-10-18T21:54:21.391309+00:00",
  "version": 2,
- "ticker": "NFL: CHI 31 - ATL 7 14:56 - 4th  //  NFL: BAL 10 - CLE 10 6:27 - 4th  //  NFL: TEN 13 - IND 13 10:24 - 4th  //  NFL: NYJ 13 - NE 23 12:23 - 4th  //  NFL: NO 27 - NYG 10 12:41 - 4th",
+ "ticker": "NFL: ARI 12 - LAR 9 5:56 - 3rd  //  NFL: LAC 3 - KC 19 Halftime  //  NFL: BUF 13 - LV 13 Halftime  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final",
  "breaking": {
-  "id": "espn:50212108",
-  "title": "Travis Hunter stars in Jaguars' loss, is 1st with INT and TD catch since 2002",
+  "id": "espn:50213488",
+  "title": "Steelers' Aaron Rogers throws two TDs to tie Peyton Manning on all-time list",
   "source": "ESPN NFL",
-  "age_min": 2.7853082833333334
+  "age_min": 1.0426649333333333
  },
  "games": [
+  {
+   "league": "NFL",
+   "name": "ARI @ LAR",
+   "away": "ARI",
+   "away_score": "12",
+   "home": "LAR",
+   "home_score": "9",
+   "status": "5:56 - 3rd",
+   "date": "2026-10-18T20:05Z"
+  },
+  {
+   "league": "NFL",
+   "name": "LAC @ KC",
+   "away": "LAC",
+   "away_score": "3",
+   "home": "KC",
+   "home_score": "19",
+   "status": "Halftime",
+   "date": "2026-10-18T20:25Z"
+  },
+  {
+   "league": "NFL",
+   "name": "BUF @ LV",
+   "away": "BUF",
+   "away_score": "13",
+   "home": "LV",
+   "home_score": "13",
+   "status": "Halftime",
+   "date": "2026-10-18T20:25Z"
+  },
+  {
+   "league": "NFL",
+   "name": "HOU VS JAX",
+   "away": "HOU",
+   "away_score": "34",
+   "home": "JAX",
+   "home_score": "31",
+   "status": "Final",
+   "date": "2026-10-18T13:30Z"
+  },
   {
    "league": "NFL",
    "name": "CHI @ ATL",
    "away": "CHI",
    "away_score": "31",
    "home": "ATL",
-   "home_score": "7",
-   "status": "14:56 - 4th",
+   "home_score": "23",
+   "status": "Final",
    "date": "2026-10-18T17:00Z"
   },
   {
@@ -25,48 +65,8 @@
    "away": "BAL",
    "away_score": "10",
    "home": "CLE",
-   "home_score": "10",
-   "status": "6:27 - 4th",
-   "date": "2026-10-18T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "TEN @ IND",
-   "away": "TEN",
-   "away_score": "13",
-   "home": "IND",
    "home_score": "13",
-   "status": "10:24 - 4th",
-   "date": "2026-10-18T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "NYJ @ NE",
-   "away": "NYJ",
-   "away_score": "13",
-   "home": "NE",
-   "home_score": "23",
-   "status": "12:23 - 4th",
-   "date": "2026-10-18T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "NO @ NYG",
-   "away": "NO",
-   "away_score": "27",
-   "home": "NYG",
-   "home_score": "10",
-   "status": "12:41 - 4th",
-   "date": "2026-10-18T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "CAR @ PHI",
-   "away": "CAR",
-   "away_score": "13",
-   "home": "PHI",
-   "home_score": "7",
-   "status": "15:00 - 4th",
+   "status": "Final",
    "date": "2026-10-18T17:00Z"
   },
   {
@@ -103,42 +103,52 @@
    "league": "MLB",
    "name": "TB @ CLE",
    "away": "TB",
-   "away_score": "0",
+   "away_score": "2",
    "home": "CLE",
    "home_score": "0",
-   "status": "10/18 - 5:00 PM EDT",
+   "status": "Top 3rd",
    "date": "2026-10-18T21:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849817,
-   "title": "Drew Rasmussen against the Guardians",
-   "url": "https://darkroom-clips.mlb.com/52f282ab-d418-42fb-a407-c576f18a7d90.mp4"
+   "title": "Jonathan Aranda's RBI single",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/18/676bbced-61e55c79-61ec9174-csvm-diamondgcp-asset-4000K.mp4"
   }
  ],
- "season_profile": null,
+ "season_profile": {
+  "player": "Chandler Simpson",
+  "team": "TB",
+  "avg": ".306",
+  "hr": 0,
+  "rbi": 38,
+  "hits": 175,
+  "ops": ".689",
+  "gamePk": 849817,
+  "source": "statsapi /people/season"
+ },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 790h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 792h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 47386
+   "data_age_min": 47528
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 790h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 792h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 47386
+   "data_age_min": 47528
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 790h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 792h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 47386
+   "data_age_min": 47528
   }
  ],
  "sources": {
@@ -149,16 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Travis Hunter stars in Jaguars' loss, is 1st with INT and TD catch since 2002",
-  "CHI 31 - ATL 7 (14:56 - 4th)",
-  "BAL 10 - CLE 10 (6:27 - 4th)",
-  "TEN 13 - IND 13 (10:24 - 4th)",
-  "NYJ 13 - NE 23 (12:23 - 4th)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 790h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 790h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 790h old]",
-  "HIGHLIGHT: Drew Rasmussen against the Guardians",
-  "Rasmussen\u2019s blistering hit turns the Guardians\u2019 momentum, devastating their inning."
+  "BREAKING: Steelers' Aaron Rogers throws two TDs to tie Peyton Manning on all-time list",
+  "ARI 12 - LAR 9 (5:56 - 3rd)",
+  "LAC 3 - KC 19 (Halftime)",
+  "BUF 13 - LV 13 (Halftime)",
+  "HOU 34 - JAX 31 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 792h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 792h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 792h old]",
+  "Chandler Simpson AVG .306 HR 0",
+  "HIGHLIGHT: Jonathan Aranda's RBI single",
+  "Jonathan Aranda\u2019s single rattles the bases\u2014pure, clutch RBI that lights up the whole arena!"
  ],
- "script_hint": "Rasmussen\u2019s blistering hit turns the Guardians\u2019 momentum, devastating their inning.  [brain]"
+ "script_hint": "Jonathan Aranda\u2019s single rattles the bases\u2014pure, clutch RBI that lights up the whole arena!  [brain]"
 }

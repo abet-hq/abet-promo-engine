@@ -151,17 +151,23 @@
   "espn:50212069",
   "espn:50211725",
   "espn:50198161",
-  "gnews:How to listen to live sports on SiriusXM"
+  "gnews:How to listen to live sports on SiriusXM",
+  "espn:50213488",
+  "espn:50213434",
+  "espn:50213404",
+  "espn:50213386",
+  "espn:50213358",
+  "espn:50213342"
  ],
  "recent_topics": [
-  "BREAKING - Rays capitalize on Guardians' errors in Game 4 to even ALCS at 2-2 - per ESPN MLB.",
   "Aranda raked three times and drove in a pair\u2014this guy belongs in the everyday lineup.",
   "Rasmussen got shelled by the Guardians, proving he's not the stopper Tampa needs.",
   "Rasmussen\u2019s two\u2011strike, three\u2011run double ripped the Guardians\u2019 front row into a silence only echoes can fill.",
   "Drew Rasmussen\u2019s slick grab turned a lethal play into a defensive masterpiece\u2014Guardian\u2019s nightmare.",
   "Rasmussen's ninth\u2011inning flicker froze a daring base\u2011steal, sealing a dramatic Guardians win.",
   "Rasmussen rockets a deep blast to center, flipping the Guardians\u2019 lineup and sending the crowd into a frenzy.",
-  "Rasmussen\u2019s blistering hit turns the Guardians\u2019 momentum, devastating their inning."
+  "Rasmussen\u2019s blistering hit turns the Guardians\u2019 momentum, devastating their inning.",
+  "Jonathan Aranda\u2019s single rattles the bases\u2014pure, clutch RBI that lights up the whole arena!"
  ],
  "used_highlight_pks": [
   849818,
@@ -172,8 +178,8 @@
  "last_highlights": [
   {
    "gamePk": 849817,
-   "title": "Drew Rasmussen against the Guardians",
-   "url": "https://darkroom-clips.mlb.com/52f282ab-d418-42fb-a407-c576f18a7d90.mp4"
+   "title": "Jonathan Aranda's RBI single",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/18/676bbced-61e55c79-61ec9174-csvm-diamondgcp-asset-4000K.mp4"
   }
  ]
 }
