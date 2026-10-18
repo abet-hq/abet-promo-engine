@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T01:04:15.470730+00:00",
+ "generated": "2026-10-18T03:44:56.645740+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 0 - JAX 0 10/18 - 9:30 AM EDT  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT",
  "breaking": null,
@@ -98,59 +98,72 @@
    "league": "MLB",
    "name": "TB @ CLE",
    "away": "TB",
-   "away_score": "1",
+   "away_score": "7",
    "home": "CLE",
-   "home_score": "1",
-   "status": "Top 4th",
+   "home_score": "3",
+   "status": "Final",
    "date": "2026-10-18T00:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849816,
-   "title": "Chase DeLauter's RBI single",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/17/056a85f3-427c36b2-de818f48-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Jonathan Aranda's three-hit, two-RBI game",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/17/e6301571-e51dab36-ff297ae5-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": {
-  "player": "Steven Kwan",
-  "team": "CLE",
-  "avg": ".282",
-  "hr": 3,
-  "rbi": 32,
-  "hits": 152,
-  "ops": ".731",
+  "player": "Yandy D\u00edaz",
+  "team": "TB",
+  "avg": ".293",
+  "hr": 22,
+  "rbi": 85,
+  "hits": 180,
+  "ops": ".805",
   "gamePk": 849816,
   "source": "statsapi /people/season"
  },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 771h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 774h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 46277
+   "data_age_min": 46437
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 771h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 774h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 46277
+   "data_age_min": 46437
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 771h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 774h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 46277
+   "data_age_min": 46437
   }
  ],
  "sources": {
   "espn": true,
-  "reddit": false,
+  "reddit": true,
   "mlb_statsapi": true,
   "abet_board": true
  },
- "script_hint": "Sew\u2019s OT win drops Denver\u2019s hopes, Ravens\u2019 moneyline swings down, while Kwan\u2019s 3\u2011HR burst keeps Sunday buzzing.  [brain]"
+ "chat": [],
+ "ticker_items": [
+  "SEA 14 - DEN 17 (Final/OT)",
+  "HOU 0 - JAX 0 (10/18 - 9:30 AM EDT)",
+  "CHI 0 - ATL 0 (10/18 - 1:00 PM EDT)",
+  "BAL 0 - CLE 0 (10/18 - 1:00 PM EDT)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 774h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 774h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 774h old]",
+  "Yandy D\u00edaz AVG .293 HR 22",
+  "HIGHLIGHT: Jonathan Aranda's three-hit, two-RBI game",
+  "DEN's OT 17\u201114 surge, WSH odds collapse to"
+ ],
+ "script_hint": "DEN's OT 17\u201114 surge, WSH odds collapse to  [brain]"
 }

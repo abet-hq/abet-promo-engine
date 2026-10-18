@@ -428,7 +428,7 @@ def pick_script_hint(games, breaking, highlights, profile, abet, history):
     return pool[0]
 
 
-def _build_ticker(breaking, games, abet, profile, hint):
+def _build_ticker(breaking, games, abet, profile, hint, highlights=None):
     """Build dynamic ticker items from all current content."""
     items = []
     if breaking and breaking.get("title"):
@@ -439,6 +439,8 @@ def _build_ticker(breaking, games, abet, profile, hint):
         items.append(l["note"])
     if profile and profile.get("player"):
         items.append(profile["player"] + " AVG " + str(profile.get("avg", "")) + " HR " + str(profile.get("hr", "")))
+    if highlights:
+        items.append("HIGHLIGHT: " + highlights[0].get("title", ""))
     if hint:
         items.append(hint.replace("  [brain]", ""))
     return items
@@ -494,7 +496,7 @@ def main():
         "abet_lines": abet,
         "sources": {"espn": True, "reddit": reddit_ok, "mlb_statsapi": bool(highlights or profile), "abet_board": bool(abet)},
         "chat": fetch_chat_lines(),
-        "ticker_items": _build_ticker(breaking, games, abet, profile, hint),
+        "ticker_items": _build_ticker(breaking, games, abet, profile, hint, highlights),
         "script_hint": hint,
     }
     json.dump(state, open(OUT, "w", encoding="utf-8"), indent=1)
