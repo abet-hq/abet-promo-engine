@@ -22,27 +22,21 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;
 /* CAPTIONS: plain text only, no pill, no border. */
 #captionpill{display:flex;justify-content:center;width:100%;min-height:34px;}
 #captext{max-width:100%;color:#fff;font-family:Impact,'Arial Black',Arial,sans-serif;
-  font-style:italic;font-size:clamp(13px,2vw,21px);letter-spacing:.5px;text-align:center;
+  font-style:italic;font-size:clamp(26px,4vw,42px);letter-spacing:.5px;text-align:center;
   text-shadow:0 2px 10px #000, 0 0 3px #000;
   opacity:0;transition:opacity .3s;}
 #captext.show{opacity:1;}
 /* TICKER: ABET line moves scrolling */
-#ticker{width:100%;height:24px;overflow:hidden;background:rgba(0,0,0,.7);
+#ticker{width:100%;height:28px;overflow:hidden;background:rgba(0,0,0,.85);
   border-top:1px solid rgba(230,185,63,.3);border-radius:0 0 8px 8px;}
-#tk-track{white-space:nowrap;color:#d4af37;font:500 12px/24px system-ui;
-  padding:0 12px;animation:scroll 30s linear infinite;}
+#tk-track{white-space:nowrap;color:#00ff41;font:500 14px/28px 'Courier New',monospace;
+  padding:0 12px;animation:scroll 30s linear infinite;text-shadow:0 0 4px #00ff41;}
+#tk-track .red{color:#ff3333;text-shadow:0 0 4px #ff3333;}
 @keyframes scroll{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
-/* LOWER THIRD: anchor name + stat */
-#lowerthird{position:absolute;left:4%;bottom:8%;background:rgba(0,0,0,.78);
-  border-left:4px solid #d4af37;padding:6px 14px;color:#fff;
-  font:600 16px/1.2 system-ui;z-index:3;border-radius:0 6px 6px 0;
-  display:none;}
-#lowerthird.show{display:block;}
-#lt-name{color:#e6b93f;font-weight:800;margin-right:10px;}
-/* SCORE BUG: top-left game info */
-#scorebug{position:absolute;top:4%;left:4%;background:rgba(0,0,0,.8);color:#fff;
-  padding:4px 10px;font:700 13px system-ui;border-radius:4px;z-index:3;display:none;}
-#scorebug.show{display:block;}
+/* STATSBAR: scoreboard + stats below ticker */
+#statsbar{width:100%;display:flex;justify-content:space-between;gap:12px;
+  color:rgba(255,255,255,.7);font:500 13px/20px system-ui;padding:4px 8px;}
+#statsbar span{flex:1;text-align:center;}
 /* CHAT LINE: latest chat message */
 #chatline{width:100%;min-height:20px;color:rgba(255,255,255,.7);
   font:400 12px/20px system-ui;text-align:center;opacity:.8;}
@@ -62,11 +56,10 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;
     <video id="bgv" muted loop playsinline></video>
     <video id="va" class="vid" muted playsinline></video>
     <video id="vb" class="vid" muted playsinline></video>
-    <div id="lowerthird"><span id="lt-name"></span><span id="lt-stat"></span></div>
-    <div id="scorebug"></div>
   </div>
   <div id="captionpill"><span id="captext"></span></div>
 <div id="ticker"><div id="tk-track"></div></div>
+<div id="statsbar"><span id="sb-score"></span><span id="sb-player"></span></div>
 <div id="chatline"></div>
   <div id="controls">
     <button id="ccbtn" class="ctl" onclick="toggleCC()" title="captions">CC</button>
@@ -165,14 +158,11 @@ async function pollDesk(){
       deskState = s;
       // captions - only show when an anchor is actually on screen
       if(s.script_hint && frontSeg){ captext.textContent = s.script_hint; captext.classList.add('show'); }
-      // lower third
-      const lt = document.getElementById('lowerthird');
-      if(lt && s.season_profile){ lt.querySelector('#lt-name').textContent = s.season_profile.player || '';
-        lt.querySelector('#lt-stat').textContent = s.season_profile.avg ? 'AVG ' + s.season_profile.avg : '';
-        lt.classList.add('show'); }
-      // score bug
-      const sb = document.getElementById('scorebug');
-      if(sb && s.games && s.games.length){ sb.textContent = s.games[0].away + ' ' + s.games[0].away_score + ' - ' + s.games[0].home + ' ' + s.games[0].home_score; sb.classList.add('show'); }
+      // statsbar (below ticker)
+      const ss = document.getElementById('sb-score');
+      const sp = document.getElementById('sb-player');
+      if(ss && s.games && s.games.length){ ss.textContent = s.games[0].away + ' ' + s.games[0].away_score + ' - ' + s.games[0].home + ' ' + s.games[0].home_score; }
+      if(sp && s.season_profile && s.season_profile.player){ sp.textContent = s.season_profile.player + ' AVG ' + (s.season_profile.avg || ''); }
       // ticker
       const tk = document.getElementById('tk-track');
       if(tk && s.abet_lines && s.abet_lines.length) tk.textContent = s.abet_lines.map(l=>l.note).join('   •   ');
