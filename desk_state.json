@@ -1,42 +1,32 @@
 {
- "generated": "2026-10-18T14:10:26.323995+00:00",
+ "generated": "2026-10-18T17:24:05.014861+00:00",
  "version": 2,
- "ticker": "NFL: HOU 7 - JAX 0 0:15 - 1st  //  NFL: CHI 0 - ATL 0 10/18 - 1:00 PM EDT  //  NFL: BAL 0 - CLE 0 10/18 - 1:00 PM EDT  //  NFL: TEN 0 - IND 0 10/18 - 1:00 PM EDT  //  NFL: NYJ 0 - NE 0 10/18 - 1:00 PM EDT",
+ "ticker": "NFL: CHI 7 - ATL 0 5:15 - 1st  //  NFL: BAL 7 - CLE 0 6:33 - 1st  //  NFL: TEN 0 - IND 0 5:11 - 1st  //  NFL: NYJ 3 - NE 0 4:34 - 1st  //  NFL: NO 0 - NYG 7 5:14 - 1st",
  "breaking": {
-  "id": "espn:50209856",
-  "title": "Week 6 NFL highlights: Best plays, moments, touchdowns, more",
+  "id": "espn:50181469",
+  "title": "NFL Week 6: Big takeaways, questions and fantasy spin from Sunday's games",
   "source": "ESPN NFL",
-  "age_min": 5.629036666666667
+  "age_min": 1.2967410166666666
  },
  "games": [
   {
    "league": "NFL",
-   "name": "HOU VS JAX",
-   "away": "HOU",
-   "away_score": "7",
-   "home": "JAX",
-   "home_score": "0",
-   "status": "0:15 - 1st",
-   "date": "2026-10-18T13:30Z"
-  },
-  {
-   "league": "NFL",
    "name": "CHI @ ATL",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "7",
    "home": "ATL",
    "home_score": "0",
-   "status": "10/18 - 1:00 PM EDT",
+   "status": "5:15 - 1st",
    "date": "2026-10-18T17:00Z"
   },
   {
    "league": "NFL",
    "name": "BAL @ CLE",
    "away": "BAL",
-   "away_score": "0",
+   "away_score": "7",
    "home": "CLE",
    "home_score": "0",
-   "status": "10/18 - 1:00 PM EDT",
+   "status": "6:33 - 1st",
    "date": "2026-10-18T17:00Z"
   },
   {
@@ -46,17 +36,17 @@
    "away_score": "0",
    "home": "IND",
    "home_score": "0",
-   "status": "10/18 - 1:00 PM EDT",
+   "status": "5:11 - 1st",
    "date": "2026-10-18T17:00Z"
   },
   {
    "league": "NFL",
    "name": "NYJ @ NE",
    "away": "NYJ",
-   "away_score": "0",
+   "away_score": "3",
    "home": "NE",
    "home_score": "0",
-   "status": "10/18 - 1:00 PM EDT",
+   "status": "4:34 - 1st",
    "date": "2026-10-18T17:00Z"
   },
   {
@@ -65,8 +55,18 @@
    "away": "NO",
    "away_score": "0",
    "home": "NYG",
+   "home_score": "7",
+   "status": "5:14 - 1st",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "CAR @ PHI",
+   "away": "CAR",
+   "away_score": "3",
+   "home": "PHI",
    "home_score": "0",
-   "status": "10/18 - 1:00 PM EDT",
+   "status": "6:57 - 1st",
    "date": "2026-10-18T17:00Z"
   },
   {
@@ -103,11 +103,11 @@
    "league": "MLB",
    "name": "TB @ CLE",
    "away": "TB",
-   "away_score": "7",
+   "away_score": "0",
    "home": "CLE",
-   "home_score": "3",
-   "status": "Final",
-   "date": "2026-10-18T00:00Z"
+   "home_score": "0",
+   "status": "10/18 - 5:00 PM EDT",
+   "date": "2026-10-18T21:00Z"
   }
  ],
  "highlights": [
@@ -121,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 784h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 788h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 47063
+   "data_age_min": 47257
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 784h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 788h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 47063
+   "data_age_min": 47257
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 784h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 788h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 47063
+   "data_age_min": 47257
   }
  ],
  "sources": {
@@ -149,16 +149,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Week 6 NFL highlights: Best plays, moments, touchdowns, more",
-  "HOU 7 - JAX 0 (0:15 - 1st)",
-  "CHI 0 - ATL 0 (10/18 - 1:00 PM EDT)",
-  "BAL 0 - CLE 0 (10/18 - 1:00 PM EDT)",
-  "TEN 0 - IND 0 (10/18 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 784h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 784h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 784h old]",
+  "BREAKING: NFL Week 6: Big takeaways, questions and fantasy spin from Sunday's games",
+  "CHI 7 - ATL 0 (5:15 - 1st)",
+  "BAL 7 - CLE 0 (6:33 - 1st)",
+  "TEN 0 - IND 0 (5:11 - 1st)",
+  "NYJ 3 - NE 0 (4:34 - 1st)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 788h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 788h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 788h old]",
   "HIGHLIGHT: Drew Rasmussen against the Guardians",
-  "Rasmussen's ninth\u2011inning flicker froze a daring base\u2011steal, sealing a dramatic Guardians win."
+  "Rasmussen rockets a deep blast to center, flipping the Guardians\u2019 lineup and sending the crowd into a frenzy."
  ],
- "script_hint": "Rasmussen's ninth\u2011inning flicker froze a daring base\u2011steal, sealing a dramatic Guardians win.  [brain]"
+ "script_hint": "Rasmussen rockets a deep blast to center, flipping the Guardians\u2019 lineup and sending the crowd into a frenzy.  [brain]"
 }
