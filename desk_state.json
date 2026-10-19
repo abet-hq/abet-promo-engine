@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T16:59:39.439894+00:00",
+ "generated": "2026-10-19T21:26:14.173184+00:00",
  "version": 2,
  "ticker": "NFL: WSH 0 - SF 0 10/19 - 8:15 PM EDT  //  NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final",
  "breaking": {
-  "id": "espn:50219420",
-  "title": "Pat McAfee reflects on state of Colts after firing of GM",
+  "id": "espn:50221426",
+  "title": "Rams suffer several major injuries, including to WR Adams, who's out 6-10 weeks",
   "source": "ESPN NFL",
-  "age_min": 4.91649715
+  "age_min": 1.1416251
  },
  "games": [
   {
@@ -121,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 811h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 816h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 48673
+   "data_age_min": 48939
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 811h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 816h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 48673
+   "data_age_min": 48939
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 811h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 816h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 48673
+   "data_age_min": 48939
   }
  ],
  "sources": {
@@ -149,16 +149,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Pat McAfee reflects on state of Colts after firing of GM",
+  "BREAKING: Rams suffer several major injuries, including to WR Adams, who's out 6-10 weeks",
   "WSH 0 - SF 0 (10/19 - 8:15 PM EDT)",
   "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 811h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 811h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 811h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 816h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 816h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 816h old]",
   "HIGHLIGHT: Shawn Armstrong against the Rays",
-  "Armstrong\u2019s blistering 5\u2011run blast against the Rays turns a low\u2011profile matchup into a dazzling, game\u2011deciding fireworks display."
+  "Shawn Armstrong, tearing through the Rays, slinging runs like a hurricane\u2014this is a masterclass in power hitting."
  ],
- "script_hint": "Armstrong\u2019s blistering 5\u2011run blast against the Rays turns a low\u2011profile matchup into a dazzling, game\u2011deciding fireworks display.  [brain]"
+ "script_hint": "Shawn Armstrong, tearing through the Rays, slinging runs like a hurricane\u2014this is a masterclass in power hitting.  [brain]"
 }
