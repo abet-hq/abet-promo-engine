@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T10:10:52.303405+00:00",
+ "generated": "2026-10-19T16:59:39.439894+00:00",
  "version": 2,
  "ticker": "NFL: WSH 0 - SF 0 10/19 - 8:15 PM EDT  //  NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final",
  "breaking": {
-  "id": "espn:50215436",
-  "title": "Is Commanders coach Dan Quinn's job in jeopardy after tie with Giants?",
+  "id": "espn:50219420",
+  "title": "Pat McAfee reflects on state of Colts after firing of GM",
   "source": "ESPN NFL",
-  "age_min": 10.63407255
+  "age_min": 4.91649715
  },
  "games": [
   {
@@ -101,54 +101,44 @@
   },
   {
    "league": "MLB",
-   "name": "TB @ CLE",
-   "away": "TB",
-   "away_score": "3",
-   "home": "CLE",
-   "home_score": "1",
-   "status": "Final",
-   "date": "2026-10-18T21:00Z"
+   "name": "CLE @ TB",
+   "away": "CLE",
+   "away_score": "0",
+   "home": "TB",
+   "home_score": "0",
+   "status": "10/19 - 8:00 PM EDT",
+   "date": "2026-10-20T00:00Z"
   }
  ],
  "highlights": [
   {
-   "gamePk": 849817,
-   "title": "Liam Hicks' RBI single ",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/18/44434965-0cca231b-3dfbd2e1-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849815,
+   "title": "Shawn Armstrong against the Rays",
+   "url": "https://darkroom-clips.mlb.com/6615b335-77bf-4c0c-8ca9-453d03f2cc3d.mp4"
   }
  ],
- "season_profile": {
-  "player": "Jonathan Aranda",
-  "team": "TB",
-  "avg": ".274",
-  "hr": 22,
-  "rbi": 92,
-  "hits": 159,
-  "ops": ".792",
-  "gamePk": 849817,
-  "source": "statsapi /people/season"
- },
+ "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 804h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 811h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 48264
+   "data_age_min": 48673
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 804h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 811h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 48264
+   "data_age_min": 48673
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 804h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 811h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 48264
+   "data_age_min": 48673
   }
  ],
  "sources": {
@@ -159,17 +149,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Is Commanders coach Dan Quinn's job in jeopardy after tie with Giants?",
+  "BREAKING: Pat McAfee reflects on state of Colts after firing of GM",
   "WSH 0 - SF 0 (10/19 - 8:15 PM EDT)",
   "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 804h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 804h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 804h old]",
-  "Jonathan Aranda AVG .274 HR 22",
-  "HIGHLIGHT: Liam Hicks' RBI single ",
-  "Liam Hicks\u2019 RBI single rockets the score, turning the tide right on the road."
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 811h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 811h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 811h old]",
+  "HIGHLIGHT: Shawn Armstrong against the Rays",
+  "Armstrong\u2019s blistering 5\u2011run blast against the Rays turns a low\u2011profile matchup into a dazzling, game\u2011deciding fireworks display."
  ],
- "script_hint": "Liam Hicks\u2019 RBI single rockets the score, turning the tide right on the road.  [brain]"
+ "script_hint": "Armstrong\u2019s blistering 5\u2011run blast against the Rays turns a low\u2011profile matchup into a dazzling, game\u2011deciding fireworks display.  [brain]"
 }
