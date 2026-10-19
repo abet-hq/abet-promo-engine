@@ -1,14 +1,34 @@
 {
- "generated": "2026-10-18T23:58:26.680659+00:00",
+ "generated": "2026-10-19T04:26:32.804109+00:00",
  "version": 2,
- "ticker": "NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final  //  NFL: TEN 26 - IND 20 Final  //  NFL: NYJ 19 - NE 26 Final",
+ "ticker": "NFL: WSH 0 - SF 0 10/19 - 8:15 PM EDT  //  NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final",
  "breaking": {
-  "id": "espn:50214776",
-  "title": "Buffalo Bills vs. Las Vegas Raiders: Game Highlights",
+  "id": "espn:50190741",
+  "title": "Packers use timely turnovers, third-down conversions to beat struggling Cowboys",
   "source": "ESPN NFL",
-  "age_min": 1.4077686999999999
+  "age_min": 4.301986483333334
  },
  "games": [
+  {
+   "league": "NFL",
+   "name": "WSH @ SF",
+   "away": "WSH",
+   "away_score": "0",
+   "home": "SF",
+   "home_score": "0",
+   "status": "10/19 - 8:15 PM EDT",
+   "date": "2026-10-20T00:15Z"
+  },
+  {
+   "league": "NFL",
+   "name": "SEA @ DEN",
+   "away": "SEA",
+   "away_score": "14",
+   "home": "DEN",
+   "home_score": "17",
+   "status": "Final/OT",
+   "date": "2026-10-16T00:15Z"
+  },
   {
    "league": "NFL",
    "name": "HOU VS JAX",
@@ -50,26 +70,6 @@
    "date": "2026-10-18T17:00Z"
   },
   {
-   "league": "NFL",
-   "name": "NYJ @ NE",
-   "away": "NYJ",
-   "away_score": "19",
-   "home": "NE",
-   "home_score": "26",
-   "status": "Final",
-   "date": "2026-10-18T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "NO @ NYG",
-   "away": "NO",
-   "away_score": "34",
-   "home": "NYG",
-   "home_score": "27",
-   "status": "Final",
-   "date": "2026-10-18T17:00Z"
-  },
-  {
    "league": "NBA",
    "name": "BOS @ DET",
    "away": "BOS",
@@ -106,7 +106,7 @@
    "away_score": "3",
    "home": "CLE",
    "home_score": "1",
-   "status": "Bot 9th",
+   "status": "Final",
    "date": "2026-10-18T21:00Z"
   }
  ],
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 794h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 799h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 47652
+   "data_age_min": 47920
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 794h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 799h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 47652
+   "data_age_min": 47920
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 794h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 799h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 47652
+   "data_age_min": 47920
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Buffalo Bills vs. Las Vegas Raiders: Game Highlights",
+  "BREAKING: Packers use timely turnovers, third-down conversions to beat struggling Cowboys",
+  "WSH 0 - SF 0 (10/19 - 8:15 PM EDT)",
+  "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
-  "BAL 10 - CLE 13 (Final)",
-  "TEN 26 - IND 20 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 794h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 794h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 794h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 799h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 799h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 799h old]",
   "Jonathan Aranda AVG .274 HR 22",
   "HIGHLIGHT: Liam Hicks' RBI single ",
-  "That RBI single from Liam Hicks turns the batter into a machine\u2014Vegas suddenly feels like a brick field!"
+  "Liam Hicks hooks that RBI single, pulling the team out of the shadows and lighting up the crowd!"
  ],
- "script_hint": "That RBI single from Liam Hicks turns the batter into a machine\u2014Vegas suddenly feels like a brick field!  [brain]"
+ "script_hint": "Liam Hicks hooks that RBI single, pulling the team out of the shadows and lighting up the crowd!  [brain]"
 }
