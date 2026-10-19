@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T04:26:32.804109+00:00",
+ "generated": "2026-10-19T10:10:52.303405+00:00",
  "version": 2,
  "ticker": "NFL: WSH 0 - SF 0 10/19 - 8:15 PM EDT  //  NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final",
  "breaking": {
-  "id": "espn:50190741",
-  "title": "Packers use timely turnovers, third-down conversions to beat struggling Cowboys",
+  "id": "espn:50215436",
+  "title": "Is Commanders coach Dan Quinn's job in jeopardy after tie with Giants?",
   "source": "ESPN NFL",
-  "age_min": 4.301986483333334
+  "age_min": 10.63407255
  },
  "games": [
   {
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 799h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 804h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 47920
+   "data_age_min": 48264
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 799h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 804h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 47920
+   "data_age_min": 48264
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 799h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 804h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 47920
+   "data_age_min": 48264
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Packers use timely turnovers, third-down conversions to beat struggling Cowboys",
+  "BREAKING: Is Commanders coach Dan Quinn's job in jeopardy after tie with Giants?",
   "WSH 0 - SF 0 (10/19 - 8:15 PM EDT)",
   "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 799h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 799h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 799h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 804h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 804h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 804h old]",
   "Jonathan Aranda AVG .274 HR 22",
   "HIGHLIGHT: Liam Hicks' RBI single ",
-  "Liam Hicks hooks that RBI single, pulling the team out of the shadows and lighting up the crowd!"
+  "Liam Hicks\u2019 RBI single rockets the score, turning the tide right on the road."
  ],
- "script_hint": "Liam Hicks hooks that RBI single, pulling the team out of the shadows and lighting up the crowd!  [brain]"
+ "script_hint": "Liam Hicks\u2019 RBI single rockets the score, turning the tide right on the road.  [brain]"
 }
