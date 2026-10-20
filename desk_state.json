@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T19:30:14.119719+00:00",
+ "generated": "2026-10-20T22:35:59.322243+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final  //  NFL: TEN 26 - IND 20 Final",
  "breaking": {
-  "id": "espn:47809892",
-  "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-  "source": "ESPN NFL",
-  "age_min": 1.1822087333333333
+  "id": "espn:50232192",
+  "title": "Paul George's 38-point debut not enough as Piston rally late to down Celtics",
+  "source": "ESPN NBA",
+  "age_min": 4.332679533333334
  },
  "games": [
   {
@@ -73,10 +73,10 @@
    "league": "NBA",
    "name": "BOS @ DET",
    "away": "BOS",
-   "away_score": "23",
+   "away_score": "113",
    "home": "DET",
-   "home_score": "24",
-   "status": "1:55 - 1st",
+   "home_score": "121",
+   "status": "Final",
    "date": "2026-10-20T19:00Z"
   },
   {
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 838h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 841h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 50263
+   "data_age_min": 50449
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 838h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 841h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 50263
+   "data_age_min": 50449
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 838h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 841h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 50263
+   "data_age_min": 50449
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Super Bowl LXI odds: All 32 teams' odds to win the championship",
+  "BREAKING: Paul George's 38-point debut not enough as Piston rally late to down Celtics",
   "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
   "BAL 10 - CLE 13 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 838h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 838h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 838h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 841h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 841h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 841h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "The Guardians seized Game 6 with a whirlwind, slicing through the Rays' lineup for a stunning comeback."
+  "Guardians blaze hot, snatching Game 6 with a furious offense that left the Rays choking."
  ],
- "script_hint": "The Guardians seized Game 6 with a whirlwind, slicing through the Rays' lineup for a stunning comeback.  [brain]"
+ "script_hint": "Guardians blaze hot, snatching Game 6 with a furious offense that left the Rays choking.  [brain]"
 }
