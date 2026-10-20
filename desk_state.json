@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T10:18:43.353772+00:00",
+ "generated": "2026-10-20T15:17:45.646194+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final  //  NFL: TEN 26 - IND 20 Final",
  "breaking": {
-  "id": "espn:50218886",
-  "title": "NFL Power Rankings: How all 32 teams stack up for Week 7, plus offensive issues",
-  "source": "ESPN NFL",
-  "age_min": 12.438729016666667
+  "id": "espn:50220047",
+  "title": "Windhorst: What playing at Madison Square Garden means to LeBron James",
+  "source": "ESPN NBA",
+  "age_min": 12.61740025
  },
  "games": [
   {
@@ -101,13 +101,13 @@
   },
   {
    "league": "MLB",
-   "name": "CLE @ TB",
-   "away": "CLE",
-   "away_score": "3",
-   "home": "TB",
-   "home_score": "7",
-   "status": "Final",
-   "date": "2026-10-20T00:00Z"
+   "name": "TB @ MIL",
+   "away": "TB",
+   "away_score": "0",
+   "home": "MIL",
+   "home_score": "0",
+   "status": "10/23 - 8:00 PM EDT",
+   "date": "2026-10-24T00:00Z"
   }
  ],
  "highlights": [
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 829h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 834h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 49712
+   "data_age_min": 50011
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 829h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 834h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 49712
+   "data_age_min": 50011
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 829h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 834h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 49712
+   "data_age_min": 50011
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NFL Power Rankings: How all 32 teams stack up for Week 7, plus offensive issues",
+  "BREAKING: Windhorst: What playing at Madison Square Garden means to LeBron James",
   "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
   "BAL 10 - CLE 13 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 829h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 829h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 829h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 834h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 834h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 834h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Get ready to see Chase DeLauter demolish the Tigers in Game 6, a knockout that rockets the Guardians to glory."
+  "In a storm of clutch hits, the Guardians stormed the Series, turning a swat\u2011heavy Game 6 into a blockbuster masterstroke."
  ],
- "script_hint": "Get ready to see Chase DeLauter demolish the Tigers in Game 6, a knockout that rockets the Guardians to glory.  [brain]"
+ "script_hint": "In a storm of clutch hits, the Guardians stormed the Series, turning a swat\u2011heavy Game 6 into a blockbuster masterstroke.  [brain]"
 }
