@@ -1,24 +1,14 @@
 {
- "generated": "2026-10-20T00:33:09.322186+00:00",
+ "generated": "2026-10-20T05:21:14.771635+00:00",
  "version": 2,
- "ticker": "NFL: WSH 3 - SF 7 8:48 - 1st  //  NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final",
+ "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final  //  NFL: TEN 26 - IND 20 Final",
  "breaking": {
-  "id": "espn:50222458",
-  "title": "Japanese slugger Teruaki Sato, 27, seeking a move to MLB through posting system",
-  "source": "ESPN MLB",
-  "age_min": 6.88285555
+  "id": "espn:50223535",
+  "title": "Mike Evans unable to finish 49ers' win, exits with Achilles soreness",
+  "source": "ESPN NFL",
+  "age_min": 1.0241094166666667
  },
  "games": [
-  {
-   "league": "NFL",
-   "name": "WSH @ SF",
-   "away": "WSH",
-   "away_score": "3",
-   "home": "SF",
-   "home_score": "7",
-   "status": "8:48 - 1st",
-   "date": "2026-10-20T00:15Z"
-  },
   {
    "league": "NFL",
    "name": "SEA @ DEN",
@@ -70,6 +60,16 @@
    "date": "2026-10-18T17:00Z"
   },
   {
+   "league": "NFL",
+   "name": "NYJ @ NE",
+   "away": "NYJ",
+   "away_score": "19",
+   "home": "NE",
+   "home_score": "26",
+   "status": "Final",
+   "date": "2026-10-18T17:00Z"
+  },
+  {
    "league": "NBA",
    "name": "BOS @ DET",
    "away": "BOS",
@@ -103,52 +103,52 @@
    "league": "MLB",
    "name": "CLE @ TB",
    "away": "CLE",
-   "away_score": "0",
+   "away_score": "3",
    "home": "TB",
-   "home_score": "0",
-   "status": "Bot 2nd",
+   "home_score": "7",
+   "status": "Final",
    "date": "2026-10-20T00:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849815,
-   "title": "Shawn Armstrong against the Rays",
-   "url": "https://darkroom-clips.mlb.com/6615b335-77bf-4c0c-8ca9-453d03f2cc3d.mp4"
+   "title": "Guardians vs. Rays Game 6 Highlights",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/19/69931119-17a357d3-9c870837-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": {
-  "player": "Liam Hicks",
-  "team": "TB",
-  "avg": ".284",
-  "hr": 18,
-  "rbi": 82,
-  "hits": 136,
-  "ops": ".801",
+  "player": "Chase DeLauter",
+  "team": "CLE",
+  "avg": ".287",
+  "hr": 16,
+  "rbi": 67,
+  "hits": 142,
+  "ops": ".820",
   "gamePk": 849815,
   "source": "statsapi /people/season"
  },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 819h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 824h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 49126
+   "data_age_min": 49414
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 819h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 824h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 49126
+   "data_age_min": 49414
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 819h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 824h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 49126
+   "data_age_min": 49414
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Japanese slugger Teruaki Sato, 27, seeking a move to MLB through posting system",
-  "WSH 3 - SF 7 (8:48 - 1st)",
+  "BREAKING: Mike Evans unable to finish 49ers' win, exits with Achilles soreness",
   "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 819h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 819h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 819h old]",
-  "Liam Hicks AVG .284 HR 18",
-  "HIGHLIGHT: Shawn Armstrong against the Rays",
-  "Shawn Armstrong\u2019s cannon detonates a haymaker to the outfield, leaving the Rays\u2019 defense tangled in disbelief."
+  "BAL 10 - CLE 13 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 824h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 824h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 824h old]",
+  "Chase DeLauter AVG .287 HR 16",
+  "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
+  "Swing\u2011heavy Guardians unleash a 3\u2011run burst, jacking home the decisive outburst of Game 6\u2014Rays left scrambling."
  ],
- "script_hint": "Shawn Armstrong\u2019s cannon detonates a haymaker to the outfield, leaving the Rays\u2019 defense tangled in disbelief.  [brain]"
+ "script_hint": "Swing\u2011heavy Guardians unleash a 3\u2011run burst, jacking home the decisive outburst of Game 6\u2014Rays left scrambling.  [brain]"
 }
