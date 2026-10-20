@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T05:21:14.771635+00:00",
+ "generated": "2026-10-20T10:18:43.353772+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final  //  NFL: TEN 26 - IND 20 Final",
  "breaking": {
-  "id": "espn:50223535",
-  "title": "Mike Evans unable to finish 49ers' win, exits with Achilles soreness",
+  "id": "espn:50218886",
+  "title": "NFL Power Rankings: How all 32 teams stack up for Week 7, plus offensive issues",
   "source": "ESPN NFL",
-  "age_min": 1.0241094166666667
+  "age_min": 12.438729016666667
  },
  "games": [
   {
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 824h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 829h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 49414
+   "data_age_min": 49712
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 824h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 829h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 49414
+   "data_age_min": 49712
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 824h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 829h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 49414
+   "data_age_min": 49712
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Mike Evans unable to finish 49ers' win, exits with Achilles soreness",
+  "BREAKING: NFL Power Rankings: How all 32 teams stack up for Week 7, plus offensive issues",
   "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
   "BAL 10 - CLE 13 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 824h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 824h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 824h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 829h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 829h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 829h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Swing\u2011heavy Guardians unleash a 3\u2011run burst, jacking home the decisive outburst of Game 6\u2014Rays left scrambling."
+  "Get ready to see Chase DeLauter demolish the Tigers in Game 6, a knockout that rockets the Guardians to glory."
  ],
- "script_hint": "Swing\u2011heavy Guardians unleash a 3\u2011run burst, jacking home the decisive outburst of Game 6\u2014Rays left scrambling.  [brain]"
+ "script_hint": "Get ready to see Chase DeLauter demolish the Tigers in Game 6, a knockout that rockets the Guardians to glory.  [brain]"
 }
