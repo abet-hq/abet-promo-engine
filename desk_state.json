@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T11:26:44.148206+00:00",
+ "generated": "2026-10-21T16:04:18.199602+00:00",
  "version": 2,
  "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50228657",
-  "title": "NFL Week 7 latest intel, buzz questions, news, fantasy tips: What we're hearing",
+  "id": "espn:50238754",
+  "title": "Daniel Dopp: Isaiah Likely can be started with confidence week in and week out",
   "source": "ESPN NFL",
-  "age_min": 5.357432149999999
+  "age_min": 3.0985814333333335
  },
  "games": [
   {
@@ -71,33 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "BOS @ DET",
-   "away": "BOS",
-   "away_score": "113",
-   "home": "DET",
-   "home_score": "121",
-   "status": "Final",
-   "date": "2026-10-20T19:00Z"
+   "name": "ATL @ ORL",
+   "away": "ATL",
+   "away_score": "0",
+   "home": "ORL",
+   "home_score": "0",
+   "status": "10/21 - 7:00 PM EDT",
+   "date": "2026-10-21T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "PHI @ NY",
-   "away": "PHI",
-   "away_score": "106",
-   "home": "NY",
-   "home_score": "100",
-   "status": "Final",
-   "date": "2026-10-20T23:00Z"
+   "name": "MIL @ WSH",
+   "away": "MIL",
+   "away_score": "0",
+   "home": "WSH",
+   "home_score": "0",
+   "status": "10/21 - 7:00 PM EDT",
+   "date": "2026-10-21T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "OKC @ SA",
-   "away": "OKC",
-   "away_score": "116",
-   "home": "SA",
-   "home_score": "104",
-   "status": "Final",
-   "date": "2026-10-21T01:50Z"
+   "name": "MIN @ MIA",
+   "away": "MIN",
+   "away_score": "0",
+   "home": "MIA",
+   "home_score": "0",
+   "status": "10/21 - 7:30 PM EDT",
+   "date": "2026-10-21T23:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "CHA @ BKN",
+   "away": "CHA",
+   "away_score": "0",
+   "home": "BKN",
+   "home_score": "0",
+   "status": "10/21 - 7:30 PM EDT",
+   "date": "2026-10-21T23:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "CHI @ TOR",
+   "away": "CHI",
+   "away_score": "0",
+   "home": "TOR",
+   "home_score": "0",
+   "status": "10/21 - 7:30 PM EDT",
+   "date": "2026-10-21T23:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "UTAH @ MEM",
+   "away": "UTAH",
+   "away_score": "0",
+   "home": "MEM",
+   "home_score": "0",
+   "status": "10/21 - 8:00 PM EDT",
+   "date": "2026-10-22T00:00Z"
   },
   {
    "league": "MLB",
@@ -131,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 854h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 858h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 51220
+   "data_age_min": 51497
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 854h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 858h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 51220
+   "data_age_min": 51497
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 854h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 858h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 51220
+   "data_age_min": 51497
   }
  ],
  "sources": {
@@ -159,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NFL Week 7 latest intel, buzz questions, news, fantasy tips: What we're hearing",
+  "BREAKING: Daniel Dopp: Isaiah Likely can be started with confidence week in and week out",
   "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 854h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 854h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 854h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 858h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 858h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 858h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Tonight, Guardians\u2019 DeLauter, with his .287 average, crushed a 3\u2011run rally to clinch a dramatic win over the Rays\u2014a 12\u2011hour thriller!"
+  "What a wild night! The Guardians stole the series\u2011clinch\u2014pure, unfiltered brilliance against the Rays."
  ],
- "script_hint": "Tonight, Guardians\u2019 DeLauter, with his .287 average, crushed a 3\u2011run rally to clinch a dramatic win over the Rays\u2014a 12\u2011hour thriller!  [brain]"
+ "script_hint": "What a wild night! The Guardians stole the series\u2011clinch\u2014pure, unfiltered brilliance against the Rays.  [brain]"
 }
