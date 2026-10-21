@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T05:56:07.215707+00:00",
+ "generated": "2026-10-21T11:26:44.148206+00:00",
  "version": 2,
  "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50234914",
-  "title": "Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
-  "source": "ESPN NBA",
-  "age_min": 4.665866883333334
+  "id": "espn:50228657",
+  "title": "NFL Week 7 latest intel, buzz questions, news, fantasy tips: What we're hearing",
+  "source": "ESPN NFL",
+  "age_min": 5.357432149999999
  },
  "games": [
   {
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 848h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 854h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 50889
+   "data_age_min": 51220
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 848h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 854h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 50889
+   "data_age_min": 51220
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 848h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 854h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 50889
+   "data_age_min": 51220
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
+  "BREAKING: NFL Week 7 latest intel, buzz questions, news, fantasy tips: What we're hearing",
   "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 848h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 848h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 848h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 854h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 854h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 854h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Guardians' 12\u20110 twelfth\u2011inning explosion clinched Game 6, sending the Rays into frantic scramble."
+  "Tonight, Guardians\u2019 DeLauter, with his .287 average, crushed a 3\u2011run rally to clinch a dramatic win over the Rays\u2014a 12\u2011hour thriller!"
  ],
- "script_hint": "Guardians' 12\u20110 twelfth\u2011inning explosion clinched Game 6, sending the Rays into frantic scramble.  [brain]"
+ "script_hint": "Tonight, Guardians\u2019 DeLauter, with his .287 average, crushed a 3\u2011run rally to clinch a dramatic win over the Rays\u2014a 12\u2011hour thriller!  [brain]"
 }
