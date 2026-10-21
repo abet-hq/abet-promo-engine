@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T22:35:59.322243+00:00",
+ "generated": "2026-10-21T00:59:47.135358+00:00",
  "version": 2,
  "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final  //  NFL: TEN 26 - IND 20 Final",
  "breaking": {
-  "id": "espn:50232192",
-  "title": "Paul George's 38-point debut not enough as Piston rally late to down Celtics",
+  "id": "espn:50233339",
+  "title": "Warriors' Brandin Podziemski to miss opener vs. Lakers with back soreness",
   "source": "ESPN NBA",
-  "age_min": 4.332679533333334
+  "age_min": 20.626841116666665
  },
  "games": [
   {
@@ -83,10 +83,10 @@
    "league": "NBA",
    "name": "PHI @ NY",
    "away": "PHI",
-   "away_score": "0",
+   "away_score": "62",
    "home": "NY",
-   "home_score": "0",
-   "status": "10/20 - 7:00 PM EDT",
+   "home_score": "63",
+   "status": "7:55 - 3rd",
    "date": "2026-10-20T23:00Z"
   },
   {
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 841h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 843h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 50449
+   "data_age_min": 50593
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 841h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 843h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 50449
+   "data_age_min": 50593
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 841h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 843h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 50449
+   "data_age_min": 50593
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Paul George's 38-point debut not enough as Piston rally late to down Celtics",
+  "BREAKING: Warriors' Brandin Podziemski to miss opener vs. Lakers with back soreness",
   "SEA 14 - DEN 17 (Final/OT)",
   "HOU 34 - JAX 31 (Final)",
   "CHI 31 - ATL 23 (Final)",
   "BAL 10 - CLE 13 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 841h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 841h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 841h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 843h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 843h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 843h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Guardians blaze hot, snatching Game 6 with a furious offense that left the Rays choking."
+  "The Guardians exploded in the sixth with an unmissable double\u2011play that flipped the momentum, leaving the Rays scrambling."
  ],
- "script_hint": "Guardians blaze hot, snatching Game 6 with a furious offense that left the Rays choking.  [brain]"
+ "script_hint": "The Guardians exploded in the sixth with an unmissable double\u2011play that flipped the momentum, leaving the Rays scrambling.  [brain]"
 }
