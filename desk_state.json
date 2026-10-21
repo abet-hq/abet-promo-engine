@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T16:04:18.199602+00:00",
+ "generated": "2026-10-21T20:10:51.268624+00:00",
  "version": 2,
  "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50238754",
-  "title": "Daniel Dopp: Isaiah Likely can be started with confidence week in and week out",
+  "id": "espn:50240756",
+  "title": "Bears RB Kyle Monangai (toe, thumb) out Thursday vs. Patriots",
   "source": "ESPN NFL",
-  "age_min": 3.0985814333333335
+  "age_min": 2.60247385
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 858h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 862h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 51497
+   "data_age_min": 51744
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 858h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 862h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 51497
+   "data_age_min": 51744
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 858h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 862h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 51497
+   "data_age_min": 51744
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Daniel Dopp: Isaiah Likely can be started with confidence week in and week out",
+  "BREAKING: Bears RB Kyle Monangai (toe, thumb) out Thursday vs. Patriots",
   "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 858h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 858h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 858h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 862h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 862h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 862h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "What a wild night! The Guardians stole the series\u2011clinch\u2014pure, unfiltered brilliance against the Rays."
+  "Tampa\u2019s DeLauter hits a decisive two\u2011run homer, sparking a breakout win that leaves Guardians\u2019 hopes shattered."
  ],
- "script_hint": "What a wild night! The Guardians stole the series\u2011clinch\u2014pure, unfiltered brilliance against the Rays.  [brain]"
+ "script_hint": "Tampa\u2019s DeLauter hits a decisive two\u2011run homer, sparking a breakout win that leaves Guardians\u2019 hopes shattered.  [brain]"
 }
