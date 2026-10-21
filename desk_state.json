@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T20:10:51.268624+00:00",
+ "generated": "2026-10-21T23:21:41.164544+00:00",
  "version": 2,
  "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50240756",
-  "title": "Bears RB Kyle Monangai (toe, thumb) out Thursday vs. Patriots",
-  "source": "ESPN NFL",
-  "age_min": 2.60247385
+  "id": "espn:50242524",
+  "title": "Shaq on 76ers' Finals hopes: 'They can't do it without Joel Embiid'",
+  "source": "ESPN NBA",
+  "age_min": 0.8410932833333333
  },
  "games": [
   {
@@ -73,20 +73,20 @@
    "league": "NBA",
    "name": "ATL @ ORL",
    "away": "ATL",
-   "away_score": "0",
+   "away_score": "12",
    "home": "ORL",
-   "home_score": "0",
-   "status": "10/21 - 7:00 PM EDT",
+   "home_score": "14",
+   "status": "8:10 - 1st",
    "date": "2026-10-21T23:00Z"
   },
   {
    "league": "NBA",
    "name": "MIL @ WSH",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "9",
    "home": "WSH",
-   "home_score": "0",
-   "status": "10/21 - 7:00 PM EDT",
+   "home_score": "8",
+   "status": "7:38 - 1st",
    "date": "2026-10-21T23:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 862h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 866h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 51744
+   "data_age_min": 51935
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 862h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 866h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 51744
+   "data_age_min": 51935
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 862h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 866h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 51744
+   "data_age_min": 51935
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Bears RB Kyle Monangai (toe, thumb) out Thursday vs. Patriots",
+  "BREAKING: Shaq on 76ers' Finals hopes: 'They can't do it without Joel Embiid'",
   "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 862h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 862h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 862h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 866h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 866h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 866h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Tampa\u2019s DeLauter hits a decisive two\u2011run homer, sparking a breakout win that leaves Guardians\u2019 hopes shattered."
+  "That clutch double play in the ninth tore Guardians\u2019 lead, launching Rays to a game\u2011winning rally."
  ],
- "script_hint": "Tampa\u2019s DeLauter hits a decisive two\u2011run homer, sparking a breakout win that leaves Guardians\u2019 hopes shattered.  [brain]"
+ "script_hint": "That clutch double play in the ninth tore Guardians\u2019 lead, launching Rays to a game\u2011winning rally.  [brain]"
 }
