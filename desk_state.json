@@ -1,73 +1,73 @@
 {
- "generated": "2026-10-21T00:59:47.135358+00:00",
+ "generated": "2026-10-21T05:56:07.215707+00:00",
  "version": 2,
- "ticker": "NFL: SEA 14 - DEN 17 Final/OT  //  NFL: HOU 34 - JAX 31 Final  //  NFL: CHI 31 - ATL 23 Final  //  NFL: BAL 10 - CLE 13 Final  //  NFL: TEN 26 - IND 20 Final",
+ "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50233339",
-  "title": "Warriors' Brandin Podziemski to miss opener vs. Lakers with back soreness",
+  "id": "espn:50234914",
+  "title": "Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
   "source": "ESPN NBA",
-  "age_min": 20.626841116666665
+  "age_min": 4.665866883333334
  },
  "games": [
   {
    "league": "NFL",
-   "name": "SEA @ DEN",
-   "away": "SEA",
-   "away_score": "14",
-   "home": "DEN",
-   "home_score": "17",
-   "status": "Final/OT",
-   "date": "2026-10-16T00:15Z"
+   "name": "NE @ CHI",
+   "away": "NE",
+   "away_score": "0",
+   "home": "CHI",
+   "home_score": "0",
+   "status": "10/22 - 8:15 PM EDT",
+   "date": "2026-10-23T00:15Z"
   },
   {
    "league": "NFL",
-   "name": "HOU VS JAX",
-   "away": "HOU",
-   "away_score": "34",
-   "home": "JAX",
-   "home_score": "31",
-   "status": "Final",
-   "date": "2026-10-18T13:30Z"
+   "name": "PIT VS NO",
+   "away": "PIT",
+   "away_score": "0",
+   "home": "NO",
+   "home_score": "0",
+   "status": "10/25 - 9:30 AM EDT",
+   "date": "2026-10-25T13:30Z"
   },
   {
    "league": "NFL",
-   "name": "CHI @ ATL",
-   "away": "CHI",
-   "away_score": "31",
+   "name": "SF @ ATL",
+   "away": "SF",
+   "away_score": "0",
    "home": "ATL",
-   "home_score": "23",
-   "status": "Final",
-   "date": "2026-10-18T17:00Z"
+   "home_score": "0",
+   "status": "10/25 - 1:00 PM EDT",
+   "date": "2026-10-25T17:00Z"
   },
   {
    "league": "NFL",
-   "name": "BAL @ CLE",
-   "away": "BAL",
-   "away_score": "10",
-   "home": "CLE",
-   "home_score": "13",
-   "status": "Final",
-   "date": "2026-10-18T17:00Z"
+   "name": "CLE @ TEN",
+   "away": "CLE",
+   "away_score": "0",
+   "home": "TEN",
+   "home_score": "0",
+   "status": "10/25 - 1:00 PM EDT",
+   "date": "2026-10-25T17:00Z"
   },
   {
    "league": "NFL",
-   "name": "TEN @ IND",
-   "away": "TEN",
-   "away_score": "26",
-   "home": "IND",
-   "home_score": "20",
-   "status": "Final",
-   "date": "2026-10-18T17:00Z"
+   "name": "IND @ MIN",
+   "away": "IND",
+   "away_score": "0",
+   "home": "MIN",
+   "home_score": "0",
+   "status": "10/25 - 1:00 PM EDT",
+   "date": "2026-10-25T17:00Z"
   },
   {
    "league": "NFL",
-   "name": "NYJ @ NE",
-   "away": "NYJ",
-   "away_score": "19",
-   "home": "NE",
-   "home_score": "26",
-   "status": "Final",
-   "date": "2026-10-18T17:00Z"
+   "name": "MIA @ NYJ",
+   "away": "MIA",
+   "away_score": "0",
+   "home": "NYJ",
+   "home_score": "0",
+   "status": "10/25 - 1:00 PM EDT",
+   "date": "2026-10-25T17:00Z"
   },
   {
    "league": "NBA",
@@ -83,21 +83,21 @@
    "league": "NBA",
    "name": "PHI @ NY",
    "away": "PHI",
-   "away_score": "62",
+   "away_score": "106",
    "home": "NY",
-   "home_score": "63",
-   "status": "7:55 - 3rd",
+   "home_score": "100",
+   "status": "Final",
    "date": "2026-10-20T23:00Z"
   },
   {
    "league": "NBA",
    "name": "OKC @ SA",
    "away": "OKC",
-   "away_score": "0",
+   "away_score": "116",
    "home": "SA",
-   "home_score": "0",
-   "status": "10/20 - 9:30 PM EDT",
-   "date": "2026-10-21T01:30Z"
+   "home_score": "104",
+   "status": "Final",
+   "date": "2026-10-21T01:50Z"
   },
   {
    "league": "MLB",
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 843h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 848h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 50593
+   "data_age_min": 50889
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 843h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 848h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 50593
+   "data_age_min": 50889
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 843h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 848h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 50593
+   "data_age_min": 50889
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Warriors' Brandin Podziemski to miss opener vs. Lakers with back soreness",
-  "SEA 14 - DEN 17 (Final/OT)",
-  "HOU 34 - JAX 31 (Final)",
-  "CHI 31 - ATL 23 (Final)",
-  "BAL 10 - CLE 13 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 843h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 843h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 843h old]",
+  "BREAKING: Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
+  "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
+  "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
+  "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
+  "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 848h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 848h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 848h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "The Guardians exploded in the sixth with an unmissable double\u2011play that flipped the momentum, leaving the Rays scrambling."
+  "Guardians' 12\u20110 twelfth\u2011inning explosion clinched Game 6, sending the Rays into frantic scramble."
  ],
- "script_hint": "The Guardians exploded in the sixth with an unmissable double\u2011play that flipped the momentum, leaving the Rays scrambling.  [brain]"
+ "script_hint": "Guardians' 12\u20110 twelfth\u2011inning explosion clinched Game 6, sending the Rays into frantic scramble.  [brain]"
 }
