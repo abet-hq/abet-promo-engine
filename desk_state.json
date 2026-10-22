@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T17:33:48.849615+00:00",
+ "generated": "2026-10-22T20:50:20.045162+00:00",
  "version": 2,
  "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50250553",
-  "title": "Jets face a 'huge' home test vs. winless Dolphins as AFC East rivals square off",
+  "id": "espn:50252035",
+  "title": "Barring setbacks, Bucs QB Baker Mayfield expected to start vs. Panthers",
   "source": "ESPN NFL",
-  "age_min": 2.468521216666667
+  "age_min": 1.6390083500000001
  },
  "games": [
   {
@@ -121,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 884h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 887h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 53027
+   "data_age_min": 53223
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 884h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 887h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 53027
+   "data_age_min": 53223
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 884h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 887h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 53027
+   "data_age_min": 53223
   }
  ],
  "sources": {
@@ -149,17 +149,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Jets face a 'huge' home test vs. winless Dolphins as AFC East rivals square off",
+  "BREAKING: Barring setbacks, Bucs QB Baker Mayfield expected to start vs. Panthers",
   "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 884h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 884h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 884h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 887h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 887h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 887h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!"
+  "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!"
  ],
- "script_hint": "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!  [brain]"
+ "script_hint": "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!  [brain]"
 }

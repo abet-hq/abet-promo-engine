@@ -1,9 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50191622",
-  "espn:50191564",
-  "espn:50191464",
-  "espn:50191115",
   "espn:49804164",
   "espn:49804233",
   "espn:50191473",
@@ -390,17 +386,30 @@
   "espn:50241399",
   "espn:50242150",
   "gnews:What is a sports equinox? Here's when ML",
-  "gnews:Fanatics, NFL, NBA, MLB Defeat Trading C"
+  "gnews:Fanatics, NFL, NBA, MLB Defeat Trading C",
+  "espn:50252041",
+  "espn:50252035",
+  "espn:50251985",
+  "espn:50251708",
+  "espn:50251617",
+  "espn:50251544",
+  "espn:50251603",
+  "espn:50251415",
+  "espn:50250900",
+  "espn:50251942",
+  "espn:50250822",
+  "espn:50250773",
+  "gnews:How the NBA Made $14.5 Billion in Revenu"
  ],
  "recent_topics": [
-  "Tonight, Guardians\u2019 DeLauter, with his .287 average, crushed a 3\u2011run rally to clinch a dramatic win over the Rays\u2014a 12\u2011hour thriller!",
   "What a wild night! The Guardians stole the series\u2011clinch\u2014pure, unfiltered brilliance against the Rays.",
   "Tampa\u2019s DeLauter hits a decisive two\u2011run homer, sparking a breakout win that leaves Guardians\u2019 hopes shattered.",
   "That clutch double play in the ninth tore Guardians\u2019 lead, launching Rays to a game\u2011winning rally.",
   "Guardians' Game 6 lightning\u2014Rays collapsed on the mound, fans scream for a replay, and the win hits like a thunderclap.",
   "A crushing home run from T.J. Duncan literally flips the game\u2014Guardians rally, snatch the series, ignite the fans.",
   "In Game 6, Rays\u2019 bullpen collapses, Guardians falter on late pitches, and a blazing double flips the finale\u2014fans awake.",
-  "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!"
+  "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!",
+  "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!"
  ],
  "used_highlight_pks": [
   849818,
