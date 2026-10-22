@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T06:38:02.564848+00:00",
+ "generated": "2026-10-22T12:29:35.489953+00:00",
  "version": 2,
  "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50245665",
-  "title": "Trail Blazers fans show love for Damian Lillard in return",
+  "id": "espn:50248041",
+  "title": "Yaxel Lendeborg: I lost all respect for Luka Doncic",
   "source": "ESPN NBA",
-  "age_min": 10.413237650000001
+  "age_min": 0.7364969333333333
  },
  "games": [
   {
@@ -161,45 +161,45 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 873h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 879h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 52371
+   "data_age_min": 52723
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 873h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 879h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 52371
+   "data_age_min": 52723
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 873h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 879h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 52371
+   "data_age_min": 52723
   }
  ],
  "sources": {
   "espn": true,
-  "reddit": true,
+  "reddit": false,
   "mlb_statsapi": true,
   "abet_board": true
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Trail Blazers fans show love for Damian Lillard in return",
+  "BREAKING: Yaxel Lendeborg: I lost all respect for Luka Doncic",
   "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 873h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 873h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 873h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 879h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 879h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 879h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "A crushing home run from T.J. Duncan literally flips the game\u2014Guardians rally, snatch the series, ignite the fans."
+  "In Game 6, Rays\u2019 bullpen collapses, Guardians falter on late pitches, and a blazing double flips the finale\u2014fans awake."
  ],
- "script_hint": "A crushing home run from T.J. Duncan literally flips the game\u2014Guardians rally, snatch the series, ignite the fans.  [brain]"
+ "script_hint": "In Game 6, Rays\u2019 bullpen collapses, Guardians falter on late pitches, and a blazing double flips the finale\u2014fans awake.  [brain]"
 }
