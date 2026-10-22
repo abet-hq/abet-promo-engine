@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T20:50:20.045162+00:00",
+ "generated": "2026-10-22T23:54:41.983437+00:00",
  "version": 2,
  "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50252035",
-  "title": "Barring setbacks, Bucs QB Baker Mayfield expected to start vs. Panthers",
+  "id": "espn:50253179",
+  "title": "Week 7 NFL TNF highlights: Best plays, moments, TDs, more",
   "source": "ESPN NFL",
-  "age_min": 1.6390083500000001
+  "age_min": 1.9938842833333332
  },
  "games": [
   {
@@ -73,10 +73,10 @@
    "league": "NBA",
    "name": "CLE @ PHI",
    "away": "CLE",
-   "away_score": "0",
+   "away_score": "49",
    "home": "PHI",
-   "home_score": "0",
-   "status": "10/22 - 7:00 PM EDT",
+   "home_score": "28",
+   "status": "8:05 - 2nd",
    "date": "2026-10-22T23:00Z"
   },
   {
@@ -121,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 887h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 890h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 53223
+   "data_age_min": 53408
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 887h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 890h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 53223
+   "data_age_min": 53408
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 887h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 890h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 53223
+   "data_age_min": 53408
   }
  ],
  "sources": {
@@ -149,17 +149,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Barring setbacks, Bucs QB Baker Mayfield expected to start vs. Panthers",
+  "BREAKING: Week 7 NFL TNF highlights: Best plays, moments, TDs, more",
   "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 887h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 887h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 887h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 890h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 890h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 890h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!"
+  "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!"
  ],
- "script_hint": "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!  [brain]"
+ "script_hint": "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!  [brain]"
 }
