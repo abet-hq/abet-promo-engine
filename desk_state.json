@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T12:29:35.489953+00:00",
+ "generated": "2026-10-22T17:33:48.849615+00:00",
  "version": 2,
  "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50248041",
-  "title": "Yaxel Lendeborg: I lost all respect for Luka Doncic",
-  "source": "ESPN NBA",
-  "age_min": 0.7364969333333333
+  "id": "espn:50250553",
+  "title": "Jets face a 'huge' home test vs. winless Dolphins as AFC East rivals square off",
+  "source": "ESPN NFL",
+  "age_min": 2.468521216666667
  },
  "games": [
   {
@@ -71,63 +71,23 @@
   },
   {
    "league": "NBA",
-   "name": "ATL @ ORL",
-   "away": "ATL",
-   "away_score": "132",
-   "home": "ORL",
-   "home_score": "125",
-   "status": "Final",
-   "date": "2026-10-21T23:00Z"
+   "name": "CLE @ PHI",
+   "away": "CLE",
+   "away_score": "0",
+   "home": "PHI",
+   "home_score": "0",
+   "status": "10/22 - 7:00 PM EDT",
+   "date": "2026-10-22T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "MIL @ WSH",
-   "away": "MIL",
-   "away_score": "116",
-   "home": "WSH",
-   "home_score": "128",
-   "status": "Final",
-   "date": "2026-10-21T23:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MIN @ MIA",
-   "away": "MIN",
-   "away_score": "131",
-   "home": "MIA",
-   "home_score": "106",
-   "status": "Final",
-   "date": "2026-10-21T23:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CHA @ BKN",
-   "away": "CHA",
-   "away_score": "110",
-   "home": "BKN",
-   "home_score": "103",
-   "status": "Final",
-   "date": "2026-10-21T23:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CHI @ TOR",
-   "away": "CHI",
-   "away_score": "92",
-   "home": "TOR",
-   "home_score": "135",
-   "status": "Final",
-   "date": "2026-10-21T23:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "UTAH @ MEM",
-   "away": "UTAH",
-   "away_score": "103",
-   "home": "MEM",
-   "home_score": "123",
-   "status": "Final",
-   "date": "2026-10-22T00:00Z"
+   "name": "DEN @ OKC",
+   "away": "DEN",
+   "away_score": "0",
+   "home": "OKC",
+   "home_score": "0",
+   "status": "10/22 - 9:30 PM EDT",
+   "date": "2026-10-23T01:30Z"
   },
   {
    "league": "MLB",
@@ -161,45 +121,45 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 879h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 884h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 52723
+   "data_age_min": 53027
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 879h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 884h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 52723
+   "data_age_min": 53027
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 879h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 884h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 52723
+   "data_age_min": 53027
   }
  ],
  "sources": {
   "espn": true,
-  "reddit": false,
+  "reddit": true,
   "mlb_statsapi": true,
   "abet_board": true
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Yaxel Lendeborg: I lost all respect for Luka Doncic",
+  "BREAKING: Jets face a 'huge' home test vs. winless Dolphins as AFC East rivals square off",
   "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 879h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 879h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 879h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 884h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 884h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 884h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "In Game 6, Rays\u2019 bullpen collapses, Guardians falter on late pitches, and a blazing double flips the finale\u2014fans awake."
+  "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!"
  ],
- "script_hint": "In Game 6, Rays\u2019 bullpen collapses, Guardians falter on late pitches, and a blazing double flips the finale\u2014fans awake.  [brain]"
+ "script_hint": "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!  [brain]"
 }
