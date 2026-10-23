@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T14:15:33.227314+00:00",
+ "generated": "2026-10-23T18:37:48.336534+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50257409",
-  "title": "What are the biggest storylines of the World Series?",
-  "source": "ESPN MLB",
-  "age_min": 2.8041910666666667
+  "id": "espn:50259536",
+  "title": "Colts' Tyler Warren to miss second game with groin injury",
+  "source": "ESPN NFL",
+  "age_min": 4.152311116666667
  },
  "games": [
   {
@@ -71,23 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "CLE @ PHI",
-   "away": "CLE",
-   "away_score": "106",
-   "home": "PHI",
-   "home_score": "114",
-   "status": "Final",
-   "date": "2026-10-22T23:00Z"
+   "name": "CHI @ MIL",
+   "away": "CHI",
+   "away_score": "0",
+   "home": "MIL",
+   "home_score": "0",
+   "status": "10/23 - 4:00 PM EDT",
+   "date": "2026-10-23T20:00Z"
   },
   {
    "league": "NBA",
-   "name": "DEN @ OKC",
-   "away": "DEN",
-   "away_score": "84",
-   "home": "OKC",
-   "home_score": "96",
-   "status": "Final",
-   "date": "2026-10-23T01:30Z"
+   "name": "NY @ BOS",
+   "away": "NY",
+   "away_score": "0",
+   "home": "BOS",
+   "home_score": "0",
+   "status": "10/23 - 7:00 PM EDT",
+   "date": "2026-10-23T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "ATL @ CHA",
+   "away": "ATL",
+   "away_score": "0",
+   "home": "CHA",
+   "home_score": "0",
+   "status": "10/23 - 7:00 PM EDT",
+   "date": "2026-10-23T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "DAL @ IND",
+   "away": "DAL",
+   "away_score": "0",
+   "home": "IND",
+   "home_score": "0",
+   "status": "10/23 - 7:00 PM EDT",
+   "date": "2026-10-23T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "MIN @ ORL",
+   "away": "MIN",
+   "away_score": "0",
+   "home": "ORL",
+   "home_score": "0",
+   "status": "10/23 - 7:00 PM EDT",
+   "date": "2026-10-23T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "TOR @ WSH",
+   "away": "TOR",
+   "away_score": "0",
+   "home": "WSH",
+   "home_score": "0",
+   "status": "10/23 - 7:00 PM EDT",
+   "date": "2026-10-23T23:00Z"
   },
   {
    "league": "MLB",
@@ -111,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 904h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 909h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 54269
+   "data_age_min": 54531
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 904h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 909h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 54269
+   "data_age_min": 54531
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 904h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 909h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 54269
+   "data_age_min": 54531
   }
  ],
  "sources": {
@@ -139,16 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: What are the biggest storylines of the World Series?",
+  "BREAKING: Colts' Tyler Warren to miss second game with groin injury",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 904h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 904h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 904h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 909h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 909h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 909h old]",
   "HIGHLIGHT: Nick Martinez against the Brewers",
-  "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence."
+  "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win."
  ],
- "script_hint": "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence.  [brain]"
+ "script_hint": "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win.  [brain]"
 }

@@ -1,17 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50182356",
-  "espn:50190576",
-  "espn:50181965",
-  "espn:50190888",
-  "espn:50182801",
-  "espn:50185247",
-  "espn:50132233",
-  "espn:46793185",
-  "espn:50195061",
-  "espn:50194763",
-  "espn:50194760",
-  "espn:50194735",
   "espn:50196775",
   "espn:50196714",
   "espn:50133296",
@@ -399,17 +387,29 @@
   "espn:50257409",
   "espn:50249352",
   "espn:50255002",
-  "gnews:Hal Steinbrenner: No plan to sell Yankee"
+  "gnews:Hal Steinbrenner: No plan to sell Yankee",
+  "espn:50259624",
+  "espn:50259536",
+  "espn:50259196",
+  "espn:50259154",
+  "espn:50249186",
+  "espn:50259421",
+  "espn:50258585",
+  "espn:50258464",
+  "espn:50258449",
+  "espn:50258240",
+  "espn:50258616",
+  "gnews:Expansion is the rage in pro sports. But"
  ],
  "recent_topics": [
-  "A crushing home run from T.J. Duncan literally flips the game\u2014Guardians rally, snatch the series, ignite the fans.",
   "In Game 6, Rays\u2019 bullpen collapses, Guardians falter on late pitches, and a blazing double flips the finale\u2014fans awake.",
   "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!",
   "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!",
   "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!",
   "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet.",
   "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable.",
-  "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence."
+  "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence.",
+  "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win."
  ],
  "used_highlight_pks": [
   849818,
