@@ -1,22 +1,22 @@
 {
- "generated": "2026-10-22T23:54:41.983437+00:00",
+ "generated": "2026-10-23T03:50:12.493532+00:00",
  "version": 2,
- "ticker": "NFL: NE 0 - CHI 0 10/22 - 8:15 PM EDT  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
+ "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50253179",
-  "title": "Week 7 NFL TNF highlights: Best plays, moments, TDs, more",
+  "id": "espn:50254157",
+  "title": "Caleb Williams, Bears find just enough to hold off Pats",
   "source": "ESPN NFL",
-  "age_min": 1.9938842833333332
+  "age_min": 6.888321216666667
  },
  "games": [
   {
    "league": "NFL",
    "name": "NE @ CHI",
    "away": "NE",
-   "away_score": "0",
+   "away_score": "24",
    "home": "CHI",
-   "home_score": "0",
-   "status": "10/22 - 8:15 PM EDT",
+   "home_score": "30",
+   "status": "Final",
    "date": "2026-10-23T00:15Z"
   },
   {
@@ -73,20 +73,20 @@
    "league": "NBA",
    "name": "CLE @ PHI",
    "away": "CLE",
-   "away_score": "49",
+   "away_score": "106",
    "home": "PHI",
-   "home_score": "28",
-   "status": "8:05 - 2nd",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-10-22T23:00Z"
   },
   {
    "league": "NBA",
    "name": "DEN @ OKC",
    "away": "DEN",
-   "away_score": "0",
+   "away_score": "66",
    "home": "OKC",
-   "home_score": "0",
-   "status": "10/22 - 9:30 PM EDT",
+   "home_score": "74",
+   "status": "9:07 - 4th",
    "date": "2026-10-23T01:30Z"
   },
   {
@@ -121,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 890h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 894h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 53408
+   "data_age_min": 53643
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 890h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 894h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 53408
+   "data_age_min": 53643
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 890h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 894h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 53408
+   "data_age_min": 53643
   }
  ],
  "sources": {
@@ -149,17 +149,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Week 7 NFL TNF highlights: Best plays, moments, TDs, more",
-  "NE 0 - CHI 0 (10/22 - 8:15 PM EDT)",
+  "BREAKING: Caleb Williams, Bears find just enough to hold off Pats",
+  "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 890h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 890h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 890h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 894h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 894h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 894h old]",
   "Chase DeLauter AVG .287 HR 16",
   "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!"
+  "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet."
  ],
- "script_hint": "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!  [brain]"
+ "script_hint": "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet.  [brain]"
 }
