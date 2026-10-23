@@ -1,12 +1,13 @@
 {
- "generated": "2026-10-23T03:50:12.493532+00:00",
+ "generated": "2026-10-23T09:10:52.302428+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50254157",
-  "title": "Caleb Williams, Bears find just enough to hold off Pats",
-  "source": "ESPN NFL",
-  "age_min": 6.888321216666667
+  "id": "gnews:News: Fox Sports, Charlie Neal, NBA Draf",
+  "title": "News: Fox Sports, Charlie Neal, NBA Draft Lottery and more - Sports Media Watch",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
@@ -83,10 +84,10 @@
    "league": "NBA",
    "name": "DEN @ OKC",
    "away": "DEN",
-   "away_score": "66",
+   "away_score": "84",
    "home": "OKC",
-   "home_score": "74",
-   "status": "9:07 - 4th",
+   "home_score": "96",
+   "status": "Final",
    "date": "2026-10-23T01:30Z"
   },
   {
@@ -102,43 +103,33 @@
  ],
  "highlights": [
   {
-   "gamePk": 849815,
-   "title": "Guardians vs. Rays Game 6 Highlights",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/19/69931119-17a357d3-9c870837-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849805,
+   "title": "Nick Martinez against the Brewers",
+   "url": "https://darkroom-clips.mlb.com/dfbdd62c-b393-4217-af87-b134cc149cc1.mp4"
   }
  ],
- "season_profile": {
-  "player": "Chase DeLauter",
-  "team": "CLE",
-  "avg": ".287",
-  "hr": 16,
-  "rbi": 67,
-  "hits": 142,
-  "ops": ".820",
-  "gamePk": 849815,
-  "source": "statsapi /people/season"
- },
+ "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 894h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 899h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 53643
+   "data_age_min": 53964
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 894h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 899h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 53643
+   "data_age_min": 53964
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 894h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 899h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 53643
+   "data_age_min": 53964
   }
  ],
  "sources": {
@@ -149,17 +140,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Caleb Williams, Bears find just enough to hold off Pats",
+  "BREAKING: News: Fox Sports, Charlie Neal, NBA Draft Lottery and more - Sports Media Watch",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 894h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 894h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 894h old]",
-  "Chase DeLauter AVG .287 HR 16",
-  "HIGHLIGHT: Guardians vs. Rays Game 6 Highlights",
-  "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet."
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 899h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 899h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 899h old]",
+  "HIGHLIGHT: Nick Martinez against the Brewers",
+  "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable."
  ],
- "script_hint": "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet.  [brain]"
+ "script_hint": "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable.  [brain]"
 }

@@ -1,13 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50192475",
-  "espn:50191945",
-  "espn:50192404",
-  "espn:50192401",
-  "espn:50192345",
-  "espn:50192302",
-  "espn:50192351",
-  "espn:50192041",
   "espn:50192833",
   "espn:50175780",
   "espn:50192352",
@@ -399,30 +391,39 @@
   "espn:50254858",
   "espn:50254359",
   "espn:50254277",
-  "espn:50253148"
+  "espn:50253148",
+  "espn:50255748",
+  "espn:50256038",
+  "espn:50255686",
+  "espn:50255625",
+  "espn:50255402",
+  "espn:50255387",
+  "espn:50255311",
+  "gnews:News: Fox Sports, Charlie Neal, NBA Draf"
  ],
  "recent_topics": [
-  "That clutch double play in the ninth tore Guardians\u2019 lead, launching Rays to a game\u2011winning rally.",
   "Guardians' Game 6 lightning\u2014Rays collapsed on the mound, fans scream for a replay, and the win hits like a thunderclap.",
   "A crushing home run from T.J. Duncan literally flips the game\u2014Guardians rally, snatch the series, ignite the fans.",
   "In Game 6, Rays\u2019 bullpen collapses, Guardians falter on late pitches, and a blazing double flips the finale\u2014fans awake.",
   "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!",
   "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!",
   "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!",
-  "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet."
+  "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet.",
+  "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable."
  ],
  "used_highlight_pks": [
   849818,
   849810,
   849816,
   849817,
-  849815
+  849815,
+  849805
  ],
  "last_highlights": [
   {
-   "gamePk": 849815,
-   "title": "Guardians vs. Rays Game 6 Highlights",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/19/69931119-17a357d3-9c870837-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849805,
+   "title": "Nick Martinez against the Brewers",
+   "url": "https://darkroom-clips.mlb.com/dfbdd62c-b393-4217-af87-b134cc149cc1.mp4"
   }
  ]
 }
