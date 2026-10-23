@@ -1,13 +1,12 @@
 {
- "generated": "2026-10-23T09:10:52.302428+00:00",
+ "generated": "2026-10-23T14:15:33.227314+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "gnews:News: Fox Sports, Charlie Neal, NBA Draf",
-  "title": "News: Fox Sports, Charlie Neal, NBA Draft Lottery and more - Sports Media Watch",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50257409",
+  "title": "What are the biggest storylines of the World Series?",
+  "source": "ESPN MLB",
+  "age_min": 2.8041910666666667
  },
  "games": [
   {
@@ -112,24 +111,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 899h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 904h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 53964
+   "data_age_min": 54269
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 899h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 904h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 53964
+   "data_age_min": 54269
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 899h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 904h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 53964
+   "data_age_min": 54269
   }
  ],
  "sources": {
@@ -140,16 +139,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: News: Fox Sports, Charlie Neal, NBA Draft Lottery and more - Sports Media Watch",
+  "BREAKING: What are the biggest storylines of the World Series?",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 899h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 899h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 899h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 904h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 904h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 904h old]",
   "HIGHLIGHT: Nick Martinez against the Brewers",
-  "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable."
+  "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence."
  ],
- "script_hint": "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable.  [brain]"
+ "script_hint": "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence.  [brain]"
 }
