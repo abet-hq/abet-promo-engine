@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T18:37:48.336534+00:00",
+ "generated": "2026-10-23T21:42:20.403757+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50259536",
-  "title": "Colts' Tyler Warren to miss second game with groin injury",
+  "id": "espn:50260609",
+  "title": "49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
   "source": "ESPN NFL",
-  "age_min": 4.152311116666667
+  "age_min": 15.657386233333334
  },
  "games": [
   {
@@ -73,10 +73,10 @@
    "league": "NBA",
    "name": "CHI @ MIL",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "78",
    "home": "MIL",
-   "home_score": "0",
-   "status": "10/23 - 4:00 PM EDT",
+   "home_score": "80",
+   "status": "6:35 - 3rd",
    "date": "2026-10-23T20:00Z"
   },
   {
@@ -151,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 909h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 912h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 54531
+   "data_age_min": 54715
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 909h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 912h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 54531
+   "data_age_min": 54715
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 909h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 912h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 54531
+   "data_age_min": 54715
   }
  ],
  "sources": {
@@ -179,16 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Colts' Tyler Warren to miss second game with groin injury",
+  "BREAKING: 49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 909h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 909h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 909h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 912h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 912h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 912h old]",
   "HIGHLIGHT: Nick Martinez against the Brewers",
-  "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win."
+  "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon."
  ],
- "script_hint": "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win.  [brain]"
+ "script_hint": "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon.  [brain]"
 }

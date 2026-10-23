@@ -1,12 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50196775",
-  "espn:50196714",
-  "espn:50133296",
-  "espn:50196500",
-  "espn:50196473",
-  "espn:50196464",
-  "espn:50196749",
   "espn:50028196",
   "espn:50196498",
   "espn:50193261",
@@ -399,17 +392,24 @@
   "espn:50258449",
   "espn:50258240",
   "espn:50258616",
-  "gnews:Expansion is the rage in pro sports. But"
+  "gnews:Expansion is the rage in pro sports. But",
+  "espn:50260609",
+  "espn:50260535",
+  "espn:50260393",
+  "espn:50221073",
+  "espn:50260001",
+  "espn:50240295",
+  "espn:46793185"
  ],
  "recent_topics": [
-  "In Game 6, Rays\u2019 bullpen collapses, Guardians falter on late pitches, and a blazing double flips the finale\u2014fans awake.",
   "Guardians rallying late, snatch victory from Rays with a dramatic two\u2011run homer in the ninth\u2014an epic comeback!",
   "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!",
   "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!",
   "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet.",
   "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable.",
   "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence.",
-  "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win."
+  "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win.",
+  "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon."
  ],
  "used_highlight_pks": [
   849818,
