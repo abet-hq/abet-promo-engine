@@ -1,13 +1,8 @@
 {
- "generated": "2026-10-24T04:38:41.037983+00:00",
+ "generated": "2026-10-24T09:08:51.728982+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
- "breaking": {
-  "id": "espn:50263163",
-  "title": "Giannis Antetokounmpo stays hot with 36 in loss, confident 0-2 Heat will click",
-  "source": "ESPN NBA",
-  "age_min": 2.4168976333333334
- },
+ "breaking": null,
  "games": [
   {
    "league": "NFL",
@@ -151,24 +146,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 919h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 923h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 55132
+   "data_age_min": 55402
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 919h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 923h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 55132
+   "data_age_min": 55402
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 919h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 923h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 55132
+   "data_age_min": 55402
   }
  ],
  "sources": {
@@ -179,16 +174,15 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Giannis Antetokounmpo stays hot with 36 in loss, confident 0-2 Heat will click",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 919h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 919h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 919h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 923h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 923h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 923h old]",
   "HIGHLIGHT: Christian Yelich on battling at the plate, Game 1 win",
-  "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark."
+  "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination."
  ],
- "script_hint": "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark.  [brain]"
+ "script_hint": "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination.  [brain]"
 }

@@ -1,13 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:41686482",
-  "espn:50197841",
-  "espn:50193490",
-  "espn:50198584",
-  "espn:50198707",
-  "espn:50189765",
-  "espn:50199801",
-  "espn:50199797",
   "espn:50190583",
   "espn:50199430",
   "espn:50199367",
@@ -399,17 +391,25 @@
   "espn:50262974",
   "espn:50262970",
   "espn:50022544",
-  "espn:50261786"
+  "espn:50261786",
+  "espn:50264038",
+  "espn:50263942",
+  "espn:50263941",
+  "espn:50263940",
+  "espn:50263937",
+  "espn:50263923",
+  "espn:50264146",
+  "espn:50263667"
  ],
  "recent_topics": [
-  "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!",
   "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet.",
   "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable.",
   "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence.",
   "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win.",
   "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon.",
   "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes.",
-  "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark."
+  "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark.",
+  "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination."
  ],
  "used_highlight_pks": [
   849818,
