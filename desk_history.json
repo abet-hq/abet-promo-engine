@@ -1,10 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50188691",
-  "espn:50202044",
-  "espn:49803708",
-  "espn:49797082",
-  "espn:50201828",
   "espn:50202417",
   "espn:50203338",
   "espn:50205015",
@@ -399,17 +394,22 @@
   "espn:50110772",
   "gnews:Biggest salaries across NFL, MLB & NBA i",
   "espn:50267528",
-  "espn:50267484"
+  "espn:50267484",
+  "espn:50269752",
+  "espn:50269656",
+  "espn:50269266",
+  "espn:50268816",
+  "espn:50240898"
  ],
  "recent_topics": [
-  "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win.",
   "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon.",
   "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes.",
   "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark.",
   "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination.",
   "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold.",
   "Yelich scrambles at the plate, pulls a home, turns the game, and gives the Bucks their first win.",
-  "Yelich blazed through the pitcher\u2019s off\u2011speed on a 2\u2011run drive, sending the ball deep outfield, locking down Game 1."
+  "Yelich blazed through the pitcher\u2019s off\u2011speed on a 2\u2011run drive, sending the ball deep outfield, locking down Game 1.",
+  "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!"
  ],
  "used_highlight_pks": [
   849818,

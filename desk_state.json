@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T19:18:04.781531+00:00",
+ "generated": "2026-10-24T21:46:13.267937+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50267528",
-  "title": "Mavericks' Cooper Flagg out for home opener with mild left shoulder sprain",
-  "source": "ESPN NBA",
-  "age_min": 33.37396321666667
+  "id": "espn:50269752",
+  "title": "Eagles' DeVonta Smith, Dontayvion Wicks out vs. Cowboys",
+  "source": "ESPN NFL",
+  "age_min": 28.85609978333333
  },
  "games": [
   {
@@ -151,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 934h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 936h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 56011
+   "data_age_min": 56159
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 934h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 936h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 56011
+   "data_age_min": 56159
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 934h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 936h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 56011
+   "data_age_min": 56159
   }
  ],
  "sources": {
@@ -179,16 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Mavericks' Cooper Flagg out for home opener with mild left shoulder sprain",
+  "BREAKING: Eagles' DeVonta Smith, Dontayvion Wicks out vs. Cowboys",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 934h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 934h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 934h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 936h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 936h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 936h old]",
   "HIGHLIGHT: Christian Yelich on battling at the plate, Game 1 win",
-  "Yelich blazed through the pitcher\u2019s off\u2011speed on a 2\u2011run drive, sending the ball deep outfield, locking down Game 1."
+  "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!"
  ],
- "script_hint": "Yelich blazed through the pitcher\u2019s off\u2011speed on a 2\u2011run drive, sending the ball deep outfield, locking down Game 1.  [brain]"
+ "script_hint": "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!  [brain]"
 }
