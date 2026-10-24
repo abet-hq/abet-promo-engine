@@ -1,8 +1,13 @@
 {
- "generated": "2026-10-24T09:08:51.728982+00:00",
+ "generated": "2026-10-24T13:20:46.065391+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
- "breaking": null,
+ "breaking": {
+  "id": "espn:50265234",
+  "title": "Buster Olney: Brewers' bullpen spectacular in Game 1",
+  "source": "ESPN MLB",
+  "age_min": 25.839812466666668
+ },
  "games": [
   {
    "league": "NFL",
@@ -146,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 923h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 928h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 55402
+   "data_age_min": 55654
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 923h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 928h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 55402
+   "data_age_min": 55654
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 923h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 928h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 55402
+   "data_age_min": 55654
   }
  ],
  "sources": {
@@ -174,15 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
+  "BREAKING: Buster Olney: Brewers' bullpen spectacular in Game 1",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 923h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 923h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 923h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 928h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 928h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 928h old]",
   "HIGHLIGHT: Christian Yelich on battling at the plate, Game 1 win",
-  "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination."
+  "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold."
  ],
- "script_hint": "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination.  [brain]"
+ "script_hint": "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold.  [brain]"
 }
