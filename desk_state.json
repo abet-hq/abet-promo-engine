@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T21:42:20.403757+00:00",
+ "generated": "2026-10-24T00:04:06.613479+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50260609",
-  "title": "49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
-  "source": "ESPN NFL",
-  "age_min": 15.657386233333334
+  "id": "espn:50261290",
+  "title": "Chicago Bulls vs. Milwaukee Bucks: Game Highlights",
+  "source": "ESPN NBA",
+  "age_min": 2.9112014333333334
  },
  "games": [
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "CHI @ MIL",
    "away": "CHI",
-   "away_score": "78",
+   "away_score": "132",
    "home": "MIL",
-   "home_score": "80",
-   "status": "6:35 - 3rd",
+   "home_score": "125",
+   "status": "Final",
    "date": "2026-10-23T20:00Z"
   },
   {
    "league": "NBA",
    "name": "NY @ BOS",
    "away": "NY",
-   "away_score": "0",
+   "away_score": "39",
    "home": "BOS",
-   "home_score": "0",
-   "status": "10/23 - 7:00 PM EDT",
+   "home_score": "41",
+   "status": "4:47 - 2nd",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "NBA",
    "name": "ATL @ CHA",
    "away": "ATL",
-   "away_score": "0",
+   "away_score": "56",
    "home": "CHA",
-   "home_score": "0",
-   "status": "10/23 - 7:00 PM EDT",
+   "home_score": "43",
+   "status": "4:38 - 2nd",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "NBA",
    "name": "DAL @ IND",
    "away": "DAL",
-   "away_score": "0",
+   "away_score": "61",
    "home": "IND",
-   "home_score": "0",
-   "status": "10/23 - 7:00 PM EDT",
+   "home_score": "31",
+   "status": "5:16 - 2nd",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "NBA",
    "name": "MIN @ ORL",
    "away": "MIN",
-   "away_score": "0",
+   "away_score": "53",
    "home": "ORL",
-   "home_score": "0",
-   "status": "10/23 - 7:00 PM EDT",
+   "home_score": "38",
+   "status": "3:26 - 2nd",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "NBA",
    "name": "TOR @ WSH",
    "away": "TOR",
-   "away_score": "0",
+   "away_score": "44",
    "home": "WSH",
-   "home_score": "0",
-   "status": "10/23 - 7:00 PM EDT",
+   "home_score": "38",
+   "status": "5:35 - 2nd",
    "date": "2026-10-23T23:00Z"
   },
   {
@@ -151,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 912h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 914h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 54715
+   "data_age_min": 54857
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 912h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 914h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 54715
+   "data_age_min": 54857
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 912h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 914h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 54715
+   "data_age_min": 54857
   }
  ],
  "sources": {
@@ -179,16 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: 49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
+  "BREAKING: Chicago Bulls vs. Milwaukee Bucks: Game Highlights",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 912h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 912h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 912h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 914h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 914h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 914h old]",
   "HIGHLIGHT: Nick Martinez against the Brewers",
-  "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon."
+  "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes."
  ],
- "script_hint": "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon.  [brain]"
+ "script_hint": "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes.  [brain]"
 }
