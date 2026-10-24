@@ -1,17 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50197704",
-  "espn:50197599",
-  "espn:50197559",
-  "espn:50197497",
-  "espn:50197100",
-  "espn:50195321",
-  "espn:50193486",
-  "espn:49804273",
-  "espn:49804332",
-  "espn:49804149",
-  "espn:49804022",
-  "espn:50198205",
   "espn:41686482",
   "espn:50197841",
   "espn:50193490",
@@ -399,17 +387,29 @@
   "espn:50261395",
   "espn:50260331",
   "espn:50261290",
-  "gnews:Does MLB have a competitive balance prob"
+  "gnews:Does MLB have a competitive balance prob",
+  "espn:50261735",
+  "espn:50263414",
+  "espn:50263334",
+  "espn:50263163",
+  "espn:50262849",
+  "espn:50262746",
+  "espn:50262740",
+  "espn:50262975",
+  "espn:50262974",
+  "espn:50262970",
+  "espn:50022544",
+  "espn:50261786"
  ],
  "recent_topics": [
-  "What a fireworks finale from the Guardians\u2014Carson\u2019s caper and P\u00e9rez\u2019s clutch hit leave the Rays in a pile of disbelief!",
   "Game 6 swings: Guardians\u2019 late surge caps outfield fireworks, leaving the Rays wondering what just happened!",
   "Rookie Liam Smith\u2019s blistering alley pop snaps a die\u2011hard Guardians win, leaving the Rays in a stunned quiet.",
   "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable.",
   "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence.",
   "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win.",
   "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon.",
-  "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes."
+  "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes.",
+  "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark."
  ],
  "used_highlight_pks": [
   849818,
@@ -417,13 +417,14 @@
   849816,
   849817,
   849815,
-  849805
+  849805,
+  849802
  ],
  "last_highlights": [
   {
-   "gamePk": 849805,
-   "title": "Nick Martinez against the Brewers",
-   "url": "https://darkroom-clips.mlb.com/dfbdd62c-b393-4217-af87-b134cc149cc1.mp4"
+   "gamePk": 849802,
+   "title": "Christian Yelich on battling at the plate, Game 1 win",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/23/bdd7735f-6aeadcac-2d30913b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ]
 }

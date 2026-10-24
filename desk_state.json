@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T00:04:06.613479+00:00",
+ "generated": "2026-10-24T04:38:41.037983+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50261290",
-  "title": "Chicago Bulls vs. Milwaukee Bucks: Game Highlights",
+  "id": "espn:50263163",
+  "title": "Giannis Antetokounmpo stays hot with 36 in loss, confident 0-2 Heat will click",
   "source": "ESPN NBA",
-  "age_min": 2.9112014333333334
+  "age_min": 2.4168976333333334
  },
  "games": [
   {
@@ -83,92 +83,92 @@
    "league": "NBA",
    "name": "NY @ BOS",
    "away": "NY",
-   "away_score": "39",
+   "away_score": "103",
    "home": "BOS",
-   "home_score": "41",
-   "status": "4:47 - 2nd",
+   "home_score": "107",
+   "status": "Final",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "NBA",
    "name": "ATL @ CHA",
    "away": "ATL",
-   "away_score": "56",
+   "away_score": "128",
    "home": "CHA",
-   "home_score": "43",
-   "status": "4:38 - 2nd",
+   "home_score": "81",
+   "status": "Final",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "NBA",
    "name": "DAL @ IND",
    "away": "DAL",
-   "away_score": "61",
+   "away_score": "121",
    "home": "IND",
-   "home_score": "31",
-   "status": "5:16 - 2nd",
+   "home_score": "105",
+   "status": "Final",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "NBA",
    "name": "MIN @ ORL",
    "away": "MIN",
-   "away_score": "53",
+   "away_score": "115",
    "home": "ORL",
-   "home_score": "38",
-   "status": "3:26 - 2nd",
+   "home_score": "93",
+   "status": "Final",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "NBA",
    "name": "TOR @ WSH",
    "away": "TOR",
-   "away_score": "44",
+   "away_score": "112",
    "home": "WSH",
-   "home_score": "38",
-   "status": "5:35 - 2nd",
+   "home_score": "102",
+   "status": "Final",
    "date": "2026-10-23T23:00Z"
   },
   {
    "league": "MLB",
    "name": "TB @ MIL",
    "away": "TB",
-   "away_score": "0",
+   "away_score": "2",
    "home": "MIL",
-   "home_score": "0",
-   "status": "10/23 - 8:00 PM EDT",
+   "home_score": "3",
+   "status": "Final",
    "date": "2026-10-24T00:00Z"
   }
  ],
  "highlights": [
   {
-   "gamePk": 849805,
-   "title": "Nick Martinez against the Brewers",
-   "url": "https://darkroom-clips.mlb.com/dfbdd62c-b393-4217-af87-b134cc149cc1.mp4"
+   "gamePk": 849802,
+   "title": "Christian Yelich on battling at the plate, Game 1 win",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/23/bdd7735f-6aeadcac-2d30913b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 914h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 919h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 54857
+   "data_age_min": 55132
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 914h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 919h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 54857
+   "data_age_min": 55132
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 914h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 919h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 54857
+   "data_age_min": 55132
   }
  ],
  "sources": {
@@ -179,16 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Chicago Bulls vs. Milwaukee Bucks: Game Highlights",
+  "BREAKING: Giannis Antetokounmpo stays hot with 36 in loss, confident 0-2 Heat will click",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 914h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 914h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 914h old]",
-  "HIGHLIGHT: Nick Martinez against the Brewers",
-  "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes."
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 919h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 919h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 919h old]",
+  "HIGHLIGHT: Christian Yelich on battling at the plate, Game 1 win",
+  "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark."
  ],
- "script_hint": "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes.  [brain]"
+ "script_hint": "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark.  [brain]"
 }
