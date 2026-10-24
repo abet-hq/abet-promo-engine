@@ -1,13 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50190428",
-  "espn:50200331",
-  "espn:50189544",
-  "espn:50190463",
-  "espn:50190584",
-  "espn:50200910",
-  "espn:50201671",
-  "espn:50200909",
   "espn:50202634",
   "espn:50202598",
   "espn:50188691",
@@ -399,17 +391,25 @@
   "espn:50258881",
   "espn:50257261",
   "espn:50264813",
-  "espn:50265234"
+  "espn:50265234",
+  "espn:49804149",
+  "espn:49804273",
+  "espn:50266620",
+  "espn:50266109",
+  "espn:50265720",
+  "espn:50265668",
+  "espn:50110772",
+  "gnews:Biggest salaries across NFL, MLB & NBA i"
  ],
  "recent_topics": [
-  "Martinez unleashes a thunderous, high\u2011velocity fastball, demolishing the Brewers lineup and making his debut unforgettable.",
   "Nick Martinez turned the game on its head with a flawless walk\u2011off changeup, blowing the Brewers into a stunned silence.",
   "Nick Martinez poises himself as the savior, firing a 3\u2011strikeout gem to seal the 7\u20115 win.",
   "Nick Martinez pulverizes the Brewers\u2019 lineup\u2014his 108\u2011mph fastball and command turn the mound into a lethal 3\u2011point cannon.",
   "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes.",
   "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark.",
   "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination.",
-  "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold."
+  "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold.",
+  "Yelich scrambles at the plate, pulls a home, turns the game, and gives the Bucks their first win."
  ],
  "used_highlight_pks": [
   849818,

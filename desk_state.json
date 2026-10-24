@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T13:20:46.065391+00:00",
+ "generated": "2026-10-24T16:49:47.961633+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50265234",
-  "title": "Buster Olney: Brewers' bullpen spectacular in Game 1",
-  "source": "ESPN MLB",
-  "age_min": 25.839812466666668
+  "id": "espn:50266620",
+  "title": "Sources: Magic's Banchero out multiple weeks with low-grade high ankle sprain",
+  "source": "ESPN NBA",
+  "age_min": 0.48348398333333337
  },
  "games": [
   {
@@ -71,73 +71,73 @@
   },
   {
    "league": "NBA",
-   "name": "CHI @ MIL",
-   "away": "CHI",
-   "away_score": "132",
-   "home": "MIL",
-   "home_score": "125",
-   "status": "Final",
-   "date": "2026-10-23T20:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "NY @ BOS",
-   "away": "NY",
-   "away_score": "103",
-   "home": "BOS",
-   "home_score": "107",
-   "status": "Final",
-   "date": "2026-10-23T23:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "ATL @ CHA",
-   "away": "ATL",
-   "away_score": "128",
+   "name": "MIA @ CHA",
+   "away": "MIA",
+   "away_score": "0",
    "home": "CHA",
-   "home_score": "81",
-   "status": "Final",
-   "date": "2026-10-23T23:00Z"
+   "home_score": "0",
+   "status": "10/24 - 6:00 PM EDT",
+   "date": "2026-10-24T22:00Z"
   },
   {
    "league": "NBA",
-   "name": "DAL @ IND",
-   "away": "DAL",
-   "away_score": "121",
-   "home": "IND",
-   "home_score": "105",
-   "status": "Final",
-   "date": "2026-10-23T23:00Z"
+   "name": "BKN @ CLE",
+   "away": "BKN",
+   "away_score": "0",
+   "home": "CLE",
+   "home_score": "0",
+   "status": "10/24 - 7:30 PM EDT",
+   "date": "2026-10-24T23:30Z"
   },
   {
    "league": "NBA",
-   "name": "MIN @ ORL",
-   "away": "MIN",
-   "away_score": "115",
-   "home": "ORL",
-   "home_score": "93",
-   "status": "Final",
-   "date": "2026-10-23T23:00Z"
+   "name": "MIL @ PHI",
+   "away": "MIL",
+   "away_score": "0",
+   "home": "PHI",
+   "home_score": "0",
+   "status": "10/24 - 7:30 PM EDT",
+   "date": "2026-10-24T23:30Z"
   },
   {
    "league": "NBA",
-   "name": "TOR @ WSH",
-   "away": "TOR",
-   "away_score": "112",
-   "home": "WSH",
-   "home_score": "102",
-   "status": "Final",
-   "date": "2026-10-23T23:00Z"
+   "name": "WSH @ CHI",
+   "away": "WSH",
+   "away_score": "0",
+   "home": "CHI",
+   "home_score": "0",
+   "status": "10/24 - 8:00 PM EDT",
+   "date": "2026-10-25T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "SA @ DAL",
+   "away": "SA",
+   "away_score": "0",
+   "home": "DAL",
+   "home_score": "0",
+   "status": "10/24 - 8:00 PM EDT",
+   "date": "2026-10-25T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "HOU @ ATL",
+   "away": "HOU",
+   "away_score": "0",
+   "home": "ATL",
+   "home_score": "0",
+   "status": "10/24 - 8:30 PM EDT",
+   "date": "2026-10-25T00:30Z"
   },
   {
    "league": "MLB",
    "name": "TB @ MIL",
    "away": "TB",
-   "away_score": "2",
+   "away_score": "0",
    "home": "MIL",
-   "home_score": "3",
-   "status": "Final",
-   "date": "2026-10-24T00:00Z"
+   "home_score": "0",
+   "status": "10/24 - 8:00 PM EDT",
+   "date": "2026-10-25T00:00Z"
   }
  ],
  "highlights": [
@@ -151,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 928h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 931h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 55654
+   "data_age_min": 55863
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 928h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 931h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 55654
+   "data_age_min": 55863
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 928h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 931h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 55654
+   "data_age_min": 55863
   }
  ],
  "sources": {
@@ -179,16 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Buster Olney: Brewers' bullpen spectacular in Game 1",
+  "BREAKING: Sources: Magic's Banchero out multiple weeks with low-grade high ankle sprain",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 928h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 928h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 928h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 931h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 931h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 931h old]",
   "HIGHLIGHT: Christian Yelich on battling at the plate, Game 1 win",
-  "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold."
+  "Yelich scrambles at the plate, pulls a home, turns the game, and gives the Bucks their first win."
  ],
- "script_hint": "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold.  [brain]"
+ "script_hint": "Yelich scrambles at the plate, pulls a home, turns the game, and gives the Bucks their first win.  [brain]"
 }
