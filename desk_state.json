@@ -1,13 +1,8 @@
 {
- "generated": "2026-10-24T21:46:13.267937+00:00",
+ "generated": "2026-10-25T00:04:13.835753+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
- "breaking": {
-  "id": "espn:50269752",
-  "title": "Eagles' DeVonta Smith, Dontayvion Wicks out vs. Cowboys",
-  "source": "ESPN NFL",
-  "age_min": 28.85609978333333
- },
+ "breaking": null,
  "games": [
   {
    "league": "NFL",
@@ -73,30 +68,30 @@
    "league": "NBA",
    "name": "MIA @ CHA",
    "away": "MIA",
-   "away_score": "0",
+   "away_score": "83",
    "home": "CHA",
-   "home_score": "0",
-   "status": "10/24 - 6:00 PM EDT",
+   "home_score": "98",
+   "status": "10:01 - 4th",
    "date": "2026-10-24T22:00Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ CLE",
    "away": "BKN",
-   "away_score": "0",
+   "away_score": "24",
    "home": "CLE",
-   "home_score": "0",
-   "status": "10/24 - 7:30 PM EDT",
+   "home_score": "24",
+   "status": "2:50 - 1st",
    "date": "2026-10-24T23:30Z"
   },
   {
    "league": "NBA",
    "name": "MIL @ PHI",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "18",
    "home": "PHI",
-   "home_score": "0",
-   "status": "10/24 - 7:30 PM EDT",
+   "home_score": "27",
+   "status": "2:26 - 1st",
    "date": "2026-10-24T23:30Z"
   },
   {
@@ -151,24 +146,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 936h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 938h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 56159
+   "data_age_min": 56297
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 936h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 938h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 56159
+   "data_age_min": 56297
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 936h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 938h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 56159
+   "data_age_min": 56297
   }
  ],
  "sources": {
@@ -179,16 +174,15 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Eagles' DeVonta Smith, Dontayvion Wicks out vs. Cowboys",
   "NE 24 - CHI 30 (Final)",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 936h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 936h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 936h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 938h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 938h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 938h old]",
   "HIGHLIGHT: Christian Yelich on battling at the plate, Game 1 win",
-  "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!"
+  "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout."
  ],
- "script_hint": "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!  [brain]"
+ "script_hint": "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout.  [brain]"
 }
