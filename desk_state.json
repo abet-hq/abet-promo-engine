@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-25T09:26:54.357711+00:00",
+ "generated": "2026-10-25T13:52:07.524669+00:00",
  "version": 2,
- "ticker": "NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT  //  NFL: MIA 0 - NYJ 0 10/25 - 1:00 PM EDT",
+ "ticker": "NFL: PIT 3 - NO 0 5:28 - 1st  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT  //  NFL: MIA 0 - NYJ 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "gnews:What is DAZN? How to watch your local te",
-  "title": "What is DAZN? How to watch your local team - DAZN",
+  "id": "gnews:NFL, NBA, MLB, NHL, MLS urge action agai",
+  "title": "NFL, NBA, MLB, NHL, MLS urge action against threats from bettors - ESPN",
   "source": "Google News",
   "age_min": 30,
   "score": 0
@@ -14,10 +14,10 @@
    "league": "NFL",
    "name": "PIT VS NO",
    "away": "PIT",
-   "away_score": "0",
+   "away_score": "3",
    "home": "NO",
    "home_score": "0",
-   "status": "10/25 - 9:30 AM EDT",
+   "status": "5:28 - 1st",
    "date": "2026-10-25T13:30Z"
   },
   {
@@ -162,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 948h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 952h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 56860
+   "data_age_min": 57125
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 948h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 952h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 56860
+   "data_age_min": 57125
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 948h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 952h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 56860
+   "data_age_min": 57125
   }
  ],
  "sources": {
@@ -190,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: What is DAZN? How to watch your local team - DAZN",
-  "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
+  "BREAKING: NFL, NBA, MLB, NHL, MLS urge action against threats from bettors - ESPN",
+  "PIT 3 - NO 0 (5:28 - 1st)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
   "IND 0 - MIN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 948h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 948h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 948h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 952h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 952h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 952h old]",
   "Jackson Chourio AVG .291 HR 25",
   "HIGHLIGHT: Rays vs. Brewers Game 2 Highlights",
-  "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience."
+  "Rays unleash a volcanic offense that scorched Milwaukee, turning pitching into a distant, almost-hilarious fantasy."
  ],
- "script_hint": "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience.  [brain]"
+ "script_hint": "Rays unleash a volcanic offense that scorched Milwaukee, turning pitching into a distant, almost-hilarious fantasy.  [brain]"
 }

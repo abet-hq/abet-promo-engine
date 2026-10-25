@@ -1,11 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50197687",
-  "espn:50198740",
-  "espn:50209856",
-  "espn:50200514",
-  "espn:50211308",
-  "espn:46382966",
   "espn:50181469",
   "espn:50211234",
   "espn:50211207",
@@ -399,17 +393,23 @@
   "espn:50274492",
   "espn:50273430",
   "gnews:What is DAZN? How to watch your local te",
-  "gnews:Dodgers' playoff exit extends 24-year pr"
+  "gnews:Dodgers' playoff exit extends 24-year pr",
+  "espn:49803708",
+  "espn:50267058",
+  "espn:49797082",
+  "espn:50261945",
+  "espn:50274387",
+  "gnews:NFL, NBA, MLB, NHL, MLS urge action agai"
  ],
  "recent_topics": [
-  "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination.",
   "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold.",
   "Yelich scrambles at the plate, pulls a home, turns the game, and gives the Bucks their first win.",
   "Yelich blazed through the pitcher\u2019s off\u2011speed on a 2\u2011run drive, sending the ball deep outfield, locking down Game 1.",
   "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!",
   "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout.",
   "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing.",
-  "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience."
+  "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience.",
+  "Rays unleash a volcanic offense that scorched Milwaukee, turning pitching into a distant, almost-hilarious fantasy."
  ],
  "used_highlight_pks": [
   849818,
