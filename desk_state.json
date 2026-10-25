@@ -1,92 +1,92 @@
 {
- "generated": "2026-10-25T19:54:38.531515+00:00",
+ "generated": "2026-10-25T22:22:03.131503+00:00",
  "version": 2,
- "ticker": "NFL: SF 20 - ATL 26 4:02 - 4th  //  NFL: CLE 24 - TEN 17 2:37 - 4th  //  NFL: IND 10 - MIN 16 Final  //  NFL: MIA 28 - NYJ 25 2:00 - 4th  //  NFL: TB 43 - CAR 13 Final",
+ "ticker": "NFL: DEN 20 - ARI 13 3:50 - 3rd  //  NFL: GB 14 - DET 17 6:33 - 3rd  //  NFL: LAR 28 - LV 6 9:57 - 3rd  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final",
  "breaking": {
-  "id": "espn:50279064",
-  "title": "Panthers RT Taylor Moton carted off field with ankle and fibula injury",
+  "id": "espn:50281453",
+  "title": "Jeff Hafley, Dolphins hold off Jets, then revel in first win of season",
   "source": "ESPN NFL",
-  "age_min": 2.1745739666666664
+  "age_min": 0.8935595500000001
  },
  "games": [
+  {
+   "league": "NFL",
+   "name": "DEN @ ARI",
+   "away": "DEN",
+   "away_score": "20",
+   "home": "ARI",
+   "home_score": "13",
+   "status": "3:50 - 3rd",
+   "date": "2026-10-25T20:05Z"
+  },
+  {
+   "league": "NFL",
+   "name": "GB @ DET",
+   "away": "GB",
+   "away_score": "14",
+   "home": "DET",
+   "home_score": "17",
+   "status": "6:33 - 3rd",
+   "date": "2026-10-25T20:25Z"
+  },
+  {
+   "league": "NFL",
+   "name": "LAR @ LV",
+   "away": "LAR",
+   "away_score": "28",
+   "home": "LV",
+   "home_score": "6",
+   "status": "9:57 - 3rd",
+   "date": "2026-10-25T20:25Z"
+  },
+  {
+   "league": "NFL",
+   "name": "PIT VS NO",
+   "away": "PIT",
+   "away_score": "16",
+   "home": "NO",
+   "home_score": "10",
+   "status": "Final",
+   "date": "2026-10-25T13:30Z"
+  },
   {
    "league": "NFL",
    "name": "SF @ ATL",
    "away": "SF",
    "away_score": "20",
    "home": "ATL",
-   "home_score": "26",
-   "status": "4:02 - 4th",
+   "home_score": "29",
+   "status": "Final",
    "date": "2026-10-25T17:00Z"
   },
   {
    "league": "NFL",
    "name": "CLE @ TEN",
    "away": "CLE",
-   "away_score": "24",
+   "away_score": "27",
    "home": "TEN",
-   "home_score": "17",
-   "status": "2:37 - 4th",
-   "date": "2026-10-25T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "IND @ MIN",
-   "away": "IND",
-   "away_score": "10",
-   "home": "MIN",
-   "home_score": "16",
+   "home_score": "24",
    "status": "Final",
-   "date": "2026-10-25T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "MIA @ NYJ",
-   "away": "MIA",
-   "away_score": "28",
-   "home": "NYJ",
-   "home_score": "25",
-   "status": "2:00 - 4th",
-   "date": "2026-10-25T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "TB @ CAR",
-   "away": "TB",
-   "away_score": "43",
-   "home": "CAR",
-   "home_score": "13",
-   "status": "Final",
-   "date": "2026-10-25T17:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "CIN @ BAL",
-   "away": "CIN",
-   "away_score": "35",
-   "home": "BAL",
-   "home_score": "13",
-   "status": "2:00 - 4th",
    "date": "2026-10-25T17:00Z"
   },
   {
    "league": "NBA",
    "name": "LAL @ UTAH",
    "away": "LAL",
-   "away_score": "0",
+   "away_score": "74",
    "home": "UTAH",
-   "home_score": "0",
-   "status": "10/25 - 5:00 PM EDT",
+   "home_score": "71",
+   "status": "Halftime",
    "date": "2026-10-25T21:00Z"
   },
   {
    "league": "NBA",
    "name": "IND @ BKN",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "11",
    "home": "BKN",
-   "home_score": "0",
-   "status": "10/25 - 6:00 PM EDT",
+   "home_score": "6",
+   "status": "6:45 - 1st",
    "date": "2026-10-25T22:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 958h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 961h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 57488
+   "data_age_min": 57635
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 958h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 961h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 57488
+   "data_age_min": 57635
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 958h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 961h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 57488
+   "data_age_min": 57635
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Panthers RT Taylor Moton carted off field with ankle and fibula injury",
-  "SF 20 - ATL 26 (4:02 - 4th)",
-  "CLE 24 - TEN 17 (2:37 - 4th)",
-  "IND 10 - MIN 16 (Final)",
-  "MIA 28 - NYJ 25 (2:00 - 4th)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 958h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 958h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 958h old]",
+  "BREAKING: Jeff Hafley, Dolphins hold off Jets, then revel in first win of season",
+  "DEN 20 - ARI 13 (3:50 - 3rd)",
+  "GB 14 - DET 17 (6:33 - 3rd)",
+  "LAR 28 - LV 6 (9:57 - 3rd)",
+  "PIT 16 - NO 10 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 961h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 961h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 961h old]",
   "Jackson Chourio AVG .291 HR 25",
   "HIGHLIGHT: Rays vs. Brewers Game 2 Highlights",
-  "The Rays rocketed ahead with Chourio\u2019s blazing two\u2011run homer, leaving the Brewers scrambling for nothing."
+  "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat."
  ],
- "script_hint": "The Rays rocketed ahead with Chourio\u2019s blazing two\u2011run homer, leaving the Brewers scrambling for nothing.  [brain]"
+ "script_hint": "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat.  [brain]"
 }

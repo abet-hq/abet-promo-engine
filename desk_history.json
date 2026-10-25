@@ -1,15 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50213386",
-  "espn:50213358",
-  "espn:50213342",
-  "espn:50214776",
-  "espn:50214763",
-  "espn:50214665",
-  "espn:50214605",
-  "espn:50214480",
-  "espn:40699880",
-  "espn:50214211",
   "espn:50214131",
   "espn:50216195",
   "espn:50190741",
@@ -399,17 +389,27 @@
   "espn:50252261",
   "espn:50275344",
   "espn:50279064",
-  "espn:50229729"
+  "espn:50229729",
+  "espn:50281453",
+  "espn:50281203",
+  "espn:50257820",
+  "espn:50280911",
+  "espn:50280836",
+  "espn:50280779",
+  "espn:50281331",
+  "espn:50279725",
+  "gnews:How to listen to live sports on SiriusXM",
+  "gnews:How Canadian Sports Fans Follow the NFL,"
  ],
  "recent_topics": [
-  "Yelich blazed through the pitcher\u2019s off\u2011speed on a 2\u2011run drive, sending the ball deep outfield, locking down Game 1.",
   "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!",
   "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout.",
   "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing.",
   "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience.",
   "Rays unleash a volcanic offense that scorched Milwaukee, turning pitching into a distant, almost-hilarious fantasy.",
   "The Rays\u2019 clutch surge flipped the Brewers\u2019 early lead into a nail\u2011biter, keeping the series electric.",
-  "The Rays rocketed ahead with Chourio\u2019s blazing two\u2011run homer, leaving the Brewers scrambling for nothing."
+  "The Rays rocketed ahead with Chourio\u2019s blazing two\u2011run homer, leaving the Brewers scrambling for nothing.",
+  "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat."
  ],
  "used_highlight_pks": [
   849818,
