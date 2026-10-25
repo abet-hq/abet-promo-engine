@@ -1,16 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50202417",
-  "espn:50203338",
-  "espn:50205015",
-  "espn:50204321",
-  "espn:50206700",
-  "espn:50207657",
-  "espn:50207619",
-  "gnews:Dodgers' playoff exit extends 24-year pr",
-  "gnews:What's the most popular pro sports team ",
-  "gnews:How Canadian Sports Fans Follow the NFL,",
-  "gnews:What is DAZN? How to watch your local te",
   "gnews:The Needle: NBA vs. MLB Tale of the Tape",
   "gnews:Use DraftKings promo code to get $200 in",
   "gnews:NFL, NBA, MLB, NHL, MLS urge action agai",
@@ -399,17 +388,28 @@
   "espn:50269656",
   "espn:50269266",
   "espn:50268816",
-  "espn:50240898"
+  "espn:50240898",
+  "espn:50229578",
+  "espn:50271544",
+  "espn:50274066",
+  "espn:50273990",
+  "espn:50273986",
+  "espn:50273951",
+  "espn:50273920",
+  "espn:50273608",
+  "espn:50273834",
+  "espn:50273821",
+  "espn:50273781"
  ],
  "recent_topics": [
-  "Nick Martinez launches a micro\u2011hail of home\u2011run pop in the big league\u2019s new kid on the block, obliterating Brewers' hopes.",
   "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark.",
   "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination.",
   "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold.",
   "Yelich scrambles at the plate, pulls a home, turns the game, and gives the Bucks their first win.",
   "Yelich blazed through the pitcher\u2019s off\u2011speed on a 2\u2011run drive, sending the ball deep outfield, locking down Game 1.",
   "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!",
-  "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout."
+  "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout.",
+  "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing."
  ],
  "used_highlight_pks": [
   849818,
@@ -423,8 +423,8 @@
  "last_highlights": [
   {
    "gamePk": 849802,
-   "title": "Christian Yelich on battling at the plate, Game 1 win",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/23/bdd7735f-6aeadcac-2d30913b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Cooper Pratt's go-ahead single",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/24/8d01b78d-3d1ef300-930fdbac-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ]
 }

@@ -1,19 +1,14 @@
 {
- "generated": "2026-10-25T00:04:13.835753+00:00",
+ "generated": "2026-10-25T04:43:18.453745+00:00",
  "version": 2,
- "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT",
- "breaking": null,
+ "ticker": "NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT  //  NFL: MIA 0 - NYJ 0 10/25 - 1:00 PM EDT",
+ "breaking": {
+  "id": "espn:50273781",
+  "title": "Frelick, Pratt lift Brewers to 5-4 comeback win over Rays and 2-0 World Series lead",
+  "source": "ESPN MLB",
+  "age_min": 0.2569926666666667
+ },
  "games": [
-  {
-   "league": "NFL",
-   "name": "NE @ CHI",
-   "away": "NE",
-   "away_score": "24",
-   "home": "CHI",
-   "home_score": "30",
-   "status": "Final",
-   "date": "2026-10-23T00:15Z"
-  },
   {
    "league": "NFL",
    "name": "PIT VS NO",
@@ -65,105 +60,125 @@
    "date": "2026-10-25T17:00Z"
   },
   {
+   "league": "NFL",
+   "name": "TB @ CAR",
+   "away": "TB",
+   "away_score": "0",
+   "home": "CAR",
+   "home_score": "0",
+   "status": "10/25 - 1:00 PM EDT",
+   "date": "2026-10-25T17:00Z"
+  },
+  {
    "league": "NBA",
    "name": "MIA @ CHA",
    "away": "MIA",
-   "away_score": "83",
+   "away_score": "110",
    "home": "CHA",
-   "home_score": "98",
-   "status": "10:01 - 4th",
+   "home_score": "115",
+   "status": "Final",
    "date": "2026-10-24T22:00Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ CLE",
    "away": "BKN",
-   "away_score": "24",
+   "away_score": "121",
    "home": "CLE",
-   "home_score": "24",
-   "status": "2:50 - 1st",
+   "home_score": "125",
+   "status": "Final",
    "date": "2026-10-24T23:30Z"
   },
   {
    "league": "NBA",
    "name": "MIL @ PHI",
    "away": "MIL",
-   "away_score": "18",
+   "away_score": "116",
    "home": "PHI",
-   "home_score": "27",
-   "status": "2:26 - 1st",
+   "home_score": "127",
+   "status": "Final",
    "date": "2026-10-24T23:30Z"
   },
   {
    "league": "NBA",
    "name": "WSH @ CHI",
    "away": "WSH",
-   "away_score": "0",
+   "away_score": "124",
    "home": "CHI",
-   "home_score": "0",
-   "status": "10/24 - 8:00 PM EDT",
+   "home_score": "120",
+   "status": "Final",
    "date": "2026-10-25T00:00Z"
   },
   {
    "league": "NBA",
    "name": "SA @ DAL",
    "away": "SA",
-   "away_score": "0",
+   "away_score": "122",
    "home": "DAL",
-   "home_score": "0",
-   "status": "10/24 - 8:00 PM EDT",
+   "home_score": "106",
+   "status": "Final",
    "date": "2026-10-25T00:00Z"
   },
   {
    "league": "NBA",
    "name": "HOU @ ATL",
    "away": "HOU",
-   "away_score": "0",
+   "away_score": "121",
    "home": "ATL",
-   "home_score": "0",
-   "status": "10/24 - 8:30 PM EDT",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-10-25T00:30Z"
   },
   {
    "league": "MLB",
    "name": "TB @ MIL",
    "away": "TB",
-   "away_score": "0",
+   "away_score": "4",
    "home": "MIL",
-   "home_score": "0",
-   "status": "10/24 - 8:00 PM EDT",
+   "home_score": "5",
+   "status": "Final",
    "date": "2026-10-25T00:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849802,
-   "title": "Christian Yelich on battling at the plate, Game 1 win",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/23/bdd7735f-6aeadcac-2d30913b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Cooper Pratt's go-ahead single",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/24/8d01b78d-3d1ef300-930fdbac-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
- "season_profile": null,
+ "season_profile": {
+  "player": "Jackson Chourio",
+  "team": "MIL",
+  "avg": ".291",
+  "hr": 25,
+  "rbi": 75,
+  "hits": 152,
+  "ops": ".838",
+  "gamePk": 849802,
+  "source": "statsapi /people/season"
+ },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 938h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 943h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 56297
+   "data_age_min": 56576
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 938h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 943h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 56297
+   "data_age_min": 56576
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 938h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 943h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 56297
+   "data_age_min": 56576
   }
  ],
  "sources": {
@@ -174,15 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "NE 24 - CHI 30 (Final)",
+  "BREAKING: Frelick, Pratt lift Brewers to 5-4 comeback win over Rays and 2-0 World Series lead",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 938h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 938h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 938h old]",
-  "HIGHLIGHT: Christian Yelich on battling at the plate, Game 1 win",
-  "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout."
+  "IND 0 - MIN 0 (10/25 - 1:00 PM EDT)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 943h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 943h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 943h old]",
+  "Jackson Chourio AVG .291 HR 25",
+  "HIGHLIGHT: Cooper Pratt's go-ahead single",
+  "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing."
  ],
- "script_hint": "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout.  [brain]"
+ "script_hint": "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing.  [brain]"
 }
