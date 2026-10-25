@@ -1,14 +1,5 @@
 {
  "seen_news_ids": [
-  "gnews:The Needle: NBA vs. MLB Tale of the Tape",
-  "gnews:Use DraftKings promo code to get $200 in",
-  "gnews:NFL, NBA, MLB, NHL, MLS urge action agai",
-  "gnews:Tuesday Morning Sports Roundup (HS Socce",
-  "gnews:Commissioner Don Garber boldly claims ML",
-  "gnews:October sports watch guide: World Series",
-  "espn:50207772",
-  "espn:50208289",
-  "espn:50197835",
   "espn:50197687",
   "espn:50198740",
   "espn:50209856",
@@ -399,17 +390,26 @@
   "espn:50273608",
   "espn:50273834",
   "espn:50273821",
-  "espn:50273781"
+  "espn:50273781",
+  "espn:50274638",
+  "espn:50274497",
+  "espn:50274496",
+  "espn:50274495",
+  "espn:50274494",
+  "espn:50274492",
+  "espn:50273430",
+  "gnews:What is DAZN? How to watch your local te",
+  "gnews:Dodgers' playoff exit extends 24-year pr"
  ],
  "recent_topics": [
-  "Yelich\u2019s relentless swing bulldozes the competition, sealing a hard\u2011earned Game 1 victory that fuels the spark.",
   "Yelich blasted a power punch, bulldozing opposing batters and sealing a decisive Game 1 win with iron\u2011clad determination.",
   "Yelich carved a fiery canyon at the plate, stripping the Mets of expectation and cementing the Brewers\u2019 Game 1 chokehold.",
   "Yelich scrambles at the plate, pulls a home, turns the game, and gives the Bucks their first win.",
   "Yelich blazed through the pitcher\u2019s off\u2011speed on a 2\u2011run drive, sending the ball deep outfield, locking down Game 1.",
   "Yelich keeps the heat blazing\u2014homer past the fence to lock down that Game 1 win!",
   "Yelich zipped a scorching single, blindsiding the A's and clinching Game 1 for the Cubs in a sheer knockout.",
-  "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing."
+  "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing.",
+  "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience."
  ],
  "used_highlight_pks": [
   849818,
@@ -423,8 +423,8 @@
  "last_highlights": [
   {
    "gamePk": 849802,
-   "title": "Cooper Pratt's go-ahead single",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/24/8d01b78d-3d1ef300-930fdbac-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Rays vs. Brewers Game 2 Highlights",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/24/fbb6101c-cdcb410b-be31fecf-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ]
 }

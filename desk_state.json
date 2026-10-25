@@ -1,12 +1,13 @@
 {
- "generated": "2026-10-25T04:43:18.453745+00:00",
+ "generated": "2026-10-25T09:26:54.357711+00:00",
  "version": 2,
  "ticker": "NFL: PIT 0 - NO 0 10/25 - 9:30 AM EDT  //  NFL: SF 0 - ATL 0 10/25 - 1:00 PM EDT  //  NFL: CLE 0 - TEN 0 10/25 - 1:00 PM EDT  //  NFL: IND 0 - MIN 0 10/25 - 1:00 PM EDT  //  NFL: MIA 0 - NYJ 0 10/25 - 1:00 PM EDT",
  "breaking": {
-  "id": "espn:50273781",
-  "title": "Frelick, Pratt lift Brewers to 5-4 comeback win over Rays and 2-0 World Series lead",
-  "source": "ESPN MLB",
-  "age_min": 0.2569926666666667
+  "id": "gnews:What is DAZN? How to watch your local te",
+  "title": "What is DAZN? How to watch your local team - DAZN",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
@@ -143,8 +144,8 @@
  "highlights": [
   {
    "gamePk": 849802,
-   "title": "Cooper Pratt's go-ahead single",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/24/8d01b78d-3d1ef300-930fdbac-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Rays vs. Brewers Game 2 Highlights",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/24/fbb6101c-cdcb410b-be31fecf-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": {
@@ -161,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 943h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 948h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 56576
+   "data_age_min": 56860
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 943h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 948h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 56576
+   "data_age_min": 56860
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 943h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 948h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 56576
+   "data_age_min": 56860
   }
  ],
  "sources": {
@@ -189,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Frelick, Pratt lift Brewers to 5-4 comeback win over Rays and 2-0 World Series lead",
+  "BREAKING: What is DAZN? How to watch your local team - DAZN",
   "PIT 0 - NO 0 (10/25 - 9:30 AM EDT)",
   "SF 0 - ATL 0 (10/25 - 1:00 PM EDT)",
   "CLE 0 - TEN 0 (10/25 - 1:00 PM EDT)",
   "IND 0 - MIN 0 (10/25 - 1:00 PM EDT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 943h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 943h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 943h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 948h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 948h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 948h old]",
   "Jackson Chourio AVG .291 HR 25",
-  "HIGHLIGHT: Cooper Pratt's go-ahead single",
-  "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing."
+  "HIGHLIGHT: Rays vs. Brewers Game 2 Highlights",
+  "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience."
  ],
- "script_hint": "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing.  [brain]"
+ "script_hint": "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience.  [brain]"
 }
