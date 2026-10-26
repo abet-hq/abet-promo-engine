@@ -1,43 +1,23 @@
 {
- "generated": "2026-10-25T22:22:03.131503+00:00",
+ "generated": "2026-10-26T00:35:31.759542+00:00",
  "version": 2,
- "ticker": "NFL: DEN 20 - ARI 13 3:50 - 3rd  //  NFL: GB 14 - DET 17 6:33 - 3rd  //  NFL: LAR 28 - LV 6 9:57 - 3rd  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final",
+ "ticker": "NFL: KC 0 - SEA 0 8:40 - 1st  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final  //  NFL: IND 10 - MIN 16 Final",
  "breaking": {
-  "id": "espn:50281453",
-  "title": "Jeff Hafley, Dolphins hold off Jets, then revel in first win of season",
-  "source": "ESPN NFL",
-  "age_min": 0.8935595500000001
+  "id": "espn:50282749",
+  "title": "Luka Doncic scores NBA season-high 52 points, with 8 3s, in Lakers' win vs. Jazz",
+  "source": "ESPN NBA",
+  "age_min": 1.1522028666666666
  },
  "games": [
   {
    "league": "NFL",
-   "name": "DEN @ ARI",
-   "away": "DEN",
-   "away_score": "20",
-   "home": "ARI",
-   "home_score": "13",
-   "status": "3:50 - 3rd",
-   "date": "2026-10-25T20:05Z"
-  },
-  {
-   "league": "NFL",
-   "name": "GB @ DET",
-   "away": "GB",
-   "away_score": "14",
-   "home": "DET",
-   "home_score": "17",
-   "status": "6:33 - 3rd",
-   "date": "2026-10-25T20:25Z"
-  },
-  {
-   "league": "NFL",
-   "name": "LAR @ LV",
-   "away": "LAR",
-   "away_score": "28",
-   "home": "LV",
-   "home_score": "6",
-   "status": "9:57 - 3rd",
-   "date": "2026-10-25T20:25Z"
+   "name": "KC @ SEA",
+   "away": "KC",
+   "away_score": "0",
+   "home": "SEA",
+   "home_score": "0",
+   "status": "8:40 - 1st",
+   "date": "2026-10-26T00:20Z"
   },
   {
    "league": "NFL",
@@ -70,63 +50,83 @@
    "date": "2026-10-25T17:00Z"
   },
   {
+   "league": "NFL",
+   "name": "IND @ MIN",
+   "away": "IND",
+   "away_score": "10",
+   "home": "MIN",
+   "home_score": "16",
+   "status": "Final",
+   "date": "2026-10-25T17:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "MIA @ NYJ",
+   "away": "MIA",
+   "away_score": "28",
+   "home": "NYJ",
+   "home_score": "25",
+   "status": "Final",
+   "date": "2026-10-25T17:00Z"
+  },
+  {
    "league": "NBA",
    "name": "LAL @ UTAH",
    "away": "LAL",
-   "away_score": "74",
+   "away_score": "132",
    "home": "UTAH",
-   "home_score": "71",
-   "status": "Halftime",
+   "home_score": "123",
+   "status": "Final",
    "date": "2026-10-25T21:00Z"
   },
   {
    "league": "NBA",
    "name": "IND @ BKN",
    "away": "IND",
-   "away_score": "11",
+   "away_score": "136",
    "home": "BKN",
-   "home_score": "6",
-   "status": "6:45 - 1st",
+   "home_score": "109",
+   "status": "Final",
    "date": "2026-10-25T22:00Z"
   },
   {
    "league": "NBA",
    "name": "ORL @ NY",
    "away": "ORL",
-   "away_score": "0",
+   "away_score": "55",
    "home": "NY",
-   "home_score": "0",
-   "status": "10/25 - 7:00 PM EDT",
+   "home_score": "63",
+   "status": "6:47 - 3rd",
    "date": "2026-10-25T23:00Z"
   },
   {
    "league": "NBA",
    "name": "TOR @ MIN",
    "away": "TOR",
-   "away_score": "0",
+   "away_score": "49",
    "home": "MIN",
-   "home_score": "0",
-   "status": "10/25 - 7:00 PM EDT",
+   "home_score": "63",
+   "status": "9:39 - 3rd",
    "date": "2026-10-25T23:00Z"
   },
   {
    "league": "NBA",
    "name": "LAC @ OKC",
    "away": "LAC",
-   "away_score": "0",
+   "away_score": "67",
    "home": "OKC",
-   "home_score": "0",
-   "status": "10/25 - 7:00 PM EDT",
+   "home_score": "67",
+   "status": "3:59 - 3rd",
    "date": "2026-10-25T23:00Z"
   },
   {
    "league": "NBA",
    "name": "DET @ PHI",
    "away": "DET",
-   "away_score": "0",
+   "away_score": "44",
    "home": "PHI",
-   "home_score": "0",
-   "status": "10/25 - 7:30 PM EDT",
+   "home_score": "33",
+   "status": "4:23 - 2nd",
    "date": "2026-10-25T23:30Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 961h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 963h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 57635
+   "data_age_min": 57769
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 961h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 963h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 57635
+   "data_age_min": 57769
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 961h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 963h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 57635
+   "data_age_min": 57769
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Jeff Hafley, Dolphins hold off Jets, then revel in first win of season",
-  "DEN 20 - ARI 13 (3:50 - 3rd)",
-  "GB 14 - DET 17 (6:33 - 3rd)",
-  "LAR 28 - LV 6 (9:57 - 3rd)",
+  "BREAKING: Luka Doncic scores NBA season-high 52 points, with 8 3s, in Lakers' win vs. Jazz",
+  "KC 0 - SEA 0 (8:40 - 1st)",
   "PIT 16 - NO 10 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 961h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 961h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 961h old]",
+  "SF 20 - ATL 29 (Final)",
+  "CLE 27 - TEN 24 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 963h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 963h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 963h old]",
   "Jackson Chourio AVG .291 HR 25",
   "HIGHLIGHT: Rays vs. Brewers Game 2 Highlights",
-  "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat."
+  "Rays delivered, Brewers finished hollow \u2013 a Game 2 that left Seattle's crown trembling."
  ],
- "script_hint": "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat.  [brain]"
+ "script_hint": "Rays delivered, Brewers finished hollow \u2013 a Game 2 that left Seattle's crown trembling.  [brain]"
 }
