@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T05:21:51.417517+00:00",
+ "generated": "2026-10-26T11:24:58.873062+00:00",
  "version": 2,
  "ticker": "NFL: DAL 0 - PHI 0 10/26 - 8:15 PM EDT  //  NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final",
  "breaking": {
-  "id": "espn:50284920",
-  "title": "Jalen Brunson: Knicks' sputtering offense 'falls on my shoulders' amid 0-3 start",
+  "id": "espn:50272822",
+  "title": "NBA breakout players: 30 ready for the next step (yes, even Wemby and Luka)",
   "source": "ESPN NBA",
-  "age_min": 12.885681083333333
+  "age_min": 20.943201316666666
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 968h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 974h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 58055
+   "data_age_min": 58418
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 968h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 974h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 58055
+   "data_age_min": 58418
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 968h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 974h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 58055
+   "data_age_min": 58418
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Jalen Brunson: Knicks' sputtering offense 'falls on my shoulders' amid 0-3 start",
+  "BREAKING: NBA breakout players: 30 ready for the next step (yes, even Wemby and Luka)",
   "DAL 0 - PHI 0 (10/26 - 8:15 PM EDT)",
   "NE 24 - CHI 30 (Final)",
   "PIT 16 - NO 10 (Final)",
   "SF 20 - ATL 29 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 968h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 968h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 968h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 974h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 974h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 974h old]",
   "Jackson Chourio AVG .291 HR 25",
   "HIGHLIGHT: Rays vs. Brewers Game 2 Highlights",
-  "In a heart\u2011stopper, Brewers snatched victory after a late\u2011inning two\u2011run homer, eclipsing the Rays."
+  "Jaw\u2011dropping Rays upend Brewers in Game 2, slick offense fuels a furious rally while elite pitching rattles hitters."
  ],
- "script_hint": "In a heart\u2011stopper, Brewers snatched victory after a late\u2011inning two\u2011run homer, eclipsing the Rays.  [brain]"
+ "script_hint": "Jaw\u2011dropping Rays upend Brewers in Game 2, slick offense fuels a furious rally while elite pitching rattles hitters.  [brain]"
 }

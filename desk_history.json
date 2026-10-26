@@ -1,18 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50219420",
-  "espn:50217496",
-  "espn:50218738",
-  "espn:50218637",
-  "espn:50179373",
-  "espn:48957095",
-  "espn:50217446",
-  "espn:49998634",
-  "espn:50182600",
-  "espn:50208473",
-  "espn:50219371",
-  "espn:50214010",
-  "espn:50218251",
   "espn:50213861",
   "gnews:From Ronaldo\u2019s tantrum to Harden\u2019s trade",
   "espn:50221426",
@@ -399,17 +386,30 @@
   "espn:50284254",
   "espn:50284143",
   "espn:50283521",
-  "gnews:Sports Equinox viewing guide: How to wat"
+  "gnews:Sports Equinox viewing guide: How to wat",
+  "espn:49794361",
+  "espn:49745176",
+  "espn:50285418",
+  "espn:50285364",
+  "espn:50272822",
+  "espn:50285324",
+  "espn:50285323",
+  "espn:50285320",
+  "espn:50285319",
+  "espn:50285318",
+  "espn:50204309",
+  "espn:50273529",
+  "gnews:Polymarket Sign Up Bonus: Get $25 for Sp"
  ],
  "recent_topics": [
-  "Pratt\u2019s single slammed his bat, stifled the Rays, and tipped the Brewers into a massive World Series swing.",
   "Brewer\u2019s hope fizzled as the Rays\u2019 bullpen held the net in a masterclass of late\u2011game resilience.",
   "Rays unleash a volcanic offense that scorched Milwaukee, turning pitching into a distant, almost-hilarious fantasy.",
   "The Rays\u2019 clutch surge flipped the Brewers\u2019 early lead into a nail\u2011biter, keeping the series electric.",
   "The Rays rocketed ahead with Chourio\u2019s blazing two\u2011run homer, leaving the Brewers scrambling for nothing.",
   "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat.",
   "Rays delivered, Brewers finished hollow \u2013 a Game 2 that left Seattle's crown trembling.",
-  "In a heart\u2011stopper, Brewers snatched victory after a late\u2011inning two\u2011run homer, eclipsing the Rays."
+  "In a heart\u2011stopper, Brewers snatched victory after a late\u2011inning two\u2011run homer, eclipsing the Rays.",
+  "Jaw\u2011dropping Rays upend Brewers in Game 2, slick offense fuels a furious rally while elite pitching rattles hitters."
  ],
  "used_highlight_pks": [
   849818,
