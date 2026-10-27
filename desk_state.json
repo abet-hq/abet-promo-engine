@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T12:41:59.133564+00:00",
+ "generated": "2026-10-27T18:20:41.659371+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final  //  NFL: IND 10 - MIN 16 Final",
  "breaking": {
-  "id": "espn:50260679",
-  "title": "NBA season 2026-27: Best and worst from the first week",
+  "id": "espn:50299731",
+  "title": "Hornets to retire Muggsy Bogues' No. 1 jersey",
   "source": "ESPN NBA",
-  "age_min": 2.5205965000000004
+  "age_min": 2.8261559833333334
  },
  "games": [
   {
@@ -71,73 +71,53 @@
   },
   {
    "league": "NBA",
-   "name": "WSH @ CHA",
-   "away": "WSH",
-   "away_score": "103",
-   "home": "CHA",
-   "home_score": "110",
-   "status": "Final",
-   "date": "2026-10-26T23:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MIN @ CLE",
-   "away": "MIN",
-   "away_score": "125",
-   "home": "CLE",
-   "home_score": "127",
-   "status": "Final/OT",
-   "date": "2026-10-26T23:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CHI @ BOS",
-   "away": "CHI",
-   "away_score": "99",
+   "name": "BKN @ BOS",
+   "away": "BKN",
+   "away_score": "0",
    "home": "BOS",
-   "home_score": "134",
-   "status": "Final",
-   "date": "2026-10-26T23:30Z"
+   "home_score": "0",
+   "status": "10/27 - 7:30 PM EDT",
+   "date": "2026-10-27T23:30Z"
   },
   {
    "league": "NBA",
-   "name": "DAL @ MIA",
-   "away": "DAL",
-   "away_score": "113",
-   "home": "MIA",
-   "home_score": "109",
-   "status": "Final",
-   "date": "2026-10-26T23:30Z"
+   "name": "DET @ NY",
+   "away": "DET",
+   "away_score": "0",
+   "home": "NY",
+   "home_score": "0",
+   "status": "10/27 - 8:00 PM EDT",
+   "date": "2026-10-28T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "IND @ MIL",
-   "away": "IND",
-   "away_score": "102",
-   "home": "MIL",
-   "home_score": "110",
-   "status": "Final",
-   "date": "2026-10-27T00:00Z"
+   "name": "SAC @ SA",
+   "away": "SAC",
+   "away_score": "0",
+   "home": "SA",
+   "home_score": "0",
+   "status": "10/27 - 8:00 PM EDT",
+   "date": "2026-10-28T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "PHX @ OKC",
-   "away": "PHX",
-   "away_score": "114",
-   "home": "OKC",
-   "home_score": "125",
-   "status": "Final",
-   "date": "2026-10-27T00:00Z"
+   "name": "POR @ LAL",
+   "away": "POR",
+   "away_score": "0",
+   "home": "LAL",
+   "home_score": "0",
+   "status": "10/27 - 11:00 PM EDT",
+   "date": "2026-10-28T03:00Z"
   },
   {
    "league": "MLB",
    "name": "MIL @ TB",
    "away": "MIL",
-   "away_score": "10",
+   "away_score": "0",
    "home": "TB",
-   "home_score": "1",
-   "status": "Final",
-   "date": "2026-10-27T00:00Z"
+   "home_score": "0",
+   "status": "10/27 - 8:00 PM EDT",
+   "date": "2026-10-28T00:00Z"
   }
  ],
  "highlights": [
@@ -151,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 999h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1005h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 59935
+   "data_age_min": 60274
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 999h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1005h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 59935
+   "data_age_min": 60274
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 999h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1005h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 59935
+   "data_age_min": 60274
   }
  ],
  "sources": {
@@ -179,16 +159,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NBA season 2026-27: Best and worst from the first week",
+  "BREAKING: Hornets to retire Muggsy Bogues' No. 1 jersey",
   "NE 24 - CHI 30 (Final)",
   "PIT 16 - NO 10 (Final)",
   "SF 20 - ATL 29 (Final)",
   "CLE 27 - TEN 24 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 999h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 999h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 999h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1005h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1005h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1005h old]",
   "HIGHLIGHT: Griffin Jax against the Brewers",
-  "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes."
+  "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers."
  ],
- "script_hint": "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes.  [brain]"
+ "script_hint": "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers.  [brain]"
 }
