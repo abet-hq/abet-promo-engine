@@ -1,18 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50235062",
-  "espn:50234914",
-  "espn:50234786",
-  "espn:50234757",
-  "espn:46933211",
-  "espn:50228657",
-  "espn:50229467",
-  "espn:50229188",
-  "espn:50229437",
-  "espn:50229178",
-  "espn:50228500",
-  "espn:50235880",
-  "espn:50235597",
   "espn:50235327",
   "espn:50235276",
   "espn:50228459",
@@ -399,17 +386,30 @@
   "espn:50298259",
   "espn:50298454",
   "espn:50298016",
-  "espn:42065268"
+  "espn:42065268",
+  "espn:50301493",
+  "espn:50301173",
+  "espn:50300509",
+  "espn:50301125",
+  "espn:50300809",
+  "espn:50299852",
+  "espn:49959975",
+  "espn:50301040",
+  "espn:50300264",
+  "espn:50301266",
+  "espn:50241025",
+  "espn:50300459",
+  "espn:50300403"
  ],
  "recent_topics": [
-  "In a heart\u2011stopper, Brewers snatched victory after a late\u2011inning two\u2011run homer, eclipsing the Rays.",
   "Jaw\u2011dropping Rays upend Brewers in Game 2, slick offense fuels a furious rally while elite pitching rattles hitters.",
   "Game 2\u2019s blaze\u2014Rays licked Brewers, proving their lineup\u2019s on\u2011fire momentum can\u2019t be tamed.",
   "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!",
   "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches.",
   "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium.",
   "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes.",
-  "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers."
+  "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers.",
+  "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy."
  ],
  "used_highlight_pks": [
   849818,

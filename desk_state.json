@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T18:20:41.659371+00:00",
+ "generated": "2026-10-27T22:30:14.180618+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final  //  NFL: IND 10 - MIN 16 Final",
  "breaking": {
-  "id": "espn:50299731",
-  "title": "Hornets to retire Muggsy Bogues' No. 1 jersey",
-  "source": "ESPN NBA",
-  "age_min": 2.8261559833333334
+  "id": "espn:50301493",
+  "title": "Montez Sweat returns to Bears following 'devastating' 2-game suspension",
+  "source": "ESPN NFL",
+  "age_min": 0.7057348999999999
  },
  "games": [
   {
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1005h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1009h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 60274
+   "data_age_min": 60523
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1005h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1009h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 60274
+   "data_age_min": 60523
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1005h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1009h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 60274
+   "data_age_min": 60523
   }
  ],
  "sources": {
@@ -159,16 +159,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Hornets to retire Muggsy Bogues' No. 1 jersey",
+  "BREAKING: Montez Sweat returns to Bears following 'devastating' 2-game suspension",
   "NE 24 - CHI 30 (Final)",
   "PIT 16 - NO 10 (Final)",
   "SF 20 - ATL 29 (Final)",
   "CLE 27 - TEN 24 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1005h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1005h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1005h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1009h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1009h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1009h old]",
   "HIGHLIGHT: Griffin Jax against the Brewers",
-  "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers."
+  "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy."
  ],
- "script_hint": "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers.  [brain]"
+ "script_hint": "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy.  [brain]"
 }
