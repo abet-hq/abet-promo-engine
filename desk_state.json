@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T06:39:31.846124+00:00",
+ "generated": "2026-10-27T12:41:59.133564+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final  //  NFL: IND 10 - MIN 16 Final",
  "breaking": {
-  "id": "espn:50293252",
-  "title": "How Jackson Chourio became a Brewers superstar in October",
-  "source": "ESPN MLB",
-  "age_min": 2.56372285
+  "id": "espn:50260679",
+  "title": "NBA season 2026-27: Best and worst from the first week",
+  "source": "ESPN NBA",
+  "age_min": 2.5205965000000004
  },
  "games": [
   {
@@ -151,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 993h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 999h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 59573
+   "data_age_min": 59935
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 993h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 999h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 59573
+   "data_age_min": 59935
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 993h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 999h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 59573
+   "data_age_min": 59935
   }
  ],
  "sources": {
@@ -179,16 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: How Jackson Chourio became a Brewers superstar in October",
+  "BREAKING: NBA season 2026-27: Best and worst from the first week",
   "NE 24 - CHI 30 (Final)",
   "PIT 16 - NO 10 (Final)",
   "SF 20 - ATL 29 (Final)",
   "CLE 27 - TEN 24 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 993h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 993h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 993h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 999h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 999h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 999h old]",
   "HIGHLIGHT: Griffin Jax against the Brewers",
-  "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium."
+  "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes."
  ],
- "script_hint": "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium.  [brain]"
+ "script_hint": "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes.  [brain]"
 }

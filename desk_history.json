@@ -1,18 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50230371",
-  "espn:49309401",
-  "espn:47809892",
-  "espn:50230543",
-  "espn:50220591",
-  "espn:50230331",
-  "espn:50229436",
-  "espn:50229362",
-  "espn:50228665",
-  "espn:50229916",
-  "espn:50222334",
-  "espn:50232379",
-  "espn:50232141",
   "espn:50231812",
   "espn:50231705",
   "espn:50231436",
@@ -399,17 +386,30 @@
   "espn:50294019",
   "espn:50293953",
   "gnews:Sports equinox features MLB, NFL, NBA, W",
-  "gnews:Sports equinox brings NFL, MLB, NBA, NHL"
+  "gnews:Sports equinox brings NFL, MLB, NBA, NHL",
+  "espn:50296659",
+  "espn:49998196",
+  "espn:50278890",
+  "espn:50288293",
+  "espn:50288152",
+  "espn:50260679",
+  "espn:50287529",
+  "espn:50294975",
+  "espn:50294971",
+  "espn:50294970",
+  "espn:50294832",
+  "espn:50288815",
+  "gnews:Sports Equinox Underway With MLB, NFL, N"
  ],
  "recent_topics": [
-  "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat.",
   "Rays delivered, Brewers finished hollow \u2013 a Game 2 that left Seattle's crown trembling.",
   "In a heart\u2011stopper, Brewers snatched victory after a late\u2011inning two\u2011run homer, eclipsing the Rays.",
   "Jaw\u2011dropping Rays upend Brewers in Game 2, slick offense fuels a furious rally while elite pitching rattles hitters.",
   "Game 2\u2019s blaze\u2014Rays licked Brewers, proving their lineup\u2019s on\u2011fire momentum can\u2019t be tamed.",
   "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!",
   "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches.",
-  "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium."
+  "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium.",
+  "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes."
  ],
  "used_highlight_pks": [
   849818,
