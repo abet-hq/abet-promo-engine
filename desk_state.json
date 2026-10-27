@@ -1,25 +1,14 @@
 {
- "generated": "2026-10-27T01:15:52.409964+00:00",
+ "generated": "2026-10-27T06:39:31.846124+00:00",
  "version": 2,
- "ticker": "NFL: DAL 17 - PHI 14 5:37 - 2nd  //  NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final",
+ "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final  //  NFL: IND 10 - MIN 16 Final",
  "breaking": {
-  "id": "gnews:How to watch Sports Equinox 2026 for fre",
-  "title": "How to watch Sports Equinox 2026 for free: NFL, NBA, MLB, NHL, WNBA live streams, TV schedule - Yahoo Sports",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50293252",
+  "title": "How Jackson Chourio became a Brewers superstar in October",
+  "source": "ESPN MLB",
+  "age_min": 2.56372285
  },
  "games": [
-  {
-   "league": "NFL",
-   "name": "DAL @ PHI",
-   "away": "DAL",
-   "away_score": "17",
-   "home": "PHI",
-   "home_score": "14",
-   "status": "5:37 - 2nd",
-   "date": "2026-10-27T00:15Z"
-  },
   {
    "league": "NFL",
    "name": "NE @ CHI",
@@ -71,115 +60,115 @@
    "date": "2026-10-25T17:00Z"
   },
   {
+   "league": "NFL",
+   "name": "MIA @ NYJ",
+   "away": "MIA",
+   "away_score": "28",
+   "home": "NYJ",
+   "home_score": "25",
+   "status": "Final",
+   "date": "2026-10-25T17:00Z"
+  },
+  {
    "league": "NBA",
    "name": "WSH @ CHA",
    "away": "WSH",
-   "away_score": "93",
+   "away_score": "103",
    "home": "CHA",
-   "home_score": "100",
-   "status": "2:24 - 4th",
+   "home_score": "110",
+   "status": "Final",
    "date": "2026-10-26T23:00Z"
   },
   {
    "league": "NBA",
    "name": "MIN @ CLE",
    "away": "MIN",
-   "away_score": "101",
+   "away_score": "125",
    "home": "CLE",
-   "home_score": "97",
-   "status": "6:10 - 4th",
+   "home_score": "127",
+   "status": "Final/OT",
    "date": "2026-10-26T23:00Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ BOS",
    "away": "CHI",
-   "away_score": "71",
+   "away_score": "99",
    "home": "BOS",
-   "home_score": "89",
-   "status": "3:15 - 3rd",
+   "home_score": "134",
+   "status": "Final",
    "date": "2026-10-26T23:30Z"
   },
   {
    "league": "NBA",
    "name": "DAL @ MIA",
    "away": "DAL",
-   "away_score": "72",
+   "away_score": "113",
    "home": "MIA",
-   "home_score": "79",
-   "status": "4:49 - 3rd",
+   "home_score": "109",
+   "status": "Final",
    "date": "2026-10-26T23:30Z"
   },
   {
    "league": "NBA",
    "name": "IND @ MIL",
    "away": "IND",
-   "away_score": "61",
+   "away_score": "102",
    "home": "MIL",
-   "home_score": "50",
-   "status": "Halftime",
+   "home_score": "110",
+   "status": "Final",
    "date": "2026-10-27T00:00Z"
   },
   {
    "league": "NBA",
    "name": "PHX @ OKC",
    "away": "PHX",
-   "away_score": "53",
+   "away_score": "114",
    "home": "OKC",
-   "home_score": "67",
-   "status": "Halftime",
+   "home_score": "125",
+   "status": "Final",
    "date": "2026-10-27T00:00Z"
   },
   {
    "league": "MLB",
    "name": "MIL @ TB",
    "away": "MIL",
-   "away_score": "2",
+   "away_score": "10",
    "home": "TB",
-   "home_score": "0",
-   "status": "Bot 4th",
+   "home_score": "1",
+   "status": "Final",
    "date": "2026-10-27T00:00Z"
   }
  ],
  "highlights": [
   {
-   "gamePk": 849804,
-   "title": "William Contreras' RBI single",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/26/4e15134a-3e40f88e-05f5847b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849803,
+   "title": "Griffin Jax against the Brewers",
+   "url": "https://darkroom-clips.mlb.com/72bb6382-3d8c-480d-afba-6d324fa8b45a.mp4"
   }
  ],
- "season_profile": {
-  "player": "Ryan Vilade",
-  "team": "TB",
-  "avg": ".245",
-  "hr": 11,
-  "rbi": 43,
-  "hits": 60,
-  "ops": ".750",
-  "gamePk": 849804,
-  "source": "statsapi /people/season"
- },
+ "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 987h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 993h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 59249
+   "data_age_min": 59573
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 987h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 993h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 59249
+   "data_age_min": 59573
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 987h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 993h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 59249
+   "data_age_min": 59573
   }
  ],
  "sources": {
@@ -190,17 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: How to watch Sports Equinox 2026 for free: NFL, NBA, MLB, NHL, WNBA live streams, TV schedule - Yahoo Sports",
-  "DAL 17 - PHI 14 (5:37 - 2nd)",
+  "BREAKING: How Jackson Chourio became a Brewers superstar in October",
   "NE 24 - CHI 30 (Final)",
   "PIT 16 - NO 10 (Final)",
   "SF 20 - ATL 29 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 987h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 987h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 987h old]",
-  "Ryan Vilade AVG .245 HR 11",
-  "HIGHLIGHT: William Contreras' RBI single",
-  "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches."
+  "CLE 27 - TEN 24 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 993h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 993h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 993h old]",
+  "HIGHLIGHT: Griffin Jax against the Brewers",
+  "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium."
  ],
- "script_hint": "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches.  [brain]"
+ "script_hint": "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium.  [brain]"
 }

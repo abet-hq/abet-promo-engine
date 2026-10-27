@@ -1,23 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50224941",
-  "espn:50228483",
-  "espn:50228151",
-  "espn:50228440",
-  "espn:49804068",
-  "espn:50220319",
-  "espn:50221526",
-  "espn:39431648",
-  "espn:50224864",
-  "espn:50227385",
-  "espn:50220047",
-  "espn:50228306",
-  "espn:40245876",
-  "espn:50223790",
-  "gnews:NFL, MLB, NBA, other pro leagues band to",
-  "espn:49954186",
-  "espn:48476156",
-  "espn:50119375",
   "espn:50230371",
   "espn:49309401",
   "espn:47809892",
@@ -399,17 +381,35 @@
   "espn:50290179",
   "gnews:How to watch Sports Equinox 2026 for fre",
   "gnews:Sports equinox brings a packed night of ",
-  "gnews:Sports equinox underway with MLB, NFL, N"
+  "gnews:Sports equinox underway with MLB, NFL, N",
+  "espn:50294687",
+  "espn:50294604",
+  "espn:50294603",
+  "espn:50294359",
+  "espn:50294214",
+  "espn:50294142",
+  "espn:50294747",
+  "espn:50294746",
+  "espn:50294745",
+  "espn:50294744",
+  "espn:50294741",
+  "espn:50294740",
+  "espn:50293252",
+  "espn:50294283",
+  "espn:50294019",
+  "espn:50293953",
+  "gnews:Sports equinox features MLB, NFL, NBA, W",
+  "gnews:Sports equinox brings NFL, MLB, NBA, NHL"
  ],
  "recent_topics": [
-  "The Rays rocketed ahead with Chourio\u2019s blazing two\u2011run homer, leaving the Brewers scrambling for nothing.",
   "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat.",
   "Rays delivered, Brewers finished hollow \u2013 a Game 2 that left Seattle's crown trembling.",
   "In a heart\u2011stopper, Brewers snatched victory after a late\u2011inning two\u2011run homer, eclipsing the Rays.",
   "Jaw\u2011dropping Rays upend Brewers in Game 2, slick offense fuels a furious rally while elite pitching rattles hitters.",
   "Game 2\u2019s blaze\u2014Rays licked Brewers, proving their lineup\u2019s on\u2011fire momentum can\u2019t be tamed.",
   "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!",
-  "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches."
+  "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches.",
+  "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium."
  ],
  "used_highlight_pks": [
   849818,
@@ -419,13 +419,14 @@
   849815,
   849805,
   849802,
-  849804
+  849804,
+  849803
  ],
  "last_highlights": [
   {
-   "gamePk": 849804,
-   "title": "William Contreras' RBI single",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/26/4e15134a-3e40f88e-05f5847b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849803,
+   "title": "Griffin Jax against the Brewers",
+   "url": "https://darkroom-clips.mlb.com/72bb6382-3d8c-480d-afba-6d324fa8b45a.mp4"
   }
  ]
 }
