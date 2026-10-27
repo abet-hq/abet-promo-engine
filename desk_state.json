@@ -1,22 +1,23 @@
 {
- "generated": "2026-10-26T21:53:50.384519+00:00",
+ "generated": "2026-10-27T01:15:52.409964+00:00",
  "version": 2,
- "ticker": "NFL: DAL 0 - PHI 0 10/26 - 8:15 PM EDT  //  NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final",
+ "ticker": "NFL: DAL 17 - PHI 14 5:37 - 2nd  //  NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final",
  "breaking": {
-  "id": "espn:50290470",
-  "title": "Ex-Cowboy Dez Bryant calls out police investigation after he's cited for assault",
-  "source": "ESPN NFL",
-  "age_min": 1.2008518833333333
+  "id": "gnews:How to watch Sports Equinox 2026 for fre",
+  "title": "How to watch Sports Equinox 2026 for free: NFL, NBA, MLB, NHL, WNBA live streams, TV schedule - Yahoo Sports",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
    "league": "NFL",
    "name": "DAL @ PHI",
    "away": "DAL",
-   "away_score": "0",
+   "away_score": "17",
    "home": "PHI",
-   "home_score": "0",
-   "status": "10/26 - 8:15 PM EDT",
+   "home_score": "14",
+   "status": "5:37 - 2nd",
    "date": "2026-10-27T00:15Z"
   },
   {
@@ -73,112 +74,112 @@
    "league": "NBA",
    "name": "WSH @ CHA",
    "away": "WSH",
-   "away_score": "0",
+   "away_score": "93",
    "home": "CHA",
-   "home_score": "0",
-   "status": "10/26 - 7:00 PM EDT",
+   "home_score": "100",
+   "status": "2:24 - 4th",
    "date": "2026-10-26T23:00Z"
   },
   {
    "league": "NBA",
    "name": "MIN @ CLE",
    "away": "MIN",
-   "away_score": "0",
+   "away_score": "101",
    "home": "CLE",
-   "home_score": "0",
-   "status": "10/26 - 7:00 PM EDT",
+   "home_score": "97",
+   "status": "6:10 - 4th",
    "date": "2026-10-26T23:00Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ BOS",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "71",
    "home": "BOS",
-   "home_score": "0",
-   "status": "10/26 - 7:30 PM EDT",
+   "home_score": "89",
+   "status": "3:15 - 3rd",
    "date": "2026-10-26T23:30Z"
   },
   {
    "league": "NBA",
    "name": "DAL @ MIA",
    "away": "DAL",
-   "away_score": "0",
+   "away_score": "72",
    "home": "MIA",
-   "home_score": "0",
-   "status": "10/26 - 7:30 PM EDT",
+   "home_score": "79",
+   "status": "4:49 - 3rd",
    "date": "2026-10-26T23:30Z"
   },
   {
    "league": "NBA",
    "name": "IND @ MIL",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "61",
    "home": "MIL",
-   "home_score": "0",
-   "status": "10/26 - 8:00 PM EDT",
+   "home_score": "50",
+   "status": "Halftime",
    "date": "2026-10-27T00:00Z"
   },
   {
    "league": "NBA",
    "name": "PHX @ OKC",
    "away": "PHX",
-   "away_score": "0",
+   "away_score": "53",
    "home": "OKC",
-   "home_score": "0",
-   "status": "10/26 - 8:00 PM EDT",
+   "home_score": "67",
+   "status": "Halftime",
    "date": "2026-10-27T00:00Z"
   },
   {
    "league": "MLB",
    "name": "MIL @ TB",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "2",
    "home": "TB",
    "home_score": "0",
-   "status": "10/26 - 8:00 PM EDT",
+   "status": "Bot 4th",
    "date": "2026-10-27T00:00Z"
   }
  ],
  "highlights": [
   {
-   "gamePk": 849802,
-   "title": "Rays vs. Brewers Game 2 Highlights",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/24/fbb6101c-cdcb410b-be31fecf-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849804,
+   "title": "William Contreras' RBI single",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/26/4e15134a-3e40f88e-05f5847b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": {
-  "player": "Jackson Chourio",
-  "team": "MIL",
-  "avg": ".291",
-  "hr": 25,
-  "rbi": 75,
-  "hits": 152,
-  "ops": ".838",
-  "gamePk": 849802,
+  "player": "Ryan Vilade",
+  "team": "TB",
+  "avg": ".245",
+  "hr": 11,
+  "rbi": 43,
+  "hits": 60,
+  "ops": ".750",
+  "gamePk": 849804,
   "source": "statsapi /people/season"
  },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 984h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 987h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 59047
+   "data_age_min": 59249
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 984h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 987h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 59047
+   "data_age_min": 59249
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 984h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 987h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 59047
+   "data_age_min": 59249
   }
  ],
  "sources": {
@@ -189,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Ex-Cowboy Dez Bryant calls out police investigation after he's cited for assault",
-  "DAL 0 - PHI 0 (10/26 - 8:15 PM EDT)",
+  "BREAKING: How to watch Sports Equinox 2026 for free: NFL, NBA, MLB, NHL, WNBA live streams, TV schedule - Yahoo Sports",
+  "DAL 17 - PHI 14 (5:37 - 2nd)",
   "NE 24 - CHI 30 (Final)",
   "PIT 16 - NO 10 (Final)",
   "SF 20 - ATL 29 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 984h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 984h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 984h old]",
-  "Jackson Chourio AVG .291 HR 25",
-  "HIGHLIGHT: Rays vs. Brewers Game 2 Highlights",
-  "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!"
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 987h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 987h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 987h old]",
+  "Ryan Vilade AVG .245 HR 11",
+  "HIGHLIGHT: William Contreras' RBI single",
+  "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches."
  ],
- "script_hint": "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!  [brain]"
+ "script_hint": "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches.  [brain]"
 }

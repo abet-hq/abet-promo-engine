@@ -1,15 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50219895",
-  "espn:50219771",
-  "espn:50219611",
-  "espn:50225222",
-  "espn:50225221",
-  "espn:50225220",
-  "espn:50225219",
-  "espn:50225218",
-  "espn:50225810",
-  "espn:50225168",
   "espn:50224941",
   "espn:50228483",
   "espn:50228151",
@@ -399,17 +389,27 @@
   "espn:50288219",
   "espn:50240960",
   "gnews:Sports equinox on tap with MLB, NFL, NBA",
-  "gnews:The Sports Equinox 2026: When MLB, NBA, "
+  "gnews:The Sports Equinox 2026: When MLB, NBA, ",
+  "espn:50291573",
+  "espn:50291324",
+  "espn:50291280",
+  "espn:50292072",
+  "espn:50287191",
+  "espn:49960162",
+  "espn:50290179",
+  "gnews:How to watch Sports Equinox 2026 for fre",
+  "gnews:Sports equinox brings a packed night of ",
+  "gnews:Sports equinox underway with MLB, NFL, N"
  ],
  "recent_topics": [
-  "The Rays\u2019 clutch surge flipped the Brewers\u2019 early lead into a nail\u2011biter, keeping the series electric.",
   "The Rays rocketed ahead with Chourio\u2019s blazing two\u2011run homer, leaving the Brewers scrambling for nothing.",
   "Chourio lights up again, flipping the script with explosive hustle, blasting the Rays to a crushing Brewers defeat.",
   "Rays delivered, Brewers finished hollow \u2013 a Game 2 that left Seattle's crown trembling.",
   "In a heart\u2011stopper, Brewers snatched victory after a late\u2011inning two\u2011run homer, eclipsing the Rays.",
   "Jaw\u2011dropping Rays upend Brewers in Game 2, slick offense fuels a furious rally while elite pitching rattles hitters.",
   "Game 2\u2019s blaze\u2014Rays licked Brewers, proving their lineup\u2019s on\u2011fire momentum can\u2019t be tamed.",
-  "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!"
+  "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!",
+  "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches."
  ],
  "used_highlight_pks": [
   849818,
@@ -418,13 +418,14 @@
   849817,
   849815,
   849805,
-  849802
+  849802,
+  849804
  ],
  "last_highlights": [
   {
-   "gamePk": 849802,
-   "title": "Rays vs. Brewers Game 2 Highlights",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/24/fbb6101c-cdcb410b-be31fecf-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849804,
+   "title": "William Contreras' RBI single",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/26/4e15134a-3e40f88e-05f5847b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ]
 }
