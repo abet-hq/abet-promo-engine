@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T07:31:34.393138+00:00",
+ "generated": "2026-10-28T14:24:21.749243+00:00",
  "version": 2,
  "ticker": "NFL: CAR 0 - GB 0 10/29 - 8:15 PM EDT  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50304811",
-  "title": "How Rays extended World Series in incredible Game 4 comeback",
-  "source": "ESPN MLB",
-  "age_min": 2.16571235
+  "id": "espn:42377368",
+  "title": "LeBron, Durant headline NBA draft classes of the early 2000s",
+  "source": "ESPN NBA",
+  "age_min": 2.1502521666666667
  },
  "games": [
   {
@@ -141,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1018h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1025h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 61064
+   "data_age_min": 61477
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1018h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1025h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 61064
+   "data_age_min": 61477
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1018h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1025h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 61064
+   "data_age_min": 61477
   }
  ],
  "sources": {
@@ -169,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: How Rays extended World Series in incredible Game 4 comeback",
+  "BREAKING: LeBron, Durant headline NBA draft classes of the early 2000s",
   "CAR 0 - GB 0 (10/29 - 8:15 PM EDT)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1018h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1018h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1018h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1025h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1025h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1025h old]",
   "Jackson Chourio AVG .291 HR 25",
   "HIGHLIGHT: Cooper Pratt's RBI double",
-  "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB."
+  "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show."
  ],
- "script_hint": "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB."
+ "script_hint": "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show.  [brain]"
 }
