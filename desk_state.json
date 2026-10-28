@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T22:30:14.180618+00:00",
+ "generated": "2026-10-28T01:37:56.996959+00:00",
  "version": 2,
  "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final  //  NFL: IND 10 - MIN 16 Final",
  "breaking": {
-  "id": "espn:50301493",
-  "title": "Montez Sweat returns to Bears following 'devastating' 2-game suspension",
-  "source": "ESPN NFL",
-  "age_min": 0.7057348999999999
+  "id": "espn:50301789",
+  "title": "Ayesha Curry to star in holiday rom-com 'Second Chance Holiday,' premiering on Roku",
+  "source": "ESPN NBA",
+  "age_min": 13.007063933333335
  },
  "games": [
   {
@@ -73,30 +73,30 @@
    "league": "NBA",
    "name": "BKN @ BOS",
    "away": "BKN",
-   "away_score": "0",
+   "away_score": "96",
    "home": "BOS",
-   "home_score": "0",
-   "status": "10/27 - 7:30 PM EDT",
+   "home_score": "97",
+   "status": "6:42 - 4th",
    "date": "2026-10-27T23:30Z"
   },
   {
    "league": "NBA",
    "name": "DET @ NY",
    "away": "DET",
-   "away_score": "0",
+   "away_score": "50",
    "home": "NY",
-   "home_score": "0",
-   "status": "10/27 - 8:00 PM EDT",
+   "home_score": "51",
+   "status": "Halftime",
    "date": "2026-10-28T00:00Z"
   },
   {
    "league": "NBA",
    "name": "SAC @ SA",
    "away": "SAC",
-   "away_score": "0",
+   "away_score": "69",
    "home": "SA",
-   "home_score": "0",
-   "status": "10/27 - 8:00 PM EDT",
+   "home_score": "97",
+   "status": "7:09 - 3rd",
    "date": "2026-10-28T00:00Z"
   },
   {
@@ -113,42 +113,52 @@
    "league": "MLB",
    "name": "MIL @ TB",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "2",
    "home": "TB",
-   "home_score": "0",
-   "status": "10/27 - 8:00 PM EDT",
+   "home_score": "2",
+   "status": "Top 5th",
    "date": "2026-10-28T00:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849803,
-   "title": "Griffin Jax against the Brewers",
-   "url": "https://darkroom-clips.mlb.com/72bb6382-3d8c-480d-afba-6d324fa8b45a.mp4"
+   "title": "Cooper Pratt's RBI double",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/27/5f9829c6-ab51af4d-7988d15c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
- "season_profile": null,
+ "season_profile": {
+  "player": "Chandler Simpson",
+  "team": "TB",
+  "avg": ".306",
+  "hr": 0,
+  "rbi": 38,
+  "hits": 175,
+  "ops": ".689",
+  "gamePk": 849803,
+  "source": "statsapi /people/season"
+ },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1009h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1012h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 60523
+   "data_age_min": 60711
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1009h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1012h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 60523
+   "data_age_min": 60711
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1009h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1012h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 60523
+   "data_age_min": 60711
   }
  ],
  "sources": {
@@ -159,16 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Montez Sweat returns to Bears following 'devastating' 2-game suspension",
+  "BREAKING: Ayesha Curry to star in holiday rom-com 'Second Chance Holiday,' premiering on Roku",
   "NE 24 - CHI 30 (Final)",
   "PIT 16 - NO 10 (Final)",
   "SF 20 - ATL 29 (Final)",
   "CLE 27 - TEN 24 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1009h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1009h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1009h old]",
-  "HIGHLIGHT: Griffin Jax against the Brewers",
-  "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy."
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1012h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1012h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1012h old]",
+  "Chandler Simpson AVG .306 HR 0",
+  "HIGHLIGHT: Cooper Pratt's RBI double",
+  "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!"
  ],
- "script_hint": "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy.  [brain]"
+ "script_hint": "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!  [brain]"
 }

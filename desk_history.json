@@ -1,12 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50235327",
-  "espn:50235276",
-  "espn:50228459",
-  "gnews:MLB owners want what NBA, NFL owners hav",
-  "gnews:When is the 2026 sports equinox? Officia",
-  "gnews:NFL Revenue for 2025 Revealed as Teams M",
-  "gnews:Preeminent Sports Properties \u2013 MLB, MLS,",
   "gnews:NFL, MLB, NFLPA, NBPA tell Congress they",
   "gnews:Has MLB overtaken the NBA as America\u2019s N",
   "espn:50238754",
@@ -399,17 +392,24 @@
   "espn:50301266",
   "espn:50241025",
   "espn:50300459",
-  "espn:50300403"
+  "espn:50300403",
+  "espn:50302002",
+  "espn:50302347",
+  "espn:50301789",
+  "espn:50302780",
+  "espn:50302115",
+  "espn:50301426",
+  "espn:50302397"
  ],
  "recent_topics": [
-  "Jaw\u2011dropping Rays upend Brewers in Game 2, slick offense fuels a furious rally while elite pitching rattles hitters.",
   "Game 2\u2019s blaze\u2014Rays licked Brewers, proving their lineup\u2019s on\u2011fire momentum can\u2019t be tamed.",
   "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!",
   "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches.",
   "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium.",
   "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes.",
   "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers.",
-  "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy."
+  "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy.",
+  "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!"
  ],
  "used_highlight_pks": [
   849818,
@@ -425,8 +425,8 @@
  "last_highlights": [
   {
    "gamePk": 849803,
-   "title": "Griffin Jax against the Brewers",
-   "url": "https://darkroom-clips.mlb.com/72bb6382-3d8c-480d-afba-6d324fa8b45a.mp4"
+   "title": "Cooper Pratt's RBI double",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/27/5f9829c6-ab51af4d-7988d15c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ]
 }
