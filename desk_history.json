@@ -1,18 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50240296",
-  "espn:50240270",
-  "espn:50240023",
-  "espn:50239056",
-  "espn:50238814",
-  "espn:50241533",
-  "espn:50242318",
-  "espn:50242240",
-  "espn:50068479",
-  "espn:50241195",
-  "espn:50241322",
-  "espn:50242524",
-  "espn:50242518",
   "espn:50241679",
   "espn:50242196",
   "espn:50241532",
@@ -399,17 +386,30 @@
   "espn:50290392",
   "espn:50299136",
   "espn:50307023",
-  "espn:50241136"
+  "espn:50241136",
+  "espn:50310259",
+  "espn:50308923",
+  "espn:50309816",
+  "espn:50309777",
+  "espn:50309469",
+  "espn:50250750",
+  "espn:44679680",
+  "espn:50309868",
+  "espn:50309755",
+  "espn:50309718",
+  "espn:50309551",
+  "espn:50309960",
+  "gnews:Sports equinox 2026: Date, schedule, mea"
  ],
  "recent_topics": [
-  "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches.",
   "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium.",
   "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes.",
   "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers.",
   "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy.",
   "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!",
   "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB.",
-  "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show."
+  "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show.",
+  "Rasmussen's sheer dominance\u2014punching a three\u2011run shutout into the dirt, clutch pop that could spark hope for the Brewers' misery."
  ],
  "used_highlight_pks": [
   849818,
@@ -420,13 +420,14 @@
   849805,
   849802,
   849804,
-  849803
+  849803,
+  849799
  ],
  "last_highlights": [
   {
-   "gamePk": 849803,
-   "title": "Cooper Pratt's RBI double",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/27/5f9829c6-ab51af4d-7988d15c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849799,
+   "title": "Drew Rasmussen against the Brewers",
+   "url": "https://darkroom-clips.mlb.com/bacdb583-2c36-4c54-852a-e10e7bcda515.mp4"
   }
  ]
 }

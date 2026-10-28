@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T14:24:21.749243+00:00",
+ "generated": "2026-10-28T19:46:20.373126+00:00",
  "version": 2,
  "ticker": "NFL: CAR 0 - GB 0 10/29 - 8:15 PM EDT  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:42377368",
-  "title": "LeBron, Durant headline NBA draft classes of the early 2000s",
-  "source": "ESPN NBA",
-  "age_min": 2.1502521666666667
+  "id": "espn:50310259",
+  "title": "Winless Chargers sticking with Mike McDaniel as offensive playcaller",
+  "source": "ESPN NFL",
+  "age_min": 7.140618450000001
  },
  "games": [
   {
@@ -71,94 +71,104 @@
   },
   {
    "league": "NBA",
-   "name": "BKN @ BOS",
-   "away": "BKN",
-   "away_score": "124",
-   "home": "BOS",
-   "home_score": "125",
-   "status": "Final/OT",
-   "date": "2026-10-27T23:30Z"
+   "name": "MIA @ ATL",
+   "away": "MIA",
+   "away_score": "0",
+   "home": "ATL",
+   "home_score": "0",
+   "status": "10/28 - 7:00 PM EDT",
+   "date": "2026-10-28T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "DET @ NY",
-   "away": "DET",
-   "away_score": "97",
-   "home": "NY",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-10-28T00:00Z"
+   "name": "WSH @ CLE",
+   "away": "WSH",
+   "away_score": "0",
+   "home": "CLE",
+   "home_score": "0",
+   "status": "10/28 - 7:00 PM EDT",
+   "date": "2026-10-28T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "SAC @ SA",
-   "away": "SAC",
-   "away_score": "103",
-   "home": "SA",
-   "home_score": "130",
-   "status": "Final",
-   "date": "2026-10-28T00:00Z"
+   "name": "CHA @ DET",
+   "away": "CHA",
+   "away_score": "0",
+   "home": "DET",
+   "home_score": "0",
+   "status": "10/28 - 7:00 PM EDT",
+   "date": "2026-10-28T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "POR @ LAL",
-   "away": "POR",
-   "away_score": "136",
-   "home": "LAL",
-   "home_score": "129",
-   "status": "Final",
-   "date": "2026-10-28T03:00Z"
+   "name": "PHI @ IND",
+   "away": "PHI",
+   "away_score": "0",
+   "home": "IND",
+   "home_score": "0",
+   "status": "10/28 - 7:00 PM EDT",
+   "date": "2026-10-28T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "ORL @ TOR",
+   "away": "ORL",
+   "away_score": "0",
+   "home": "TOR",
+   "home_score": "0",
+   "status": "10/28 - 7:30 PM EDT",
+   "date": "2026-10-28T23:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "NY @ CHI",
+   "away": "NY",
+   "away_score": "0",
+   "home": "CHI",
+   "home_score": "0",
+   "status": "10/28 - 8:00 PM EDT",
+   "date": "2026-10-29T00:00Z"
   },
   {
    "league": "MLB",
    "name": "MIL @ TB",
    "away": "MIL",
-   "away_score": "3",
+   "away_score": "0",
    "home": "TB",
-   "home_score": "4",
-   "status": "Final/12",
-   "date": "2026-10-28T00:00Z"
+   "home_score": "0",
+   "status": "10/28 - 8:00 PM EDT",
+   "date": "2026-10-29T00:00Z"
   }
  ],
  "highlights": [
   {
-   "gamePk": 849803,
-   "title": "Cooper Pratt's RBI double",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/27/5f9829c6-ab51af4d-7988d15c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "gamePk": 849799,
+   "title": "Drew Rasmussen against the Brewers",
+   "url": "https://darkroom-clips.mlb.com/bacdb583-2c36-4c54-852a-e10e7bcda515.mp4"
   }
  ],
- "season_profile": {
-  "player": "Jackson Chourio",
-  "team": "MIL",
-  "avg": ".291",
-  "hr": 25,
-  "rbi": 75,
-  "hits": 152,
-  "ops": ".838",
-  "gamePk": 849803,
-  "source": "statsapi /people/season"
- },
+ "season_profile": null,
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1025h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1030h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 61477
+   "data_age_min": 61799
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1025h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1030h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 61477
+   "data_age_min": 61799
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1025h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1030h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 61477
+   "data_age_min": 61799
   }
  ],
  "sources": {
@@ -169,17 +179,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: LeBron, Durant headline NBA draft classes of the early 2000s",
+  "BREAKING: Winless Chargers sticking with Mike McDaniel as offensive playcaller",
   "CAR 0 - GB 0 (10/29 - 8:15 PM EDT)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1025h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1025h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1025h old]",
-  "Jackson Chourio AVG .291 HR 25",
-  "HIGHLIGHT: Cooper Pratt's RBI double",
-  "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show."
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1030h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1030h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1030h old]",
+  "HIGHLIGHT: Drew Rasmussen against the Brewers",
+  "Rasmussen's sheer dominance\u2014punching a three\u2011run shutout into the dirt, clutch pop that could spark hope for the Brewers' misery."
  ],
- "script_hint": "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show.  [brain]"
+ "script_hint": "Rasmussen's sheer dominance\u2014punching a three\u2011run shutout into the dirt, clutch pop that could spark hope for the Brewers' misery.  [brain]"
 }
