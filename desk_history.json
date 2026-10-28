@@ -1,15 +1,5 @@
 {
  "seen_news_ids": [
-  "gnews:NFL, MLB, NFLPA, NBPA tell Congress they",
-  "gnews:Has MLB overtaken the NBA as America\u2019s N",
-  "espn:50238754",
-  "espn:50238746",
-  "espn:50238711",
-  "espn:50238538",
-  "espn:50238528",
-  "espn:50238106",
-  "espn:50220519",
-  "espn:50236979",
   "espn:50229896",
   "espn:50238598",
   "espn:50238406",
@@ -399,17 +389,27 @@
   "espn:50302780",
   "espn:50302115",
   "espn:50301426",
-  "espn:50302397"
+  "espn:50302397",
+  "espn:50305252",
+  "espn:50305184",
+  "espn:50305104",
+  "espn:50305103",
+  "espn:50305102",
+  "espn:50305097",
+  "espn:50304811",
+  "espn:50305256",
+  "espn:50304654",
+  "espn:50304472"
  ],
  "recent_topics": [
-  "Game 2\u2019s blaze\u2014Rays licked Brewers, proving their lineup\u2019s on\u2011fire momentum can\u2019t be tamed.",
   "Rays mount a furious rally, Brewers\u2019 pitcher keeled off the mound again\u2014Game 2 fireworks!",
   "Contreras nails the RBI single, ripping the bases; game\u2019s drama spikes, proving the roster won\u2019t settle for slow\u2011pitches.",
   "Griffin Jax blasts a thunderous double over the Brewers' relievers, a shockwave that rattles the stadium.",
   "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes.",
   "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers.",
   "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy.",
-  "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!"
+  "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!",
+  "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB."
  ],
  "used_highlight_pks": [
   849818,

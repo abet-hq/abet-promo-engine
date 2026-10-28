@@ -1,122 +1,122 @@
 {
- "generated": "2026-10-28T01:37:56.996959+00:00",
+ "generated": "2026-10-28T07:31:34.393138+00:00",
  "version": 2,
- "ticker": "NFL: NE 24 - CHI 30 Final  //  NFL: PIT 16 - NO 10 Final  //  NFL: SF 20 - ATL 29 Final  //  NFL: CLE 27 - TEN 24 Final  //  NFL: IND 10 - MIN 16 Final",
+ "ticker": "NFL: CAR 0 - GB 0 10/29 - 8:15 PM EDT  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50301789",
-  "title": "Ayesha Curry to star in holiday rom-com 'Second Chance Holiday,' premiering on Roku",
-  "source": "ESPN NBA",
-  "age_min": 13.007063933333335
+  "id": "espn:50304811",
+  "title": "How Rays extended World Series in incredible Game 4 comeback",
+  "source": "ESPN MLB",
+  "age_min": 2.16571235
  },
  "games": [
   {
    "league": "NFL",
-   "name": "NE @ CHI",
-   "away": "NE",
-   "away_score": "24",
-   "home": "CHI",
-   "home_score": "30",
-   "status": "Final",
-   "date": "2026-10-23T00:15Z"
+   "name": "CAR @ GB",
+   "away": "CAR",
+   "away_score": "0",
+   "home": "GB",
+   "home_score": "0",
+   "status": "10/29 - 8:15 PM EDT",
+   "date": "2026-10-30T00:15Z"
   },
   {
    "league": "NFL",
-   "name": "PIT VS NO",
-   "away": "PIT",
-   "away_score": "16",
-   "home": "NO",
-   "home_score": "10",
-   "status": "Final",
-   "date": "2026-10-25T13:30Z"
+   "name": "BAL @ BUF",
+   "away": "BAL",
+   "away_score": "0",
+   "home": "BUF",
+   "home_score": "0",
+   "status": "11/1 - 1:00 PM EST",
+   "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "SF @ ATL",
-   "away": "SF",
-   "away_score": "20",
-   "home": "ATL",
-   "home_score": "29",
-   "status": "Final",
-   "date": "2026-10-25T17:00Z"
+   "name": "TEN @ CIN",
+   "away": "TEN",
+   "away_score": "0",
+   "home": "CIN",
+   "home_score": "0",
+   "status": "11/1 - 1:00 PM EST",
+   "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "CLE @ TEN",
-   "away": "CLE",
-   "away_score": "27",
-   "home": "TEN",
-   "home_score": "24",
-   "status": "Final",
-   "date": "2026-10-25T17:00Z"
+   "name": "ARI @ DAL",
+   "away": "ARI",
+   "away_score": "0",
+   "home": "DAL",
+   "home_score": "0",
+   "status": "11/1 - 1:00 PM EST",
+   "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "IND @ MIN",
-   "away": "IND",
-   "away_score": "10",
-   "home": "MIN",
-   "home_score": "16",
-   "status": "Final",
-   "date": "2026-10-25T17:00Z"
+   "name": "MIN @ DET",
+   "away": "MIN",
+   "away_score": "0",
+   "home": "DET",
+   "home_score": "0",
+   "status": "11/1 - 1:00 PM EST",
+   "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "MIA @ NYJ",
-   "away": "MIA",
-   "away_score": "28",
+   "name": "LV @ NYJ",
+   "away": "LV",
+   "away_score": "0",
    "home": "NYJ",
-   "home_score": "25",
-   "status": "Final",
-   "date": "2026-10-25T17:00Z"
+   "home_score": "0",
+   "status": "11/1 - 1:00 PM EST",
+   "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ BOS",
    "away": "BKN",
-   "away_score": "96",
+   "away_score": "124",
    "home": "BOS",
-   "home_score": "97",
-   "status": "6:42 - 4th",
+   "home_score": "125",
+   "status": "Final/OT",
    "date": "2026-10-27T23:30Z"
   },
   {
    "league": "NBA",
    "name": "DET @ NY",
    "away": "DET",
-   "away_score": "50",
+   "away_score": "97",
    "home": "NY",
-   "home_score": "51",
-   "status": "Halftime",
+   "home_score": "111",
+   "status": "Final",
    "date": "2026-10-28T00:00Z"
   },
   {
    "league": "NBA",
    "name": "SAC @ SA",
    "away": "SAC",
-   "away_score": "69",
+   "away_score": "103",
    "home": "SA",
-   "home_score": "97",
-   "status": "7:09 - 3rd",
+   "home_score": "130",
+   "status": "Final",
    "date": "2026-10-28T00:00Z"
   },
   {
    "league": "NBA",
    "name": "POR @ LAL",
    "away": "POR",
-   "away_score": "0",
+   "away_score": "136",
    "home": "LAL",
-   "home_score": "0",
-   "status": "10/27 - 11:00 PM EDT",
+   "home_score": "129",
+   "status": "Final",
    "date": "2026-10-28T03:00Z"
   },
   {
    "league": "MLB",
    "name": "MIL @ TB",
    "away": "MIL",
-   "away_score": "2",
+   "away_score": "3",
    "home": "TB",
-   "home_score": "2",
-   "status": "Top 5th",
+   "home_score": "4",
+   "status": "Final/12",
    "date": "2026-10-28T00:00Z"
   }
  ],
@@ -128,37 +128,37 @@
   }
  ],
  "season_profile": {
-  "player": "Chandler Simpson",
-  "team": "TB",
-  "avg": ".306",
-  "hr": 0,
-  "rbi": 38,
-  "hits": 175,
-  "ops": ".689",
+  "player": "Jackson Chourio",
+  "team": "MIL",
+  "avg": ".291",
+  "hr": 25,
+  "rbi": 75,
+  "hits": 152,
+  "ops": ".838",
   "gamePk": 849803,
   "source": "statsapi /people/season"
  },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1012h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1018h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 60711
+   "data_age_min": 61064
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1012h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1018h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 60711
+   "data_age_min": 61064
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1012h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1018h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 60711
+   "data_age_min": 61064
   }
  ],
  "sources": {
@@ -169,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Ayesha Curry to star in holiday rom-com 'Second Chance Holiday,' premiering on Roku",
-  "NE 24 - CHI 30 (Final)",
-  "PIT 16 - NO 10 (Final)",
-  "SF 20 - ATL 29 (Final)",
-  "CLE 27 - TEN 24 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1012h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1012h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1012h old]",
-  "Chandler Simpson AVG .306 HR 0",
+  "BREAKING: How Rays extended World Series in incredible Game 4 comeback",
+  "CAR 0 - GB 0 (10/29 - 8:15 PM EDT)",
+  "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
+  "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
+  "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1018h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1018h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1018h old]",
+  "Jackson Chourio AVG .291 HR 25",
   "HIGHLIGHT: Cooper Pratt's RBI double",
-  "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!"
+  "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB."
  ],
- "script_hint": "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!  [brain]"
+ "script_hint": "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB."
 }
