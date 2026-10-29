@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T11:21:28.203331+00:00",
+ "generated": "2026-10-29T17:30:36.939262+00:00",
  "version": 2,
  "ticker": "NFL: CAR 0 - GB 0 10/29 - 8:15 PM EDT  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50301628",
-  "title": "Debunk or double down? Judging 10 early-season NBA overreactions",
-  "source": "ESPN NBA",
-  "age_min": 18.13343001666667
+  "id": "espn:50319945",
+  "title": "Jonathan Taylor: 'I'm always proud to wear the horseshoe'",
+  "source": "ESPN NFL",
+  "age_min": 2.64989455
  },
  "games": [
   {
@@ -71,63 +71,33 @@
   },
   {
    "league": "NBA",
-   "name": "MIA @ ATL",
-   "away": "MIA",
-   "away_score": "129",
+   "name": "CLE @ ATL",
+   "away": "CLE",
+   "away_score": "0",
    "home": "ATL",
-   "home_score": "117",
-   "status": "Final",
-   "date": "2026-10-28T23:00Z"
+   "home_score": "0",
+   "status": "10/29 - 8:00 PM EDT",
+   "date": "2026-10-30T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "WSH @ CLE",
-   "away": "WSH",
-   "away_score": "111",
-   "home": "CLE",
-   "home_score": "121",
-   "status": "Final",
-   "date": "2026-10-28T23:00Z"
+   "name": "SAC @ NO",
+   "away": "SAC",
+   "away_score": "0",
+   "home": "NO",
+   "home_score": "0",
+   "status": "10/29 - 8:00 PM EDT",
+   "date": "2026-10-30T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "CHA @ DET",
-   "away": "CHA",
-   "away_score": "89",
-   "home": "DET",
-   "home_score": "97",
-   "status": "Final",
-   "date": "2026-10-28T23:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "PHI @ IND",
-   "away": "PHI",
-   "away_score": "114",
-   "home": "IND",
-   "home_score": "109",
-   "status": "Final",
-   "date": "2026-10-28T23:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "ORL @ TOR",
-   "away": "ORL",
-   "away_score": "99",
-   "home": "TOR",
-   "home_score": "129",
-   "status": "Final",
-   "date": "2026-10-28T23:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "NY @ CHI",
-   "away": "NY",
-   "away_score": "133",
-   "home": "CHI",
-   "home_score": "127",
-   "status": "Final",
-   "date": "2026-10-29T00:00Z"
+   "name": "MEM @ POR",
+   "away": "MEM",
+   "away_score": "0",
+   "home": "POR",
+   "home_score": "0",
+   "status": "10/29 - 10:00 PM EDT",
+   "date": "2026-10-30T02:00Z"
   },
   {
    "league": "MLB",
@@ -161,45 +131,45 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1046h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1052h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 62734
+   "data_age_min": 63103
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1046h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1052h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 62734
+   "data_age_min": 63103
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1046h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1052h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 62734
+   "data_age_min": 63103
   }
  ],
  "sources": {
   "espn": true,
-  "reddit": false,
+  "reddit": true,
   "mlb_statsapi": true,
   "abet_board": true
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Debunk or double down? Judging 10 early-season NBA overreactions",
+  "BREAKING: Jonathan Taylor: 'I'm always proud to wear the horseshoe'",
   "CAR 0 - GB 0 (10/29 - 8:15 PM EDT)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1046h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1046h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1046h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1052h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1052h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1052h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "The Brewers\u2019 fireworks set off a riot, while the Rays were left staring at a scoreboard that never quite flashed."
+  "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark."
  ],
- "script_hint": "The Brewers\u2019 fireworks set off a riot, while the Rays were left staring at a scoreboard that never quite flashed.  [brain]"
+ "script_hint": "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark.  [brain]"
 }

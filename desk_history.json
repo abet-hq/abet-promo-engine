@@ -1,16 +1,5 @@
 {
  "seen_news_ids": [
-  "gnews:What is a sports equinox? Here's when ML",
-  "gnews:Fanatics, NFL, NBA, MLB Defeat Trading C",
-  "espn:50252041",
-  "espn:50252035",
-  "espn:50251985",
-  "espn:50251708",
-  "espn:50251617",
-  "espn:50251544",
-  "espn:50251603",
-  "espn:50251415",
-  "espn:50250900",
   "espn:50251942",
   "espn:50250822",
   "espn:50250773",
@@ -399,17 +388,28 @@
   "espn:50315423",
   "espn:50298871",
   "espn:50315431",
-  "espn:50314864"
+  "espn:50314864",
+  "espn:50319945",
+  "espn:50319153",
+  "espn:50319874",
+  "espn:50319483",
+  "espn:50289500",
+  "espn:50319082",
+  "espn:50318511",
+  "espn:50318544",
+  "espn:35437997",
+  "espn:50318017",
+  "espn:50317928"
  ],
  "recent_topics": [
-  "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy.",
   "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!",
   "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB.",
   "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show.",
   "Rasmussen's sheer dominance\u2014punching a three\u2011run shutout into the dirt, clutch pop that could spark hope for the Brewers' misery.",
   "Rasmussen rockets a 5\u2011ball line drive that electrifies the park\u2014Seattle\u2019s biggest thrill of the night.",
   "Brewers\u2019 2026 crown: a triumphant slam that rewrites Milwaukee\u2019s legend!",
-  "The Brewers\u2019 fireworks set off a riot, while the Rays were left staring at a scoreboard that never quite flashed."
+  "The Brewers\u2019 fireworks set off a riot, while the Rays were left staring at a scoreboard that never quite flashed.",
+  "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark."
  ],
  "used_highlight_pks": [
   849818,
