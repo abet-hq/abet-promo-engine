@@ -1,14 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50251942",
-  "espn:50250822",
-  "espn:50250773",
-  "gnews:How the NBA Made $14.5 Billion in Revenu",
-  "espn:50253264",
-  "espn:50253179",
-  "espn:50253140",
-  "espn:50253068",
-  "espn:50252934",
   "espn:50252942",
   "espn:50252919",
   "espn:50252916",
@@ -399,17 +390,26 @@
   "espn:50318544",
   "espn:35437997",
   "espn:50318017",
-  "espn:50317928"
+  "espn:50317928",
+  "espn:50322217",
+  "espn:50322138",
+  "espn:50322075",
+  "espn:50322011",
+  "espn:50322007",
+  "espn:50322006",
+  "espn:50320717",
+  "espn:50321553",
+  "espn:50321421"
  ],
  "recent_topics": [
-  "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!",
   "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB.",
   "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show.",
   "Rasmussen's sheer dominance\u2014punching a three\u2011run shutout into the dirt, clutch pop that could spark hope for the Brewers' misery.",
   "Rasmussen rockets a 5\u2011ball line drive that electrifies the park\u2014Seattle\u2019s biggest thrill of the night.",
   "Brewers\u2019 2026 crown: a triumphant slam that rewrites Milwaukee\u2019s legend!",
   "The Brewers\u2019 fireworks set off a riot, while the Rays were left staring at a scoreboard that never quite flashed.",
-  "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark."
+  "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark.",
+  "BREAKING - Court revokes pardon for Rays' Wander Franco in sex abuse case - per ESPN MLB."
  ],
  "used_highlight_pks": [
   849818,

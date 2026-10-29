@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T17:30:36.939262+00:00",
+ "generated": "2026-10-29T21:58:18.546004+00:00",
  "version": 2,
  "ticker": "NFL: CAR 0 - GB 0 10/29 - 8:15 PM EDT  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50319945",
-  "title": "Jonathan Taylor: 'I'm always proud to wear the horseshoe'",
-  "source": "ESPN NFL",
-  "age_min": 2.64989455
+  "id": "espn:50321421",
+  "title": "Court revokes pardon for Rays' Wander Franco in sex abuse case",
+  "source": "ESPN MLB",
+  "age_min": 5.532416516666667
  },
  "games": [
   {
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1052h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1056h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 63103
+   "data_age_min": 63371
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1052h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1056h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 63103
+   "data_age_min": 63371
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1052h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1056h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 63103
+   "data_age_min": 63371
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Jonathan Taylor: 'I'm always proud to wear the horseshoe'",
+  "BREAKING: Court revokes pardon for Rays' Wander Franco in sex abuse case",
   "CAR 0 - GB 0 (10/29 - 8:15 PM EDT)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1052h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1052h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1052h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1056h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1056h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1056h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark."
+  "BREAKING - Court revokes pardon for Rays' Wander Franco in sex abuse case - per ESPN MLB."
  ],
- "script_hint": "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark.  [brain]"
+ "script_hint": "BREAKING - Court revokes pardon for Rays' Wander Franco in sex abuse case - per ESPN MLB."
 }
