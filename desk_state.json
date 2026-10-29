@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T04:51:34.496248+00:00",
+ "generated": "2026-10-29T11:21:28.203331+00:00",
  "version": 2,
  "ticker": "NFL: CAR 0 - GB 0 10/29 - 8:15 PM EDT  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50314424",
-  "title": "Brewers' William Contreras eighth catcher to earn World Series MVP honors",
-  "source": "ESPN MLB",
-  "age_min": 2.4064467166666663
+  "id": "espn:50301628",
+  "title": "Debunk or double down? Judging 10 early-season NBA overreactions",
+  "source": "ESPN NBA",
+  "age_min": 18.13343001666667
  },
  "games": [
   {
@@ -143,8 +143,8 @@
  "highlights": [
   {
    "gamePk": 849799,
-   "title": "The Brewers are 2026 World Series Champions!",
-   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/28/8a4f8a38-94cfd299-2579c13f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
+   "title": "Brewers vs. Rays Game 5 Highlights",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/28/339e3c19-0c49d98d-bdf80d65-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
  "season_profile": {
@@ -161,45 +161,45 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1039h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1046h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 62345
+   "data_age_min": 62734
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1039h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1046h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 62345
+   "data_age_min": 62734
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1039h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1046h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 62345
+   "data_age_min": 62734
   }
  ],
  "sources": {
   "espn": true,
-  "reddit": true,
+  "reddit": false,
   "mlb_statsapi": true,
   "abet_board": true
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Brewers' William Contreras eighth catcher to earn World Series MVP honors",
+  "BREAKING: Debunk or double down? Judging 10 early-season NBA overreactions",
   "CAR 0 - GB 0 (10/29 - 8:15 PM EDT)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1039h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1039h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1039h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1046h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1046h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1046h old]",
   "Chandler Simpson AVG .306 HR 0",
-  "HIGHLIGHT: The Brewers are 2026 World Series Champions!",
-  "Brewers\u2019 2026 crown: a triumphant slam that rewrites Milwaukee\u2019s legend!"
+  "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
+  "The Brewers\u2019 fireworks set off a riot, while the Rays were left staring at a scoreboard that never quite flashed."
  ],
- "script_hint": "Brewers\u2019 2026 crown: a triumphant slam that rewrites Milwaukee\u2019s legend!  [brain]"
+ "script_hint": "The Brewers\u2019 fireworks set off a riot, while the Rays were left staring at a scoreboard that never quite flashed.  [brain]"
 }
