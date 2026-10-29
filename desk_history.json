@@ -1,22 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50245618",
-  "espn:50245617",
-  "espn:50245616",
-  "espn:50243662",
-  "espn:50228155",
-  "espn:50238049",
-  "espn:50229194",
-  "espn:50239779",
-  "espn:50242272",
-  "espn:50230606",
-  "espn:50248041",
-  "espn:50239219",
-  "espn:50220458",
-  "espn:50246805",
-  "espn:50247214",
-  "espn:50247063",
-  "espn:50238330",
   "espn:50237852",
   "espn:50239883",
   "espn:50250553",
@@ -399,17 +382,34 @@
   "espn:50310280",
   "gnews:Sports equinox on tap with NFL, MLB, NBA",
   "gnews:Four Major Leagues, WNBA Finals Share a ",
-  "gnews:Sports Equinox Parlay: NFL, MLB, NBA & N"
+  "gnews:Sports Equinox Parlay: NFL, MLB, NBA & N",
+  "espn:50312624",
+  "espn:50312603",
+  "espn:50312153",
+  "espn:50312139",
+  "espn:50312138",
+  "espn:50314681",
+  "espn:50314673",
+  "espn:50314495",
+  "espn:50314386",
+  "espn:50314211",
+  "espn:50313795",
+  "espn:40245876",
+  "espn:50314424",
+  "espn:50301908",
+  "espn:50314006",
+  "espn:50314004",
+  "espn:50313973"
  ],
  "recent_topics": [
-  "Griffin Jax shells a solo three\u2011run homer, igniting a fire\u2011storm that rattles Milwaukee\u2019s hopes.",
   "Griffin Jax belted a grand slam, flipping a 3\u20112 deficit into a 7\u20113 Padres rout over the Brewers.",
   "Griffin Jax rockets a solo blast, shattering the Brewers' defense and sending the crowd into a rapturous frenzy.",
   "Cooper Pratt\u2019s RBI double snags the moment\u2014he turns a two\u2011strikeout play into a game\u2011winning surge!",
   "BREAKING - How Rays extended World Series in incredible Game 4 comeback - per ESPN MLB.",
   "Pratt blasts an RBI double, turning a quiet swing into an instant fireworks show.",
   "Rasmussen's sheer dominance\u2014punching a three\u2011run shutout into the dirt, clutch pop that could spark hope for the Brewers' misery.",
-  "Rasmussen rockets a 5\u2011ball line drive that electrifies the park\u2014Seattle\u2019s biggest thrill of the night."
+  "Rasmussen rockets a 5\u2011ball line drive that electrifies the park\u2014Seattle\u2019s biggest thrill of the night.",
+  "Brewers\u2019 2026 crown: a triumphant slam that rewrites Milwaukee\u2019s legend!"
  ],
  "used_highlight_pks": [
   849818,
@@ -426,8 +426,8 @@
  "last_highlights": [
   {
    "gamePk": 849799,
-   "title": "Drew Rasmussen against the Brewers",
-   "url": "https://darkroom-clips.mlb.com/bacdb583-2c36-4c54-852a-e10e7bcda515.mp4"
+   "title": "The Brewers are 2026 World Series Champions!",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/28/8a4f8a38-94cfd299-2579c13f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ]
 }

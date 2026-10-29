@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T23:55:15.866415+00:00",
+ "generated": "2026-10-29T04:51:34.496248+00:00",
  "version": 2,
  "ticker": "NFL: CAR 0 - GB 0 10/29 - 8:15 PM EDT  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50311965",
-  "title": "Justin Jefferson on down year amid Vikes' 6-0 start: 'What we're doing is working'",
-  "source": "ESPN NFL",
-  "age_min": 3.0312791166666666
+  "id": "espn:50314424",
+  "title": "Brewers' William Contreras eighth catcher to earn World Series MVP honors",
+  "source": "ESPN MLB",
+  "age_min": 2.4064467166666663
  },
  "games": [
   {
@@ -73,102 +73,112 @@
    "league": "NBA",
    "name": "MIA @ ATL",
    "away": "MIA",
-   "away_score": "53",
+   "away_score": "129",
    "home": "ATL",
-   "home_score": "45",
-   "status": "5:08 - 2nd",
+   "home_score": "117",
+   "status": "Final",
    "date": "2026-10-28T23:00Z"
   },
   {
    "league": "NBA",
    "name": "WSH @ CLE",
    "away": "WSH",
-   "away_score": "58",
+   "away_score": "111",
    "home": "CLE",
-   "home_score": "49",
-   "status": "6:02 - 2nd",
+   "home_score": "121",
+   "status": "Final",
    "date": "2026-10-28T23:00Z"
   },
   {
    "league": "NBA",
    "name": "CHA @ DET",
    "away": "CHA",
-   "away_score": "35",
+   "away_score": "89",
    "home": "DET",
-   "home_score": "28",
-   "status": "7:49 - 2nd",
+   "home_score": "97",
+   "status": "Final",
    "date": "2026-10-28T23:00Z"
   },
   {
    "league": "NBA",
    "name": "PHI @ IND",
    "away": "PHI",
-   "away_score": "27",
+   "away_score": "114",
    "home": "IND",
-   "home_score": "25",
-   "status": "11:35 - 2nd",
+   "home_score": "109",
+   "status": "Final",
    "date": "2026-10-28T23:00Z"
   },
   {
    "league": "NBA",
    "name": "ORL @ TOR",
    "away": "ORL",
-   "away_score": "12",
+   "away_score": "99",
    "home": "TOR",
-   "home_score": "10",
-   "status": "6:49 - 1st",
+   "home_score": "129",
+   "status": "Final",
    "date": "2026-10-28T23:30Z"
   },
   {
    "league": "NBA",
    "name": "NY @ CHI",
    "away": "NY",
-   "away_score": "0",
+   "away_score": "133",
    "home": "CHI",
-   "home_score": "0",
-   "status": "10/28 - 8:00 PM EDT",
+   "home_score": "127",
+   "status": "Final",
    "date": "2026-10-29T00:00Z"
   },
   {
    "league": "MLB",
    "name": "MIL @ TB",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "4",
    "home": "TB",
-   "home_score": "0",
-   "status": "10/28 - 8:00 PM EDT",
+   "home_score": "1",
+   "status": "Final",
    "date": "2026-10-29T00:00Z"
   }
  ],
  "highlights": [
   {
    "gamePk": 849799,
-   "title": "Drew Rasmussen against the Brewers",
-   "url": "https://darkroom-clips.mlb.com/bacdb583-2c36-4c54-852a-e10e7bcda515.mp4"
+   "title": "The Brewers are 2026 World Series Champions!",
+   "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-10/28/8a4f8a38-94cfd299-2579c13f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4"
   }
  ],
- "season_profile": null,
+ "season_profile": {
+  "player": "Chandler Simpson",
+  "team": "TB",
+  "avg": ".306",
+  "hr": 0,
+  "rbi": 38,
+  "hits": 175,
+  "ops": ".689",
+  "gamePk": 849799,
+  "source": "statsapi /people/season"
+ },
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1034h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1039h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 62048
+   "data_age_min": 62345
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1034h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1039h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 62048
+   "data_age_min": 62345
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1034h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1039h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 62048
+   "data_age_min": 62345
   }
  ],
  "sources": {
@@ -179,16 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Justin Jefferson on down year amid Vikes' 6-0 start: 'What we're doing is working'",
+  "BREAKING: Brewers' William Contreras eighth catcher to earn World Series MVP honors",
   "CAR 0 - GB 0 (10/29 - 8:15 PM EDT)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1034h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1034h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1034h old]",
-  "HIGHLIGHT: Drew Rasmussen against the Brewers",
-  "Rasmussen rockets a 5\u2011ball line drive that electrifies the park\u2014Seattle\u2019s biggest thrill of the night."
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1039h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1039h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1039h old]",
+  "Chandler Simpson AVG .306 HR 0",
+  "HIGHLIGHT: The Brewers are 2026 World Series Champions!",
+  "Brewers\u2019 2026 crown: a triumphant slam that rewrites Milwaukee\u2019s legend!"
  ],
- "script_hint": "Rasmussen rockets a 5\u2011ball line drive that electrifies the park\u2014Seattle\u2019s biggest thrill of the night.  [brain]"
+ "script_hint": "Brewers\u2019 2026 crown: a triumphant slam that rewrites Milwaukee\u2019s legend!  [brain]"
 }
