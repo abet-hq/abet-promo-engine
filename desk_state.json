@@ -1,22 +1,23 @@
 {
- "generated": "2026-10-30T01:50:19.703113+00:00",
+ "generated": "2026-10-30T08:14:36.687007+00:00",
  "version": 2,
- "ticker": "NFL: CAR 10 - GB 20 Halftime  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
+ "ticker": "NFL: CAR 19 - GB 27 Final  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50323927",
-  "title": "Panthers' ailing secondary loses rookie CB Will Lee to injury; return doubtful",
-  "source": "ESPN NFL",
-  "age_min": 1.45004045
+  "id": "gnews:This Week in Sports Trivia: Oct. 29, 202",
+  "title": "This Week in Sports Trivia: Oct. 29, 2026 - The New York Times",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
    "league": "NFL",
    "name": "CAR @ GB",
    "away": "CAR",
-   "away_score": "10",
+   "away_score": "19",
    "home": "GB",
-   "home_score": "20",
-   "status": "Halftime",
+   "home_score": "27",
+   "status": "Final",
    "date": "2026-10-30T00:15Z"
   },
   {
@@ -73,30 +74,30 @@
    "league": "NBA",
    "name": "CLE @ ATL",
    "away": "CLE",
-   "away_score": "82",
+   "away_score": "111",
    "home": "ATL",
-   "home_score": "85",
-   "status": "43.2 - 3rd",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-10-30T00:00Z"
   },
   {
    "league": "NBA",
    "name": "SAC @ NO",
    "away": "SAC",
-   "away_score": "82",
+   "away_score": "120",
    "home": "NO",
-   "home_score": "98",
-   "status": "1:59 - 3rd",
+   "home_score": "132",
+   "status": "Final",
    "date": "2026-10-30T00:00Z"
   },
   {
    "league": "NBA",
    "name": "MEM @ POR",
    "away": "MEM",
-   "away_score": "0",
+   "away_score": "124",
    "home": "POR",
-   "home_score": "0",
-   "status": "10/29 - 10:00 PM EDT",
+   "home_score": "103",
+   "status": "Final",
    "date": "2026-10-30T02:00Z"
   },
   {
@@ -131,24 +132,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1060h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1066h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 63603
+   "data_age_min": 63988
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1060h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1066h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 63603
+   "data_age_min": 63988
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1060h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1066h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 63603
+   "data_age_min": 63988
   }
  ],
  "sources": {
@@ -159,17 +160,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Panthers' ailing secondary loses rookie CB Will Lee to injury; return doubtful",
-  "CAR 10 - GB 20 (Halftime)",
+  "BREAKING: This Week in Sports Trivia: Oct. 29, 2026 - The New York Times",
+  "CAR 19 - GB 27 (Final)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1060h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1060h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1060h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1066h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1066h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1066h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Holy fireworks! Camden\u2019s ninth\u2011inning walk\u2011off single clinches a 5\u20114 victory for the Brewers over the Rays."
+  "Jonathan Kahn\u2019s walk\u2011off single snaps a 4\u20113 thriller, ripping the Rays\u2019 confidence and capping a Brewers surge."
  ],
- "script_hint": "Holy fireworks! Camden\u2019s ninth\u2011inning walk\u2011off single clinches a 5\u20114 victory for the Brewers over the Rays.  [brain]"
+ "script_hint": "Jonathan Kahn\u2019s walk\u2011off single snaps a 4\u20113 thriller, ripping the Rays\u2019 confidence and capping a Brewers surge.  [brain]"
 }
