@@ -1,16 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50252581",
-  "espn:50257788",
-  "espn:50232827",
-  "espn:50257222",
-  "espn:50257301",
-  "espn:50257232",
-  "espn:50241622",
-  "espn:50241906",
-  "espn:50252562",
-  "espn:50257409",
-  "espn:50249352",
   "espn:50255002",
   "gnews:Hal Steinbrenner: No plan to sell Yankee",
   "espn:50259624",
@@ -399,17 +388,28 @@
   "espn:50325662",
   "espn:50325356",
   "espn:50323937",
-  "gnews:This Week in Sports Trivia: Oct. 29, 202"
+  "gnews:This Week in Sports Trivia: Oct. 29, 202",
+  "espn:49965396",
+  "espn:50328337",
+  "espn:50328333",
+  "espn:50328325",
+  "espn:50328239",
+  "espn:50328162",
+  "espn:50322550",
+  "espn:50308763",
+  "espn:49577473",
+  "espn:35438162",
+  "espn:50319156"
  ],
  "recent_topics": [
-  "Rasmussen's sheer dominance\u2014punching a three\u2011run shutout into the dirt, clutch pop that could spark hope for the Brewers' misery.",
   "Rasmussen rockets a 5\u2011ball line drive that electrifies the park\u2014Seattle\u2019s biggest thrill of the night.",
   "Brewers\u2019 2026 crown: a triumphant slam that rewrites Milwaukee\u2019s legend!",
   "The Brewers\u2019 fireworks set off a riot, while the Rays were left staring at a scoreboard that never quite flashed.",
   "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark.",
   "BREAKING - Court revokes pardon for Rays' Wander Franco in sex abuse case - per ESPN MLB.",
   "Holy fireworks! Camden\u2019s ninth\u2011inning walk\u2011off single clinches a 5\u20114 victory for the Brewers over the Rays.",
-  "Jonathan Kahn\u2019s walk\u2011off single snaps a 4\u20113 thriller, ripping the Rays\u2019 confidence and capping a Brewers surge."
+  "Jonathan Kahn\u2019s walk\u2011off single snaps a 4\u20113 thriller, ripping the Rays\u2019 confidence and capping a Brewers surge.",
+  "When Kelley Clint unleashes a 97\u2011mph cannon, the Brewers shatter a silent Rays inning, shutting out the comeback."
  ],
  "used_highlight_pks": [
   849818,
