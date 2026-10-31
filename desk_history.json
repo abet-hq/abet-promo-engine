@@ -1,15 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50261786",
-  "espn:50264038",
-  "espn:50263942",
-  "espn:50263941",
-  "espn:50263940",
-  "espn:50263937",
-  "espn:50263923",
-  "espn:50264146",
-  "espn:50263667",
-  "espn:50264705",
   "espn:50249972",
   "espn:50253343",
   "espn:50253768",
@@ -399,17 +389,27 @@
   "espn:50332718",
   "espn:50332687",
   "espn:50332157",
-  "espn:50331633"
+  "espn:50331633",
+  "espn:50333636",
+  "espn:49804068",
+  "espn:49804164",
+  "espn:49804022",
+  "espn:50333813",
+  "espn:50333812",
+  "espn:50333811",
+  "espn:50333810",
+  "espn:50333648",
+  "espn:50333647"
  ],
  "recent_topics": [
-  "Brewers\u2019 bullpen bails after a 5\u2011run collapse, letting Rays snatch Game 5 in a brutal swing at the top of the ballpark.",
   "BREAKING - Court revokes pardon for Rays' Wander Franco in sex abuse case - per ESPN MLB.",
   "Holy fireworks! Camden\u2019s ninth\u2011inning walk\u2011off single clinches a 5\u20114 victory for the Brewers over the Rays.",
   "Jonathan Kahn\u2019s walk\u2011off single snaps a 4\u20113 thriller, ripping the Rays\u2019 confidence and capping a Brewers surge.",
   "When Kelley Clint unleashes a 97\u2011mph cannon, the Brewers shatter a silent Rays inning, shutting out the comeback.",
   "Brewster\u2019s bullpen blew a rally, Rays sink to 2-3 and leave fans dreaming of a different Saturday.",
   "Baker\u2019s ninth\u2011inning 3\u2011run blast sealed a thrilling Game\u20115, sending the Brewers home in a roar!",
-  "Brewers surge past Rays, swift singles, tactical steals, and Chandler Simpson\u2019s .306 brilliance keep the offense sizzling and the win within reach."
+  "Brewers surge past Rays, swift singles, tactical steals, and Chandler Simpson\u2019s .306 brilliance keep the offense sizzling and the win within reach.",
+  "The Brewers mounted a last\u2011ditch rally in the ninth, dishing out a game\u2011deciding hit that scraped the Rays raw."
  ],
  "used_highlight_pks": [
   849818,
