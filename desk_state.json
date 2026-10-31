@@ -1,8 +1,13 @@
 {
- "generated": "2026-10-31T08:57:35.446563+00:00",
+ "generated": "2026-10-31T15:14:26.410753+00:00",
  "version": 2,
  "ticker": "NFL: CAR 19 - GB 27 Final  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
- "breaking": null,
+ "breaking": {
+  "id": "espn:50323095",
+  "title": "Sources: Colts willing to trade RB Jonathan Taylor, active in talks with teams",
+  "source": "ESPN NFL",
+  "age_min": 5.772451
+ },
  "games": [
   {
    "league": "NFL",
@@ -66,63 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "CHA @ WSH",
-   "away": "CHA",
-   "away_score": "79",
-   "home": "WSH",
-   "home_score": "95",
-   "status": "Final",
-   "date": "2026-10-30T23:00Z"
+   "name": "POR @ UTAH",
+   "away": "POR",
+   "away_score": "0",
+   "home": "UTAH",
+   "home_score": "0",
+   "status": "10/31 - 3:00 PM EDT",
+   "date": "2026-10-31T19:00Z"
   },
   {
    "league": "NBA",
-   "name": "CHI @ BOS",
-   "away": "CHI",
-   "away_score": "111",
-   "home": "BOS",
-   "home_score": "125",
-   "status": "Final",
-   "date": "2026-10-30T23:30Z"
+   "name": "PHI @ CHA",
+   "away": "PHI",
+   "away_score": "0",
+   "home": "CHA",
+   "home_score": "0",
+   "status": "10/31 - 6:00 PM EDT",
+   "date": "2026-10-31T22:00Z"
   },
   {
    "league": "NBA",
-   "name": "DET @ BKN",
-   "away": "DET",
-   "away_score": "110",
-   "home": "BKN",
-   "home_score": "94",
-   "status": "Final",
-   "date": "2026-10-30T23:30Z"
+   "name": "ATL @ NO",
+   "away": "ATL",
+   "away_score": "0",
+   "home": "NO",
+   "home_score": "0",
+   "status": "10/31 - 7:00 PM EDT",
+   "date": "2026-10-31T23:00Z"
   },
   {
    "league": "NBA",
-   "name": "NY @ PHI",
-   "away": "NY",
-   "away_score": "93",
-   "home": "PHI",
-   "home_score": "98",
-   "status": "Final",
-   "date": "2026-10-30T23:30Z"
+   "name": "SAC @ MEM",
+   "away": "SAC",
+   "away_score": "0",
+   "home": "MEM",
+   "home_score": "0",
+   "status": "10/31 - 8:00 PM EDT",
+   "date": "2026-11-01T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "ORL @ TOR",
-   "away": "ORL",
-   "away_score": "121",
-   "home": "TOR",
-   "home_score": "114",
-   "status": "Final",
-   "date": "2026-10-30T23:30Z"
+   "name": "CLE @ MIL",
+   "away": "CLE",
+   "away_score": "0",
+   "home": "MIL",
+   "home_score": "0",
+   "status": "10/31 - 8:00 PM EDT",
+   "date": "2026-11-01T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "IND @ MIA",
-   "away": "IND",
-   "away_score": "125",
-   "home": "MIA",
-   "home_score": "145",
-   "status": "Final",
-   "date": "2026-10-31T00:00Z"
+   "name": "MIN @ SA",
+   "away": "MIN",
+   "away_score": "0",
+   "home": "SA",
+   "home_score": "0",
+   "status": "10/31 - 8:00 PM EDT",
+   "date": "2026-11-01T00:00Z"
   },
   {
    "league": "MLB",
@@ -156,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1091h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1097h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 65470
+   "data_age_min": 65848
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1091h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1097h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 65470
+   "data_age_min": 65848
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1091h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1097h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 65470
+   "data_age_min": 65848
   }
  ],
  "sources": {
@@ -184,16 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
+  "BREAKING: Sources: Colts willing to trade RB Jonathan Taylor, active in talks with teams",
   "CAR 19 - GB 27 (Final)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1091h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1091h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1091h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1097h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1097h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1097h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "The Brewers mounted a last\u2011ditch rally in the ninth, dishing out a game\u2011deciding hit that scraped the Rays raw."
+  "Bossed down a diamond monster, the Brewers crush the Rays with that explosive run, making Game 5 a smash!"
  ],
- "script_hint": "The Brewers mounted a last\u2011ditch rally in the ninth, dishing out a game\u2011deciding hit that scraped the Rays raw.  [brain]"
+ "script_hint": "Bossed down a diamond monster, the Brewers crush the Rays with that explosive run, making Game 5 a smash!  [brain]"
 }
