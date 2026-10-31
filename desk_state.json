@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30T23:32:15.538947+00:00",
+ "generated": "2026-10-31T02:44:23.602985+00:00",
  "version": 2,
  "ticker": "NFL: CAR 19 - GB 27 Final  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50331446",
-  "title": "Philadelphia 76ers star Brown to miss Friday NBA Cup game vs. New York Knicks",
-  "source": "ESPN NBA",
-  "age_min": 3.4060779833333332
+  "id": "espn:50289069",
+  "title": "Fantasy playbook: NFL Week 8 Shadow Reports, lineup locks and projected scores",
+  "source": "ESPN NFL",
+  "age_min": 4.466471183333334
  },
  "games": [
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "CHA @ WSH",
    "away": "CHA",
-   "away_score": "22",
+   "away_score": "79",
    "home": "WSH",
-   "home_score": "14",
-   "status": "3:10 - 1st",
+   "home_score": "95",
+   "status": "Final",
    "date": "2026-10-30T23:00Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ BOS",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "111",
    "home": "BOS",
-   "home_score": "0",
-   "status": "10/30 - 7:30 PM EDT",
+   "home_score": "125",
+   "status": "Final",
    "date": "2026-10-30T23:30Z"
   },
   {
    "league": "NBA",
    "name": "DET @ BKN",
    "away": "DET",
-   "away_score": "0",
+   "away_score": "110",
    "home": "BKN",
-   "home_score": "0",
-   "status": "10/30 - 7:30 PM EDT",
+   "home_score": "94",
+   "status": "Final",
    "date": "2026-10-30T23:30Z"
   },
   {
    "league": "NBA",
    "name": "NY @ PHI",
    "away": "NY",
-   "away_score": "0",
+   "away_score": "93",
    "home": "PHI",
-   "home_score": "0",
-   "status": "10/30 - 7:30 PM EDT",
+   "home_score": "98",
+   "status": "Final",
    "date": "2026-10-30T23:30Z"
   },
   {
    "league": "NBA",
    "name": "ORL @ TOR",
    "away": "ORL",
-   "away_score": "0",
+   "away_score": "121",
    "home": "TOR",
-   "home_score": "0",
-   "status": "10/30 - 7:30 PM EDT",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-10-30T23:30Z"
   },
   {
    "league": "NBA",
    "name": "IND @ MIA",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "125",
    "home": "MIA",
-   "home_score": "0",
-   "status": "10/30 - 8:00 PM EDT",
+   "home_score": "145",
+   "status": "Final",
    "date": "2026-10-31T00:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1082h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1085h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 64905
+   "data_age_min": 65098
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1082h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1085h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 64905
+   "data_age_min": 65098
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1082h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1085h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 64905
+   "data_age_min": 65098
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Philadelphia 76ers star Brown to miss Friday NBA Cup game vs. New York Knicks",
+  "BREAKING: Fantasy playbook: NFL Week 8 Shadow Reports, lineup locks and projected scores",
   "CAR 19 - GB 27 (Final)",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1082h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1082h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1082h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1085h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1085h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1085h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Baker\u2019s ninth\u2011inning 3\u2011run blast sealed a thrilling Game\u20115, sending the Brewers home in a roar!"
+  "Brewers surge past Rays, swift singles, tactical steals, and Chandler Simpson\u2019s .306 brilliance keep the offense sizzling and the win within reach."
  ],
- "script_hint": "Baker\u2019s ninth\u2011inning 3\u2011run blast sealed a thrilling Game\u20115, sending the Brewers home in a roar!  [brain]"
+ "script_hint": "Brewers surge past Rays, swift singles, tactical steals, and Chandler Simpson\u2019s .306 brilliance keep the offense sizzling and the win within reach.  [brain]"
 }
