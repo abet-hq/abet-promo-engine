@@ -1,13 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50269752",
-  "espn:50269656",
-  "espn:50269266",
-  "espn:50268816",
-  "espn:50240898",
-  "espn:50229578",
-  "espn:50271544",
-  "espn:50274066",
   "espn:50273990",
   "espn:50273986",
   "espn:50273951",
@@ -399,17 +391,25 @@
   "espn:50336717",
   "espn:50336329",
   "espn:50338294",
-  "gnews:Preeminent Sports Properties \u2013 MLB, MLS,"
+  "gnews:Preeminent Sports Properties \u2013 MLB, MLS,",
+  "espn:50340504",
+  "espn:50319414",
+  "espn:50340383",
+  "espn:50339066",
+  "espn:50340246",
+  "espn:50340037",
+  "espn:50340677",
+  "espn:50338915"
  ],
  "recent_topics": [
-  "Jonathan Kahn\u2019s walk\u2011off single snaps a 4\u20113 thriller, ripping the Rays\u2019 confidence and capping a Brewers surge.",
   "When Kelley Clint unleashes a 97\u2011mph cannon, the Brewers shatter a silent Rays inning, shutting out the comeback.",
   "Brewster\u2019s bullpen blew a rally, Rays sink to 2-3 and leave fans dreaming of a different Saturday.",
   "Baker\u2019s ninth\u2011inning 3\u2011run blast sealed a thrilling Game\u20115, sending the Brewers home in a roar!",
   "Brewers surge past Rays, swift singles, tactical steals, and Chandler Simpson\u2019s .306 brilliance keep the offense sizzling and the win within reach.",
   "The Brewers mounted a last\u2011ditch rally in the ninth, dishing out a game\u2011deciding hit that scraped the Rays raw.",
   "Bossed down a diamond monster, the Brewers crush the Rays with that explosive run, making Game 5 a smash!",
-  "What a finale as the Brewers outfielders snag that catch, the Rays collapse, and Wisconsin claims the series win!"
+  "What a finale as the Brewers outfielders snag that catch, the Rays collapse, and Wisconsin claims the series win!",
+  "Brewers\u2019 breakout win in Game 5\u2014Rays sputtered, red\u2011hot offense, and the city cheered its heroes back on top!"
  ],
  "used_highlight_pks": [
   849818,
