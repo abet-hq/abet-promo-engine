@@ -1,133 +1,113 @@
 {
- "generated": "2026-11-01T15:11:56.560522+00:00",
+ "generated": "2026-11-01T19:43:11.964218+00:00",
  "version": 2,
- "ticker": "NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST  //  NFL: LV 0 - NYJ 0 11/1 - 1:00 PM EST",
+ "ticker": "NFL: BAL 7 - BUF 13 0:20 - 2nd  //  NFL: TEN 13 - CIN 14 Halftime  //  NFL: ARI 3 - DAL 14 Halftime  //  NFL: MIN 7 - DET 6 Halftime  //  NFL: LV 14 - NYJ 23 11:27 - 3rd",
  "breaking": {
-  "id": "espn:50348012",
-  "title": "Sources: Ray Lewis delivered intense Friday speech to struggling Ravens team",
+  "id": "espn:50349558",
+  "title": "Ravens' Lamar Jackson out for game with thumb injury suffered on 1st play",
   "source": "ESPN NFL",
-  "age_min": 6.243599933333333
+  "age_min": 12.41219295
  },
  "games": [
   {
    "league": "NFL",
    "name": "BAL @ BUF",
    "away": "BAL",
-   "away_score": "0",
+   "away_score": "7",
    "home": "BUF",
-   "home_score": "0",
-   "status": "11/1 - 1:00 PM EST",
+   "home_score": "13",
+   "status": "0:20 - 2nd",
    "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
    "name": "TEN @ CIN",
    "away": "TEN",
-   "away_score": "0",
+   "away_score": "13",
    "home": "CIN",
-   "home_score": "0",
-   "status": "11/1 - 1:00 PM EST",
+   "home_score": "14",
+   "status": "Halftime",
    "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
    "name": "ARI @ DAL",
    "away": "ARI",
-   "away_score": "0",
+   "away_score": "3",
    "home": "DAL",
-   "home_score": "0",
-   "status": "11/1 - 1:00 PM EST",
+   "home_score": "14",
+   "status": "Halftime",
    "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
    "name": "MIN @ DET",
    "away": "MIN",
-   "away_score": "0",
+   "away_score": "7",
    "home": "DET",
-   "home_score": "0",
-   "status": "11/1 - 1:00 PM EST",
+   "home_score": "6",
+   "status": "Halftime",
    "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
    "name": "LV @ NYJ",
    "away": "LV",
-   "away_score": "0",
+   "away_score": "14",
    "home": "NYJ",
-   "home_score": "0",
-   "status": "11/1 - 1:00 PM EST",
+   "home_score": "23",
+   "status": "11:27 - 3rd",
    "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NFL",
    "name": "CLE @ PIT",
    "away": "CLE",
-   "away_score": "0",
+   "away_score": "6",
    "home": "PIT",
-   "home_score": "0",
-   "status": "11/1 - 1:00 PM EST",
+   "home_score": "20",
+   "status": "Halftime",
    "date": "2026-11-01T18:00Z"
   },
   {
    "league": "NBA",
-   "name": "POR @ UTAH",
-   "away": "POR",
-   "away_score": "112",
-   "home": "UTAH",
-   "home_score": "90",
-   "status": "Final",
-   "date": "2026-10-31T19:00Z"
+   "name": "BOS @ ORL",
+   "away": "BOS",
+   "away_score": "0",
+   "home": "ORL",
+   "home_score": "0",
+   "status": "11/1 - 3:30 PM EST",
+   "date": "2026-11-01T20:30Z"
   },
   {
    "league": "NBA",
-   "name": "PHI @ CHA",
-   "away": "PHI",
-   "away_score": "109",
-   "home": "CHA",
-   "home_score": "104",
-   "status": "Final",
-   "date": "2026-10-31T22:00Z"
+   "name": "BKN @ IND",
+   "away": "BKN",
+   "away_score": "0",
+   "home": "IND",
+   "home_score": "0",
+   "status": "11/1 - 5:00 PM EST",
+   "date": "2026-11-01T22:00Z"
   },
   {
    "league": "NBA",
-   "name": "ATL @ NO",
-   "away": "ATL",
-   "away_score": "99",
-   "home": "NO",
-   "home_score": "121",
-   "status": "Final",
-   "date": "2026-10-31T23:00Z"
+   "name": "LAC @ GS",
+   "away": "LAC",
+   "away_score": "0",
+   "home": "GS",
+   "home_score": "0",
+   "status": "11/1 - 8:30 PM EST",
+   "date": "2026-11-02T01:30Z"
   },
   {
    "league": "NBA",
-   "name": "SAC @ MEM",
-   "away": "SAC",
-   "away_score": "105",
-   "home": "MEM",
-   "home_score": "136",
-   "status": "Final",
-   "date": "2026-11-01T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CLE @ MIL",
-   "away": "CLE",
-   "away_score": "136",
-   "home": "MIL",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-11-01T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MIN @ SA",
-   "away": "MIN",
-   "away_score": "111",
-   "home": "SA",
-   "home_score": "121",
-   "status": "Final",
-   "date": "2026-11-01T00:00Z"
+   "name": "TOR @ LAL",
+   "away": "TOR",
+   "away_score": "0",
+   "home": "LAL",
+   "home_score": "0",
+   "status": "11/1 - 9:00 PM EST",
+   "date": "2026-11-02T02:00Z"
   },
   {
    "league": "MLB",
@@ -161,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1121h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1126h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 67285
+   "data_age_min": 67556
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1121h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1126h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 67285
+   "data_age_min": 67556
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1121h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1126h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 67285
+   "data_age_min": 67556
   }
  ],
  "sources": {
@@ -189,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Sources: Ray Lewis delivered intense Friday speech to struggling Ravens team",
-  "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
-  "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
-  "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "MIN 0 - DET 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1121h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1121h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1121h old]",
+  "BREAKING: Ravens' Lamar Jackson out for game with thumb injury suffered on 1st play",
+  "BAL 7 - BUF 13 (0:20 - 2nd)",
+  "TEN 13 - CIN 14 (Halftime)",
+  "ARI 3 - DAL 14 (Halftime)",
+  "MIN 7 - DET 6 (Halftime)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1126h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1126h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1126h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "That gripping 9th\u2011inning blowout double by Ben Shepard basically turned the Brewers\u2019 season on its head!"
+  "What a roller coaster! With 10 runs in the 7th, the Brewers stole this one, leaving the Rays in dust."
  ],
- "script_hint": "That gripping 9th\u2011inning blowout double by Ben Shepard basically turned the Brewers\u2019 season on its head!  [brain]"
+ "script_hint": "What a roller coaster! With 10 runs in the 7th, the Brewers stole this one, leaving the Rays in dust.  [brain]"
 }
