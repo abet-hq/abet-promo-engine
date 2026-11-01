@@ -1,12 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50273990",
-  "espn:50273986",
-  "espn:50273951",
-  "espn:50273920",
-  "espn:50273608",
-  "espn:50273834",
-  "espn:50273821",
   "espn:50273781",
   "espn:50274638",
   "espn:50274497",
@@ -399,17 +392,24 @@
   "espn:50340246",
   "espn:50340037",
   "espn:50340677",
-  "espn:50338915"
+  "espn:50338915",
+  "espn:50342542",
+  "espn:50342534",
+  "espn:46775071",
+  "espn:50342824",
+  "espn:50341690",
+  "gnews:Biggest salaries across NFL, MLB & NBA i",
+  "gnews:NFL Revenue for 2025 Revealed as Teams M"
  ],
  "recent_topics": [
-  "When Kelley Clint unleashes a 97\u2011mph cannon, the Brewers shatter a silent Rays inning, shutting out the comeback.",
   "Brewster\u2019s bullpen blew a rally, Rays sink to 2-3 and leave fans dreaming of a different Saturday.",
   "Baker\u2019s ninth\u2011inning 3\u2011run blast sealed a thrilling Game\u20115, sending the Brewers home in a roar!",
   "Brewers surge past Rays, swift singles, tactical steals, and Chandler Simpson\u2019s .306 brilliance keep the offense sizzling and the win within reach.",
   "The Brewers mounted a last\u2011ditch rally in the ninth, dishing out a game\u2011deciding hit that scraped the Rays raw.",
   "Bossed down a diamond monster, the Brewers crush the Rays with that explosive run, making Game 5 a smash!",
   "What a finale as the Brewers outfielders snag that catch, the Rays collapse, and Wisconsin claims the series win!",
-  "Brewers\u2019 breakout win in Game 5\u2014Rays sputtered, red\u2011hot offense, and the city cheered its heroes back on top!"
+  "Brewers\u2019 breakout win in Game 5\u2014Rays sputtered, red\u2011hot offense, and the city cheered its heroes back on top!",
+  "Brewers spark a late\u2011game homer, turning Game 5 into a sweep\u2011sealing win and collapsing the Rays\u2019 hopes."
  ],
  "used_highlight_pks": [
   849818,
