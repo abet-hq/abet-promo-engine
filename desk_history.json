@@ -1,12 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50275279",
-  "espn:50252261",
-  "espn:50275344",
-  "espn:50279064",
-  "espn:50229729",
-  "espn:50281453",
-  "espn:50281203",
   "espn:50257820",
   "espn:50280911",
   "espn:50280836",
@@ -399,17 +392,24 @@
   "espn:50344218",
   "espn:50347044",
   "gnews:(LIVESTREAMs!)tv* StreamEast \u2013 Live Spor",
-  "gnews:\ud83c\udfc8((FREE!LIVESTREAMs**)) CrackStreams \u2014 N"
+  "gnews:\ud83c\udfc8((FREE!LIVESTREAMs**)) CrackStreams \u2014 N",
+  "espn:50352205",
+  "espn:50349340",
+  "espn:50352194",
+  "espn:50351818",
+  "espn:50351680",
+  "espn:50351592",
+  "gnews:NFL, NBA, MLB, NHL, MLS urge action agai"
  ],
  "recent_topics": [
-  "The Brewers mounted a last\u2011ditch rally in the ninth, dishing out a game\u2011deciding hit that scraped the Rays raw.",
   "Bossed down a diamond monster, the Brewers crush the Rays with that explosive run, making Game 5 a smash!",
   "What a finale as the Brewers outfielders snag that catch, the Rays collapse, and Wisconsin claims the series win!",
   "Brewers\u2019 breakout win in Game 5\u2014Rays sputtered, red\u2011hot offense, and the city cheered its heroes back on top!",
   "Brewers spark a late\u2011game homer, turning Game 5 into a sweep\u2011sealing win and collapsing the Rays\u2019 hopes.",
   "Brewers\u2019 lineup exploded at Rays\u2019 barrage, turning a tight shootout into a triumphant thumping finish, the crowd still buzzing.",
   "That gripping 9th\u2011inning blowout double by Ben Shepard basically turned the Brewers\u2019 season on its head!",
-  "What a roller coaster! With 10 runs in the 7th, the Brewers stole this one, leaving the Rays in dust."
+  "What a roller coaster! With 10 runs in the 7th, the Brewers stole this one, leaving the Rays in dust.",
+  "Brewers storm from behind, snatching a game\u2011winning slam while Rays\u2019 bullpen collapses."
  ],
  "used_highlight_pks": [
   849818,
