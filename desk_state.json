@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-01T08:04:07.299755+00:00",
+ "generated": "2026-11-01T15:11:56.560522+00:00",
  "version": 2,
  "ticker": "NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST  //  NFL: LV 0 - NYJ 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "gnews:How did the Golden State Valkyries make ",
-  "title": "How did the Golden State Valkyries make history, fast-track to WNBA title in 2 years? - The New York Times",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50348012",
+  "title": "Sources: Ray Lewis delivered intense Friday speech to struggling Ravens team",
+  "source": "ESPN NFL",
+  "age_min": 6.243599933333333
  },
  "games": [
   {
@@ -162,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1114h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1121h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 66857
+   "data_age_min": 67285
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1114h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1121h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 66857
+   "data_age_min": 67285
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1114h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1121h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 66857
+   "data_age_min": 67285
   }
  ],
  "sources": {
@@ -190,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: How did the Golden State Valkyries make history, fast-track to WNBA title in 2 years? - The New York Times",
+  "BREAKING: Sources: Ray Lewis delivered intense Friday speech to struggling Ravens team",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
   "MIN 0 - DET 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1114h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1114h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1114h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1121h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1121h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1121h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers\u2019 lineup exploded at Rays\u2019 barrage, turning a tight shootout into a triumphant thumping finish, the crowd still buzzing."
+  "That gripping 9th\u2011inning blowout double by Ben Shepard basically turned the Brewers\u2019 season on its head!"
  ],
- "script_hint": "Brewers\u2019 lineup exploded at Rays\u2019 barrage, turning a tight shootout into a triumphant thumping finish, the crowd still buzzing.  [brain]"
+ "script_hint": "That gripping 9th\u2011inning blowout double by Ben Shepard basically turned the Brewers\u2019 season on its head!  [brain]"
 }

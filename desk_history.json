@@ -1,10 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:49803708",
-  "espn:50267058",
-  "espn:49797082",
-  "espn:50261945",
-  "espn:50274387",
   "gnews:NFL, NBA, MLB, NHL, MLS urge action agai",
   "espn:50277973",
   "espn:50239544",
@@ -399,17 +394,22 @@
   "espn:50345546",
   "espn:50345545",
   "espn:50345544",
-  "gnews:How did the Golden State Valkyries make "
+  "gnews:How did the Golden State Valkyries make ",
+  "espn:50348012",
+  "espn:50343678",
+  "espn:50343312",
+  "espn:50336880",
+  "espn:50335308"
  ],
  "recent_topics": [
-  "Baker\u2019s ninth\u2011inning 3\u2011run blast sealed a thrilling Game\u20115, sending the Brewers home in a roar!",
   "Brewers surge past Rays, swift singles, tactical steals, and Chandler Simpson\u2019s .306 brilliance keep the offense sizzling and the win within reach.",
   "The Brewers mounted a last\u2011ditch rally in the ninth, dishing out a game\u2011deciding hit that scraped the Rays raw.",
   "Bossed down a diamond monster, the Brewers crush the Rays with that explosive run, making Game 5 a smash!",
   "What a finale as the Brewers outfielders snag that catch, the Rays collapse, and Wisconsin claims the series win!",
   "Brewers\u2019 breakout win in Game 5\u2014Rays sputtered, red\u2011hot offense, and the city cheered its heroes back on top!",
   "Brewers spark a late\u2011game homer, turning Game 5 into a sweep\u2011sealing win and collapsing the Rays\u2019 hopes.",
-  "Brewers\u2019 lineup exploded at Rays\u2019 barrage, turning a tight shootout into a triumphant thumping finish, the crowd still buzzing."
+  "Brewers\u2019 lineup exploded at Rays\u2019 barrage, turning a tight shootout into a triumphant thumping finish, the crowd still buzzing.",
+  "That gripping 9th\u2011inning blowout double by Ben Shepard basically turned the Brewers\u2019 season on its head!"
  ],
  "used_highlight_pks": [
   849818,
