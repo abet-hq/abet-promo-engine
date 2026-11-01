@@ -1,24 +1,15 @@
 {
- "generated": "2026-11-01T01:30:27.530452+00:00",
+ "generated": "2026-11-01T08:04:07.299755+00:00",
  "version": 2,
- "ticker": "NFL: CAR 19 - GB 27 Final  //  NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST",
+ "ticker": "NFL: BAL 0 - BUF 0 11/1 - 1:00 PM EST  //  NFL: TEN 0 - CIN 0 11/1 - 1:00 PM EST  //  NFL: ARI 0 - DAL 0 11/1 - 1:00 PM EST  //  NFL: MIN 0 - DET 0 11/1 - 1:00 PM EST  //  NFL: LV 0 - NYJ 0 11/1 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50342824",
-  "title": "Rays pick up $20M option on ace pitcher Drew Rasmussen",
-  "source": "ESPN MLB",
-  "age_min": 4.9160471999999995
+  "id": "gnews:How did the Golden State Valkyries make ",
+  "title": "How did the Golden State Valkyries make history, fast-track to WNBA title in 2 years? - The New York Times",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
-  {
-   "league": "NFL",
-   "name": "CAR @ GB",
-   "away": "CAR",
-   "away_score": "19",
-   "home": "GB",
-   "home_score": "27",
-   "status": "Final",
-   "date": "2026-10-30T00:15Z"
-  },
   {
    "league": "NFL",
    "name": "BAL @ BUF",
@@ -70,6 +61,16 @@
    "date": "2026-11-01T18:00Z"
   },
   {
+   "league": "NFL",
+   "name": "CLE @ PIT",
+   "away": "CLE",
+   "away_score": "0",
+   "home": "PIT",
+   "home_score": "0",
+   "status": "11/1 - 1:00 PM EST",
+   "date": "2026-11-01T18:00Z"
+  },
+  {
    "league": "NBA",
    "name": "POR @ UTAH",
    "away": "POR",
@@ -93,40 +94,40 @@
    "league": "NBA",
    "name": "ATL @ NO",
    "away": "ATL",
-   "away_score": "93",
+   "away_score": "99",
    "home": "NO",
-   "home_score": "119",
-   "status": "2:51 - 4th",
+   "home_score": "121",
+   "status": "Final",
    "date": "2026-10-31T23:00Z"
   },
   {
    "league": "NBA",
    "name": "SAC @ MEM",
    "away": "SAC",
-   "away_score": "55",
+   "away_score": "105",
    "home": "MEM",
-   "home_score": "66",
-   "status": "Halftime",
+   "home_score": "136",
+   "status": "Final",
    "date": "2026-11-01T00:00Z"
   },
   {
    "league": "NBA",
    "name": "CLE @ MIL",
    "away": "CLE",
-   "away_score": "83",
+   "away_score": "136",
    "home": "MIL",
-   "home_score": "56",
-   "status": "8:01 - 3rd",
+   "home_score": "111",
+   "status": "Final",
    "date": "2026-11-01T00:00Z"
   },
   {
    "league": "NBA",
    "name": "MIN @ SA",
    "away": "MIN",
-   "away_score": "63",
+   "away_score": "111",
    "home": "SA",
-   "home_score": "64",
-   "status": "9:48 - 3rd",
+   "home_score": "121",
+   "status": "Final",
    "date": "2026-11-01T00:00Z"
   },
   {
@@ -161,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1108h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1114h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 66463
+   "data_age_min": 66857
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1108h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1114h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 66463
+   "data_age_min": 66857
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1108h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1114h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 66463
+   "data_age_min": 66857
   }
  ],
  "sources": {
@@ -189,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Rays pick up $20M option on ace pitcher Drew Rasmussen",
-  "CAR 19 - GB 27 (Final)",
+  "BREAKING: How did the Golden State Valkyries make history, fast-track to WNBA title in 2 years? - The New York Times",
   "BAL 0 - BUF 0 (11/1 - 1:00 PM EST)",
   "TEN 0 - CIN 0 (11/1 - 1:00 PM EST)",
   "ARI 0 - DAL 0 (11/1 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1108h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1108h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1108h old]",
+  "MIN 0 - DET 0 (11/1 - 1:00 PM EST)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1114h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1114h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1114h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers spark a late\u2011game homer, turning Game 5 into a sweep\u2011sealing win and collapsing the Rays\u2019 hopes."
+  "Brewers\u2019 lineup exploded at Rays\u2019 barrage, turning a tight shootout into a triumphant thumping finish, the crowd still buzzing."
  ],
- "script_hint": "Brewers spark a late\u2011game homer, turning Game 5 into a sweep\u2011sealing win and collapsing the Rays\u2019 hopes.  [brain]"
+ "script_hint": "Brewers\u2019 lineup exploded at Rays\u2019 barrage, turning a tight shootout into a triumphant thumping finish, the crowd still buzzing.  [brain]"
 }
