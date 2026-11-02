@@ -1,43 +1,23 @@
 {
- "generated": "2026-11-01T23:08:39.406196+00:00",
+ "generated": "2026-11-02T02:32:37.699060+00:00",
  "version": 2,
- "ticker": "NFL: LAC 9 - LAR 17 5:05 - 3rd  //  NFL: KC 17 - DEN 13 Halftime  //  NFL: NE 3 - MIA 13 12:13 - 3rd  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT",
+ "ticker": "NFL: PHI 10 - WSH 10 4:15 - 2nd  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT  //  NFL: ARI 33 - DAL 30 Final/OT  //  NFL: MIN 15 - DET 19 Final",
  "breaking": {
-  "id": "espn:50349340",
-  "title": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
-  "source": "ESPN NFL",
-  "age_min": 1.0686527166666666
+  "id": "espn:50354714",
+  "title": "Pitcher Garrett Whitlock's $8.25 million option exercised by Boston Red Sox",
+  "source": "ESPN MLB",
+  "age_min": 0.9389237500000001
  },
  "games": [
   {
    "league": "NFL",
-   "name": "LAC @ LAR",
-   "away": "LAC",
-   "away_score": "9",
-   "home": "LAR",
-   "home_score": "17",
-   "status": "5:05 - 3rd",
-   "date": "2026-11-01T21:05Z"
-  },
-  {
-   "league": "NFL",
-   "name": "KC @ DEN",
-   "away": "KC",
-   "away_score": "17",
-   "home": "DEN",
-   "home_score": "13",
-   "status": "Halftime",
-   "date": "2026-11-01T21:25Z"
-  },
-  {
-   "league": "NFL",
-   "name": "NE @ MIA",
-   "away": "NE",
-   "away_score": "3",
-   "home": "MIA",
-   "home_score": "13",
-   "status": "12:13 - 3rd",
-   "date": "2026-11-01T21:25Z"
+   "name": "PHI @ WSH",
+   "away": "PHI",
+   "away_score": "10",
+   "home": "WSH",
+   "home_score": "10",
+   "status": "4:15 - 2nd",
+   "date": "2026-11-02T01:20Z"
   },
   {
    "league": "NFL",
@@ -70,6 +50,26 @@
    "date": "2026-11-01T18:00Z"
   },
   {
+   "league": "NFL",
+   "name": "MIN @ DET",
+   "away": "MIN",
+   "away_score": "15",
+   "home": "DET",
+   "home_score": "19",
+   "status": "Final",
+   "date": "2026-11-01T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "LV @ NYJ",
+   "away": "LV",
+   "away_score": "38",
+   "home": "NYJ",
+   "home_score": "33",
+   "status": "Final",
+   "date": "2026-11-01T18:00Z"
+  },
+  {
    "league": "NBA",
    "name": "BOS @ ORL",
    "away": "BOS",
@@ -83,30 +83,30 @@
    "league": "NBA",
    "name": "BKN @ IND",
    "away": "BKN",
-   "away_score": "32",
+   "away_score": "98",
    "home": "IND",
-   "home_score": "29",
-   "status": "4:49 - 2nd",
+   "home_score": "90",
+   "status": "Final",
    "date": "2026-11-01T22:00Z"
   },
   {
    "league": "NBA",
    "name": "LAC @ GS",
    "away": "LAC",
-   "away_score": "0",
+   "away_score": "49",
    "home": "GS",
-   "home_score": "0",
-   "status": "11/1 - 8:30 PM EST",
+   "home_score": "53",
+   "status": "1:45 - 2nd",
    "date": "2026-11-02T01:30Z"
   },
   {
    "league": "NBA",
    "name": "TOR @ LAL",
    "away": "TOR",
-   "away_score": "0",
+   "away_score": "14",
    "home": "LAL",
-   "home_score": "0",
-   "status": "11/1 - 9:00 PM EST",
+   "home_score": "25",
+   "status": "3:00 - 1st",
    "date": "2026-11-02T02:00Z"
   },
   {
@@ -141,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1129h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1133h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 67761
+   "data_age_min": 67966
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1129h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1133h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 67761
+   "data_age_min": 67966
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1129h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1133h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 67761
+   "data_age_min": 67966
   }
  ],
  "sources": {
@@ -169,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
-  "LAC 9 - LAR 17 (5:05 - 3rd)",
-  "KC 17 - DEN 13 (Halftime)",
-  "NE 3 - MIA 13 (12:13 - 3rd)",
+  "BREAKING: Pitcher Garrett Whitlock's $8.25 million option exercised by Boston Red Sox",
+  "PHI 10 - WSH 10 (4:15 - 2nd)",
   "BAL 10 - BUF 36 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1129h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1129h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1129h old]",
+  "TEN 36 - CIN 43 (Final/OT)",
+  "ARI 33 - DAL 30 (Final/OT)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1133h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1133h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1133h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers storm from behind, snatching a game\u2011winning slam while Rays\u2019 bullpen collapses."
+  "And there it goes, Brewers' slugger demolishes the Rays with a double to center, crushing the comeback."
  ],
- "script_hint": "Brewers storm from behind, snatching a game\u2011winning slam while Rays\u2019 bullpen collapses.  [brain]"
+ "script_hint": "And there it goes, Brewers' slugger demolishes the Rays with a double to center, crushing the comeback.  [brain]"
 }
