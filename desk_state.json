@@ -1,22 +1,23 @@
 {
- "generated": "2026-11-02T20:15:19.868395+00:00",
+ "generated": "2026-11-03T02:26:28.771234+00:00",
  "version": 2,
- "ticker": "NFL: CHI 0 - SEA 0 11/2 - 8:15 PM EST  //  NFL: CAR 19 - GB 27 Final  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT  //  NFL: ARI 33 - DAL 30 Final/OT",
+ "ticker": "NFL: CHI 10 - SEA 3 2:00 - 2nd  //  NFL: CAR 19 - GB 27 Final  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT  //  NFL: ARI 33 - DAL 30 Final/OT",
  "breaking": {
-  "id": "espn:50359521",
-  "title": "Kansas City Chiefs' late collapse vs. Denver Broncos opens up AFC West race",
-  "source": "ESPN NFL",
-  "age_min": 4.053801766666667
+  "id": "gnews:NFL Has No Plan to Follow MLB, NBA in Lo",
+  "title": "NFL Has No Plan to Follow MLB, NBA in Loosening PE Rules - Front Office Sports",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
    "league": "NFL",
    "name": "CHI @ SEA",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "10",
    "home": "SEA",
-   "home_score": "0",
-   "status": "11/2 - 8:15 PM EST",
+   "home_score": "3",
+   "status": "2:00 - 2nd",
    "date": "2026-11-03T01:15Z"
   },
   {
@@ -73,60 +74,60 @@
    "league": "NBA",
    "name": "OKC @ CLE",
    "away": "OKC",
-   "away_score": "0",
+   "away_score": "109",
    "home": "CLE",
-   "home_score": "0",
-   "status": "11/2 - 7:00 PM EST",
+   "home_score": "109",
+   "status": "1:58 - 4th",
    "date": "2026-11-03T00:00Z"
   },
   {
    "league": "NBA",
    "name": "DET @ CHA",
    "away": "DET",
-   "away_score": "0",
+   "away_score": "98",
    "home": "CHA",
-   "home_score": "0",
-   "status": "11/2 - 7:30 PM EST",
+   "home_score": "75",
+   "status": "0.0 - 3rd",
    "date": "2026-11-03T00:30Z"
   },
   {
    "league": "NBA",
    "name": "ATL @ IND",
    "away": "ATL",
-   "away_score": "0",
+   "away_score": "92",
    "home": "IND",
-   "home_score": "0",
-   "status": "11/2 - 7:30 PM EST",
+   "home_score": "84",
+   "status": "8:06 - 4th",
    "date": "2026-11-03T00:30Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ NY",
    "away": "BKN",
-   "away_score": "0",
+   "away_score": "74",
    "home": "NY",
-   "home_score": "0",
-   "status": "11/2 - 7:30 PM EST",
+   "home_score": "72",
+   "status": "1:42 - 3rd",
    "date": "2026-11-03T00:30Z"
   },
   {
    "league": "NBA",
    "name": "WSH @ ORL",
    "away": "WSH",
-   "away_score": "0",
+   "away_score": "81",
    "home": "ORL",
-   "home_score": "0",
-   "status": "11/2 - 7:30 PM EST",
+   "home_score": "76",
+   "status": "9:20 - 4th",
    "date": "2026-11-03T00:30Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ PHI",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "79",
    "home": "PHI",
-   "home_score": "0",
-   "status": "11/2 - 7:30 PM EST",
+   "home_score": "90",
+   "status": "11:44 - 4th",
    "date": "2026-11-03T00:30Z"
   },
   {
@@ -161,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1150h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1157h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 69028
+   "data_age_min": 69399
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1150h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1157h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 69028
+   "data_age_min": 69399
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1150h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1157h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 69028
+   "data_age_min": 69399
   }
  ],
  "sources": {
@@ -189,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Kansas City Chiefs' late collapse vs. Denver Broncos opens up AFC West race",
-  "CHI 0 - SEA 0 (11/2 - 8:15 PM EST)",
+  "BREAKING: NFL Has No Plan to Follow MLB, NBA in Loosening PE Rules - Front Office Sports",
+  "CHI 10 - SEA 3 (2:00 - 2nd)",
   "CAR 19 - GB 27 (Final)",
   "BAL 10 - BUF 36 (Final)",
   "TEN 36 - CIN 43 (Final/OT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1150h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1150h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1150h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1157h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1157h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1157h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers fire a dagger\u2011wide alley\u2011up, slamming the Rays in the ninth while Simpson\u2019s calm hits keep the pressure blazing."
+  "Simpson steals the show\u2014flying that drive past the curtain, and the stadium erupts in disbelief."
  ],
- "script_hint": "Brewers fire a dagger\u2011wide alley\u2011up, slamming the Rays in the ninth while Simpson\u2019s calm hits keep the pressure blazing.  [brain]"
+ "script_hint": "Simpson steals the show\u2014flying that drive past the curtain, and the stadium erupts in disbelief.  [brain]"
 }
