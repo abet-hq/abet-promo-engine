@@ -1,25 +1,15 @@
 {
- "generated": "2026-11-03T02:26:28.771234+00:00",
+ "generated": "2026-11-03T09:55:28.286605+00:00",
  "version": 2,
- "ticker": "NFL: CHI 10 - SEA 3 2:00 - 2nd  //  NFL: CAR 19 - GB 27 Final  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT  //  NFL: ARI 33 - DAL 30 Final/OT",
+ "ticker": "NFL: CAR 19 - GB 27 Final  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT  //  NFL: ARI 33 - DAL 30 Final/OT  //  NFL: MIN 15 - DET 19 Final",
  "breaking": {
-  "id": "gnews:NFL Has No Plan to Follow MLB, NBA in Lo",
-  "title": "NFL Has No Plan to Follow MLB, NBA in Loosening PE Rules - Front Office Sports",
+  "id": "gnews:2026 sports equinox TV schedule: Full li",
+  "title": "2026 sports equinox TV schedule: Full list of MLB, NBA, NFL & more games - The Big Lead",
   "source": "Google News",
   "age_min": 30,
   "score": 0
  },
  "games": [
-  {
-   "league": "NFL",
-   "name": "CHI @ SEA",
-   "away": "CHI",
-   "away_score": "10",
-   "home": "SEA",
-   "home_score": "3",
-   "status": "2:00 - 2nd",
-   "date": "2026-11-03T01:15Z"
-  },
   {
    "league": "NFL",
    "name": "CAR @ GB",
@@ -71,63 +61,73 @@
    "date": "2026-11-01T18:00Z"
   },
   {
+   "league": "NFL",
+   "name": "LV @ NYJ",
+   "away": "LV",
+   "away_score": "38",
+   "home": "NYJ",
+   "home_score": "33",
+   "status": "Final",
+   "date": "2026-11-01T18:00Z"
+  },
+  {
    "league": "NBA",
    "name": "OKC @ CLE",
    "away": "OKC",
-   "away_score": "109",
+   "away_score": "117",
    "home": "CLE",
-   "home_score": "109",
-   "status": "1:58 - 4th",
+   "home_score": "112",
+   "status": "Final",
    "date": "2026-11-03T00:00Z"
   },
   {
    "league": "NBA",
    "name": "DET @ CHA",
    "away": "DET",
-   "away_score": "98",
+   "away_score": "124",
    "home": "CHA",
-   "home_score": "75",
-   "status": "0.0 - 3rd",
+   "home_score": "91",
+   "status": "Final",
    "date": "2026-11-03T00:30Z"
   },
   {
    "league": "NBA",
    "name": "ATL @ IND",
    "away": "ATL",
-   "away_score": "92",
+   "away_score": "108",
    "home": "IND",
-   "home_score": "84",
-   "status": "8:06 - 4th",
+   "home_score": "104",
+   "status": "Final",
    "date": "2026-11-03T00:30Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ NY",
    "away": "BKN",
-   "away_score": "74",
+   "away_score": "90",
    "home": "NY",
-   "home_score": "72",
-   "status": "1:42 - 3rd",
+   "home_score": "103",
+   "status": "Final",
    "date": "2026-11-03T00:30Z"
   },
   {
    "league": "NBA",
    "name": "WSH @ ORL",
    "away": "WSH",
-   "away_score": "81",
+   "away_score": "103",
    "home": "ORL",
-   "home_score": "76",
-   "status": "9:20 - 4th",
+   "home_score": "94",
+   "status": "Final",
    "date": "2026-11-03T00:30Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ PHI",
    "away": "CHI",
-   "away_score": "79",
+   "away_score": "107",
    "home": "PHI",
-   "home_score": "90",
-   "status": "11:44 - 4th",
+   "home_score": "126",
+   "status": "Final",
    "date": "2026-11-03T00:30Z"
   },
   {
@@ -162,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1157h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1164h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 69399
+   "data_age_min": 69849
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1157h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1164h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 69399
+   "data_age_min": 69849
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1157h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1164h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 69399
+   "data_age_min": 69849
   }
  ],
  "sources": {
@@ -190,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NFL Has No Plan to Follow MLB, NBA in Loosening PE Rules - Front Office Sports",
-  "CHI 10 - SEA 3 (2:00 - 2nd)",
+  "BREAKING: 2026 sports equinox TV schedule: Full list of MLB, NBA, NFL & more games - The Big Lead",
   "CAR 19 - GB 27 (Final)",
   "BAL 10 - BUF 36 (Final)",
   "TEN 36 - CIN 43 (Final/OT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1157h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1157h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1157h old]",
+  "ARI 33 - DAL 30 (Final/OT)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1164h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1164h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1164h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Simpson steals the show\u2014flying that drive past the curtain, and the stadium erupts in disbelief."
+  "Brewers exploded in Game 5, wrapping the series with a show of power that left the Rays in the dust."
  ],
- "script_hint": "Simpson steals the show\u2014flying that drive past the curtain, and the stadium erupts in disbelief.  [brain]"
+ "script_hint": "Brewers exploded in Game 5, wrapping the series with a show of power that left the Rays in the dust.  [brain]"
 }
