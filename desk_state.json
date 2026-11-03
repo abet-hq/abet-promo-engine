@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T17:37:11.756631+00:00",
+ "generated": "2026-11-03T22:32:09.209062+00:00",
  "version": 2,
  "ticker": "NFL: CAR 19 - GB 27 Final  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT  //  NFL: ARI 33 - DAL 30 Final/OT  //  NFL: MIN 15 - DET 19 Final",
  "breaking": {
-  "id": "espn:50369931",
-  "title": "Will Draymond be a detriment to Warriors' success? Perk, Stephen A. debate",
-  "source": "ESPN NBA",
-  "age_min": 1.0512207333333334
+  "id": "espn:50372292",
+  "title": "Bills release C.J. Gardner-Johnson after one-game spitting suspension",
+  "source": "ESPN NFL",
+  "age_min": 5.8576550833333325
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1172h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1177h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 70310
+   "data_age_min": 70605
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1172h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1177h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 70310
+   "data_age_min": 70605
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1172h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1177h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 70310
+   "data_age_min": 70605
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Will Draymond be a detriment to Warriors' success? Perk, Stephen A. debate",
+  "BREAKING: Bills release C.J. Gardner-Johnson after one-game spitting suspension",
   "CAR 19 - GB 27 (Final)",
   "BAL 10 - BUF 36 (Final)",
   "TEN 36 - CIN 43 (Final/OT)",
   "ARI 33 - DAL 30 (Final/OT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1172h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1172h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1172h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1177h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1177h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1177h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "That two\u2011run walk\u2011off by the Brewers turned a bleak Rays night into a sky\u2011blowing celebration."
+  "Brewers anchor a paramilitary bullpen showdown, stifling Rays' surge in Game 5 and snatching the series."
  ],
- "script_hint": "That two\u2011run walk\u2011off by the Brewers turned a bleak Rays night into a sky\u2011blowing celebration.  [brain]"
+ "script_hint": "Brewers anchor a paramilitary bullpen showdown, stifling Rays' surge in Game 5 and snatching the series.  [brain]"
 }
