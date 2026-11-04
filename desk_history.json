@@ -1,8 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50260679",
-  "espn:50287529",
-  "espn:50294975",
   "espn:50294971",
   "espn:50294970",
   "espn:50294832",
@@ -399,17 +396,20 @@
   "espn:50374485",
   "espn:50373620",
   "gnews:Sports equinox features MLB, NFL, NBA, W",
-  "gnews:Sports equinox on tap with MLB, NFL, NBA"
+  "gnews:Sports equinox on tap with MLB, NFL, NBA",
+  "espn:50376245",
+  "gnews:Which sports figures won or lost in the ",
+  "gnews:Sports equinox brings NFL, MLB, NBA, NHL"
  ],
  "recent_topics": [
-  "And there it goes, Brewers' slugger demolishes the Rays with a double to center, crushing the comeback.",
   "Storming to a dramatic win: a cannon swing turns the tide, sealing the Brewers\u2019 triumph over the Rays.",
   "Brewers fire a dagger\u2011wide alley\u2011up, slamming the Rays in the ninth while Simpson\u2019s calm hits keep the pressure blazing.",
   "Simpson steals the show\u2014flying that drive past the curtain, and the stadium erupts in disbelief.",
   "Brewers exploded in Game 5, wrapping the series with a show of power that left the Rays in the dust.",
   "That two\u2011run walk\u2011off by the Brewers turned a bleak Rays night into a sky\u2011blowing celebration.",
   "Brewers anchor a paramilitary bullpen showdown, stifling Rays' surge in Game 5 and snatching the series.",
-  "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL."
+  "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL.",
+  "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish."
  ],
  "used_highlight_pks": [
   849818,

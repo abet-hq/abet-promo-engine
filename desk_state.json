@@ -1,73 +1,74 @@
 {
- "generated": "2026-11-04T02:44:40.642480+00:00",
+ "generated": "2026-11-04T09:56:51.706557+00:00",
  "version": 2,
- "ticker": "NFL: CAR 19 - GB 27 Final  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT  //  NFL: ARI 33 - DAL 30 Final/OT  //  NFL: MIN 15 - DET 19 Final",
+ "ticker": "NFL: JAX 0 - BAL 0 11/5 - 8:15 PM EST  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50374068",
-  "title": "Panthers defenders: We're in 'great hands' after DC switch-up",
-  "source": "ESPN NFL",
-  "age_min": 2.7854341333333332
+  "id": "gnews:Which sports figures won or lost in the ",
+  "title": "Which sports figures won or lost in the midterm elections? Tracking 7 big names - The New York Times",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
    "league": "NFL",
-   "name": "CAR @ GB",
-   "away": "CAR",
-   "away_score": "19",
-   "home": "GB",
-   "home_score": "27",
-   "status": "Final",
-   "date": "2026-10-30T00:15Z"
+   "name": "JAX @ BAL",
+   "away": "JAX",
+   "away_score": "0",
+   "home": "BAL",
+   "home_score": "0",
+   "status": "11/5 - 8:15 PM EST",
+   "date": "2026-11-06T01:15Z"
   },
   {
    "league": "NFL",
-   "name": "BAL @ BUF",
-   "away": "BAL",
-   "away_score": "10",
-   "home": "BUF",
-   "home_score": "36",
-   "status": "Final",
-   "date": "2026-11-01T18:00Z"
+   "name": "CIN VS ATL",
+   "away": "CIN",
+   "away_score": "0",
+   "home": "ATL",
+   "home_score": "0",
+   "status": "11/8 - 9:30 AM EST",
+   "date": "2026-11-08T14:30Z"
   },
   {
    "league": "NFL",
-   "name": "TEN @ CIN",
-   "away": "TEN",
-   "away_score": "36",
-   "home": "CIN",
-   "home_score": "43",
-   "status": "Final/OT",
-   "date": "2026-11-01T18:00Z"
+   "name": "DAL @ IND",
+   "away": "DAL",
+   "away_score": "0",
+   "home": "IND",
+   "home_score": "0",
+   "status": "11/8 - 1:00 PM EST",
+   "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "ARI @ DAL",
-   "away": "ARI",
-   "away_score": "33",
-   "home": "DAL",
-   "home_score": "30",
-   "status": "Final/OT",
-   "date": "2026-11-01T18:00Z"
+   "name": "NYJ @ KC",
+   "away": "NYJ",
+   "away_score": "0",
+   "home": "KC",
+   "home_score": "0",
+   "status": "11/8 - 1:00 PM EST",
+   "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "MIN @ DET",
-   "away": "MIN",
-   "away_score": "15",
-   "home": "DET",
-   "home_score": "19",
-   "status": "Final",
-   "date": "2026-11-01T18:00Z"
+   "name": "DET @ MIA",
+   "away": "DET",
+   "away_score": "0",
+   "home": "MIA",
+   "home_score": "0",
+   "status": "11/8 - 1:00 PM EST",
+   "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "LV @ NYJ",
-   "away": "LV",
-   "away_score": "38",
-   "home": "NYJ",
-   "home_score": "33",
-   "status": "Final",
-   "date": "2026-11-01T18:00Z"
+   "name": "CLE @ NO",
+   "away": "CLE",
+   "away_score": "0",
+   "home": "NO",
+   "home_score": "0",
+   "status": "11/8 - 1:00 PM EST",
+   "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NBA",
@@ -161,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1181h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1188h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 70857
+   "data_age_min": 71290
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1181h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1188h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 70857
+   "data_age_min": 71290
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1181h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1188h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 70857
+   "data_age_min": 71290
   }
  ],
  "sources": {
@@ -189,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Panthers defenders: We're in 'great hands' after DC switch-up",
-  "CAR 19 - GB 27 (Final)",
-  "BAL 10 - BUF 36 (Final)",
-  "TEN 36 - CIN 43 (Final/OT)",
-  "ARI 33 - DAL 30 (Final/OT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1181h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1181h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1181h old]",
+  "BREAKING: Which sports figures won or lost in the midterm elections? Tracking 7 big names - The New York Times",
+  "JAX 0 - BAL 0 (11/5 - 8:15 PM EST)",
+  "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
+  "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
+  "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1188h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1188h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1188h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL."
+  "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish."
  ],
- "script_hint": "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL."
+ "script_hint": "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish.  [brain]"
 }
