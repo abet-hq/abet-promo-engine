@@ -1,17 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50294971",
-  "espn:50294970",
-  "espn:50294832",
-  "espn:50288815",
-  "gnews:Sports Equinox Underway With MLB, NFL, N",
-  "espn:50043542",
-  "espn:50299138",
-  "espn:50043471",
-  "espn:50298913",
-  "espn:49954186",
-  "espn:50299731",
-  "espn:50299185",
   "espn:50298555",
   "espn:50298441",
   "espn:50298259",
@@ -399,17 +387,29 @@
   "gnews:Sports equinox on tap with MLB, NFL, NBA",
   "espn:50376245",
   "gnews:Which sports figures won or lost in the ",
-  "gnews:Sports equinox brings NFL, MLB, NBA, NHL"
+  "gnews:Sports equinox brings NFL, MLB, NBA, NHL",
+  "espn:50380067",
+  "espn:50379976",
+  "espn:50379937",
+  "espn:50379880",
+  "espn:50379879",
+  "espn:50379797",
+  "espn:50028196",
+  "espn:50379460",
+  "espn:50371604",
+  "espn:50371792",
+  "espn:50379936",
+  "espn:50359998"
  ],
  "recent_topics": [
-  "Storming to a dramatic win: a cannon swing turns the tide, sealing the Brewers\u2019 triumph over the Rays.",
   "Brewers fire a dagger\u2011wide alley\u2011up, slamming the Rays in the ninth while Simpson\u2019s calm hits keep the pressure blazing.",
   "Simpson steals the show\u2014flying that drive past the curtain, and the stadium erupts in disbelief.",
   "Brewers exploded in Game 5, wrapping the series with a show of power that left the Rays in the dust.",
   "That two\u2011run walk\u2011off by the Brewers turned a bleak Rays night into a sky\u2011blowing celebration.",
   "Brewers anchor a paramilitary bullpen showdown, stifling Rays' surge in Game 5 and snatching the series.",
   "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL.",
-  "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish."
+  "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish.",
+  "A single blow, and the Brewers' hopes dissolve into a Rays pitcher showdown."
  ],
  "used_highlight_pks": [
   849818,

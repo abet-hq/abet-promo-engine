@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-04T09:56:51.706557+00:00",
+ "generated": "2026-11-04T17:53:03.752022+00:00",
  "version": 2,
  "ticker": "NFL: JAX 0 - BAL 0 11/5 - 8:15 PM EST  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "gnews:Which sports figures won or lost in the ",
-  "title": "Which sports figures won or lost in the midterm elections? Tracking 7 big names - The New York Times",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50379976",
+  "title": "Hall of Fame names Doug Williams, Robert Kraft among 5 contributor candidates",
+  "source": "ESPN NFL",
+  "age_min": 3.0238596666666666
  },
  "games": [
   {
@@ -162,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1188h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1196h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 71290
+   "data_age_min": 71766
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1188h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1196h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 71290
+   "data_age_min": 71766
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1188h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1196h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 71290
+   "data_age_min": 71766
   }
  ],
  "sources": {
@@ -190,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Which sports figures won or lost in the midterm elections? Tracking 7 big names - The New York Times",
+  "BREAKING: Hall of Fame names Doug Williams, Robert Kraft among 5 contributor candidates",
   "JAX 0 - BAL 0 (11/5 - 8:15 PM EST)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1188h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1188h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1188h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1196h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1196h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1196h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish."
+  "A single blow, and the Brewers' hopes dissolve into a Rays pitcher showdown."
  ],
- "script_hint": "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish.  [brain]"
+ "script_hint": "A single blow, and the Brewers' hopes dissolve into a Rays pitcher showdown.  [brain]"
 }
