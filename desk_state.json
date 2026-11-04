@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T22:32:09.209062+00:00",
+ "generated": "2026-11-04T02:44:40.642480+00:00",
  "version": 2,
  "ticker": "NFL: CAR 19 - GB 27 Final  //  NFL: BAL 10 - BUF 36 Final  //  NFL: TEN 36 - CIN 43 Final/OT  //  NFL: ARI 33 - DAL 30 Final/OT  //  NFL: MIN 15 - DET 19 Final",
  "breaking": {
-  "id": "espn:50372292",
-  "title": "Bills release C.J. Gardner-Johnson after one-game spitting suspension",
+  "id": "espn:50374068",
+  "title": "Panthers defenders: We're in 'great hands' after DC switch-up",
   "source": "ESPN NFL",
-  "age_min": 5.8576550833333325
+  "age_min": 2.7854341333333332
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1177h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1181h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 70605
+   "data_age_min": 70857
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1177h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1181h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 70605
+   "data_age_min": 70857
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1177h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1181h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 70605
+   "data_age_min": 70857
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Bills release C.J. Gardner-Johnson after one-game spitting suspension",
+  "BREAKING: Panthers defenders: We're in 'great hands' after DC switch-up",
   "CAR 19 - GB 27 (Final)",
   "BAL 10 - BUF 36 (Final)",
   "TEN 36 - CIN 43 (Final/OT)",
   "ARI 33 - DAL 30 (Final/OT)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1177h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1177h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1177h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1181h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1181h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1181h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers anchor a paramilitary bullpen showdown, stifling Rays' surge in Game 5 and snatching the series."
+  "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL."
  ],
- "script_hint": "Brewers anchor a paramilitary bullpen showdown, stifling Rays' surge in Game 5 and snatching the series.  [brain]"
+ "script_hint": "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL."
 }
