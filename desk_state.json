@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T03:38:42.283932+00:00",
+ "generated": "2026-11-05T11:33:44.557276+00:00",
  "version": 2,
  "ticker": "NFL: JAX 0 - BAL 0 11/5 - 8:15 PM EST  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50384700",
-  "title": "George and White leads Celtics past Bucks, 109-102",
-  "source": "ESPN NBA",
-  "age_min": 19.579877366666665
+  "id": "espn:50360077",
+  "title": "What 18 contenders should do at the NFL trade deadline: Who could get aggressive?",
+  "source": "ESPN NFL",
+  "age_min": 2.2808703833333337
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1206h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1214h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 72351
+   "data_age_min": 72827
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1206h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1214h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 72351
+   "data_age_min": 72827
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1206h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1214h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 72351
+   "data_age_min": 72827
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: George and White leads Celtics past Bucks, 109-102",
+  "BREAKING: What 18 contenders should do at the NFL trade deadline: Who could get aggressive?",
   "JAX 0 - BAL 0 (11/5 - 8:15 PM EST)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1206h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1206h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1206h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1214h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1214h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1214h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Watch the flame as a razor\u2011thin dash past the outfield carts, sending Brewers roaring toward a heated Game 5 tilt."
+  "Brewers nail a clutch three, Rays slump, leaving the series on a razor\u2011edge showdown."
  ],
- "script_hint": "Watch the flame as a razor\u2011thin dash past the outfield carts, sending Brewers roaring toward a heated Game 5 tilt.  [brain]"
+ "script_hint": "Brewers nail a clutch three, Rays slump, leaving the series on a razor\u2011edge showdown.  [brain]"
 }
