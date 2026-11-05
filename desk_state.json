@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T11:33:44.557276+00:00",
+ "generated": "2026-11-05T19:00:05.235794+00:00",
  "version": 2,
  "ticker": "NFL: JAX 0 - BAL 0 11/5 - 8:15 PM EST  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50360077",
-  "title": "What 18 contenders should do at the NFL trade deadline: Who could get aggressive?",
+  "id": "espn:50390676",
+  "title": "Is Tyler Warren a must-start TE for fantasy managers vs. Dallas?",
   "source": "ESPN NFL",
-  "age_min": 2.2808703833333337
+  "age_min": 7.0737958999999995
  },
  "games": [
   {
@@ -71,63 +71,23 @@
   },
   {
    "league": "NBA",
-   "name": "PHI @ DET",
-   "away": "PHI",
-   "away_score": "112",
-   "home": "DET",
-   "home_score": "106",
-   "status": "Final",
-   "date": "2026-11-05T00:00Z"
+   "name": "ORL @ PHX",
+   "away": "ORL",
+   "away_score": "0",
+   "home": "PHX",
+   "home_score": "0",
+   "status": "11/5 - 9:00 PM EST",
+   "date": "2026-11-06T02:00Z"
   },
   {
    "league": "NBA",
-   "name": "ATL @ WSH",
-   "away": "ATL",
-   "away_score": "120",
-   "home": "WSH",
-   "home_score": "105",
-   "status": "Final",
-   "date": "2026-11-05T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MIL @ BOS",
-   "away": "MIL",
-   "away_score": "102",
-   "home": "BOS",
-   "home_score": "109",
-   "status": "Final",
-   "date": "2026-11-05T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CHA @ BKN",
-   "away": "CHA",
-   "away_score": "104",
-   "home": "BKN",
-   "home_score": "114",
-   "status": "Final",
-   "date": "2026-11-05T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CHI @ NY",
-   "away": "CHI",
-   "away_score": "105",
-   "home": "NY",
-   "home_score": "135",
-   "status": "Final",
-   "date": "2026-11-05T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "IND @ MEM",
-   "away": "IND",
-   "away_score": "107",
-   "home": "MEM",
-   "home_score": "103",
-   "status": "Final",
-   "date": "2026-11-05T01:00Z"
+   "name": "MIA @ GS",
+   "away": "MIA",
+   "away_score": "0",
+   "home": "GS",
+   "home_score": "0",
+   "status": "11/5 - 10:00 PM EST",
+   "date": "2026-11-06T03:00Z"
   },
   {
    "league": "MLB",
@@ -161,24 +121,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1214h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1221h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 72827
+   "data_age_min": 73273
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1214h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1221h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 72827
+   "data_age_min": 73273
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1214h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1221h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 72827
+   "data_age_min": 73273
   }
  ],
  "sources": {
@@ -189,17 +149,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: What 18 contenders should do at the NFL trade deadline: Who could get aggressive?",
+  "BREAKING: Is Tyler Warren a must-start TE for fantasy managers vs. Dallas?",
   "JAX 0 - BAL 0 (11/5 - 8:15 PM EST)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1214h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1214h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1214h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1221h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1221h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1221h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers nail a clutch three, Rays slump, leaving the series on a razor\u2011edge showdown."
+  "Brewers claw back from a 10\u2011run deficit in Game 5, proving their playoff resilience with a stunning comeback!"
  ],
- "script_hint": "Brewers nail a clutch three, Rays slump, leaving the series on a razor\u2011edge showdown.  [brain]"
+ "script_hint": "Brewers claw back from a 10\u2011run deficit in Game 5, proving their playoff resilience with a stunning comeback!  [brain]"
 }
