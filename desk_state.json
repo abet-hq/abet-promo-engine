@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T23:20:53.412076+00:00",
+ "generated": "2026-11-05T03:38:42.283932+00:00",
  "version": 2,
  "ticker": "NFL: JAX 0 - BAL 0 11/5 - 8:15 PM EST  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50382837",
-  "title": "Rams CB Jaylen Watson needs season-ending shoulder surgery, Sean Mcvay says",
-  "source": "ESPN NFL",
-  "age_min": 5.154949433333333
+  "id": "espn:50384700",
+  "title": "George and White leads Celtics past Bucks, 109-102",
+  "source": "ESPN NBA",
+  "age_min": 19.579877366666665
  },
  "games": [
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "PHI @ DET",
    "away": "PHI",
-   "away_score": "0",
+   "away_score": "112",
    "home": "DET",
-   "home_score": "0",
-   "status": "11/4 - 7:00 PM EST",
+   "home_score": "106",
+   "status": "Final",
    "date": "2026-11-05T00:00Z"
   },
   {
    "league": "NBA",
    "name": "ATL @ WSH",
    "away": "ATL",
-   "away_score": "0",
+   "away_score": "120",
    "home": "WSH",
-   "home_score": "0",
-   "status": "11/4 - 7:00 PM EST",
+   "home_score": "105",
+   "status": "Final",
    "date": "2026-11-05T00:00Z"
   },
   {
    "league": "NBA",
    "name": "MIL @ BOS",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "102",
    "home": "BOS",
-   "home_score": "0",
-   "status": "11/4 - 7:30 PM EST",
+   "home_score": "109",
+   "status": "Final",
    "date": "2026-11-05T00:30Z"
   },
   {
    "league": "NBA",
    "name": "CHA @ BKN",
    "away": "CHA",
-   "away_score": "0",
+   "away_score": "104",
    "home": "BKN",
-   "home_score": "0",
-   "status": "11/4 - 7:30 PM EST",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-11-05T00:30Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ NY",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "105",
    "home": "NY",
-   "home_score": "0",
-   "status": "11/4 - 7:30 PM EST",
+   "home_score": "135",
+   "status": "Final",
    "date": "2026-11-05T00:30Z"
   },
   {
    "league": "NBA",
    "name": "IND @ MEM",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "107",
    "home": "MEM",
-   "home_score": "0",
-   "status": "11/4 - 8:00 PM EST",
+   "home_score": "103",
+   "status": "Final",
    "date": "2026-11-05T01:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1202h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1206h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 72094
+   "data_age_min": 72351
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1202h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1206h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 72094
+   "data_age_min": 72351
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1202h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1206h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 72094
+   "data_age_min": 72351
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Rams CB Jaylen Watson needs season-ending shoulder surgery, Sean Mcvay says",
+  "BREAKING: George and White leads Celtics past Bucks, 109-102",
   "JAX 0 - BAL 0 (11/5 - 8:15 PM EST)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1202h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1202h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1202h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1206h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1206h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1206h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers edge Rays in dramatic 11th, with Sierra's clutch double sending the ball to the outfield\u2014an instant fireworks finale."
+  "Watch the flame as a razor\u2011thin dash past the outfield carts, sending Brewers roaring toward a heated Game 5 tilt."
  ],
- "script_hint": "Brewers edge Rays in dramatic 11th, with Sierra's clutch double sending the ball to the outfield\u2014an instant fireworks finale.  [brain]"
+ "script_hint": "Watch the flame as a razor\u2011thin dash past the outfield carts, sending Brewers roaring toward a heated Game 5 tilt.  [brain]"
 }
