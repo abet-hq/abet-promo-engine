@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-06T00:06:41.366233+00:00",
+ "generated": "2026-11-06T06:48:40.255169+00:00",
  "version": 2,
- "ticker": "NFL: JAX 0 - BAL 0 11/5 - 8:15 PM EST  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
+ "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50393654",
-  "title": "Jaguars' Bhayshul Tuten, Travon Walker will face Ravens on 'TNF'",
+  "id": "espn:50397437",
+  "title": "Ravens refuse to blame historic rut on loss of Lamar Jackson",
   "source": "ESPN NFL",
-  "age_min": 3.890258866666667
+  "age_min": 3.7338922666666665
  },
  "games": [
   {
    "league": "NFL",
    "name": "JAX @ BAL",
    "away": "JAX",
-   "away_score": "0",
+   "away_score": "33",
    "home": "BAL",
-   "home_score": "0",
-   "status": "11/5 - 8:15 PM EST",
+   "home_score": "10",
+   "status": "Final",
    "date": "2026-11-06T01:15Z"
   },
   {
@@ -73,20 +73,20 @@
    "league": "NBA",
    "name": "ORL @ PHX",
    "away": "ORL",
-   "away_score": "0",
+   "away_score": "104",
    "home": "PHX",
-   "home_score": "0",
-   "status": "11/5 - 9:00 PM EST",
+   "home_score": "117",
+   "status": "Final",
    "date": "2026-11-06T02:00Z"
   },
   {
    "league": "NBA",
    "name": "MIA @ GS",
    "away": "MIA",
-   "away_score": "0",
+   "away_score": "100",
    "home": "GS",
-   "home_score": "0",
-   "status": "11/5 - 10:00 PM EST",
+   "home_score": "120",
+   "status": "Final",
    "date": "2026-11-06T03:00Z"
   },
   {
@@ -121,45 +121,45 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1226h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1233h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 73580
+   "data_age_min": 73982
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1226h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1233h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 73580
+   "data_age_min": 73982
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1226h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1233h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 73580
+   "data_age_min": 73982
   }
  ],
  "sources": {
   "espn": true,
-  "reddit": true,
+  "reddit": false,
   "mlb_statsapi": true,
   "abet_board": true
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Jaguars' Bhayshul Tuten, Travon Walker will face Ravens on 'TNF'",
-  "JAX 0 - BAL 0 (11/5 - 8:15 PM EST)",
+  "BREAKING: Ravens refuse to blame historic rut on loss of Lamar Jackson",
+  "JAX 33 - BAL 10 (Final)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1226h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1226h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1226h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1233h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1233h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1233h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers\u2019 Game 5 showcase: a ninth\u2011inning double that sliced through Rays\u2019 defense, turning a tense slugfest into a slapstick finish."
+  "Brewers turned the tide with a razor\u2011sharp 2\u2011run double that left the Rays scrambling in Game 5."
  ],
- "script_hint": "Brewers\u2019 Game 5 showcase: a ninth\u2011inning double that sliced through Rays\u2019 defense, turning a tense slugfest into a slapstick finish.  [brain]"
+ "script_hint": "Brewers turned the tide with a razor\u2011sharp 2\u2011run double that left the Rays scrambling in Game 5.  [brain]"
 }

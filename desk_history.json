@@ -1,17 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50311965",
-  "espn:15698900",
-  "espn:50311866",
-  "espn:50311853",
-  "espn:50311661",
-  "espn:50311435",
-  "espn:50311916",
-  "espn:50311622",
-  "espn:50310964",
-  "espn:50310776",
-  "espn:50311560",
-  "espn:50310462",
   "espn:50310280",
   "gnews:Sports equinox on tap with NFL, MLB, NBA",
   "gnews:Four Major Leagues, WNBA Finals Share a ",
@@ -399,17 +387,29 @@
   "espn:50391857",
   "espn:50392405",
   "espn:50391735",
-  "gnews:When is the 2026 sports equinox? Officia"
+  "gnews:When is the 2026 sports equinox? Officia",
+  "espn:50397437",
+  "espn:50397312",
+  "espn:50394179",
+  "espn:50396514",
+  "espn:50396460",
+  "espn:50395188",
+  "espn:50397141",
+  "espn:50397120",
+  "espn:50396635",
+  "espn:50396626",
+  "espn:49967701",
+  "espn:50394314"
  ],
  "recent_topics": [
-  "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL.",
   "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish.",
   "A single blow, and the Brewers' hopes dissolve into a Rays pitcher showdown.",
   "Brewers edge Rays in dramatic 11th, with Sierra's clutch double sending the ball to the outfield\u2014an instant fireworks finale.",
   "Watch the flame as a razor\u2011thin dash past the outfield carts, sending Brewers roaring toward a heated Game 5 tilt.",
   "Brewers nail a clutch three, Rays slump, leaving the series on a razor\u2011edge showdown.",
   "Brewers claw back from a 10\u2011run deficit in Game 5, proving their playoff resilience with a stunning comeback!",
-  "Brewers\u2019 Game 5 showcase: a ninth\u2011inning double that sliced through Rays\u2019 defense, turning a tense slugfest into a slapstick finish."
+  "Brewers\u2019 Game 5 showcase: a ninth\u2011inning double that sliced through Rays\u2019 defense, turning a tense slugfest into a slapstick finish.",
+  "Brewers turned the tide with a razor\u2011sharp 2\u2011run double that left the Rays scrambling in Game 5."
  ],
  "used_highlight_pks": [
   849818,
