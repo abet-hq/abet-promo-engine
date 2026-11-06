@@ -1,16 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50309816",
-  "espn:50309777",
-  "espn:50309469",
-  "espn:50250750",
-  "espn:44679680",
-  "espn:50309868",
-  "espn:50309755",
-  "espn:50309718",
-  "espn:50309551",
-  "espn:50309960",
-  "gnews:Sports equinox 2026: Date, schedule, mea",
   "espn:50311965",
   "espn:15698900",
   "espn:50311866",
@@ -399,17 +388,28 @@
   "espn:50389305",
   "espn:50389252",
   "espn:50388613",
-  "espn:50380352"
+  "espn:50380352",
+  "espn:50393654",
+  "espn:50393540",
+  "espn:50393506",
+  "espn:50393433",
+  "espn:50393369",
+  "espn:50393350",
+  "espn:50392002",
+  "espn:50391857",
+  "espn:50392405",
+  "espn:50391735",
+  "gnews:When is the 2026 sports equinox? Officia"
  ],
  "recent_topics": [
-  "Brewers anchor a paramilitary bullpen showdown, stifling Rays' surge in Game 5 and snatching the series.",
   "BREAKING - Panthers defenders: We're in 'great hands' after DC switch-up - per ESPN NFL.",
   "Brewers take Game 5, Clarkson\u2019s two\u2011homer salvo breaks Rays and turns a tight outing into a runaway finish.",
   "A single blow, and the Brewers' hopes dissolve into a Rays pitcher showdown.",
   "Brewers edge Rays in dramatic 11th, with Sierra's clutch double sending the ball to the outfield\u2014an instant fireworks finale.",
   "Watch the flame as a razor\u2011thin dash past the outfield carts, sending Brewers roaring toward a heated Game 5 tilt.",
   "Brewers nail a clutch three, Rays slump, leaving the series on a razor\u2011edge showdown.",
-  "Brewers claw back from a 10\u2011run deficit in Game 5, proving their playoff resilience with a stunning comeback!"
+  "Brewers claw back from a 10\u2011run deficit in Game 5, proving their playoff resilience with a stunning comeback!",
+  "Brewers\u2019 Game 5 showcase: a ninth\u2011inning double that sliced through Rays\u2019 defense, turning a tense slugfest into a slapstick finish."
  ],
  "used_highlight_pks": [
   849818,
