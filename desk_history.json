@@ -1,11 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50307555",
-  "espn:50301628",
-  "espn:50312576",
-  "espn:50315471",
-  "espn:50315469",
-  "espn:50315468",
   "espn:50315423",
   "espn:50298871",
   "espn:50315431",
@@ -399,17 +393,23 @@
   "espn:50399783",
   "espn:50399679",
   "gnews:Four Major Leagues, WNBA Finals Share a ",
-  "gnews:Sports Equinox Parlay: NFL, MLB, NBA & N"
+  "gnews:Sports Equinox Parlay: NFL, MLB, NBA & N",
+  "espn:50402899",
+  "espn:50402740",
+  "espn:50402463",
+  "espn:50402162",
+  "espn:50402041",
+  "espn:50402128"
  ],
  "recent_topics": [
-  "Brewers edge Rays in dramatic 11th, with Sierra's clutch double sending the ball to the outfield\u2014an instant fireworks finale.",
   "Watch the flame as a razor\u2011thin dash past the outfield carts, sending Brewers roaring toward a heated Game 5 tilt.",
   "Brewers nail a clutch three, Rays slump, leaving the series on a razor\u2011edge showdown.",
   "Brewers claw back from a 10\u2011run deficit in Game 5, proving their playoff resilience with a stunning comeback!",
   "Brewers\u2019 Game 5 showcase: a ninth\u2011inning double that sliced through Rays\u2019 defense, turning a tense slugfest into a slapstick finish.",
   "Brewers turned the tide with a razor\u2011sharp 2\u2011run double that left the Rays scrambling in Game 5.",
   "Brewers clawed back after a wild 7th\u2011inning line drive that sent the Rays scrambling, clinching a hard\u2011earned win!",
-  "That break\u2011away in Game 5 turned Tampa\u2019s bullpen upside\u2011down, leaving the Rays as if they\u2019d just swapped gears."
+  "That break\u2011away in Game 5 turned Tampa\u2019s bullpen upside\u2011down, leaving the Rays as if they\u2019d just swapped gears.",
+  "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two."
  ],
  "used_highlight_pks": [
   849818,

@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T20:44:18.370039+00:00",
+ "generated": "2026-11-07T00:25:27.098016+00:00",
  "version": 2,
  "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50401571",
-  "title": "Ex-NBA player Ed Davis expected to change plea to guilty in sports betting case",
-  "source": "ESPN NBA",
-  "age_min": 3.670881383333333
+  "id": "espn:50402740",
+  "title": "Seahawks' Quenton Nelson, Sam Darnold among starters ruled out",
+  "source": "ESPN NFL",
+  "age_min": 0.9501902666666666
  },
  "games": [
   {
@@ -73,20 +73,20 @@
    "league": "NBA",
    "name": "WSH @ ATL",
    "away": "WSH",
-   "away_score": "0",
+   "away_score": "12",
    "home": "ATL",
-   "home_score": "0",
-   "status": "11/6 - 7:00 PM EST",
+   "home_score": "20",
+   "status": "5:40 - 1st",
    "date": "2026-11-07T00:00Z"
   },
   {
    "league": "NBA",
    "name": "BOS @ CHA",
    "away": "BOS",
-   "away_score": "0",
+   "away_score": "21",
    "home": "CHA",
-   "home_score": "0",
-   "status": "11/6 - 7:00 PM EST",
+   "home_score": "9",
+   "status": "5:52 - 1st",
    "date": "2026-11-07T00:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1247h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1251h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 74817
+   "data_age_min": 75039
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1247h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1251h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 74817
+   "data_age_min": 75039
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1247h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1251h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 74817
+   "data_age_min": 75039
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Ex-NBA player Ed Davis expected to change plea to guilty in sports betting case",
+  "BREAKING: Seahawks' Quenton Nelson, Sam Darnold among starters ruled out",
   "JAX 33 - BAL 10 (Final)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1247h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1247h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1247h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1251h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1251h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1251h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "That break\u2011away in Game 5 turned Tampa\u2019s bullpen upside\u2011down, leaving the Rays as if they\u2019d just swapped gears."
+  "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two."
  ],
- "script_hint": "That break\u2011away in Game 5 turned Tampa\u2019s bullpen upside\u2011down, leaving the Rays as if they\u2019d just swapped gears.  [brain]"
+ "script_hint": "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two.  [brain]"
 }
