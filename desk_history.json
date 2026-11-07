@@ -1,9 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50321421",
-  "espn:50323927",
-  "espn:50322459",
-  "espn:50323203",
   "espn:50323084",
   "espn:50322754",
   "espn:50322617",
@@ -399,17 +395,21 @@
   "espn:50405889",
   "espn:50405888",
   "espn:50405887",
-  "espn:50405886"
+  "espn:50405886",
+  "espn:50392079",
+  "espn:50392774",
+  "espn:50391882",
+  "gnews:The 2026 Sports Equinox is here: How to "
  ],
  "recent_topics": [
-  "Brewers claw back from a 10\u2011run deficit in Game 5, proving their playoff resilience with a stunning comeback!",
   "Brewers\u2019 Game 5 showcase: a ninth\u2011inning double that sliced through Rays\u2019 defense, turning a tense slugfest into a slapstick finish.",
   "Brewers turned the tide with a razor\u2011sharp 2\u2011run double that left the Rays scrambling in Game 5.",
   "Brewers clawed back after a wild 7th\u2011inning line drive that sent the Rays scrambling, clinching a hard\u2011earned win!",
   "That break\u2011away in Game 5 turned Tampa\u2019s bullpen upside\u2011down, leaving the Rays as if they\u2019d just swapped gears.",
   "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two.",
   "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling.",
-  "That blistering fourth\u2011inning rally turns a Brewers\u2019 slow crawl into a Rays\u2019 roar, leaving the ballpark buzzing in disbelief."
+  "That blistering fourth\u2011inning rally turns a Brewers\u2019 slow crawl into a Rays\u2019 roar, leaving the ballpark buzzing in disbelief.",
+  "Chandler Simpson knocks a double, but Tommy Pham\u2019s impossible out leaves the Rays clueless, every eye on a spark\u2011hot steal!"
  ],
  "used_highlight_pks": [
   849818,
