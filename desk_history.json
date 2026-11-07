@@ -1,17 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50318544",
-  "espn:35437997",
-  "espn:50318017",
-  "espn:50317928",
-  "espn:50322217",
-  "espn:50322138",
-  "espn:50322075",
-  "espn:50322011",
-  "espn:50322007",
-  "espn:50322006",
-  "espn:50320717",
-  "espn:50321553",
   "espn:50321421",
   "espn:50323927",
   "espn:50322459",
@@ -399,17 +387,29 @@
   "espn:50405411",
   "espn:50403894",
   "espn:50403554",
-  "espn:50402459"
+  "espn:50402459",
+  "espn:50403627",
+  "espn:50403440",
+  "espn:50400748",
+  "espn:50390199",
+  "espn:50389499",
+  "espn:50402286",
+  "espn:50406171",
+  "espn:50406079",
+  "espn:50405889",
+  "espn:50405888",
+  "espn:50405887",
+  "espn:50405886"
  ],
  "recent_topics": [
-  "Brewers nail a clutch three, Rays slump, leaving the series on a razor\u2011edge showdown.",
   "Brewers claw back from a 10\u2011run deficit in Game 5, proving their playoff resilience with a stunning comeback!",
   "Brewers\u2019 Game 5 showcase: a ninth\u2011inning double that sliced through Rays\u2019 defense, turning a tense slugfest into a slapstick finish.",
   "Brewers turned the tide with a razor\u2011sharp 2\u2011run double that left the Rays scrambling in Game 5.",
   "Brewers clawed back after a wild 7th\u2011inning line drive that sent the Rays scrambling, clinching a hard\u2011earned win!",
   "That break\u2011away in Game 5 turned Tampa\u2019s bullpen upside\u2011down, leaving the Rays as if they\u2019d just swapped gears.",
   "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two.",
-  "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling."
+  "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling.",
+  "That blistering fourth\u2011inning rally turns a Brewers\u2019 slow crawl into a Rays\u2019 roar, leaving the ballpark buzzing in disbelief."
  ],
  "used_highlight_pks": [
   849818,

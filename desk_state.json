@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T06:26:04.078648+00:00",
+ "generated": "2026-11-07T13:27:19.703947+00:00",
  "version": 2,
  "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50405530",
-  "title": "Luka goes off for 53 points to lead Lakers past Trail Blazers",
-  "source": "ESPN NBA",
-  "age_min": 8.0120262
+  "id": "espn:50403627",
+  "title": "Sources: Colts among several NFL teams mulling trade offers as deadline looms",
+  "source": "ESPN NFL",
+  "age_min": 7.465032683333333
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1257h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1264h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 75399
+   "data_age_min": 75820
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1257h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1264h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 75399
+   "data_age_min": 75820
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1257h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1264h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 75399
+   "data_age_min": 75820
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Luka goes off for 53 points to lead Lakers past Trail Blazers",
+  "BREAKING: Sources: Colts among several NFL teams mulling trade offers as deadline looms",
   "JAX 33 - BAL 10 (Final)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1257h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1257h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1257h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1264h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1264h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1264h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling."
+  "That blistering fourth\u2011inning rally turns a Brewers\u2019 slow crawl into a Rays\u2019 roar, leaving the ballpark buzzing in disbelief."
  ],
- "script_hint": "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling.  [brain]"
+ "script_hint": "That blistering fourth\u2011inning rally turns a Brewers\u2019 slow crawl into a Rays\u2019 roar, leaving the ballpark buzzing in disbelief.  [brain]"
 }
