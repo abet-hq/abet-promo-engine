@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T00:25:27.098016+00:00",
+ "generated": "2026-11-07T06:26:04.078648+00:00",
  "version": 2,
  "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50402740",
-  "title": "Seahawks' Quenton Nelson, Sam Darnold among starters ruled out",
-  "source": "ESPN NFL",
-  "age_min": 0.9501902666666666
+  "id": "espn:50405530",
+  "title": "Luka goes off for 53 points to lead Lakers past Trail Blazers",
+  "source": "ESPN NBA",
+  "age_min": 8.0120262
  },
  "games": [
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "WSH @ ATL",
    "away": "WSH",
-   "away_score": "12",
+   "away_score": "132",
    "home": "ATL",
-   "home_score": "20",
-   "status": "5:40 - 1st",
+   "home_score": "139",
+   "status": "Final",
    "date": "2026-11-07T00:00Z"
   },
   {
    "league": "NBA",
    "name": "BOS @ CHA",
    "away": "BOS",
-   "away_score": "21",
+   "away_score": "119",
    "home": "CHA",
-   "home_score": "9",
-   "status": "5:52 - 1st",
+   "home_score": "80",
+   "status": "Final",
    "date": "2026-11-07T00:00Z"
   },
   {
    "league": "NBA",
    "name": "PHI @ CLE",
    "away": "PHI",
-   "away_score": "0",
+   "away_score": "95",
    "home": "CLE",
-   "home_score": "0",
-   "status": "11/6 - 7:30 PM EST",
+   "home_score": "119",
+   "status": "Final",
    "date": "2026-11-07T00:30Z"
   },
   {
    "league": "NBA",
    "name": "UTAH @ DAL",
    "away": "UTAH",
-   "away_score": "0",
+   "away_score": "100",
    "home": "DAL",
-   "home_score": "0",
-   "status": "11/6 - 8:00 PM EST",
+   "home_score": "112",
+   "status": "Final",
    "date": "2026-11-07T01:00Z"
   },
   {
    "league": "NBA",
    "name": "OKC @ MEM",
    "away": "OKC",
-   "away_score": "0",
+   "away_score": "128",
    "home": "MEM",
-   "home_score": "0",
-   "status": "11/6 - 8:00 PM EST",
+   "home_score": "97",
+   "status": "Final",
    "date": "2026-11-07T01:00Z"
   },
   {
    "league": "NBA",
    "name": "TOR @ MIL",
    "away": "TOR",
-   "away_score": "0",
+   "away_score": "121",
    "home": "MIL",
-   "home_score": "0",
-   "status": "11/6 - 8:00 PM EST",
+   "home_score": "107",
+   "status": "Final",
    "date": "2026-11-07T01:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1251h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1257h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 75039
+   "data_age_min": 75399
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1251h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1257h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 75039
+   "data_age_min": 75399
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1251h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1257h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 75039
+   "data_age_min": 75399
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Seahawks' Quenton Nelson, Sam Darnold among starters ruled out",
+  "BREAKING: Luka goes off for 53 points to lead Lakers past Trail Blazers",
   "JAX 33 - BAL 10 (Final)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1251h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1251h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1251h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1257h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1257h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1257h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two."
+  "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling."
  ],
- "script_hint": "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two.  [brain]"
+ "script_hint": "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling.  [brain]"
 }
