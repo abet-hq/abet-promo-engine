@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-07T18:14:04.555736+00:00",
+ "generated": "2026-11-07T21:58:31.126805+00:00",
  "version": 2,
  "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "gnews:The 2026 Sports Equinox is here: How to ",
-  "title": "The 2026 Sports Equinox is here: How to trade NFL, MLB, NBA, NHL at the best prediction markets - AL.com",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50412382",
+  "title": "Rob Gronkowski caps Brady-attended Patriots Hall of Fame ceremony with spike",
+  "source": "ESPN NFL",
+  "age_min": 11.778312566666667
  },
  "games": [
   {
@@ -162,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1268h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1272h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 76107
+   "data_age_min": 76331
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1268h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1272h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 76107
+   "data_age_min": 76331
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1268h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1272h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 76107
+   "data_age_min": 76331
   }
  ],
  "sources": {
@@ -190,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: The 2026 Sports Equinox is here: How to trade NFL, MLB, NBA, NHL at the best prediction markets - AL.com",
+  "BREAKING: Rob Gronkowski caps Brady-attended Patriots Hall of Fame ceremony with spike",
   "JAX 33 - BAL 10 (Final)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1268h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1268h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1268h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1272h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1272h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1272h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Chandler Simpson knocks a double, but Tommy Pham\u2019s impossible out leaves the Rays clueless, every eye on a spark\u2011hot steal!"
+  "Brewers unleashed a 7th\u2011inning outburst\u2014seventeen hits and five runs\u2014crushing the Rays\u2019 comeback hopes."
  ],
- "script_hint": "Chandler Simpson knocks a double, but Tommy Pham\u2019s impossible out leaves the Rays clueless, every eye on a spark\u2011hot steal!  [brain]"
+ "script_hint": "Brewers unleashed a 7th\u2011inning outburst\u2014seventeen hits and five runs\u2014crushing the Rays\u2019 comeback hopes.  [brain]"
 }
