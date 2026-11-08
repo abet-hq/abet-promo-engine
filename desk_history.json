@@ -1,15 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50323937",
-  "gnews:This Week in Sports Trivia: Oct. 29, 202",
-  "espn:49965396",
-  "espn:50328337",
-  "espn:50328333",
-  "espn:50328325",
-  "espn:50328239",
-  "espn:50328162",
-  "espn:50322550",
-  "espn:50308763",
   "espn:49577473",
   "espn:35438162",
   "espn:50319156",
@@ -399,17 +389,27 @@
   "espn:50417884",
   "espn:50417467",
   "espn:50419727",
-  "espn:50401786"
+  "espn:50401786",
+  "espn:50422850",
+  "espn:50422832",
+  "espn:50422793",
+  "espn:50422661",
+  "espn:50409762",
+  "espn:50422166",
+  "espn:50422647",
+  "espn:50422499",
+  "espn:50392857",
+  "espn:50420169"
  ],
  "recent_topics": [
-  "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two.",
   "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling.",
   "That blistering fourth\u2011inning rally turns a Brewers\u2019 slow crawl into a Rays\u2019 roar, leaving the ballpark buzzing in disbelief.",
   "Chandler Simpson knocks a double, but Tommy Pham\u2019s impossible out leaves the Rays clueless, every eye on a spark\u2011hot steal!",
   "Brewers unleashed a 7th\u2011inning outburst\u2014seventeen hits and five runs\u2014crushing the Rays\u2019 comeback hopes.",
   "Brewers bulldoze Rays, smacking home a nine\u2011run surge in Game 5 that leaves Tampa\u2019s bats iced and hollow.",
   "What a blowout\u2014Brewers dominate Rays with explosive offense, 20\u20113, leaving the Rays in tatters.",
-  "Brewers slam a 2\u2011run homer in the 8th, flagging the Rays' hope and turning a close game into a statement."
+  "Brewers slam a 2\u2011run homer in the 8th, flagging the Rays' hope and turning a close game into a statement.",
+  "Brewers erupt in Game 5, slicing the Rays\u2019 hopes into a crisp 10\u20113 ballet\u2014tousle\u2011ball by the down\u2011right, leaving fans stunned!"
  ],
  "used_highlight_pks": [
   849818,

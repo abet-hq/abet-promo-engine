@@ -1,133 +1,133 @@
 {
- "generated": "2026-11-08T14:51:29.054234+00:00",
+ "generated": "2026-11-08T19:23:37.397798+00:00",
  "version": 2,
- "ticker": "NFL: CIN 7 - ATL 7 8:49 - 1st  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST  //  NFL: CLE 0 - NO 0 11/8 - 1:00 PM EST",
+ "ticker": "NFL: DAL 10 - IND 7 2:00 - 2nd  //  NFL: NYJ 12 - KC 14 1:33 - 2nd  //  NFL: DET 6 - MIA 3 Halftime  //  NFL: CLE 3 - NO 3 Halftime  //  NFL: NYG 6 - PHI 8 2:42 - 2nd",
  "breaking": {
-  "id": "espn:50419727",
-  "title": "J.J. McCarthy wowing Giants after initial concerns over QB's 'maturity,' VP says",
+  "id": "espn:50422166",
+  "title": "Burrow powers Bengals past the Falcons in Madrid for their 4th straight win",
   "source": "ESPN NFL",
-  "age_min": 27.749307966666667
+  "age_min": 1.7235057500000002
  },
  "games": [
   {
    "league": "NFL",
-   "name": "CIN VS ATL",
-   "away": "CIN",
-   "away_score": "7",
-   "home": "ATL",
-   "home_score": "7",
-   "status": "8:49 - 1st",
-   "date": "2026-11-08T14:30Z"
-  },
-  {
-   "league": "NFL",
    "name": "DAL @ IND",
    "away": "DAL",
-   "away_score": "0",
+   "away_score": "10",
    "home": "IND",
-   "home_score": "0",
-   "status": "11/8 - 1:00 PM EST",
+   "home_score": "7",
+   "status": "2:00 - 2nd",
    "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NFL",
    "name": "NYJ @ KC",
    "away": "NYJ",
-   "away_score": "0",
+   "away_score": "12",
    "home": "KC",
-   "home_score": "0",
-   "status": "11/8 - 1:00 PM EST",
+   "home_score": "14",
+   "status": "1:33 - 2nd",
    "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NFL",
    "name": "DET @ MIA",
    "away": "DET",
-   "away_score": "0",
+   "away_score": "6",
    "home": "MIA",
-   "home_score": "0",
-   "status": "11/8 - 1:00 PM EST",
+   "home_score": "3",
+   "status": "Halftime",
    "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NFL",
    "name": "CLE @ NO",
    "away": "CLE",
-   "away_score": "0",
+   "away_score": "3",
    "home": "NO",
-   "home_score": "0",
-   "status": "11/8 - 1:00 PM EST",
+   "home_score": "3",
+   "status": "Halftime",
    "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NFL",
    "name": "NYG @ PHI",
    "away": "NYG",
-   "away_score": "0",
+   "away_score": "6",
    "home": "PHI",
-   "home_score": "0",
-   "status": "11/8 - 1:00 PM EST",
+   "home_score": "8",
+   "status": "2:42 - 2nd",
+   "date": "2026-11-08T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "LAR @ WSH",
+   "away": "LAR",
+   "away_score": "3",
+   "home": "WSH",
+   "home_score": "10",
+   "status": "0:06 - 2nd",
    "date": "2026-11-08T18:00Z"
   },
   {
    "league": "NBA",
-   "name": "DEN VS IND",
-   "away": "DEN",
-   "away_score": "114",
-   "home": "IND",
-   "home_score": "102",
-   "status": "Final",
-   "date": "2026-11-07T22:00Z"
+   "name": "PHI @ CHI",
+   "away": "PHI",
+   "away_score": "0",
+   "home": "CHI",
+   "home_score": "0",
+   "status": "11/8 - 3:30 PM EST",
+   "date": "2026-11-08T20:30Z"
   },
   {
    "league": "NBA",
-   "name": "BKN @ ATL",
+   "name": "LAL @ DET",
+   "away": "LAL",
+   "away_score": "0",
+   "home": "DET",
+   "home_score": "0",
+   "status": "11/8 - 6:00 PM EST",
+   "date": "2026-11-08T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "UTAH @ MIN",
+   "away": "UTAH",
+   "away_score": "0",
+   "home": "MIN",
+   "home_score": "0",
+   "status": "11/8 - 7:00 PM EST",
+   "date": "2026-11-09T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "BKN @ DAL",
    "away": "BKN",
-   "away_score": "121",
-   "home": "ATL",
-   "home_score": "124",
-   "status": "Final",
-   "date": "2026-11-08T00:30Z"
+   "away_score": "0",
+   "home": "DAL",
+   "home_score": "0",
+   "status": "11/8 - 7:30 PM EST",
+   "date": "2026-11-09T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "NY @ CLE",
-   "away": "NY",
-   "away_score": "109",
-   "home": "CLE",
-   "home_score": "97",
-   "status": "Final",
-   "date": "2026-11-08T01:00Z"
+   "name": "BOS @ MIL",
+   "away": "BOS",
+   "away_score": "0",
+   "home": "MIL",
+   "home_score": "0",
+   "status": "11/8 - 8:00 PM EST",
+   "date": "2026-11-09T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "WSH @ OKC",
-   "away": "WSH",
-   "away_score": "75",
-   "home": "OKC",
-   "home_score": "114",
-   "status": "Final",
-   "date": "2026-11-08T01:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "ORL @ GS",
-   "away": "ORL",
-   "away_score": "119",
-   "home": "GS",
-   "home_score": "126",
-   "status": "Final/OT",
-   "date": "2026-11-08T01:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "HOU @ PHX",
-   "away": "HOU",
-   "away_score": "99",
-   "home": "PHX",
-   "home_score": "102",
-   "status": "Final",
-   "date": "2026-11-08T02:00Z"
+   "name": "NO @ LAC",
+   "away": "NO",
+   "away_score": "0",
+   "home": "LAC",
+   "home_score": "0",
+   "status": "11/8 - 9:00 PM EST",
+   "date": "2026-11-09T02:00Z"
   },
   {
    "league": "MLB",
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1289h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1294h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 77344
+   "data_age_min": 77617
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1289h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1294h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 77344
+   "data_age_min": 77617
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1289h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1294h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 77344
+   "data_age_min": 77617
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: J.J. McCarthy wowing Giants after initial concerns over QB's 'maturity,' VP says",
-  "CIN 7 - ATL 7 (8:49 - 1st)",
-  "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
-  "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "DET 0 - MIA 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1289h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1289h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1289h old]",
+  "BREAKING: Burrow powers Bengals past the Falcons in Madrid for their 4th straight win",
+  "DAL 10 - IND 7 (2:00 - 2nd)",
+  "NYJ 12 - KC 14 (1:33 - 2nd)",
+  "DET 6 - MIA 3 (Halftime)",
+  "CLE 3 - NO 3 (Halftime)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1294h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1294h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1294h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers slam a 2\u2011run homer in the 8th, flagging the Rays' hope and turning a close game into a statement."
+  "Brewers erupt in Game 5, slicing the Rays\u2019 hopes into a crisp 10\u20113 ballet\u2014tousle\u2011ball by the down\u2011right, leaving fans stunned!"
  ],
- "script_hint": "Brewers slam a 2\u2011run homer in the 8th, flagging the Rays' hope and turning a close game into a statement.  [brain]"
+ "script_hint": "Brewers erupt in Game 5, slicing the Rays\u2019 hopes into a crisp 10\u20113 ballet\u2014tousle\u2011ball by the down\u2011right, leaving fans stunned!  [brain]"
 }
