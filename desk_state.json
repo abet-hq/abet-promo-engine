@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T21:58:31.126805+00:00",
+ "generated": "2026-11-08T01:17:32.093629+00:00",
  "version": 2,
  "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 0 - ATL 0 11/8 - 9:30 AM EST  //  NFL: DAL 0 - IND 0 11/8 - 1:00 PM EST  //  NFL: NYJ 0 - KC 0 11/8 - 1:00 PM EST  //  NFL: DET 0 - MIA 0 11/8 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50412382",
-  "title": "Rob Gronkowski caps Brady-attended Patriots Hall of Fame ceremony with spike",
-  "source": "ESPN NFL",
-  "age_min": 11.778312566666667
+  "id": "espn:50414733",
+  "title": "Nuggets beat the Pacers 114-102 in Mexico City behind Nikola Jokic's 19 points",
+  "source": "ESPN NBA",
+  "age_min": 17.37427296666667
  },
  "games": [
   {
@@ -73,30 +73,30 @@
    "league": "NBA",
    "name": "DEN VS IND",
    "away": "DEN",
-   "away_score": "0",
+   "away_score": "114",
    "home": "IND",
-   "home_score": "0",
-   "status": "11/7 - 5:00 PM EST",
+   "home_score": "102",
+   "status": "Final",
    "date": "2026-11-07T22:00Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ ATL",
    "away": "BKN",
-   "away_score": "0",
+   "away_score": "42",
    "home": "ATL",
-   "home_score": "0",
-   "status": "11/7 - 7:30 PM EST",
+   "home_score": "32",
+   "status": "9:17 - 2nd",
    "date": "2026-11-08T00:30Z"
   },
   {
    "league": "NBA",
    "name": "NY @ CLE",
    "away": "NY",
-   "away_score": "0",
+   "away_score": "4",
    "home": "CLE",
-   "home_score": "0",
-   "status": "11/7 - 8:00 PM EST",
+   "home_score": "4",
+   "status": "9:51 - 1st",
    "date": "2026-11-08T01:00Z"
   },
   {
@@ -105,8 +105,8 @@
    "away": "WSH",
    "away_score": "0",
    "home": "OKC",
-   "home_score": "0",
-   "status": "11/7 - 8:00 PM EST",
+   "home_score": "4",
+   "status": "9:54 - 1st",
    "date": "2026-11-08T01:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1272h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1276h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 76331
+   "data_age_min": 76530
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1272h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1276h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 76331
+   "data_age_min": 76530
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1272h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1276h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 76331
+   "data_age_min": 76530
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Rob Gronkowski caps Brady-attended Patriots Hall of Fame ceremony with spike",
+  "BREAKING: Nuggets beat the Pacers 114-102 in Mexico City behind Nikola Jokic's 19 points",
   "JAX 33 - BAL 10 (Final)",
   "CIN 0 - ATL 0 (11/8 - 9:30 AM EST)",
   "DAL 0 - IND 0 (11/8 - 1:00 PM EST)",
   "NYJ 0 - KC 0 (11/8 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1272h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1272h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1272h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1276h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1276h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1276h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers unleashed a 7th\u2011inning outburst\u2014seventeen hits and five runs\u2014crushing the Rays\u2019 comeback hopes."
+  "Brewers bulldoze Rays, smacking home a nine\u2011run surge in Game 5 that leaves Tampa\u2019s bats iced and hollow."
  ],
- "script_hint": "Brewers unleashed a 7th\u2011inning outburst\u2014seventeen hits and five runs\u2014crushing the Rays\u2019 comeback hopes.  [brain]"
+ "script_hint": "Brewers bulldoze Rays, smacking home a nine\u2011run surge in Game 5 that leaves Tampa\u2019s bats iced and hollow.  [brain]"
 }
