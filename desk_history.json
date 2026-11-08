@@ -1,7 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50325662",
-  "espn:50325356",
   "espn:50323937",
   "gnews:This Week in Sports Trivia: Oct. 29, 202",
   "espn:49965396",
@@ -399,17 +397,19 @@
   "espn:50417886",
   "espn:50417885",
   "espn:50417884",
-  "espn:50417467"
+  "espn:50417467",
+  "espn:50419727",
+  "espn:50401786"
  ],
  "recent_topics": [
-  "That break\u2011away in Game 5 turned Tampa\u2019s bullpen upside\u2011down, leaving the Rays as if they\u2019d just swapped gears.",
   "Brewers rip a two\u2011run triple in the seventh, snatching a razor\u2011sharp win and flipping the series to three\u2011to\u2011two.",
   "The Brewers' late rally crushed the Rays, turning Game 5 into a domino demolition that left Florida scrambling.",
   "That blistering fourth\u2011inning rally turns a Brewers\u2019 slow crawl into a Rays\u2019 roar, leaving the ballpark buzzing in disbelief.",
   "Chandler Simpson knocks a double, but Tommy Pham\u2019s impossible out leaves the Rays clueless, every eye on a spark\u2011hot steal!",
   "Brewers unleashed a 7th\u2011inning outburst\u2014seventeen hits and five runs\u2014crushing the Rays\u2019 comeback hopes.",
   "Brewers bulldoze Rays, smacking home a nine\u2011run surge in Game 5 that leaves Tampa\u2019s bats iced and hollow.",
-  "What a blowout\u2014Brewers dominate Rays with explosive offense, 20\u20113, leaving the Rays in tatters."
+  "What a blowout\u2014Brewers dominate Rays with explosive offense, 20\u20113, leaving the Rays in tatters.",
+  "Brewers slam a 2\u2011run homer in the 8th, flagging the Rays' hope and turning a close game into a statement."
  ],
  "used_highlight_pks": [
   849818,
