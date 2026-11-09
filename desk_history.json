@@ -1,16 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50329901",
-  "espn:50329588",
-  "espn:50329298",
-  "espn:50328871",
-  "espn:50324957",
-  "espn:50329834",
-  "espn:50329386",
-  "espn:50322529",
-  "espn:50329191",
-  "espn:50328443",
-  "gnews:Valkyries, Warriors are part of rare spo",
   "espn:50289130",
   "espn:50331045",
   "espn:50330916",
@@ -399,17 +388,28 @@
   "espn:50425557",
   "espn:50426218",
   "espn:50425681",
-  "espn:50423627"
+  "espn:50423627",
+  "espn:50428624",
+  "espn:50428583",
+  "espn:49545945",
+  "espn:50428280",
+  "espn:50426396",
+  "espn:50428361",
+  "espn:50428357",
+  "espn:50427885",
+  "espn:50426881",
+  "espn:50426497",
+  "espn:50426236"
  ],
  "recent_topics": [
-  "That blistering fourth\u2011inning rally turns a Brewers\u2019 slow crawl into a Rays\u2019 roar, leaving the ballpark buzzing in disbelief.",
   "Chandler Simpson knocks a double, but Tommy Pham\u2019s impossible out leaves the Rays clueless, every eye on a spark\u2011hot steal!",
   "Brewers unleashed a 7th\u2011inning outburst\u2014seventeen hits and five runs\u2014crushing the Rays\u2019 comeback hopes.",
   "Brewers bulldoze Rays, smacking home a nine\u2011run surge in Game 5 that leaves Tampa\u2019s bats iced and hollow.",
   "What a blowout\u2014Brewers dominate Rays with explosive offense, 20\u20113, leaving the Rays in tatters.",
   "Brewers slam a 2\u2011run homer in the 8th, flagging the Rays' hope and turning a close game into a statement.",
   "Brewers erupt in Game 5, slicing the Rays\u2019 hopes into a crisp 10\u20113 ballet\u2014tousle\u2011ball by the down\u2011right, leaving fans stunned!",
-  "Jon Buehler\u2019s 0.67 ERA obliterates Rays, handing Brewers a crushing Game 5 win that seals the series."
+  "Jon Buehler\u2019s 0.67 ERA obliterates Rays, handing Brewers a crushing Game 5 win that seals the series.",
+  "Brewers\u2019 late\u2011night knock really snapped the Rays, turning a close game into a textbook collapse."
  ],
  "used_highlight_pks": [
   849818,

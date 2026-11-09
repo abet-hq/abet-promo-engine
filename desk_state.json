@@ -1,53 +1,23 @@
 {
- "generated": "2026-11-08T23:01:43.363128+00:00",
+ "generated": "2026-11-09T02:40:34.782581+00:00",
  "version": 2,
- "ticker": "NFL: HOU 24 - LAC 9 14:18 - 3rd  //  NFL: GB 24 - NE 14 1:13 - 2nd  //  NFL: LV 17 - SF 28 9:29 - 3rd  //  NFL: ARI 3 - SEA 14 Halftime  //  NFL: CIN 34 - ATL 17 Final",
+ "ticker": "NFL: TB 3 - CHI 17 2:00 - 2nd  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final  //  NFL: DET 19 - MIA 9 Final",
  "breaking": {
-  "id": "espn:50426218",
-  "title": "Brown, Maxey and James combine for 78 points in 76ers' 127-121 win over Bulls",
-  "source": "ESPN NBA",
-  "age_min": 2.6413391666666666
+  "id": "espn:50428583",
+  "title": "49ers lose DT Gracen Halton to season-ending ankle fracture",
+  "source": "ESPN NFL",
+  "age_min": 2.9656542833333335
  },
  "games": [
   {
    "league": "NFL",
-   "name": "HOU @ LAC",
-   "away": "HOU",
-   "away_score": "24",
-   "home": "LAC",
-   "home_score": "9",
-   "status": "14:18 - 3rd",
-   "date": "2026-11-08T21:05Z"
-  },
-  {
-   "league": "NFL",
-   "name": "GB @ NE",
-   "away": "GB",
-   "away_score": "24",
-   "home": "NE",
-   "home_score": "14",
-   "status": "1:13 - 2nd",
-   "date": "2026-11-08T21:25Z"
-  },
-  {
-   "league": "NFL",
-   "name": "LV @ SF",
-   "away": "LV",
-   "away_score": "17",
-   "home": "SF",
-   "home_score": "28",
-   "status": "9:29 - 3rd",
-   "date": "2026-11-08T21:25Z"
-  },
-  {
-   "league": "NFL",
-   "name": "ARI @ SEA",
-   "away": "ARI",
+   "name": "TB @ CHI",
+   "away": "TB",
    "away_score": "3",
-   "home": "SEA",
-   "home_score": "14",
-   "status": "Halftime",
-   "date": "2026-11-08T21:25Z"
+   "home": "CHI",
+   "home_score": "17",
+   "status": "2:00 - 2nd",
+   "date": "2026-11-09T01:20Z"
   },
   {
    "league": "NFL",
@@ -70,6 +40,36 @@
    "date": "2026-11-08T18:00Z"
   },
   {
+   "league": "NFL",
+   "name": "NYJ @ KC",
+   "away": "NYJ",
+   "away_score": "12",
+   "home": "KC",
+   "home_score": "35",
+   "status": "Final",
+   "date": "2026-11-08T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "DET @ MIA",
+   "away": "DET",
+   "away_score": "19",
+   "home": "MIA",
+   "home_score": "9",
+   "status": "Final",
+   "date": "2026-11-08T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "CLE @ NO",
+   "away": "CLE",
+   "away_score": "22",
+   "home": "NO",
+   "home_score": "23",
+   "status": "Final/OT",
+   "date": "2026-11-08T18:00Z"
+  },
+  {
    "league": "NBA",
    "name": "PHI @ CHI",
    "away": "PHI",
@@ -83,50 +83,50 @@
    "league": "NBA",
    "name": "LAL @ DET",
    "away": "LAL",
-   "away_score": "0",
+   "away_score": "121",
    "home": "DET",
-   "home_score": "0",
-   "status": "11/8 - 6:00 PM EST",
+   "home_score": "116",
+   "status": "Final",
    "date": "2026-11-08T23:00Z"
   },
   {
    "league": "NBA",
    "name": "UTAH @ MIN",
    "away": "UTAH",
-   "away_score": "0",
+   "away_score": "100",
    "home": "MIN",
-   "home_score": "0",
-   "status": "11/8 - 7:00 PM EST",
+   "home_score": "115",
+   "status": "Final",
    "date": "2026-11-09T00:00Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ DAL",
    "away": "BKN",
-   "away_score": "0",
+   "away_score": "71",
    "home": "DAL",
-   "home_score": "0",
-   "status": "11/8 - 7:30 PM EST",
+   "home_score": "103",
+   "status": "11:25 - 4th",
    "date": "2026-11-09T00:30Z"
   },
   {
    "league": "NBA",
    "name": "BOS @ MIL",
    "away": "BOS",
-   "away_score": "0",
+   "away_score": "78",
    "home": "MIL",
-   "home_score": "0",
-   "status": "11/8 - 8:00 PM EST",
+   "home_score": "60",
+   "status": "4:34 - 3rd",
    "date": "2026-11-09T01:00Z"
   },
   {
    "league": "NBA",
    "name": "NO @ LAC",
    "away": "NO",
-   "away_score": "0",
+   "away_score": "28",
    "home": "LAC",
-   "home_score": "0",
-   "status": "11/8 - 9:00 PM EST",
+   "home_score": "28",
+   "status": "End of 1st",
    "date": "2026-11-09T02:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1297h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1301h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 77835
+   "data_age_min": 78053
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1297h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1301h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 77835
+   "data_age_min": 78053
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1297h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1301h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 77835
+   "data_age_min": 78053
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Brown, Maxey and James combine for 78 points in 76ers' 127-121 win over Bulls",
-  "HOU 24 - LAC 9 (14:18 - 3rd)",
-  "GB 24 - NE 14 (1:13 - 2nd)",
-  "LV 17 - SF 28 (9:29 - 3rd)",
-  "ARI 3 - SEA 14 (Halftime)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1297h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1297h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1297h old]",
+  "BREAKING: 49ers lose DT Gracen Halton to season-ending ankle fracture",
+  "TB 3 - CHI 17 (2:00 - 2nd)",
+  "CIN 34 - ATL 17 (Final)",
+  "DAL 27 - IND 23 (Final)",
+  "NYJ 12 - KC 35 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1301h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1301h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1301h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Jon Buehler\u2019s 0.67 ERA obliterates Rays, handing Brewers a crushing Game 5 win that seals the series."
+  "Brewers\u2019 late\u2011night knock really snapped the Rays, turning a close game into a textbook collapse."
  ],
- "script_hint": "Jon Buehler\u2019s 0.67 ERA obliterates Rays, handing Brewers a crushing Game 5 win that seals the series.  [brain]"
+ "script_hint": "Brewers\u2019 late\u2011night knock really snapped the Rays, turning a close game into a textbook collapse.  [brain]"
 }
