@@ -1,23 +1,28 @@
 {
- "generated": "2026-11-09T02:40:34.782581+00:00",
+ "generated": "2026-11-09T10:23:26.549639+00:00",
  "version": 2,
- "ticker": "NFL: TB 3 - CHI 17 2:00 - 2nd  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final  //  NFL: DET 19 - MIA 9 Final",
- "breaking": {
-  "id": "espn:50428583",
-  "title": "49ers lose DT Gracen Halton to season-ending ankle fracture",
-  "source": "ESPN NFL",
-  "age_min": 2.9656542833333335
- },
+ "ticker": "NFL: BUF 0 - MIN 0 11/9 - 8:15 PM EST  //  NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final",
+ "breaking": null,
  "games": [
   {
    "league": "NFL",
-   "name": "TB @ CHI",
-   "away": "TB",
-   "away_score": "3",
-   "home": "CHI",
-   "home_score": "17",
-   "status": "2:00 - 2nd",
-   "date": "2026-11-09T01:20Z"
+   "name": "BUF @ MIN",
+   "away": "BUF",
+   "away_score": "0",
+   "home": "MIN",
+   "home_score": "0",
+   "status": "11/9 - 8:15 PM EST",
+   "date": "2026-11-10T01:15Z"
+  },
+  {
+   "league": "NFL",
+   "name": "JAX @ BAL",
+   "away": "JAX",
+   "away_score": "33",
+   "home": "BAL",
+   "home_score": "10",
+   "status": "Final",
+   "date": "2026-11-06T01:15Z"
   },
   {
    "league": "NFL",
@@ -60,16 +65,6 @@
    "date": "2026-11-08T18:00Z"
   },
   {
-   "league": "NFL",
-   "name": "CLE @ NO",
-   "away": "CLE",
-   "away_score": "22",
-   "home": "NO",
-   "home_score": "23",
-   "status": "Final/OT",
-   "date": "2026-11-08T18:00Z"
-  },
-  {
    "league": "NBA",
    "name": "PHI @ CHI",
    "away": "PHI",
@@ -103,30 +98,30 @@
    "league": "NBA",
    "name": "BKN @ DAL",
    "away": "BKN",
-   "away_score": "71",
+   "away_score": "93",
    "home": "DAL",
-   "home_score": "103",
-   "status": "11:25 - 4th",
+   "home_score": "130",
+   "status": "Final",
    "date": "2026-11-09T00:30Z"
   },
   {
    "league": "NBA",
    "name": "BOS @ MIL",
    "away": "BOS",
-   "away_score": "78",
+   "away_score": "117",
    "home": "MIL",
-   "home_score": "60",
-   "status": "4:34 - 3rd",
+   "home_score": "97",
+   "status": "Final",
    "date": "2026-11-09T01:00Z"
   },
   {
    "league": "NBA",
    "name": "NO @ LAC",
    "away": "NO",
-   "away_score": "28",
+   "away_score": "123",
    "home": "LAC",
-   "home_score": "28",
-   "status": "End of 1st",
+   "home_score": "139",
+   "status": "Final",
    "date": "2026-11-09T02:00Z"
   },
   {
@@ -161,24 +156,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1301h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1309h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 78053
+   "data_age_min": 78516
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1301h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1309h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 78053
+   "data_age_min": 78516
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1301h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1309h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 78053
+   "data_age_min": 78516
   }
  ],
  "sources": {
@@ -189,17 +184,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: 49ers lose DT Gracen Halton to season-ending ankle fracture",
-  "TB 3 - CHI 17 (2:00 - 2nd)",
+  "BUF 0 - MIN 0 (11/9 - 8:15 PM EST)",
+  "JAX 33 - BAL 10 (Final)",
   "CIN 34 - ATL 17 (Final)",
   "DAL 27 - IND 23 (Final)",
-  "NYJ 12 - KC 35 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1301h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1301h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1301h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1309h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1309h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1309h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers\u2019 late\u2011night knock really snapped the Rays, turning a close game into a textbook collapse."
+  "Game\u20115 highlight reel explodes\u2014Brewers slay the Rays, fans erupt, and the night\u2019s electric shockwave never quite abates."
  ],
- "script_hint": "Brewers\u2019 late\u2011night knock really snapped the Rays, turning a close game into a textbook collapse.  [brain]"
+ "script_hint": "Game\u20115 highlight reel explodes\u2014Brewers slay the Rays, fans erupt, and the night\u2019s electric shockwave never quite abates.  [brain]"
 }
