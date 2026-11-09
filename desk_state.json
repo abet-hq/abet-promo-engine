@@ -1,8 +1,13 @@
 {
- "generated": "2026-11-09T10:23:26.549639+00:00",
+ "generated": "2026-11-09T20:58:08.214595+00:00",
  "version": 2,
  "ticker": "NFL: BUF 0 - MIN 0 11/9 - 8:15 PM EST  //  NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final",
- "breaking": null,
+ "breaking": {
+  "id": "espn:50043471",
+  "title": "2026 NFL trade deadline updates: Andre Cisco, Davon Godchaux on the move",
+  "source": "ESPN NFL",
+  "age_min": 6.732550333333333
+ },
  "games": [
   {
    "league": "NFL",
@@ -66,63 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "PHI @ CHI",
-   "away": "PHI",
-   "away_score": "127",
-   "home": "CHI",
-   "home_score": "121",
-   "status": "Final",
-   "date": "2026-11-08T20:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "LAL @ DET",
+   "name": "LAL @ ATL",
    "away": "LAL",
-   "away_score": "121",
+   "away_score": "0",
+   "home": "ATL",
+   "home_score": "0",
+   "status": "11/9 - 7:00 PM EST",
+   "date": "2026-11-10T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "CLE @ CHA",
+   "away": "CLE",
+   "away_score": "0",
+   "home": "CHA",
+   "home_score": "0",
+   "status": "11/9 - 7:00 PM EST",
+   "date": "2026-11-10T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "WSH @ DET",
+   "away": "WSH",
+   "away_score": "0",
    "home": "DET",
-   "home_score": "116",
-   "status": "Final",
-   "date": "2026-11-08T23:00Z"
+   "home_score": "0",
+   "status": "11/9 - 7:00 PM EST",
+   "date": "2026-11-10T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "UTAH @ MIN",
-   "away": "UTAH",
-   "away_score": "100",
-   "home": "MIN",
-   "home_score": "115",
-   "status": "Final",
-   "date": "2026-11-09T00:00Z"
+   "name": "MEM @ TOR",
+   "away": "MEM",
+   "away_score": "0",
+   "home": "TOR",
+   "home_score": "0",
+   "status": "11/9 - 7:30 PM EST",
+   "date": "2026-11-10T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "BKN @ DAL",
-   "away": "BKN",
-   "away_score": "93",
+   "name": "IND @ DAL",
+   "away": "IND",
+   "away_score": "0",
    "home": "DAL",
-   "home_score": "130",
-   "status": "Final",
-   "date": "2026-11-09T00:30Z"
+   "home_score": "0",
+   "status": "11/9 - 8:00 PM EST",
+   "date": "2026-11-10T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "BOS @ MIL",
-   "away": "BOS",
-   "away_score": "117",
-   "home": "MIL",
-   "home_score": "97",
-   "status": "Final",
-   "date": "2026-11-09T01:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "NO @ LAC",
-   "away": "NO",
-   "away_score": "123",
-   "home": "LAC",
-   "home_score": "139",
-   "status": "Final",
-   "date": "2026-11-09T02:00Z"
+   "name": "DEN @ HOU",
+   "away": "DEN",
+   "away_score": "0",
+   "home": "HOU",
+   "home_score": "0",
+   "status": "11/9 - 8:30 PM EST",
+   "date": "2026-11-10T01:30Z"
   },
   {
    "league": "MLB",
@@ -156,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1309h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1319h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 78516
+   "data_age_min": 79151
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1309h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1319h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 78516
+   "data_age_min": 79151
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1309h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1319h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 78516
+   "data_age_min": 79151
   }
  ],
  "sources": {
@@ -184,16 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
+  "BREAKING: 2026 NFL trade deadline updates: Andre Cisco, Davon Godchaux on the move",
   "BUF 0 - MIN 0 (11/9 - 8:15 PM EST)",
   "JAX 33 - BAL 10 (Final)",
   "CIN 34 - ATL 17 (Final)",
   "DAL 27 - IND 23 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1309h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1309h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1309h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1319h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1319h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1319h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Game\u20115 highlight reel explodes\u2014Brewers slay the Rays, fans erupt, and the night\u2019s electric shockwave never quite abates."
+  "Rays unleash a nine\u2011run rally fueled by pinch\u2011hit heroics, leaving Brewers chasing a dream that never materializes."
  ],
- "script_hint": "Game\u20115 highlight reel explodes\u2014Brewers slay the Rays, fans erupt, and the night\u2019s electric shockwave never quite abates.  [brain]"
+ "script_hint": "Rays unleash a nine\u2011run rally fueled by pinch\u2011hit heroics, leaving Brewers chasing a dream that never materializes.  [brain]"
 }
