@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-09T20:58:08.214595+00:00",
+ "generated": "2026-11-10T03:24:24.881842+00:00",
  "version": 2,
- "ticker": "NFL: BUF 0 - MIN 0 11/9 - 8:15 PM EST  //  NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final",
+ "ticker": "NFL: BUF 10 - MIN 6 8:16 - 3rd  //  NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final",
  "breaking": {
-  "id": "espn:50043471",
-  "title": "2026 NFL trade deadline updates: Andre Cisco, Davon Godchaux on the move",
+  "id": "espn:50438482",
+  "title": "Source: Pats' Rhamondre Stevenson expected to miss time with knee tendon issue",
   "source": "ESPN NFL",
-  "age_min": 6.732550333333333
+  "age_min": 4.701778966666667
  },
  "games": [
   {
    "league": "NFL",
    "name": "BUF @ MIN",
    "away": "BUF",
-   "away_score": "0",
+   "away_score": "10",
    "home": "MIN",
-   "home_score": "0",
-   "status": "11/9 - 8:15 PM EST",
+   "home_score": "6",
+   "status": "8:16 - 3rd",
    "date": "2026-11-10T01:15Z"
   },
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "LAL @ ATL",
    "away": "LAL",
-   "away_score": "0",
+   "away_score": "124",
    "home": "ATL",
-   "home_score": "0",
-   "status": "11/9 - 7:00 PM EST",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-11-10T00:00Z"
   },
   {
    "league": "NBA",
    "name": "CLE @ CHA",
    "away": "CLE",
-   "away_score": "0",
+   "away_score": "112",
    "home": "CHA",
-   "home_score": "0",
-   "status": "11/9 - 7:00 PM EST",
+   "home_score": "124",
+   "status": "Final",
    "date": "2026-11-10T00:00Z"
   },
   {
    "league": "NBA",
    "name": "WSH @ DET",
    "away": "WSH",
-   "away_score": "0",
+   "away_score": "111",
    "home": "DET",
-   "home_score": "0",
-   "status": "11/9 - 7:00 PM EST",
+   "home_score": "122",
+   "status": "Final",
    "date": "2026-11-10T00:00Z"
   },
   {
    "league": "NBA",
    "name": "MEM @ TOR",
    "away": "MEM",
-   "away_score": "0",
+   "away_score": "118",
    "home": "TOR",
-   "home_score": "0",
-   "status": "11/9 - 7:30 PM EST",
+   "home_score": "102",
+   "status": "Final",
    "date": "2026-11-10T00:30Z"
   },
   {
    "league": "NBA",
    "name": "IND @ DAL",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "110",
    "home": "DAL",
-   "home_score": "0",
-   "status": "11/9 - 8:00 PM EST",
+   "home_score": "116",
+   "status": "3:17 - 4th",
    "date": "2026-11-10T01:00Z"
   },
   {
    "league": "NBA",
    "name": "DEN @ HOU",
    "away": "DEN",
-   "away_score": "0",
+   "away_score": "76",
    "home": "HOU",
-   "home_score": "0",
-   "status": "11/9 - 8:30 PM EST",
+   "home_score": "85",
+   "status": "9:30 - 4th",
    "date": "2026-11-10T01:30Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1319h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1326h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 79151
+   "data_age_min": 79537
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1319h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1326h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 79151
+   "data_age_min": 79537
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1319h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1326h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 79151
+   "data_age_min": 79537
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: 2026 NFL trade deadline updates: Andre Cisco, Davon Godchaux on the move",
-  "BUF 0 - MIN 0 (11/9 - 8:15 PM EST)",
+  "BREAKING: Source: Pats' Rhamondre Stevenson expected to miss time with knee tendon issue",
+  "BUF 10 - MIN 6 (8:16 - 3rd)",
   "JAX 33 - BAL 10 (Final)",
   "CIN 34 - ATL 17 (Final)",
   "DAL 27 - IND 23 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1319h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1319h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1319h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1326h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1326h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1326h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Rays unleash a nine\u2011run rally fueled by pinch\u2011hit heroics, leaving Brewers chasing a dream that never materializes."
+  "Brewers ignite a fourth\u2011inning blaze, flipping the series into a decisive Game 5 blowout."
  ],
- "script_hint": "Rays unleash a nine\u2011run rally fueled by pinch\u2011hit heroics, leaving Brewers chasing a dream that never materializes.  [brain]"
+ "script_hint": "Brewers ignite a fourth\u2011inning blaze, flipping the series into a decisive Game 5 blowout.  [brain]"
 }
