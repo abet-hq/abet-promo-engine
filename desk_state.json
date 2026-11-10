@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T18:51:20.790128+00:00",
+ "generated": "2026-11-10T23:56:13.232020+00:00",
  "version": 2,
  "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final  //  NFL: DET 19 - MIA 9 Final",
  "breaking": {
-  "id": "espn:50444457",
-  "title": "Sources: 49ers trade for Colts' Keenan Allen to bolster injury-plagued WR room",
+  "id": "espn:50446805",
+  "title": "RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
   "source": "ESPN NFL",
-  "age_min": 1.8581841833333332
+  "age_min": 27.90106581666667
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1341h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1346h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 80464
+   "data_age_min": 80769
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1341h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1346h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 80464
+   "data_age_min": 80769
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1341h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1346h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 80464
+   "data_age_min": 80769
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Sources: 49ers trade for Colts' Keenan Allen to bolster injury-plagued WR room",
+  "BREAKING: RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
   "JAX 33 - BAL 10 (Final)",
   "CIN 34 - ATL 17 (Final)",
   "DAL 27 - IND 23 (Final)",
   "NYJ 12 - KC 35 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1341h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1341h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1341h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1346h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1346h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1346h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers lose 8\u20115, yet that highlight reel\u2019s high\u2011fly single scorches the crowd\u2014flames of abandonment for the Rays."
+  "A killer eighth\u2011inning two\u2011run rally from Kubiak flips the game, leaving Rays scrambling for parity."
  ],
- "script_hint": "Brewers lose 8\u20115, yet that highlight reel\u2019s high\u2011fly single scorches the crowd\u2014flames of abandonment for the Rays.  [brain]"
+ "script_hint": "A killer eighth\u2011inning two\u2011run rally from Kubiak flips the game, leaving Rays scrambling for parity.  [brain]"
 }

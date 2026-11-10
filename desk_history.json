@@ -1,14 +1,5 @@
 {
  "seen_news_ids": [
-  "gnews:Biggest salaries across NFL, MLB & NBA i",
-  "gnews:NFL Revenue for 2025 Revealed as Teams M",
-  "espn:49804149",
-  "espn:49804273",
-  "espn:49804233",
-  "espn:50345575",
-  "espn:50345548",
-  "espn:50345547",
-  "espn:50345546",
   "espn:50345545",
   "espn:50345544",
   "gnews:How did the Golden State Valkyries make ",
@@ -399,17 +390,26 @@
   "espn:50443078",
   "espn:50442954",
   "espn:50442434",
-  "espn:50288815"
+  "espn:50288815",
+  "espn:50444528",
+  "espn:50446669",
+  "espn:49954186",
+  "espn:50446805",
+  "espn:50446131",
+  "espn:50442265",
+  "espn:50446625",
+  "espn:50446604",
+  "espn:50444991"
  ],
  "recent_topics": [
-  "Brewers erupt in Game 5, slicing the Rays\u2019 hopes into a crisp 10\u20113 ballet\u2014tousle\u2011ball by the down\u2011right, leaving fans stunned!",
   "Jon Buehler\u2019s 0.67 ERA obliterates Rays, handing Brewers a crushing Game 5 win that seals the series.",
   "Brewers\u2019 late\u2011night knock really snapped the Rays, turning a close game into a textbook collapse.",
   "Game\u20115 highlight reel explodes\u2014Brewers slay the Rays, fans erupt, and the night\u2019s electric shockwave never quite abates.",
   "Rays unleash a nine\u2011run rally fueled by pinch\u2011hit heroics, leaving Brewers chasing a dream that never materializes.",
   "Brewers ignite a fourth\u2011inning blaze, flipping the series into a decisive Game 5 blowout.",
   "After a shaky start, the Brewers\u2019 late 2\u2011run homer flipped Game 5 into a gutsy win.",
-  "Brewers lose 8\u20115, yet that highlight reel\u2019s high\u2011fly single scorches the crowd\u2014flames of abandonment for the Rays."
+  "Brewers lose 8\u20115, yet that highlight reel\u2019s high\u2011fly single scorches the crowd\u2014flames of abandonment for the Rays.",
+  "A killer eighth\u2011inning two\u2011run rally from Kubiak flips the game, leaving Rays scrambling for parity."
  ],
  "used_highlight_pks": [
   849818,
