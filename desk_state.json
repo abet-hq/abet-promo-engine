@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T11:34:01.394423+00:00",
+ "generated": "2026-11-10T18:51:20.790128+00:00",
  "version": 2,
  "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final  //  NFL: DET 19 - MIA 9 Final",
  "breaking": {
-  "id": "espn:49794361",
-  "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+  "id": "espn:50444457",
+  "title": "Sources: 49ers trade for Colts' Keenan Allen to bolster injury-plagued WR room",
   "source": "ESPN NFL",
-  "age_min": 9.106808016666667
+  "age_min": 1.8581841833333332
  },
  "games": [
   {
@@ -71,63 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "LAL @ ATL",
-   "away": "LAL",
-   "away_score": "124",
-   "home": "ATL",
-   "home_score": "114",
-   "status": "Final",
-   "date": "2026-11-10T00:00Z"
+   "name": "MIL @ NY",
+   "away": "MIL",
+   "away_score": "0",
+   "home": "NY",
+   "home_score": "0",
+   "status": "11/10 - 7:30 PM EST",
+   "date": "2026-11-11T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "CLE @ CHA",
-   "away": "CLE",
-   "away_score": "112",
-   "home": "CHA",
-   "home_score": "124",
-   "status": "Final",
-   "date": "2026-11-10T00:00Z"
+   "name": "BOS @ PHI",
+   "away": "BOS",
+   "away_score": "0",
+   "home": "PHI",
+   "home_score": "0",
+   "status": "11/10 - 8:00 PM EST",
+   "date": "2026-11-11T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "WSH @ DET",
-   "away": "WSH",
-   "away_score": "111",
-   "home": "DET",
-   "home_score": "122",
-   "status": "Final",
-   "date": "2026-11-10T00:00Z"
+   "name": "LAC @ PHX",
+   "away": "LAC",
+   "away_score": "0",
+   "home": "PHX",
+   "home_score": "0",
+   "status": "11/10 - 9:00 PM EST",
+   "date": "2026-11-11T02:00Z"
   },
   {
    "league": "NBA",
-   "name": "MEM @ TOR",
-   "away": "MEM",
-   "away_score": "118",
-   "home": "TOR",
-   "home_score": "102",
-   "status": "Final",
-   "date": "2026-11-10T00:30Z"
+   "name": "MIA @ UTAH",
+   "away": "MIA",
+   "away_score": "0",
+   "home": "UTAH",
+   "home_score": "0",
+   "status": "11/10 - 9:00 PM EST",
+   "date": "2026-11-11T02:00Z"
   },
   {
    "league": "NBA",
-   "name": "IND @ DAL",
-   "away": "IND",
-   "away_score": "122",
-   "home": "DAL",
-   "home_score": "125",
-   "status": "Final",
-   "date": "2026-11-10T01:00Z"
+   "name": "ORL @ SAC",
+   "away": "ORL",
+   "away_score": "0",
+   "home": "SAC",
+   "home_score": "0",
+   "status": "11/10 - 10:00 PM EST",
+   "date": "2026-11-11T03:00Z"
   },
   {
    "league": "NBA",
-   "name": "DEN @ HOU",
-   "away": "DEN",
-   "away_score": "100",
-   "home": "HOU",
-   "home_score": "110",
-   "status": "Final",
-   "date": "2026-11-10T01:30Z"
+   "name": "OKC @ POR",
+   "away": "OKC",
+   "away_score": "0",
+   "home": "POR",
+   "home_score": "0",
+   "status": "11/10 - 11:00 PM EST",
+   "date": "2026-11-11T04:00Z"
   },
   {
    "league": "MLB",
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1334h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1341h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 80027
+   "data_age_min": 80464
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1334h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1341h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 80027
+   "data_age_min": 80464
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1334h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1341h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 80027
+   "data_age_min": 80464
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: 2027 NFL draft order projections for Round 1, chances for top pick, more",
+  "BREAKING: Sources: 49ers trade for Colts' Keenan Allen to bolster injury-plagued WR room",
   "JAX 33 - BAL 10 (Final)",
   "CIN 34 - ATL 17 (Final)",
   "DAL 27 - IND 23 (Final)",
   "NYJ 12 - KC 35 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1334h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1334h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1334h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1341h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1341h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1341h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "After a shaky start, the Brewers\u2019 late 2\u2011run homer flipped Game 5 into a gutsy win."
+  "Brewers lose 8\u20115, yet that highlight reel\u2019s high\u2011fly single scorches the crowd\u2014flames of abandonment for the Rays."
  ],
- "script_hint": "After a shaky start, the Brewers\u2019 late 2\u2011run homer flipped Game 5 into a gutsy win.  [brain]"
+ "script_hint": "Brewers lose 8\u20115, yet that highlight reel\u2019s high\u2011fly single scorches the crowd\u2014flames of abandonment for the Rays.  [brain]"
 }
