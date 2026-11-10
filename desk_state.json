@@ -1,24 +1,14 @@
 {
- "generated": "2026-11-10T03:24:24.881842+00:00",
+ "generated": "2026-11-10T11:34:01.394423+00:00",
  "version": 2,
- "ticker": "NFL: BUF 10 - MIN 6 8:16 - 3rd  //  NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final",
+ "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final  //  NFL: DET 19 - MIA 9 Final",
  "breaking": {
-  "id": "espn:50438482",
-  "title": "Source: Pats' Rhamondre Stevenson expected to miss time with knee tendon issue",
+  "id": "espn:49794361",
+  "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
   "source": "ESPN NFL",
-  "age_min": 4.701778966666667
+  "age_min": 9.106808016666667
  },
  "games": [
-  {
-   "league": "NFL",
-   "name": "BUF @ MIN",
-   "away": "BUF",
-   "away_score": "10",
-   "home": "MIN",
-   "home_score": "6",
-   "status": "8:16 - 3rd",
-   "date": "2026-11-10T01:15Z"
-  },
   {
    "league": "NFL",
    "name": "JAX @ BAL",
@@ -70,6 +60,16 @@
    "date": "2026-11-08T18:00Z"
   },
   {
+   "league": "NFL",
+   "name": "CLE @ NO",
+   "away": "CLE",
+   "away_score": "22",
+   "home": "NO",
+   "home_score": "23",
+   "status": "Final/OT",
+   "date": "2026-11-08T18:00Z"
+  },
+  {
    "league": "NBA",
    "name": "LAL @ ATL",
    "away": "LAL",
@@ -113,20 +113,20 @@
    "league": "NBA",
    "name": "IND @ DAL",
    "away": "IND",
-   "away_score": "110",
+   "away_score": "122",
    "home": "DAL",
-   "home_score": "116",
-   "status": "3:17 - 4th",
+   "home_score": "125",
+   "status": "Final",
    "date": "2026-11-10T01:00Z"
   },
   {
    "league": "NBA",
    "name": "DEN @ HOU",
    "away": "DEN",
-   "away_score": "76",
+   "away_score": "100",
    "home": "HOU",
-   "home_score": "85",
-   "status": "9:30 - 4th",
+   "home_score": "110",
+   "status": "Final",
    "date": "2026-11-10T01:30Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1326h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1334h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 79537
+   "data_age_min": 80027
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1326h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1334h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 79537
+   "data_age_min": 80027
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1326h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1334h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 79537
+   "data_age_min": 80027
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Source: Pats' Rhamondre Stevenson expected to miss time with knee tendon issue",
-  "BUF 10 - MIN 6 (8:16 - 3rd)",
+  "BREAKING: 2027 NFL draft order projections for Round 1, chances for top pick, more",
   "JAX 33 - BAL 10 (Final)",
   "CIN 34 - ATL 17 (Final)",
   "DAL 27 - IND 23 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1326h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1326h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1326h old]",
+  "NYJ 12 - KC 35 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1334h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1334h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1334h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers ignite a fourth\u2011inning blaze, flipping the series into a decisive Game 5 blowout."
+  "After a shaky start, the Brewers\u2019 late 2\u2011run homer flipped Game 5 into a gutsy win."
  ],
- "script_hint": "Brewers ignite a fourth\u2011inning blaze, flipping the series into a decisive Game 5 blowout.  [brain]"
+ "script_hint": "After a shaky start, the Brewers\u2019 late 2\u2011run homer flipped Game 5 into a gutsy win.  [brain]"
 }

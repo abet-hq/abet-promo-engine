@@ -1,17 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50323095",
-  "espn:50328633",
-  "espn:50335110",
-  "espn:50338005",
-  "espn:50337296",
-  "espn:50336399",
-  "espn:50337638",
-  "espn:50337158",
-  "espn:50336717",
-  "espn:50336329",
-  "espn:50338294",
-  "gnews:Preeminent Sports Properties \u2013 MLB, MLS,",
   "espn:50340504",
   "espn:50319414",
   "espn:50340383",
@@ -399,17 +387,29 @@
   "espn:50437506",
   "espn:42369188",
   "espn:50436571",
-  "gnews:MLB owners want what NBA, NFL owners hav"
+  "gnews:MLB owners want what NBA, NFL owners hav",
+  "espn:50435694",
+  "espn:50437256",
+  "espn:49794361",
+  "espn:49745176",
+  "espn:50440119",
+  "espn:50440246",
+  "espn:50440192",
+  "espn:50440191",
+  "espn:50440190",
+  "espn:50440189",
+  "espn:50440188",
+  "gnews:Fanatics unveils credit card that looks "
  ],
  "recent_topics": [
-  "What a blowout\u2014Brewers dominate Rays with explosive offense, 20\u20113, leaving the Rays in tatters.",
   "Brewers slam a 2\u2011run homer in the 8th, flagging the Rays' hope and turning a close game into a statement.",
   "Brewers erupt in Game 5, slicing the Rays\u2019 hopes into a crisp 10\u20113 ballet\u2014tousle\u2011ball by the down\u2011right, leaving fans stunned!",
   "Jon Buehler\u2019s 0.67 ERA obliterates Rays, handing Brewers a crushing Game 5 win that seals the series.",
   "Brewers\u2019 late\u2011night knock really snapped the Rays, turning a close game into a textbook collapse.",
   "Game\u20115 highlight reel explodes\u2014Brewers slay the Rays, fans erupt, and the night\u2019s electric shockwave never quite abates.",
   "Rays unleash a nine\u2011run rally fueled by pinch\u2011hit heroics, leaving Brewers chasing a dream that never materializes.",
-  "Brewers ignite a fourth\u2011inning blaze, flipping the series into a decisive Game 5 blowout."
+  "Brewers ignite a fourth\u2011inning blaze, flipping the series into a decisive Game 5 blowout.",
+  "After a shaky start, the Brewers\u2019 late 2\u2011run homer flipped Game 5 into a gutsy win."
  ],
  "used_highlight_pks": [
   849818,
