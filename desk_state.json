@@ -1,132 +1,132 @@
 {
- "generated": "2026-11-10T23:56:13.232020+00:00",
+ "generated": "2026-11-11T05:25:01.418668+00:00",
  "version": 2,
- "ticker": "NFL: JAX 33 - BAL 10 Final  //  NFL: CIN 34 - ATL 17 Final  //  NFL: DAL 27 - IND 23 Final  //  NFL: NYJ 12 - KC 35 Final  //  NFL: DET 19 - MIA 9 Final",
+ "ticker": "NFL: WSH 0 - NYG 0 11/12 - 8:15 PM EST  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50446805",
-  "title": "RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
-  "source": "ESPN NFL",
-  "age_min": 27.90106581666667
+  "id": "espn:50450335",
+  "title": "Despite hurt wrist, Antetokounmpo scores 30 and Heat outlast Jazz 115-109",
+  "source": "ESPN NBA",
+  "age_min": 22.986837016666666
  },
  "games": [
   {
    "league": "NFL",
-   "name": "JAX @ BAL",
-   "away": "JAX",
-   "away_score": "33",
-   "home": "BAL",
-   "home_score": "10",
-   "status": "Final",
-   "date": "2026-11-06T01:15Z"
+   "name": "WSH @ NYG",
+   "away": "WSH",
+   "away_score": "0",
+   "home": "NYG",
+   "home_score": "0",
+   "status": "11/12 - 8:15 PM EST",
+   "date": "2026-11-13T01:15Z"
   },
   {
    "league": "NFL",
-   "name": "CIN VS ATL",
-   "away": "CIN",
-   "away_score": "34",
+   "name": "NE VS DET",
+   "away": "NE",
+   "away_score": "0",
+   "home": "DET",
+   "home_score": "0",
+   "status": "11/15 - 9:30 AM EST",
+   "date": "2026-11-15T14:30Z"
+  },
+  {
+   "league": "NFL",
+   "name": "KC @ ATL",
+   "away": "KC",
+   "away_score": "0",
    "home": "ATL",
-   "home_score": "17",
-   "status": "Final",
-   "date": "2026-11-08T14:30Z"
+   "home_score": "0",
+   "status": "11/15 - 1:00 PM EST",
+   "date": "2026-11-15T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "DAL @ IND",
-   "away": "DAL",
-   "away_score": "27",
-   "home": "IND",
-   "home_score": "23",
-   "status": "Final",
-   "date": "2026-11-08T18:00Z"
+   "name": "HOU @ CLE",
+   "away": "HOU",
+   "away_score": "0",
+   "home": "CLE",
+   "home_score": "0",
+   "status": "11/15 - 1:00 PM EST",
+   "date": "2026-11-15T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "NYJ @ KC",
-   "away": "NYJ",
-   "away_score": "12",
-   "home": "KC",
-   "home_score": "35",
-   "status": "Final",
-   "date": "2026-11-08T18:00Z"
+   "name": "MIN @ GB",
+   "away": "MIN",
+   "away_score": "0",
+   "home": "GB",
+   "home_score": "0",
+   "status": "11/15 - 1:00 PM EST",
+   "date": "2026-11-15T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "DET @ MIA",
-   "away": "DET",
-   "away_score": "19",
-   "home": "MIA",
-   "home_score": "9",
-   "status": "Final",
-   "date": "2026-11-08T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "CLE @ NO",
-   "away": "CLE",
-   "away_score": "22",
-   "home": "NO",
-   "home_score": "23",
-   "status": "Final/OT",
-   "date": "2026-11-08T18:00Z"
+   "name": "JAX @ TEN",
+   "away": "JAX",
+   "away_score": "0",
+   "home": "TEN",
+   "home_score": "0",
+   "status": "11/15 - 1:00 PM EST",
+   "date": "2026-11-15T18:00Z"
   },
   {
    "league": "NBA",
    "name": "MIL @ NY",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "85",
    "home": "NY",
-   "home_score": "0",
-   "status": "11/10 - 7:30 PM EST",
+   "home_score": "117",
+   "status": "Final",
    "date": "2026-11-11T00:30Z"
   },
   {
    "league": "NBA",
    "name": "BOS @ PHI",
    "away": "BOS",
-   "away_score": "0",
+   "away_score": "123",
    "home": "PHI",
-   "home_score": "0",
-   "status": "11/10 - 8:00 PM EST",
+   "home_score": "101",
+   "status": "Final",
    "date": "2026-11-11T01:00Z"
   },
   {
    "league": "NBA",
    "name": "LAC @ PHX",
    "away": "LAC",
-   "away_score": "0",
+   "away_score": "110",
    "home": "PHX",
-   "home_score": "0",
-   "status": "11/10 - 9:00 PM EST",
+   "home_score": "133",
+   "status": "Final",
    "date": "2026-11-11T02:00Z"
   },
   {
    "league": "NBA",
    "name": "MIA @ UTAH",
    "away": "MIA",
-   "away_score": "0",
+   "away_score": "115",
    "home": "UTAH",
-   "home_score": "0",
-   "status": "11/10 - 9:00 PM EST",
+   "home_score": "109",
+   "status": "Final",
    "date": "2026-11-11T02:00Z"
   },
   {
    "league": "NBA",
    "name": "ORL @ SAC",
    "away": "ORL",
-   "away_score": "0",
+   "away_score": "103",
    "home": "SAC",
-   "home_score": "0",
-   "status": "11/10 - 10:00 PM EST",
+   "home_score": "98",
+   "status": "20.6 - 4th",
    "date": "2026-11-11T03:00Z"
   },
   {
    "league": "NBA",
    "name": "OKC @ POR",
    "away": "OKC",
-   "away_score": "0",
+   "away_score": "59",
    "home": "POR",
-   "home_score": "0",
-   "status": "11/10 - 11:00 PM EST",
+   "home_score": "59",
+   "status": "Halftime",
    "date": "2026-11-11T04:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1346h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1352h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 80769
+   "data_age_min": 81098
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1346h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1352h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 80769
+   "data_age_min": 81098
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1346h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1352h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 80769
+   "data_age_min": 81098
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
-  "JAX 33 - BAL 10 (Final)",
-  "CIN 34 - ATL 17 (Final)",
-  "DAL 27 - IND 23 (Final)",
-  "NYJ 12 - KC 35 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1346h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1346h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1346h old]",
+  "BREAKING: Despite hurt wrist, Antetokounmpo scores 30 and Heat outlast Jazz 115-109",
+  "WSH 0 - NYG 0 (11/12 - 8:15 PM EST)",
+  "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
+  "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
+  "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1352h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1352h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1352h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "A killer eighth\u2011inning two\u2011run rally from Kubiak flips the game, leaving Rays scrambling for parity."
+  "The Brewers\u2019 unexpected surge sends Rays scrambling, each batter feels the adrenaline."
  ],
- "script_hint": "A killer eighth\u2011inning two\u2011run rally from Kubiak flips the game, leaving Rays scrambling for parity.  [brain]"
+ "script_hint": "The Brewers\u2019 unexpected surge sends Rays scrambling, each batter feels the adrenaline.  [brain]"
 }
