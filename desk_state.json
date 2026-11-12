@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T17:43:11.740028+00:00",
+ "generated": "2026-11-12T22:53:30.727151+00:00",
  "version": 2,
  "ticker": "NFL: WSH 0 - NYG 0 11/12 - 8:15 PM EST  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50463010",
-  "title": "Browns' Jared Verse says he met with team psychiatrist to try to snap sack slump",
+  "id": "espn:50465194",
+  "title": "NFL rushing leaders in spotlight as Kenneth Walker III and Chiefs face Bijan Robinson and Falcons",
   "source": "ESPN NFL",
-  "age_min": 0.8259446333333333
+  "age_min": 8.344784533333334
  },
  "games": [
   {
@@ -141,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1388h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1393h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 83276
+   "data_age_min": 83586
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1388h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1393h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 83276
+   "data_age_min": 83586
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1388h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1393h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 83276
+   "data_age_min": 83586
   }
  ],
  "sources": {
@@ -169,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Browns' Jared Verse says he met with team psychiatrist to try to snap sack slump",
+  "BREAKING: NFL rushing leaders in spotlight as Kenneth Walker III and Chiefs face Bijan Robinson and Falcons",
   "WSH 0 - NYG 0 (11/12 - 8:15 PM EST)",
   "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
   "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
   "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1388h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1388h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1388h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1393h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1393h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1393h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "That highlight\u2019s a wild ride where the Brewers snuck a sorcerer\u2019s last\u2011out, leaving the Rays gasping."
+  "What a 6\u2011hit rally! Reed's walk\u2011off double in the bottom of the ninth snapped the Rays and won Game 5."
  ],
- "script_hint": "That highlight\u2019s a wild ride where the Brewers snuck a sorcerer\u2019s last\u2011out, leaving the Rays gasping.  [brain]"
+ "script_hint": "What a 6\u2011hit rally! Reed's walk\u2011off double in the bottom of the ninth snapped the Rays and won Game 5.  [brain]"
 }
