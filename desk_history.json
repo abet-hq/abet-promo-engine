@@ -1,12 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50360039",
-  "espn:50328768",
-  "espn:50358968",
-  "espn:50358485",
-  "espn:50328511",
-  "espn:50328890",
-  "gnews:How Canadian Sports Fans Follow the NFL,",
   "gnews:News: Fox Sports, Charlie Neal, NBA Draf",
   "gnews:Sports Equinox viewing guide: How to wat",
   "espn:50362530",
@@ -399,17 +392,24 @@
   "espn:50453889",
   "espn:50456772",
   "espn:46031483",
-  "espn:50455463"
+  "espn:50455463",
+  "espn:50459330",
+  "espn:50459637",
+  "espn:50459636",
+  "espn:50459635",
+  "espn:50459634",
+  "espn:50459633",
+  "espn:50459632"
  ],
  "recent_topics": [
-  "Brewers ignite a fourth\u2011inning blaze, flipping the series into a decisive Game 5 blowout.",
   "After a shaky start, the Brewers\u2019 late 2\u2011run homer flipped Game 5 into a gutsy win.",
   "Brewers lose 8\u20115, yet that highlight reel\u2019s high\u2011fly single scorches the crowd\u2014flames of abandonment for the Rays.",
   "A killer eighth\u2011inning two\u2011run rally from Kubiak flips the game, leaving Rays scrambling for parity.",
   "The Brewers\u2019 unexpected surge sends Rays scrambling, each batter feels the adrenaline.",
   "Brewers crawl from the diamond to a thrilling 3\u20112 finish, tossing a twilight curve that rattles Rays\u2019 bullpen.",
   "Brewers set the park ablaze, crushing the Rays in Game 5 with a relentless on\u2011field clutchplay that left fans gasping.",
-  "Wild ninth rally\u2014Brewers\u2019 unhinged hitter blows out the Rays, turning Game 5 into a wild, fireworks finale."
+  "Wild ninth rally\u2014Brewers\u2019 unhinged hitter blows out the Rays, turning Game 5 into a wild, fireworks finale.",
+  "Line watch - PHI @ WSH - WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1380h old]."
  ],
  "used_highlight_pks": [
   849818,
