@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T11:12:40.576579+00:00",
+ "generated": "2026-11-13T18:34:26.069827+00:00",
  "version": 2,
  "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50462993",
-  "title": "NFC North: Bears win division? Cousins has Vikes in command?",
-  "source": "ESPN NFL",
-  "age_min": 1.0811608833333333
+  "id": "espn:50473029",
+  "title": "Sources: Jake Bauers, Red Sox agree to 4-year, $58M deal",
+  "source": "ESPN MLB",
+  "age_min": 2.9225584
  },
  "games": [
   {
@@ -71,43 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "TOR @ PHI",
-   "away": "TOR",
-   "away_score": "112",
-   "home": "PHI",
-   "home_score": "123",
-   "status": "Final",
-   "date": "2026-11-13T00:00Z"
+   "name": "NY @ IND",
+   "away": "NY",
+   "away_score": "0",
+   "home": "IND",
+   "home_score": "0",
+   "status": "11/13 - 7:00 PM EST",
+   "date": "2026-11-14T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "DET @ WSH",
-   "away": "DET",
-   "away_score": "144",
-   "home": "WSH",
-   "home_score": "140",
-   "status": "Final/2OT",
-   "date": "2026-11-13T00:00Z"
+   "name": "MIL @ ORL",
+   "away": "MIL",
+   "away_score": "0",
+   "home": "ORL",
+   "home_score": "0",
+   "status": "11/13 - 7:00 PM EST",
+   "date": "2026-11-14T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "DAL @ MIN",
-   "away": "DAL",
-   "away_score": "94",
-   "home": "MIN",
-   "home_score": "133",
-   "status": "Final",
-   "date": "2026-11-13T01:00Z"
+   "name": "CLE @ MIA",
+   "away": "CLE",
+   "away_score": "0",
+   "home": "MIA",
+   "home_score": "0",
+   "status": "11/13 - 8:00 PM EST",
+   "date": "2026-11-14T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "CHA @ PHX",
-   "away": "CHA",
-   "away_score": "96",
-   "home": "PHX",
-   "home_score": "101",
-   "status": "Final",
-   "date": "2026-11-13T02:00Z"
+   "name": "ATL @ CHI",
+   "away": "ATL",
+   "away_score": "0",
+   "home": "CHI",
+   "home_score": "0",
+   "status": "11/13 - 8:00 PM EST",
+   "date": "2026-11-14T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "MEM @ NO",
+   "away": "MEM",
+   "away_score": "0",
+   "home": "NO",
+   "home_score": "0",
+   "status": "11/13 - 8:00 PM EST",
+   "date": "2026-11-14T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "UTAH @ HOU",
+   "away": "UTAH",
+   "away_score": "0",
+   "home": "HOU",
+   "home_score": "0",
+   "status": "11/13 - 8:30 PM EST",
+   "date": "2026-11-14T01:30Z"
   },
   {
    "league": "MLB",
@@ -141,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1405h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1413h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 84326
+   "data_age_min": 84767
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1405h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1413h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 84326
+   "data_age_min": 84767
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1405h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1413h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 84326
+   "data_age_min": 84767
   }
  ],
  "sources": {
@@ -169,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NFC North: Bears win division? Cousins has Vikes in command?",
+  "BREAKING: Sources: Jake Bauers, Red Sox agree to 4-year, $58M deal",
   "WSH 24 - NYG 21 (Final)",
   "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
   "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
   "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1405h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1405h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1405h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1413h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1413h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1413h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers' late\u2011inning rally crushes Rays, turning a tense lead into a nail\u2011biter home run finale!"
+  "BREAKING - Sources: Jake Bauers, Red Sox agree to 4-year, $58M deal - per ESPN MLB."
  ],
- "script_hint": "Brewers' late\u2011inning rally crushes Rays, turning a tense lead into a nail\u2011biter home run finale!  [brain]"
+ "script_hint": "BREAKING - Sources: Jake Bauers, Red Sox agree to 4-year, $58M deal - per ESPN MLB."
 }
