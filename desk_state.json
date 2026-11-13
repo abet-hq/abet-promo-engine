@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-13T03:14:28.403356+00:00",
+ "generated": "2026-11-13T11:12:40.576579+00:00",
  "version": 2,
- "ticker": "NFL: WSH 17 - NYG 14 4:53 - 3rd  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
+ "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50466164",
-  "title": "Vikings 'hyped' to welcome back 'leader' Cousins on 1st day of practice",
+  "id": "espn:50462993",
+  "title": "NFC North: Bears win division? Cousins has Vikes in command?",
   "source": "ESPN NFL",
-  "age_min": 21.112687616666665
+  "age_min": 1.0811608833333333
  },
  "games": [
   {
    "league": "NFL",
    "name": "WSH @ NYG",
    "away": "WSH",
-   "away_score": "17",
+   "away_score": "24",
    "home": "NYG",
-   "home_score": "14",
-   "status": "4:53 - 3rd",
+   "home_score": "21",
+   "status": "Final",
    "date": "2026-11-13T01:15Z"
   },
   {
@@ -86,27 +86,27 @@
    "away_score": "144",
    "home": "WSH",
    "home_score": "140",
-   "status": "11.4 - 2OT",
+   "status": "Final/2OT",
    "date": "2026-11-13T00:00Z"
   },
   {
    "league": "NBA",
    "name": "DAL @ MIN",
    "away": "DAL",
-   "away_score": "91",
+   "away_score": "94",
    "home": "MIN",
-   "home_score": "129",
-   "status": "1:55 - 4th",
+   "home_score": "133",
+   "status": "Final",
    "date": "2026-11-13T01:00Z"
   },
   {
    "league": "NBA",
    "name": "CHA @ PHX",
    "away": "CHA",
-   "away_score": "50",
+   "away_score": "96",
    "home": "PHX",
-   "home_score": "55",
-   "status": "Halftime",
+   "home_score": "101",
+   "status": "Final",
    "date": "2026-11-13T02:00Z"
   },
   {
@@ -141,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1397h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1405h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 83847
+   "data_age_min": 84326
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1397h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1405h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 83847
+   "data_age_min": 84326
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1397h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1405h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 83847
+   "data_age_min": 84326
   }
  ],
  "sources": {
@@ -169,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Vikings 'hyped' to welcome back 'leader' Cousins on 1st day of practice",
-  "WSH 17 - NYG 14 (4:53 - 3rd)",
+  "BREAKING: NFC North: Bears win division? Cousins has Vikes in command?",
+  "WSH 24 - NYG 21 (Final)",
   "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
   "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
   "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1397h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1397h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1397h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1405h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1405h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1405h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "In Game 5, the Brewers snatched a win with a gritty rally that left the Rays scrambling into the 8th."
+  "Brewers' late\u2011inning rally crushes Rays, turning a tense lead into a nail\u2011biter home run finale!"
  ],
- "script_hint": "In Game 5, the Brewers snatched a win with a gritty rally that left the Rays scrambling into the 8th.  [brain]"
+ "script_hint": "Brewers' late\u2011inning rally crushes Rays, turning a tense lead into a nail\u2011biter home run finale!  [brain]"
 }
