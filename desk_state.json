@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-13T23:54:18.827769+00:00",
+ "generated": "2026-11-14T05:27:24.672678+00:00",
  "version": 2,
  "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
  "breaking": {
-  "id": "gnews:The Sports Equinox 2026: When MLB, NBA, ",
-  "title": "The Sports Equinox 2026: When MLB, NBA, NHL and NFL Come Together (Sponsored) - MLB Trade Rumors",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50477468",
+  "title": "Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
+  "source": "ESPN NBA",
+  "age_min": 10.518209933333333
  },
  "games": [
   {
@@ -74,60 +73,60 @@
    "league": "NBA",
    "name": "NY @ IND",
    "away": "NY",
-   "away_score": "0",
+   "away_score": "104",
    "home": "IND",
-   "home_score": "0",
-   "status": "11/13 - 7:00 PM EST",
+   "home_score": "106",
+   "status": "Final",
    "date": "2026-11-14T00:00Z"
   },
   {
    "league": "NBA",
    "name": "MIL @ ORL",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "99",
    "home": "ORL",
-   "home_score": "0",
-   "status": "11/13 - 7:00 PM EST",
+   "home_score": "107",
+   "status": "Final",
    "date": "2026-11-14T00:00Z"
   },
   {
    "league": "NBA",
    "name": "CLE @ MIA",
    "away": "CLE",
-   "away_score": "0",
+   "away_score": "121",
    "home": "MIA",
-   "home_score": "0",
-   "status": "11/13 - 8:00 PM EST",
+   "home_score": "133",
+   "status": "Final",
    "date": "2026-11-14T01:00Z"
   },
   {
    "league": "NBA",
    "name": "ATL @ CHI",
    "away": "ATL",
-   "away_score": "0",
+   "away_score": "117",
    "home": "CHI",
-   "home_score": "0",
-   "status": "11/13 - 8:00 PM EST",
+   "home_score": "125",
+   "status": "Final/OT",
    "date": "2026-11-14T01:00Z"
   },
   {
    "league": "NBA",
    "name": "MEM @ NO",
    "away": "MEM",
-   "away_score": "0",
+   "away_score": "142",
    "home": "NO",
-   "home_score": "0",
-   "status": "11/13 - 8:00 PM EST",
+   "home_score": "111",
+   "status": "Final",
    "date": "2026-11-14T01:00Z"
   },
   {
    "league": "NBA",
    "name": "UTAH @ HOU",
    "away": "UTAH",
-   "away_score": "0",
+   "away_score": "118",
    "home": "HOU",
-   "home_score": "0",
-   "status": "11/13 - 8:30 PM EST",
+   "home_score": "125",
+   "status": "Final",
    "date": "2026-11-14T01:30Z"
   },
   {
@@ -162,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1418h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1424h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 85087
+   "data_age_min": 85420
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1418h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1424h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 85087
+   "data_age_min": 85420
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1418h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1424h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 85087
+   "data_age_min": 85420
   }
  ],
  "sources": {
@@ -190,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: The Sports Equinox 2026: When MLB, NBA, NHL and NFL Come Together (Sponsored) - MLB Trade Rumors",
+  "BREAKING: Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
   "WSH 24 - NYG 21 (Final)",
   "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
   "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
   "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1418h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1418h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1418h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1424h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1424h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1424h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers edge Rays in a jaw\u2011dropping, bottom\u2011of\u2011the\u2011ninth comeback, turning an early lead into a legendary Game 5 finish."
+  "Brewers, again, crush the Rays with a slick, artful offensive onslaught\u2014game\u2011winning hits for a hypnotic ending."
  ],
- "script_hint": "Brewers edge Rays in a jaw\u2011dropping, bottom\u2011of\u2011the\u2011ninth comeback, turning an early lead into a legendary Game 5 finish.  [brain]"
+ "script_hint": "Brewers, again, crush the Rays with a slick, artful offensive onslaught\u2014game\u2011winning hits for a hypnotic ending.  [brain]"
 }

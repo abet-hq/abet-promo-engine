@@ -1,14 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50382806",
-  "espn:50382457",
-  "espn:50381900",
-  "espn:50382263",
-  "espn:50381574",
-  "espn:50379954",
-  "espn:50380187",
-  "espn:50381841",
-  "espn:50381638",
   "espn:50380662",
   "gnews:Exclusive Kalshi promo code CINCY offers",
   "espn:50383054",
@@ -399,17 +390,26 @@
   "espn:50473334",
   "espn:50473242",
   "gnews:The Sports Equinox 2026: When MLB, NBA, ",
-  "gnews:Sports equinox features MLB, NFL, NBA, W"
+  "gnews:Sports equinox features MLB, NFL, NBA, W",
+  "espn:50475505",
+  "espn:50462045",
+  "espn:50477506",
+  "espn:49577473",
+  "espn:50477468",
+  "espn:50477438",
+  "espn:50477411",
+  "espn:50477364",
+  "gnews:Sports equinox brings NFL, MLB, NBA, NHL"
  ],
  "recent_topics": [
-  "Wild ninth rally\u2014Brewers\u2019 unhinged hitter blows out the Rays, turning Game 5 into a wild, fireworks finale.",
   "Line watch - PHI @ WSH - WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1380h old].",
   "That highlight\u2019s a wild ride where the Brewers snuck a sorcerer\u2019s last\u2011out, leaving the Rays gasping.",
   "What a 6\u2011hit rally! Reed's walk\u2011off double in the bottom of the ninth snapped the Rays and won Game 5.",
   "In Game 5, the Brewers snatched a win with a gritty rally that left the Rays scrambling into the 8th.",
   "Brewers' late\u2011inning rally crushes Rays, turning a tense lead into a nail\u2011biter home run finale!",
   "BREAKING - Sources: Jake Bauers, Red Sox agree to 4-year, $58M deal - per ESPN MLB.",
-  "Brewers edge Rays in a jaw\u2011dropping, bottom\u2011of\u2011the\u2011ninth comeback, turning an early lead into a legendary Game 5 finish."
+  "Brewers edge Rays in a jaw\u2011dropping, bottom\u2011of\u2011the\u2011ninth comeback, turning an early lead into a legendary Game 5 finish.",
+  "Brewers, again, crush the Rays with a slick, artful offensive onslaught\u2014game\u2011winning hits for a hypnotic ending."
  ],
  "used_highlight_pks": [
   849818,
