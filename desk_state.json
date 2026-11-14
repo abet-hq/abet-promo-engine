@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T12:27:19.633221+00:00",
+ "generated": "2026-11-14T18:26:20.559096+00:00",
  "version": 2,
  "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50475264",
-  "title": "Patriots are 6-0 after a regular-season loss under Vrabel: Can they do it again?",
+  "id": "espn:50463729",
+  "title": "Week 10 betting preview: Analysis, best bets, TD predictions for Sunday",
   "source": "ESPN NFL",
-  "age_min": 7.90825425
+  "age_min": 41.43210215
  },
  "games": [
   {
@@ -71,63 +71,53 @@
   },
   {
    "league": "NBA",
-   "name": "NY @ IND",
-   "away": "NY",
-   "away_score": "104",
-   "home": "IND",
-   "home_score": "106",
-   "status": "Final",
-   "date": "2026-11-14T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MIL @ ORL",
-   "away": "MIL",
-   "away_score": "99",
-   "home": "ORL",
-   "home_score": "107",
-   "status": "Final",
-   "date": "2026-11-14T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CLE @ MIA",
-   "away": "CLE",
-   "away_score": "121",
-   "home": "MIA",
-   "home_score": "133",
-   "status": "Final",
-   "date": "2026-11-14T01:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "ATL @ CHI",
-   "away": "ATL",
-   "away_score": "117",
-   "home": "CHI",
-   "home_score": "125",
-   "status": "Final/OT",
-   "date": "2026-11-14T01:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MEM @ NO",
-   "away": "MEM",
-   "away_score": "142",
+   "name": "DEN @ NO",
+   "away": "DEN",
+   "away_score": "0",
    "home": "NO",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-11-14T01:00Z"
+   "home_score": "0",
+   "status": "11/14 - 7:00 PM EST",
+   "date": "2026-11-15T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "UTAH @ HOU",
-   "away": "UTAH",
-   "away_score": "118",
-   "home": "HOU",
-   "home_score": "125",
-   "status": "Final",
-   "date": "2026-11-14T01:30Z"
+   "name": "DAL @ CLE",
+   "away": "DAL",
+   "away_score": "0",
+   "home": "CLE",
+   "home_score": "0",
+   "status": "11/14 - 7:30 PM EST",
+   "date": "2026-11-15T00:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "DET @ MIA",
+   "away": "DET",
+   "away_score": "0",
+   "home": "MIA",
+   "home_score": "0",
+   "status": "11/14 - 8:00 PM EST",
+   "date": "2026-11-15T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "BKN @ MEM",
+   "away": "BKN",
+   "away_score": "0",
+   "home": "MEM",
+   "home_score": "0",
+   "status": "11/14 - 8:00 PM EST",
+   "date": "2026-11-15T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "CHI @ MIN",
+   "away": "CHI",
+   "away_score": "0",
+   "home": "MIN",
+   "home_score": "0",
+   "status": "11/14 - 8:00 PM EST",
+   "date": "2026-11-15T01:00Z"
   },
   {
    "league": "MLB",
@@ -161,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1431h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1437h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 85840
+   "data_age_min": 86199
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1431h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1437h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 85840
+   "data_age_min": 86199
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1431h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1437h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 85840
+   "data_age_min": 86199
   }
  ],
  "sources": {
@@ -189,17 +179,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Patriots are 6-0 after a regular-season loss under Vrabel: Can they do it again?",
+  "BREAKING: Week 10 betting preview: Analysis, best bets, TD predictions for Sunday",
   "WSH 24 - NYG 21 (Final)",
   "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
   "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
   "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1431h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1431h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1431h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1437h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1437h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1437h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "One spell\u2011binding rally\u2014Brewers\u2019 blistering 5\u2011run burst flips the Rays from contenders to dust in a single, thunderclap inning."
+  "Brewers\u2019 veteran hit slammed the lights out, turning a shaky start into a show\u2011stopping finish."
  ],
- "script_hint": "One spell\u2011binding rally\u2014Brewers\u2019 blistering 5\u2011run burst flips the Rays from contenders to dust in a single, thunderclap inning.  [brain]"
+ "script_hint": "Brewers\u2019 veteran hit slammed the lights out, turning a shaky start into a show\u2011stopping finish.  [brain]"
 }

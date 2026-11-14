@@ -1,12 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50384326",
-  "espn:50383610",
-  "espn:50360077",
-  "espn:50369047",
-  "espn:50382587",
-  "espn:50380580",
-  "espn:50379105",
   "espn:50380026",
   "espn:50386480",
   "espn:50385967",
@@ -399,17 +392,24 @@
   "espn:50478198",
   "espn:50478197",
   "espn:50477559",
-  "gnews:The Needle: NBA vs. MLB Tale of the Tape"
+  "gnews:The Needle: NBA vs. MLB Tale of the Tape",
+  "espn:50463729",
+  "espn:50414742",
+  "espn:50480529",
+  "espn:50479995",
+  "espn:50480388",
+  "espn:50480516",
+  "espn:50463046"
  ],
  "recent_topics": [
-  "That highlight\u2019s a wild ride where the Brewers snuck a sorcerer\u2019s last\u2011out, leaving the Rays gasping.",
   "What a 6\u2011hit rally! Reed's walk\u2011off double in the bottom of the ninth snapped the Rays and won Game 5.",
   "In Game 5, the Brewers snatched a win with a gritty rally that left the Rays scrambling into the 8th.",
   "Brewers' late\u2011inning rally crushes Rays, turning a tense lead into a nail\u2011biter home run finale!",
   "BREAKING - Sources: Jake Bauers, Red Sox agree to 4-year, $58M deal - per ESPN MLB.",
   "Brewers edge Rays in a jaw\u2011dropping, bottom\u2011of\u2011the\u2011ninth comeback, turning an early lead into a legendary Game 5 finish.",
   "Brewers, again, crush the Rays with a slick, artful offensive onslaught\u2014game\u2011winning hits for a hypnotic ending.",
-  "One spell\u2011binding rally\u2014Brewers\u2019 blistering 5\u2011run burst flips the Rays from contenders to dust in a single, thunderclap inning."
+  "One spell\u2011binding rally\u2014Brewers\u2019 blistering 5\u2011run burst flips the Rays from contenders to dust in a single, thunderclap inning.",
+  "Brewers\u2019 veteran hit slammed the lights out, turning a shaky start into a show\u2011stopping finish."
  ],
  "used_highlight_pks": [
   849818,
