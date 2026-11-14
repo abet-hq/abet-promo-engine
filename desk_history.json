@@ -1,10 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50380026",
-  "espn:50386480",
-  "espn:50385967",
-  "espn:50385966",
-  "espn:50385965",
   "espn:50385964",
   "espn:50385963",
   "espn:50390770",
@@ -399,17 +394,22 @@
   "espn:50479995",
   "espn:50480388",
   "espn:50480516",
-  "espn:50463046"
+  "espn:50463046",
+  "espn:50483551",
+  "espn:50483113",
+  "espn:50482239",
+  "espn:50481864",
+  "espn:50481450"
  ],
  "recent_topics": [
-  "What a 6\u2011hit rally! Reed's walk\u2011off double in the bottom of the ninth snapped the Rays and won Game 5.",
   "In Game 5, the Brewers snatched a win with a gritty rally that left the Rays scrambling into the 8th.",
   "Brewers' late\u2011inning rally crushes Rays, turning a tense lead into a nail\u2011biter home run finale!",
   "BREAKING - Sources: Jake Bauers, Red Sox agree to 4-year, $58M deal - per ESPN MLB.",
   "Brewers edge Rays in a jaw\u2011dropping, bottom\u2011of\u2011the\u2011ninth comeback, turning an early lead into a legendary Game 5 finish.",
   "Brewers, again, crush the Rays with a slick, artful offensive onslaught\u2014game\u2011winning hits for a hypnotic ending.",
   "One spell\u2011binding rally\u2014Brewers\u2019 blistering 5\u2011run burst flips the Rays from contenders to dust in a single, thunderclap inning.",
-  "Brewers\u2019 veteran hit slammed the lights out, turning a shaky start into a show\u2011stopping finish."
+  "Brewers\u2019 veteran hit slammed the lights out, turning a shaky start into a show\u2011stopping finish.",
+  "Brewers explode in the fifth, turning a tight game on its head with a scorching chase that stuns Tampa."
  ],
  "used_highlight_pks": [
   849818,

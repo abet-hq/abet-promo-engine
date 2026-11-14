@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T18:26:20.559096+00:00",
+ "generated": "2026-11-14T22:40:47.671113+00:00",
  "version": 2,
  "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50463729",
-  "title": "Week 10 betting preview: Analysis, best bets, TD predictions for Sunday",
+  "id": "espn:50483551",
+  "title": "Saints RB Travis Etienne Jr. activated off IR for game vs. Panthers",
   "source": "ESPN NFL",
-  "age_min": 41.43210215
+  "age_min": 26.714675266666667
  },
  "games": [
   {
@@ -151,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1437h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1441h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 86199
+   "data_age_min": 86454
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1437h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1441h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 86199
+   "data_age_min": 86454
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1437h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1441h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 86199
+   "data_age_min": 86454
   }
  ],
  "sources": {
@@ -179,17 +179,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Week 10 betting preview: Analysis, best bets, TD predictions for Sunday",
+  "BREAKING: Saints RB Travis Etienne Jr. activated off IR for game vs. Panthers",
   "WSH 24 - NYG 21 (Final)",
   "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
   "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
   "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1437h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1437h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1437h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1441h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1441h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1441h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers\u2019 veteran hit slammed the lights out, turning a shaky start into a show\u2011stopping finish."
+  "Brewers explode in the fifth, turning a tight game on its head with a scorching chase that stuns Tampa."
  ],
- "script_hint": "Brewers\u2019 veteran hit slammed the lights out, turning a shaky start into a show\u2011stopping finish.  [brain]"
+ "script_hint": "Brewers explode in the fifth, turning a tight game on its head with a scorching chase that stuns Tampa.  [brain]"
 }
