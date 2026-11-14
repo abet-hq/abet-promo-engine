@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T05:27:24.672678+00:00",
+ "generated": "2026-11-14T12:27:19.633221+00:00",
  "version": 2,
  "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50477468",
-  "title": "Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
-  "source": "ESPN NBA",
-  "age_min": 10.518209933333333
+  "id": "espn:50475264",
+  "title": "Patriots are 6-0 after a regular-season loss under Vrabel: Can they do it again?",
+  "source": "ESPN NFL",
+  "age_min": 7.90825425
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1424h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1431h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 85420
+   "data_age_min": 85840
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1424h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1431h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 85420
+   "data_age_min": 85840
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1424h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1431h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 85420
+   "data_age_min": 85840
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
+  "BREAKING: Patriots are 6-0 after a regular-season loss under Vrabel: Can they do it again?",
   "WSH 24 - NYG 21 (Final)",
   "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
   "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
   "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1424h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1424h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1424h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1431h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1431h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1431h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers, again, crush the Rays with a slick, artful offensive onslaught\u2014game\u2011winning hits for a hypnotic ending."
+  "One spell\u2011binding rally\u2014Brewers\u2019 blistering 5\u2011run burst flips the Rays from contenders to dust in a single, thunderclap inning."
  ],
- "script_hint": "Brewers, again, crush the Rays with a slick, artful offensive onslaught\u2014game\u2011winning hits for a hypnotic ending.  [brain]"
+ "script_hint": "One spell\u2011binding rally\u2014Brewers\u2019 blistering 5\u2011run burst flips the Rays from contenders to dust in a single, thunderclap inning.  [brain]"
 }
