@@ -1,92 +1,92 @@
 {
- "generated": "2026-11-15T16:32:03.696589+00:00",
+ "generated": "2026-11-15T21:19:34.398095+00:00",
  "version": 2,
- "ticker": "NFL: NE 3 - DET 21 11:46 - 3rd  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST  //  NFL: JAX 0 - TEN 0 11/15 - 1:00 PM EST",
+ "ticker": "NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final  //  NFL: JAX 40 - TEN 23 Final  //  NFL: MIA 22 - IND 24 Final  //  NFL: CAR 20 - NO 17 Final",
  "breaking": {
-  "id": "espn:50489998",
-  "title": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
+  "id": "espn:50443510",
+  "title": "NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
   "source": "ESPN NFL",
-  "age_min": 8.897488016666667
+  "age_min": 0.8853028333333334
  },
  "games": [
   {
    "league": "NFL",
-   "name": "NE VS DET",
-   "away": "NE",
-   "away_score": "3",
-   "home": "DET",
-   "home_score": "21",
-   "status": "11:46 - 3rd",
-   "date": "2026-11-15T14:30Z"
-  },
-  {
-   "league": "NFL",
    "name": "KC @ ATL",
    "away": "KC",
-   "away_score": "0",
+   "away_score": "35",
    "home": "ATL",
-   "home_score": "0",
-   "status": "11/15 - 1:00 PM EST",
+   "home_score": "13",
+   "status": "Final",
    "date": "2026-11-15T18:00Z"
   },
   {
    "league": "NFL",
    "name": "HOU @ CLE",
    "away": "HOU",
-   "away_score": "0",
+   "away_score": "24",
    "home": "CLE",
-   "home_score": "0",
-   "status": "11/15 - 1:00 PM EST",
-   "date": "2026-11-15T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "MIN @ GB",
-   "away": "MIN",
-   "away_score": "0",
-   "home": "GB",
-   "home_score": "0",
-   "status": "11/15 - 1:00 PM EST",
+   "home_score": "27",
+   "status": "Final",
    "date": "2026-11-15T18:00Z"
   },
   {
    "league": "NFL",
    "name": "JAX @ TEN",
    "away": "JAX",
-   "away_score": "0",
+   "away_score": "40",
    "home": "TEN",
-   "home_score": "0",
-   "status": "11/15 - 1:00 PM EST",
+   "home_score": "23",
+   "status": "Final",
    "date": "2026-11-15T18:00Z"
   },
   {
    "league": "NFL",
    "name": "MIA @ IND",
    "away": "MIA",
-   "away_score": "0",
+   "away_score": "22",
    "home": "IND",
-   "home_score": "0",
-   "status": "11/15 - 1:00 PM EST",
+   "home_score": "24",
+   "status": "Final",
    "date": "2026-11-15T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "CAR @ NO",
+   "away": "CAR",
+   "away_score": "20",
+   "home": "NO",
+   "home_score": "17",
+   "status": "Final",
+   "date": "2026-11-15T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "SEA @ LV",
+   "away": "SEA",
+   "away_score": "0",
+   "home": "LV",
+   "home_score": "7",
+   "status": "7:41 - 1st",
+   "date": "2026-11-15T21:05Z"
   },
   {
    "league": "NBA",
    "name": "IND @ PHI",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "124",
    "home": "PHI",
-   "home_score": "0",
-   "status": "11/15 - 1:00 PM EST",
+   "home_score": "131",
+   "status": "Final",
    "date": "2026-11-15T18:00Z"
   },
   {
    "league": "NBA",
    "name": "LAL @ PHX",
    "away": "LAL",
-   "away_score": "0",
+   "away_score": "18",
    "home": "PHX",
-   "home_score": "0",
-   "status": "11/15 - 4:00 PM EST",
+   "home_score": "5",
+   "status": "7:40 - 1st",
    "date": "2026-11-15T21:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1459h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1464h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 87525
+   "data_age_min": 87812
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1459h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1464h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 87525
+   "data_age_min": 87812
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1459h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1464h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 87525
+   "data_age_min": 87812
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Week 10 NFL highlights: Best plays, moments, touchdowns, more",
-  "NE 3 - DET 21 (11:46 - 3rd)",
-  "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
-  "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "MIN 0 - GB 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1459h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1459h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1459h old]",
+  "BREAKING: NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
+  "KC 35 - ATL 13 (Final)",
+  "HOU 24 - CLE 27 (Final)",
+  "JAX 40 - TEN 23 (Final)",
+  "MIA 22 - IND 24 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1464h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1464h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1464h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers\u2019 bullpen blew; the Rays\u2019 thunderous offense erupted in a 5\u2011run rally, crushing the game with relentless fire."
+  "BREAKING - NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games - per ESPN NFL."
  ],
- "script_hint": "Brewers\u2019 bullpen blew; the Rays\u2019 thunderous offense erupted in a 5\u2011run rally, crushing the game with relentless fire.  [brain]"
+ "script_hint": "BREAKING - NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games - per ESPN NFL."
 }
