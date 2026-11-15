@@ -1,13 +1,8 @@
 {
- "generated": "2026-11-14T22:40:47.671113+00:00",
+ "generated": "2026-11-15T02:09:30.868156+00:00",
  "version": 2,
  "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 0 - DET 0 11/15 - 9:30 AM EST  //  NFL: KC 0 - ATL 0 11/15 - 1:00 PM EST  //  NFL: HOU 0 - CLE 0 11/15 - 1:00 PM EST  //  NFL: MIN 0 - GB 0 11/15 - 1:00 PM EST",
- "breaking": {
-  "id": "espn:50483551",
-  "title": "Saints RB Travis Etienne Jr. activated off IR for game vs. Panthers",
-  "source": "ESPN NFL",
-  "age_min": 26.714675266666667
- },
+ "breaking": null,
  "games": [
   {
    "league": "NFL",
@@ -73,50 +68,50 @@
    "league": "NBA",
    "name": "DEN @ NO",
    "away": "DEN",
-   "away_score": "0",
+   "away_score": "97",
    "home": "NO",
-   "home_score": "0",
-   "status": "11/14 - 7:00 PM EST",
+   "home_score": "87",
+   "status": "8:02 - 4th",
    "date": "2026-11-15T00:00Z"
   },
   {
    "league": "NBA",
    "name": "DAL @ CLE",
    "away": "DAL",
-   "away_score": "0",
+   "away_score": "72",
    "home": "CLE",
-   "home_score": "0",
-   "status": "11/14 - 7:30 PM EST",
+   "home_score": "86",
+   "status": "6:45 - 3rd",
    "date": "2026-11-15T00:30Z"
   },
   {
    "league": "NBA",
    "name": "DET @ MIA",
    "away": "DET",
-   "away_score": "0",
+   "away_score": "49",
    "home": "MIA",
-   "home_score": "0",
-   "status": "11/14 - 8:00 PM EST",
+   "home_score": "53",
+   "status": "4:17 - 2nd",
    "date": "2026-11-15T01:00Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ MEM",
    "away": "BKN",
-   "away_score": "0",
+   "away_score": "54",
    "home": "MEM",
-   "home_score": "0",
-   "status": "11/14 - 8:00 PM EST",
+   "home_score": "71",
+   "status": "Halftime",
    "date": "2026-11-15T01:00Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ MIN",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "58",
    "home": "MIN",
-   "home_score": "0",
-   "status": "11/14 - 8:00 PM EST",
+   "home_score": "45",
+   "status": "Halftime",
    "date": "2026-11-15T01:00Z"
   },
   {
@@ -151,24 +146,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1441h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1444h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 86454
+   "data_age_min": 86663
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1441h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1444h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 86454
+   "data_age_min": 86663
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1441h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1444h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 86454
+   "data_age_min": 86663
   }
  ],
  "sources": {
@@ -179,17 +174,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Saints RB Travis Etienne Jr. activated off IR for game vs. Panthers",
   "WSH 24 - NYG 21 (Final)",
   "NE 0 - DET 0 (11/15 - 9:30 AM EST)",
   "KC 0 - ATL 0 (11/15 - 1:00 PM EST)",
   "HOU 0 - CLE 0 (11/15 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1441h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1441h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1441h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1444h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1444h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1444h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers explode in the fifth, turning a tight game on its head with a scorching chase that stuns Tampa."
+  "Game 5 had the Rays crushing the Brewers, turning home\u2011field advantage into a nightmare\u2014pitchers collapsed, hitters mismatched."
  ],
- "script_hint": "Brewers explode in the fifth, turning a tight game on its head with a scorching chase that stuns Tampa.  [brain]"
+ "script_hint": "Game 5 had the Rays crushing the Brewers, turning home\u2011field advantage into a nightmare\u2014pitchers collapsed, hitters mismatched.  [brain]"
 }
