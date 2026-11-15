@@ -1,11 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:40699880",
-  "espn:50390525",
-  "espn:50390519",
-  "espn:50390289",
-  "espn:50389158",
-  "espn:50383545",
   "espn:50389305",
   "espn:50389252",
   "espn:50388613",
@@ -399,17 +393,23 @@
   "espn:50472215",
   "espn:50485303",
   "espn:50485143",
-  "espn:50484216"
+  "espn:50484216",
+  "espn:50488455",
+  "espn:50488454",
+  "espn:50488453",
+  "espn:50488448",
+  "espn:50487152",
+  "espn:50487005"
  ],
  "recent_topics": [
-  "Brewers' late\u2011inning rally crushes Rays, turning a tense lead into a nail\u2011biter home run finale!",
   "BREAKING - Sources: Jake Bauers, Red Sox agree to 4-year, $58M deal - per ESPN MLB.",
   "Brewers edge Rays in a jaw\u2011dropping, bottom\u2011of\u2011the\u2011ninth comeback, turning an early lead into a legendary Game 5 finish.",
   "Brewers, again, crush the Rays with a slick, artful offensive onslaught\u2014game\u2011winning hits for a hypnotic ending.",
   "One spell\u2011binding rally\u2014Brewers\u2019 blistering 5\u2011run burst flips the Rays from contenders to dust in a single, thunderclap inning.",
   "Brewers\u2019 veteran hit slammed the lights out, turning a shaky start into a show\u2011stopping finish.",
   "Brewers explode in the fifth, turning a tight game on its head with a scorching chase that stuns Tampa.",
-  "Game 5 had the Rays crushing the Brewers, turning home\u2011field advantage into a nightmare\u2014pitchers collapsed, hitters mismatched."
+  "Game 5 had the Rays crushing the Brewers, turning home\u2011field advantage into a nightmare\u2014pitchers collapsed, hitters mismatched.",
+  "What a clutch triple by the Brewers that flipped the game, leaving the Rays scrambling for nothing."
  ],
  "used_highlight_pks": [
   849818,
