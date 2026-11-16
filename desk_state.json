@@ -1,14 +1,24 @@
 {
- "generated": "2026-11-15T21:19:34.398095+00:00",
+ "generated": "2026-11-16T01:19:24.855173+00:00",
  "version": 2,
- "ticker": "NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final  //  NFL: JAX 40 - TEN 23 Final  //  NFL: MIA 22 - IND 24 Final  //  NFL: CAR 20 - NO 17 Final",
+ "ticker": "NFL: NE 10 - DET 35 Final  //  NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final  //  NFL: MIN 30 - GB 10 Final  //  NFL: JAX 40 - TEN 23 Final",
  "breaking": {
-  "id": "espn:50443510",
-  "title": "NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
-  "source": "ESPN NFL",
-  "age_min": 0.8853028333333334
+  "id": "espn:50496245",
+  "title": "Celtics set franchise mark with 42-9 lead over Mavericks after one quarter",
+  "source": "ESPN NBA",
+  "age_min": 2.8261073333333333
  },
  "games": [
+  {
+   "league": "NFL",
+   "name": "NE VS DET",
+   "away": "NE",
+   "away_score": "10",
+   "home": "DET",
+   "home_score": "35",
+   "status": "Final",
+   "date": "2026-11-15T14:30Z"
+  },
   {
    "league": "NFL",
    "name": "KC @ ATL",
@@ -26,6 +36,16 @@
    "away_score": "24",
    "home": "CLE",
    "home_score": "27",
+   "status": "Final",
+   "date": "2026-11-15T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "MIN @ GB",
+   "away": "MIN",
+   "away_score": "30",
+   "home": "GB",
+   "home_score": "10",
    "status": "Final",
    "date": "2026-11-15T18:00Z"
   },
@@ -50,26 +70,6 @@
    "date": "2026-11-15T18:00Z"
   },
   {
-   "league": "NFL",
-   "name": "CAR @ NO",
-   "away": "CAR",
-   "away_score": "20",
-   "home": "NO",
-   "home_score": "17",
-   "status": "Final",
-   "date": "2026-11-15T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "SEA @ LV",
-   "away": "SEA",
-   "away_score": "0",
-   "home": "LV",
-   "home_score": "7",
-   "status": "7:41 - 1st",
-   "date": "2026-11-15T21:05Z"
-  },
-  {
    "league": "NBA",
    "name": "IND @ PHI",
    "away": "IND",
@@ -83,50 +83,50 @@
    "league": "NBA",
    "name": "LAL @ PHX",
    "away": "LAL",
-   "away_score": "18",
+   "away_score": "131",
    "home": "PHX",
-   "home_score": "5",
-   "status": "7:40 - 1st",
+   "home_score": "123",
+   "status": "Final",
    "date": "2026-11-15T21:00Z"
   },
   {
    "league": "NBA",
    "name": "CHA @ LAC",
    "away": "CHA",
-   "away_score": "0",
+   "away_score": "105",
    "home": "LAC",
-   "home_score": "0",
-   "status": "11/15 - 4:30 PM EST",
+   "home_score": "113",
+   "status": "Final",
    "date": "2026-11-15T21:30Z"
   },
   {
    "league": "NBA",
    "name": "SA @ UTAH",
    "away": "SA",
-   "away_score": "0",
+   "away_score": "110",
    "home": "UTAH",
-   "home_score": "0",
-   "status": "11/15 - 5:00 PM EST",
+   "home_score": "102",
+   "status": "Final",
    "date": "2026-11-15T22:00Z"
   },
   {
    "league": "NBA",
    "name": "DAL @ BOS",
    "away": "DAL",
-   "away_score": "0",
+   "away_score": "94",
    "home": "BOS",
-   "home_score": "0",
-   "status": "11/15 - 6:00 PM EST",
+   "home_score": "131",
+   "status": "Final",
    "date": "2026-11-15T23:00Z"
   },
   {
    "league": "NBA",
    "name": "NY @ TOR",
    "away": "NY",
-   "away_score": "0",
+   "away_score": "79",
    "home": "TOR",
-   "home_score": "0",
-   "status": "11/15 - 6:00 PM EST",
+   "home_score": "86",
+   "status": "5:40 - 4th",
    "date": "2026-11-15T23:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1464h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1468h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 87812
+   "data_age_min": 88052
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1464h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1468h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 87812
+   "data_age_min": 88052
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1464h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1468h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 87812
+   "data_age_min": 88052
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games",
+  "BREAKING: Celtics set franchise mark with 42-9 lead over Mavericks after one quarter",
+  "NE 10 - DET 35 (Final)",
   "KC 35 - ATL 13 (Final)",
   "HOU 24 - CLE 27 (Final)",
-  "JAX 40 - TEN 23 (Final)",
-  "MIA 22 - IND 24 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1464h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1464h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1464h old]",
+  "MIN 30 - GB 10 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1468h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1468h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1468h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "BREAKING - NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games - per ESPN NFL."
+  "BREAKING - Celtics set franchise mark with 42-9 lead over Mavericks after one quarter - per ESPN NBA."
  ],
- "script_hint": "BREAKING - NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games - per ESPN NFL."
+ "script_hint": "BREAKING - Celtics set franchise mark with 42-9 lead over Mavericks after one quarter - per ESPN NBA."
 }
