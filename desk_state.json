@@ -1,8 +1,13 @@
 {
- "generated": "2026-11-17T10:58:54.852031+00:00",
+ "generated": "2026-11-17T19:44:55.158163+00:00",
  "version": 2,
  "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 10 - DET 35 Final  //  NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final  //  NFL: MIN 30 - GB 10 Final",
- "breaking": null,
+ "breaking": {
+  "id": "espn:50512634",
+  "title": "NFL flexes Raiders-Browns to replace Pats-Chargers in SNF slot for Week 12",
+  "source": "ESPN NFL",
+  "age_min": 14.949980766666666
+ },
  "games": [
   {
    "league": "NFL",
@@ -66,63 +71,53 @@
   },
   {
    "league": "NBA",
-   "name": "ORL @ BOS",
-   "away": "ORL",
-   "away_score": "115",
-   "home": "BOS",
-   "home_score": "105",
-   "status": "Final",
-   "date": "2026-11-17T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CHI @ CLE",
-   "away": "CHI",
-   "away_score": "115",
-   "home": "CLE",
-   "home_score": "126",
-   "status": "Final",
-   "date": "2026-11-17T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MEM @ WSH",
-   "away": "MEM",
-   "away_score": "136",
-   "home": "WSH",
-   "home_score": "120",
-   "status": "Final",
-   "date": "2026-11-17T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "PHI @ BKN",
-   "away": "PHI",
-   "away_score": "135",
-   "home": "BKN",
-   "home_score": "123",
-   "status": "Final",
-   "date": "2026-11-17T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "HOU @ MIA",
-   "away": "HOU",
-   "away_score": "110",
-   "home": "MIA",
-   "home_score": "128",
-   "status": "Final",
-   "date": "2026-11-17T00:30Z"
+   "name": "NY @ TOR",
+   "away": "NY",
+   "away_score": "0",
+   "home": "TOR",
+   "home_score": "0",
+   "status": "11/17 - 7:30 PM EST",
+   "date": "2026-11-18T00:30Z"
   },
   {
    "league": "NBA",
    "name": "POR @ MIN",
    "away": "POR",
-   "away_score": "98",
+   "away_score": "0",
    "home": "MIN",
-   "home_score": "106",
-   "status": "Final",
-   "date": "2026-11-17T01:00Z"
+   "home_score": "0",
+   "status": "11/17 - 8:00 PM EST",
+   "date": "2026-11-18T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "DET @ SA",
+   "away": "DET",
+   "away_score": "0",
+   "home": "SA",
+   "home_score": "0",
+   "status": "11/17 - 8:00 PM EST",
+   "date": "2026-11-18T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "UTAH @ LAC",
+   "away": "UTAH",
+   "away_score": "0",
+   "home": "LAC",
+   "home_score": "0",
+   "status": "11/17 - 10:30 PM EST",
+   "date": "2026-11-18T03:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "CHA @ LAL",
+   "away": "CHA",
+   "away_score": "0",
+   "home": "LAL",
+   "home_score": "0",
+   "status": "11/17 - 11:00 PM EST",
+   "date": "2026-11-18T04:00Z"
   },
   {
    "league": "MLB",
@@ -156,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1501h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1510h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 90072
+   "data_age_min": 90598
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1501h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1510h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 90072
+   "data_age_min": 90598
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1501h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1510h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 90072
+   "data_age_min": 90598
   }
  ],
  "sources": {
@@ -184,16 +179,17 @@
  },
  "chat": [],
  "ticker_items": [
+  "BREAKING: NFL flexes Raiders-Browns to replace Pats-Chargers in SNF slot for Week 12",
   "WSH 24 - NYG 21 (Final)",
   "NE 10 - DET 35 (Final)",
   "KC 35 - ATL 13 (Final)",
   "HOU 24 - CLE 27 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1501h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1501h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1501h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1510h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1510h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1510h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "A slick three\u2011run walk\u2011off with Harper stealing home\u2014Brewers\u2019 last\u2011ball curse turns into a clutch celebration!"
+  "The Brewers' rally was a vault\u2011flashing grand slam chaos\u2014Rays collapsed, game drama exploded, fans left stunned."
  ],
- "script_hint": "A slick three\u2011run walk\u2011off with Harper stealing home\u2014Brewers\u2019 last\u2011ball curse turns into a clutch celebration!  [brain]"
+ "script_hint": "The Brewers' rally was a vault\u2011flashing grand slam chaos\u2014Rays collapsed, game drama exploded, fans left stunned.  [brain]"
 }
