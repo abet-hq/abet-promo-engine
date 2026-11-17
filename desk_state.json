@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-16T18:48:37.156586+00:00",
+ "generated": "2026-11-17T02:20:54.193062+00:00",
  "version": 2,
- "ticker": "NFL: LAC 0 - BAL 0 11/16 - 8:15 PM EST  //  NFL: WSH 24 - NYG 21 Final  //  NFL: NE 10 - DET 35 Final  //  NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final",
+ "ticker": "NFL: LAC 10 - BAL 7 0:31 - 2nd  //  NFL: WSH 24 - NYG 21 Final  //  NFL: NE 10 - DET 35 Final  //  NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final",
  "breaking": {
-  "id": "espn:50503255",
-  "title": "76ers star LeBron James ruled out vs. Nets due to lower back management",
-  "source": "ESPN NBA",
-  "age_min": 4.348968716666667
+  "id": "espn:50506869",
+  "title": "Rams center Coleman Shelton out 4-6 weeks with hamstring injury",
+  "source": "ESPN NFL",
+  "age_min": 7.936974733333333
  },
  "games": [
   {
    "league": "NFL",
    "name": "LAC @ BAL",
    "away": "LAC",
-   "away_score": "0",
+   "away_score": "10",
    "home": "BAL",
-   "home_score": "0",
-   "status": "11/16 - 8:15 PM EST",
+   "home_score": "7",
+   "status": "0:31 - 2nd",
    "date": "2026-11-17T01:15Z"
   },
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "ORL @ BOS",
    "away": "ORL",
-   "away_score": "0",
+   "away_score": "104",
    "home": "BOS",
-   "home_score": "0",
-   "status": "11/16 - 7:00 PM EST",
+   "home_score": "99",
+   "status": "3:16 - 4th",
    "date": "2026-11-17T00:00Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ CLE",
    "away": "CHI",
-   "away_score": "0",
+   "away_score": "102",
    "home": "CLE",
-   "home_score": "0",
-   "status": "11/16 - 7:00 PM EST",
+   "home_score": "116",
+   "status": "3:34 - 4th",
    "date": "2026-11-17T00:00Z"
   },
   {
    "league": "NBA",
    "name": "MEM @ WSH",
    "away": "MEM",
-   "away_score": "0",
+   "away_score": "123",
    "home": "WSH",
-   "home_score": "0",
-   "status": "11/16 - 7:00 PM EST",
+   "home_score": "108",
+   "status": "3:24 - 4th",
    "date": "2026-11-17T00:00Z"
   },
   {
    "league": "NBA",
    "name": "PHI @ BKN",
    "away": "PHI",
-   "away_score": "0",
+   "away_score": "91",
    "home": "BKN",
-   "home_score": "0",
-   "status": "11/16 - 7:30 PM EST",
+   "home_score": "81",
+   "status": "6:25 - 3rd",
    "date": "2026-11-17T00:30Z"
   },
   {
    "league": "NBA",
    "name": "HOU @ MIA",
    "away": "HOU",
-   "away_score": "0",
+   "away_score": "76",
    "home": "MIA",
-   "home_score": "0",
-   "status": "11/16 - 7:30 PM EST",
+   "home_score": "92",
+   "status": "1:13 - 3rd",
    "date": "2026-11-17T00:30Z"
   },
   {
    "league": "NBA",
    "name": "POR @ MIN",
    "away": "POR",
-   "away_score": "0",
+   "away_score": "51",
    "home": "MIN",
-   "home_score": "0",
-   "status": "11/16 - 8:00 PM EST",
+   "home_score": "59",
+   "status": "Halftime",
    "date": "2026-11-17T01:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1485h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1493h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 89101
+   "data_age_min": 89554
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1485h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1493h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 89101
+   "data_age_min": 89554
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1485h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1493h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 89101
+   "data_age_min": 89554
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: 76ers star LeBron James ruled out vs. Nets due to lower back management",
-  "LAC 0 - BAL 0 (11/16 - 8:15 PM EST)",
+  "BREAKING: Rams center Coleman Shelton out 4-6 weeks with hamstring injury",
+  "LAC 10 - BAL 7 (0:31 - 2nd)",
   "WSH 24 - NYG 21 (Final)",
   "NE 10 - DET 35 (Final)",
   "KC 35 - ATL 13 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1485h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1485h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1485h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1493h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1493h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1493h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "BREAKING - 76ers star LeBron James ruled out vs. Nets due to lower back management - per ESPN NBA."
+  "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide."
  ],
- "script_hint": "BREAKING - 76ers star LeBron James ruled out vs. Nets due to lower back management - per ESPN NBA."
+ "script_hint": "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide.  [brain]"
 }
