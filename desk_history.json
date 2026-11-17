@@ -1,17 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50405444",
-  "espn:50405411",
-  "espn:50403894",
-  "espn:50403554",
-  "espn:50402459",
-  "espn:50403627",
-  "espn:50403440",
-  "espn:50400748",
-  "espn:50390199",
-  "espn:50389499",
-  "espn:50402286",
-  "espn:50406171",
   "espn:50406079",
   "espn:50405889",
   "espn:50405888",
@@ -399,17 +387,29 @@
   "espn:50502778",
   "espn:50506345",
   "espn:50505544",
-  "gnews:Sports Equinox Parlay: NFL, MLB, NBA & N"
+  "gnews:Sports Equinox Parlay: NFL, MLB, NBA & N",
+  "espn:50508744",
+  "espn:50508438",
+  "espn:50507977",
+  "espn:50506286",
+  "espn:50507800",
+  "espn:50507744",
+  "espn:50508608",
+  "espn:50508607",
+  "espn:50508606",
+  "espn:50508605",
+  "espn:50508604",
+  "espn:50508603"
  ],
  "recent_topics": [
-  "Game 5 had the Rays crushing the Brewers, turning home\u2011field advantage into a nightmare\u2014pitchers collapsed, hitters mismatched.",
   "What a clutch triple by the Brewers that flipped the game, leaving the Rays scrambling for nothing.",
   "Brewers\u2019 bullpen blew; the Rays\u2019 thunderous offense erupted in a 5\u2011run rally, crushing the game with relentless fire.",
   "BREAKING - NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games - per ESPN NFL.",
   "BREAKING - Celtics set franchise mark with 42-9 lead over Mavericks after one quarter - per ESPN NBA.",
   "Simpson\u2019s 38\u2011RBI onslaught blasts Brewers past the Rays in Game 5, all while keeping the home\u2011run drought a mystery.",
   "BREAKING - 76ers star LeBron James ruled out vs. Nets due to lower back management - per ESPN NBA.",
-  "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide."
+  "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide.",
+  "A slick three\u2011run walk\u2011off with Harper stealing home\u2014Brewers\u2019 last\u2011ball curse turns into a clutch celebration!"
  ],
  "used_highlight_pks": [
   849818,

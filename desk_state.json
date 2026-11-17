@@ -1,24 +1,9 @@
 {
- "generated": "2026-11-17T02:20:54.193062+00:00",
+ "generated": "2026-11-17T10:58:54.852031+00:00",
  "version": 2,
- "ticker": "NFL: LAC 10 - BAL 7 0:31 - 2nd  //  NFL: WSH 24 - NYG 21 Final  //  NFL: NE 10 - DET 35 Final  //  NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final",
- "breaking": {
-  "id": "espn:50506869",
-  "title": "Rams center Coleman Shelton out 4-6 weeks with hamstring injury",
-  "source": "ESPN NFL",
-  "age_min": 7.936974733333333
- },
+ "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 10 - DET 35 Final  //  NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final  //  NFL: MIN 30 - GB 10 Final",
+ "breaking": null,
  "games": [
-  {
-   "league": "NFL",
-   "name": "LAC @ BAL",
-   "away": "LAC",
-   "away_score": "10",
-   "home": "BAL",
-   "home_score": "7",
-   "status": "0:31 - 2nd",
-   "date": "2026-11-17T01:15Z"
-  },
   {
    "league": "NFL",
    "name": "WSH @ NYG",
@@ -70,63 +55,73 @@
    "date": "2026-11-15T18:00Z"
   },
   {
+   "league": "NFL",
+   "name": "JAX @ TEN",
+   "away": "JAX",
+   "away_score": "40",
+   "home": "TEN",
+   "home_score": "23",
+   "status": "Final",
+   "date": "2026-11-15T18:00Z"
+  },
+  {
    "league": "NBA",
    "name": "ORL @ BOS",
    "away": "ORL",
-   "away_score": "104",
+   "away_score": "115",
    "home": "BOS",
-   "home_score": "99",
-   "status": "3:16 - 4th",
+   "home_score": "105",
+   "status": "Final",
    "date": "2026-11-17T00:00Z"
   },
   {
    "league": "NBA",
    "name": "CHI @ CLE",
    "away": "CHI",
-   "away_score": "102",
+   "away_score": "115",
    "home": "CLE",
-   "home_score": "116",
-   "status": "3:34 - 4th",
+   "home_score": "126",
+   "status": "Final",
    "date": "2026-11-17T00:00Z"
   },
   {
    "league": "NBA",
    "name": "MEM @ WSH",
    "away": "MEM",
-   "away_score": "123",
+   "away_score": "136",
    "home": "WSH",
-   "home_score": "108",
-   "status": "3:24 - 4th",
+   "home_score": "120",
+   "status": "Final",
    "date": "2026-11-17T00:00Z"
   },
   {
    "league": "NBA",
    "name": "PHI @ BKN",
    "away": "PHI",
-   "away_score": "91",
+   "away_score": "135",
    "home": "BKN",
-   "home_score": "81",
-   "status": "6:25 - 3rd",
+   "home_score": "123",
+   "status": "Final",
    "date": "2026-11-17T00:30Z"
   },
   {
    "league": "NBA",
    "name": "HOU @ MIA",
    "away": "HOU",
-   "away_score": "76",
+   "away_score": "110",
    "home": "MIA",
-   "home_score": "92",
-   "status": "1:13 - 3rd",
+   "home_score": "128",
+   "status": "Final",
    "date": "2026-11-17T00:30Z"
   },
   {
    "league": "NBA",
    "name": "POR @ MIN",
    "away": "POR",
-   "away_score": "51",
+   "away_score": "98",
    "home": "MIN",
-   "home_score": "59",
-   "status": "Halftime",
+   "home_score": "106",
+   "status": "Final",
    "date": "2026-11-17T01:00Z"
   },
   {
@@ -161,24 +156,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1493h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1501h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 89554
+   "data_age_min": 90072
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1493h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1501h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 89554
+   "data_age_min": 90072
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1493h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1501h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 89554
+   "data_age_min": 90072
   }
  ],
  "sources": {
@@ -189,17 +184,16 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Rams center Coleman Shelton out 4-6 weeks with hamstring injury",
-  "LAC 10 - BAL 7 (0:31 - 2nd)",
   "WSH 24 - NYG 21 (Final)",
   "NE 10 - DET 35 (Final)",
   "KC 35 - ATL 13 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1493h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1493h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1493h old]",
+  "HOU 24 - CLE 27 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1501h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1501h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1501h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide."
+  "A slick three\u2011run walk\u2011off with Harper stealing home\u2014Brewers\u2019 last\u2011ball curse turns into a clutch celebration!"
  ],
- "script_hint": "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide.  [brain]"
+ "script_hint": "A slick three\u2011run walk\u2011off with Harper stealing home\u2014Brewers\u2019 last\u2011ball curse turns into a clutch celebration!  [brain]"
 }
