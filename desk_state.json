@@ -1,122 +1,123 @@
 {
- "generated": "2026-11-18T01:53:20.769603+00:00",
+ "generated": "2026-11-18T09:51:54.389753+00:00",
  "version": 2,
- "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 10 - DET 35 Final  //  NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final  //  NFL: MIN 30 - GB 10 Final",
+ "ticker": "NFL: IND 0 - HOU 0 11/19 - 8:15 PM EST  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50515571",
-  "title": "Prosecutors: Emmanuel Clase told bettor to send money to Dominican Republic",
-  "source": "ESPN MLB",
-  "age_min": 16.276491616666668
+  "id": "gnews:Projected 2027 NFL Draft order: Chargers",
+  "title": "Projected 2027 NFL Draft order: Chargers climb out of No. 1 spot; Ravens\u2019 top-10 odds soar - The New York Times",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
    "league": "NFL",
-   "name": "WSH @ NYG",
-   "away": "WSH",
-   "away_score": "24",
-   "home": "NYG",
-   "home_score": "21",
-   "status": "Final",
-   "date": "2026-11-13T01:15Z"
+   "name": "IND @ HOU",
+   "away": "IND",
+   "away_score": "0",
+   "home": "HOU",
+   "home_score": "0",
+   "status": "11/19 - 8:15 PM EST",
+   "date": "2026-11-20T01:15Z"
   },
   {
    "league": "NFL",
-   "name": "NE VS DET",
-   "away": "NE",
-   "away_score": "10",
+   "name": "MIA @ BUF",
+   "away": "MIA",
+   "away_score": "0",
+   "home": "BUF",
+   "home_score": "0",
+   "status": "11/22 - 1:00 PM EST",
+   "date": "2026-11-22T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "NO @ CHI",
+   "away": "NO",
+   "away_score": "0",
+   "home": "CHI",
+   "home_score": "0",
+   "status": "11/22 - 1:00 PM EST",
+   "date": "2026-11-22T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "TEN @ DAL",
+   "away": "TEN",
+   "away_score": "0",
+   "home": "DAL",
+   "home_score": "0",
+   "status": "11/22 - 1:00 PM EST",
+   "date": "2026-11-22T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "TB @ DET",
+   "away": "TB",
+   "away_score": "0",
    "home": "DET",
-   "home_score": "35",
-   "status": "Final",
-   "date": "2026-11-15T14:30Z"
+   "home_score": "0",
+   "status": "11/22 - 1:00 PM EST",
+   "date": "2026-11-22T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "KC @ ATL",
-   "away": "KC",
-   "away_score": "35",
-   "home": "ATL",
-   "home_score": "13",
-   "status": "Final",
-   "date": "2026-11-15T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "HOU @ CLE",
-   "away": "HOU",
-   "away_score": "24",
-   "home": "CLE",
-   "home_score": "27",
-   "status": "Final",
-   "date": "2026-11-15T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "MIN @ GB",
-   "away": "MIN",
-   "away_score": "30",
-   "home": "GB",
-   "home_score": "10",
-   "status": "Final",
-   "date": "2026-11-15T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "JAX @ TEN",
-   "away": "JAX",
-   "away_score": "40",
-   "home": "TEN",
-   "home_score": "23",
-   "status": "Final",
-   "date": "2026-11-15T18:00Z"
+   "name": "ARI @ KC",
+   "away": "ARI",
+   "away_score": "0",
+   "home": "KC",
+   "home_score": "0",
+   "status": "11/22 - 1:00 PM EST",
+   "date": "2026-11-22T18:00Z"
   },
   {
    "league": "NBA",
    "name": "NY @ TOR",
    "away": "NY",
-   "away_score": "56",
+   "away_score": "111",
    "home": "TOR",
-   "home_score": "57",
-   "status": "10:14 - 3rd",
+   "home_score": "102",
+   "status": "Final",
    "date": "2026-11-18T00:30Z"
   },
   {
    "league": "NBA",
    "name": "POR @ MIN",
    "away": "POR",
-   "away_score": "34",
+   "away_score": "105",
    "home": "MIN",
-   "home_score": "39",
-   "status": "6:25 - 2nd",
+   "home_score": "106",
+   "status": "Final",
    "date": "2026-11-18T01:00Z"
   },
   {
    "league": "NBA",
    "name": "DET @ SA",
    "away": "DET",
-   "away_score": "26",
+   "away_score": "105",
    "home": "SA",
-   "home_score": "40",
-   "status": "10:08 - 2nd",
+   "home_score": "93",
+   "status": "Final",
    "date": "2026-11-18T01:00Z"
   },
   {
    "league": "NBA",
    "name": "UTAH @ LAC",
    "away": "UTAH",
-   "away_score": "0",
+   "away_score": "132",
    "home": "LAC",
-   "home_score": "0",
-   "status": "11/17 - 10:30 PM EST",
+   "home_score": "107",
+   "status": "Final",
    "date": "2026-11-18T03:30Z"
   },
   {
    "league": "NBA",
    "name": "CHA @ LAL",
    "away": "CHA",
-   "away_score": "0",
+   "away_score": "114",
    "home": "LAL",
-   "home_score": "0",
-   "status": "11/17 - 11:00 PM EST",
+   "home_score": "118",
+   "status": "Final/OT",
    "date": "2026-11-18T04:00Z"
   },
   {
@@ -151,24 +152,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1516h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1524h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 90967
+   "data_age_min": 91445
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1516h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1524h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 90967
+   "data_age_min": 91445
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1516h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1524h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 90967
+   "data_age_min": 91445
   }
  ],
  "sources": {
@@ -179,17 +180,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Prosecutors: Emmanuel Clase told bettor to send money to Dominican Republic",
-  "WSH 24 - NYG 21 (Final)",
-  "NE 10 - DET 35 (Final)",
-  "KC 35 - ATL 13 (Final)",
-  "HOU 24 - CLE 27 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1516h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1516h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1516h old]",
+  "BREAKING: Projected 2027 NFL Draft order: Chargers climb out of No. 1 spot; Ravens\u2019 top-10 odds soar - The New York Times",
+  "IND 0 - HOU 0 (11/19 - 8:15 PM EST)",
+  "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
+  "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
+  "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1524h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1524h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1524h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph."
+  "McArthur\u2019s gutsy burst in the sixth slices the Rays\u2019 lead, igniting a Brewers rally that\u2019s impossible to ignore."
  ],
- "script_hint": "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph.  [brain]"
+ "script_hint": "McArthur\u2019s gutsy burst in the sixth slices the Rays\u2019 lead, igniting a Brewers rally that\u2019s impossible to ignore.  [brain]"
 }

@@ -1,16 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50419727",
-  "espn:50401786",
-  "espn:50422850",
-  "espn:50422832",
-  "espn:50422793",
-  "espn:50422661",
-  "espn:50409762",
-  "espn:50422166",
-  "espn:50422647",
-  "espn:50422499",
-  "espn:50392857",
   "espn:50420169",
   "espn:50425874",
   "espn:50425853",
@@ -399,17 +388,28 @@
   "espn:50514320",
   "espn:50515571",
   "espn:50513467",
-  "gnews:Sports equinox on tap with MLB, NFL, NBA"
+  "gnews:Sports equinox on tap with MLB, NFL, NBA",
+  "espn:50517561",
+  "espn:50516834",
+  "espn:50518350",
+  "espn:50518136",
+  "espn:50518068",
+  "espn:50517393",
+  "espn:50517203",
+  "espn:50517178",
+  "espn:50516766",
+  "gnews:Projected 2027 NFL Draft order: Chargers",
+  "gnews:Four Major Leagues, WNBA Finals Share a "
  ],
  "recent_topics": [
-  "BREAKING - NFL Week 10: Big takeaways, questions and fantasy spin from Sunday's games - per ESPN NFL.",
   "BREAKING - Celtics set franchise mark with 42-9 lead over Mavericks after one quarter - per ESPN NBA.",
   "Simpson\u2019s 38\u2011RBI onslaught blasts Brewers past the Rays in Game 5, all while keeping the home\u2011run drought a mystery.",
   "BREAKING - 76ers star LeBron James ruled out vs. Nets due to lower back management - per ESPN NBA.",
   "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide.",
   "A slick three\u2011run walk\u2011off with Harper stealing home\u2014Brewers\u2019 last\u2011ball curse turns into a clutch celebration!",
   "The Brewers' rally was a vault\u2011flashing grand slam chaos\u2014Rays collapsed, game drama exploded, fans left stunned.",
-  "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph."
+  "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph.",
+  "McArthur\u2019s gutsy burst in the sixth slices the Rays\u2019 lead, igniting a Brewers rally that\u2019s impossible to ignore."
  ],
  "used_highlight_pks": [
   849818,
