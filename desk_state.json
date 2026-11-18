@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17T19:44:55.158163+00:00",
+ "generated": "2026-11-18T01:53:20.769603+00:00",
  "version": 2,
  "ticker": "NFL: WSH 24 - NYG 21 Final  //  NFL: NE 10 - DET 35 Final  //  NFL: KC 35 - ATL 13 Final  //  NFL: HOU 24 - CLE 27 Final  //  NFL: MIN 30 - GB 10 Final",
  "breaking": {
-  "id": "espn:50512634",
-  "title": "NFL flexes Raiders-Browns to replace Pats-Chargers in SNF slot for Week 12",
-  "source": "ESPN NFL",
-  "age_min": 14.949980766666666
+  "id": "espn:50515571",
+  "title": "Prosecutors: Emmanuel Clase told bettor to send money to Dominican Republic",
+  "source": "ESPN MLB",
+  "age_min": 16.276491616666668
  },
  "games": [
   {
@@ -73,30 +73,30 @@
    "league": "NBA",
    "name": "NY @ TOR",
    "away": "NY",
-   "away_score": "0",
+   "away_score": "56",
    "home": "TOR",
-   "home_score": "0",
-   "status": "11/17 - 7:30 PM EST",
+   "home_score": "57",
+   "status": "10:14 - 3rd",
    "date": "2026-11-18T00:30Z"
   },
   {
    "league": "NBA",
    "name": "POR @ MIN",
    "away": "POR",
-   "away_score": "0",
+   "away_score": "34",
    "home": "MIN",
-   "home_score": "0",
-   "status": "11/17 - 8:00 PM EST",
+   "home_score": "39",
+   "status": "6:25 - 2nd",
    "date": "2026-11-18T01:00Z"
   },
   {
    "league": "NBA",
    "name": "DET @ SA",
    "away": "DET",
-   "away_score": "0",
+   "away_score": "26",
    "home": "SA",
-   "home_score": "0",
-   "status": "11/17 - 8:00 PM EST",
+   "home_score": "40",
+   "status": "10:08 - 2nd",
    "date": "2026-11-18T01:00Z"
   },
   {
@@ -151,24 +151,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1510h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1516h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 90598
+   "data_age_min": 90967
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1510h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1516h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 90598
+   "data_age_min": 90967
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1510h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1516h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 90598
+   "data_age_min": 90967
   }
  ],
  "sources": {
@@ -179,17 +179,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NFL flexes Raiders-Browns to replace Pats-Chargers in SNF slot for Week 12",
+  "BREAKING: Prosecutors: Emmanuel Clase told bettor to send money to Dominican Republic",
   "WSH 24 - NYG 21 (Final)",
   "NE 10 - DET 35 (Final)",
   "KC 35 - ATL 13 (Final)",
   "HOU 24 - CLE 27 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1510h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1510h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1510h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1516h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1516h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1516h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "The Brewers' rally was a vault\u2011flashing grand slam chaos\u2014Rays collapsed, game drama exploded, fans left stunned."
+  "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph."
  ],
- "script_hint": "The Brewers' rally was a vault\u2011flashing grand slam chaos\u2014Rays collapsed, game drama exploded, fans left stunned.  [brain]"
+ "script_hint": "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph.  [brain]"
 }
