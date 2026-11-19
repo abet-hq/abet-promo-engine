@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-19T17:17:59.311246+00:00",
+ "generated": "2026-11-19T23:42:35.120877+00:00",
  "version": 2,
  "ticker": "NFL: IND 0 - HOU 0 11/19 - 8:15 PM EST  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50532254",
-  "title": "Bill Belichick, Robert Kraft named Hall of Fame finalists for 2nd straight year",
+  "id": "espn:50534625",
+  "title": "Bengals, Reds pay tribute to Fiona the hippo after her death",
   "source": "ESPN NFL",
-  "age_min": 1.9133088666666667
+  "age_min": 18.549539499999998
  },
  "games": [
   {
@@ -141,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1556h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1562h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 93331
+   "data_age_min": 93716
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1556h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1562h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 93331
+   "data_age_min": 93716
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1556h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1562h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 93331
+   "data_age_min": 93716
   }
  ],
  "sources": {
@@ -169,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Bill Belichick, Robert Kraft named Hall of Fame finalists for 2nd straight year",
+  "BREAKING: Bengals, Reds pay tribute to Fiona the hippo after her death",
   "IND 0 - HOU 0 (11/19 - 8:15 PM EST)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1556h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1556h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1556h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1562h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1562h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1562h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Rays\u2019 power surge reigns supreme: 2 grand slams, a 4\u2011run rally, Brewers knocked out\u2014next up, who\u2019s got the hottest ace?"
+  "Whoa\u2014Tyler Glasnow meets Jansen: a rain\u2011swung, 3\u2011run walk\u2011off that flips Game 5 into a Brewers\u2011only playoff summit!"
  ],
- "script_hint": "Rays\u2019 power surge reigns supreme: 2 grand slams, a 4\u2011run rally, Brewers knocked out\u2014next up, who\u2019s got the hottest ace?  [brain]"
+ "script_hint": "Whoa\u2014Tyler Glasnow meets Jansen: a rain\u2011swung, 3\u2011run walk\u2011off that flips Game 5 into a Brewers\u2011only playoff summit!  [brain]"
 }
