@@ -1,13 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50043471",
-  "espn:50434942",
-  "espn:50043542",
-  "espn:50433470",
-  "espn:50434668",
-  "espn:50434104",
-  "espn:50434186",
-  "espn:50434463",
   "espn:50430300",
   "espn:50432359",
   "espn:50427876",
@@ -399,17 +391,25 @@
   "espn:50524552",
   "espn:50523891",
   "espn:50523817",
-  "gnews:How to watch Sports Equinox 2026 for fre"
+  "gnews:How to watch Sports Equinox 2026 for fre",
+  "espn:50526309",
+  "espn:50525580",
+  "espn:50529118",
+  "espn:50528958",
+  "espn:50528957",
+  "espn:50528956",
+  "espn:50528955",
+  "espn:50528954"
  ],
  "recent_topics": [
-  "BREAKING - 76ers star LeBron James ruled out vs. Nets due to lower back management - per ESPN NBA.",
   "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide.",
   "A slick three\u2011run walk\u2011off with Harper stealing home\u2014Brewers\u2019 last\u2011ball curse turns into a clutch celebration!",
   "The Brewers' rally was a vault\u2011flashing grand slam chaos\u2014Rays collapsed, game drama exploded, fans left stunned.",
   "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph.",
   "McArthur\u2019s gutsy burst in the sixth slices the Rays\u2019 lead, igniting a Brewers rally that\u2019s impossible to ignore.",
   "Brewers snuck out a late\u2011game motor, sparking the Rays' offense to a frantic, gutter\u2011ball comeback that left the crowd roaring.",
-  "A blazing rookie cannon blasts the outfield\u2014Chandler Simpson slams a two\u2011run homer, turning Game 5 into a Brewers fireworks finale!"
+  "A blazing rookie cannon blasts the outfield\u2014Chandler Simpson slams a two\u2011run homer, turning Game 5 into a Brewers fireworks finale!",
+  "Last inning's rain\u2011slick Wallace dive didn\u2019t fly; Aguilar\u2019s walk\u2011off single seals Game 5, sparking a furious Brewers rally."
  ],
  "used_highlight_pks": [
   849818,
