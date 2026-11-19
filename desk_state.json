@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-19T08:00:05.207840+00:00",
+ "generated": "2026-11-19T17:17:59.311246+00:00",
  "version": 2,
  "ticker": "NFL: IND 0 - HOU 0 11/19 - 8:15 PM EST  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50529118",
-  "title": "Luka Doncic's shot goes cold as Jazz end Lakers winning streak at 9",
-  "source": "ESPN NBA",
-  "age_min": 2.68808815
+  "id": "espn:50532254",
+  "title": "Bill Belichick, Robert Kraft named Hall of Fame finalists for 2nd straight year",
+  "source": "ESPN NFL",
+  "age_min": 1.9133088666666667
  },
  "games": [
   {
@@ -71,63 +71,43 @@
   },
   {
    "league": "NBA",
-   "name": "MEM @ CLE",
-   "away": "MEM",
-   "away_score": "124",
-   "home": "CLE",
-   "home_score": "121",
-   "status": "Final",
-   "date": "2026-11-19T00:00Z"
+   "name": "GS @ MEM",
+   "away": "GS",
+   "away_score": "0",
+   "home": "MEM",
+   "home_score": "0",
+   "status": "11/19 - 8:00 PM EST",
+   "date": "2026-11-20T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "HOU @ IND",
-   "away": "HOU",
-   "away_score": "119",
-   "home": "IND",
-   "home_score": "104",
-   "status": "Final",
-   "date": "2026-11-19T00:00Z"
+   "name": "POR @ MIL",
+   "away": "POR",
+   "away_score": "0",
+   "home": "MIL",
+   "home_score": "0",
+   "status": "11/19 - 8:00 PM EST",
+   "date": "2026-11-20T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "MIL @ MIA",
-   "away": "MIL",
-   "away_score": "130",
-   "home": "MIA",
-   "home_score": "137",
-   "status": "Final",
-   "date": "2026-11-19T00:00Z"
+   "name": "NY @ MIN",
+   "away": "NY",
+   "away_score": "0",
+   "home": "MIN",
+   "home_score": "0",
+   "status": "11/19 - 8:00 PM EST",
+   "date": "2026-11-20T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "PHI @ ORL",
-   "away": "PHI",
-   "away_score": "121",
-   "home": "ORL",
-   "home_score": "116",
-   "status": "Final",
-   "date": "2026-11-19T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CHI @ BKN",
-   "away": "CHI",
-   "away_score": "137",
-   "home": "BKN",
-   "home_score": "107",
-   "status": "Final",
-   "date": "2026-11-19T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "WSH @ TOR",
-   "away": "WSH",
-   "away_score": "103",
-   "home": "TOR",
-   "home_score": "99",
-   "status": "Final",
-   "date": "2026-11-19T00:30Z"
+   "name": "LAC @ SA",
+   "away": "LAC",
+   "away_score": "0",
+   "home": "SA",
+   "home_score": "0",
+   "status": "11/19 - 8:00 PM EST",
+   "date": "2026-11-20T01:00Z"
   },
   {
    "league": "MLB",
@@ -161,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1546h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1556h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 92773
+   "data_age_min": 93331
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1546h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1556h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 92773
+   "data_age_min": 93331
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1546h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1556h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 92773
+   "data_age_min": 93331
   }
  ],
  "sources": {
@@ -189,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Luka Doncic's shot goes cold as Jazz end Lakers winning streak at 9",
+  "BREAKING: Bill Belichick, Robert Kraft named Hall of Fame finalists for 2nd straight year",
   "IND 0 - HOU 0 (11/19 - 8:15 PM EST)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1546h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1546h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1546h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1556h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1556h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1556h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Last inning's rain\u2011slick Wallace dive didn\u2019t fly; Aguilar\u2019s walk\u2011off single seals Game 5, sparking a furious Brewers rally."
+  "Rays\u2019 power surge reigns supreme: 2 grand slams, a 4\u2011run rally, Brewers knocked out\u2014next up, who\u2019s got the hottest ace?"
  ],
- "script_hint": "Last inning's rain\u2011slick Wallace dive didn\u2019t fly; Aguilar\u2019s walk\u2011off single seals Game 5, sparking a furious Brewers rally.  [brain]"
+ "script_hint": "Rays\u2019 power surge reigns supreme: 2 grand slams, a 4\u2011run rally, Brewers knocked out\u2014next up, who\u2019s got the hottest ace?  [brain]"
 }

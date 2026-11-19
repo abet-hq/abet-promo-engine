@@ -1,15 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50430300",
-  "espn:50432359",
-  "espn:50427876",
-  "espn:50434745",
-  "espn:50391276",
-  "gnews:What is a sports equinox? Here's when ML",
-  "espn:50438482",
-  "espn:50393510",
-  "espn:50437202",
-  "espn:50434826",
   "espn:50432490",
   "espn:50438633",
   "espn:50438507",
@@ -399,17 +389,27 @@
   "espn:50528957",
   "espn:50528956",
   "espn:50528955",
-  "espn:50528954"
+  "espn:50528954",
+  "espn:50531689",
+  "espn:50532199",
+  "espn:50532254",
+  "espn:50436635",
+  "espn:50507366",
+  "espn:50526626",
+  "espn:50522350",
+  "espn:50512061",
+  "gnews:The NFL\u2019s unluckiest QBs, plus an MLB bl",
+  "gnews:Which athletes have won three straight M"
  ],
  "recent_topics": [
-  "Crisp, five\u2011strikeout calm in Cleveland\u2019s mound showdown\u2014rookies still hold breath, but it\u2019s Narver\u2019s blistering fastball that finally turns the tide.",
   "A slick three\u2011run walk\u2011off with Harper stealing home\u2014Brewers\u2019 last\u2011ball curse turns into a clutch celebration!",
   "The Brewers' rally was a vault\u2011flashing grand slam chaos\u2014Rays collapsed, game drama exploded, fans left stunned.",
   "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph.",
   "McArthur\u2019s gutsy burst in the sixth slices the Rays\u2019 lead, igniting a Brewers rally that\u2019s impossible to ignore.",
   "Brewers snuck out a late\u2011game motor, sparking the Rays' offense to a frantic, gutter\u2011ball comeback that left the crowd roaring.",
   "A blazing rookie cannon blasts the outfield\u2014Chandler Simpson slams a two\u2011run homer, turning Game 5 into a Brewers fireworks finale!",
-  "Last inning's rain\u2011slick Wallace dive didn\u2019t fly; Aguilar\u2019s walk\u2011off single seals Game 5, sparking a furious Brewers rally."
+  "Last inning's rain\u2011slick Wallace dive didn\u2019t fly; Aguilar\u2019s walk\u2011off single seals Game 5, sparking a furious Brewers rally.",
+  "Rays\u2019 power surge reigns supreme: 2 grand slams, a 4\u2011run rally, Brewers knocked out\u2014next up, who\u2019s got the hottest ace?"
  ],
  "used_highlight_pks": [
   849818,
