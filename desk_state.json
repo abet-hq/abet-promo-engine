@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-19T23:42:35.120877+00:00",
+ "generated": "2026-11-20T04:22:12.256881+00:00",
  "version": 2,
- "ticker": "NFL: IND 0 - HOU 0 11/19 - 8:15 PM EST  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
+ "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50534625",
-  "title": "Bengals, Reds pay tribute to Fiona the hippo after her death",
+  "id": "espn:50537725",
+  "title": "C.J. Stroud throws for 3 TDs as the Texans roll past the Colts 26-3",
   "source": "ESPN NFL",
-  "age_min": 18.549539499999998
+  "age_min": 2.5349888833333334
  },
  "games": [
   {
    "league": "NFL",
    "name": "IND @ HOU",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "3",
    "home": "HOU",
-   "home_score": "0",
-   "status": "11/19 - 8:15 PM EST",
+   "home_score": "26",
+   "status": "Final",
    "date": "2026-11-20T01:15Z"
   },
   {
@@ -73,40 +73,40 @@
    "league": "NBA",
    "name": "GS @ MEM",
    "away": "GS",
-   "away_score": "0",
+   "away_score": "98",
    "home": "MEM",
-   "home_score": "0",
-   "status": "11/19 - 8:00 PM EST",
+   "home_score": "126",
+   "status": "Final",
    "date": "2026-11-20T01:00Z"
   },
   {
    "league": "NBA",
    "name": "POR @ MIL",
    "away": "POR",
-   "away_score": "0",
+   "away_score": "124",
    "home": "MIL",
-   "home_score": "0",
-   "status": "11/19 - 8:00 PM EST",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-11-20T01:00Z"
   },
   {
    "league": "NBA",
    "name": "NY @ MIN",
    "away": "NY",
-   "away_score": "0",
+   "away_score": "102",
    "home": "MIN",
-   "home_score": "0",
-   "status": "11/19 - 8:00 PM EST",
+   "home_score": "99",
+   "status": "Final",
    "date": "2026-11-20T01:00Z"
   },
   {
    "league": "NBA",
    "name": "LAC @ SA",
    "away": "LAC",
-   "away_score": "0",
+   "away_score": "112",
    "home": "SA",
-   "home_score": "0",
-   "status": "11/19 - 8:00 PM EST",
+   "home_score": "124",
+   "status": "Final",
    "date": "2026-11-20T01:00Z"
   },
   {
@@ -141,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1562h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1567h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 93716
+   "data_age_min": 93995
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1562h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1567h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 93716
+   "data_age_min": 93995
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1562h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1567h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 93716
+   "data_age_min": 93995
   }
  ],
  "sources": {
@@ -169,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Bengals, Reds pay tribute to Fiona the hippo after her death",
-  "IND 0 - HOU 0 (11/19 - 8:15 PM EST)",
+  "BREAKING: C.J. Stroud throws for 3 TDs as the Texans roll past the Colts 26-3",
+  "IND 3 - HOU 26 (Final)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1562h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1562h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1562h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1567h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1567h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1567h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Whoa\u2014Tyler Glasnow meets Jansen: a rain\u2011swung, 3\u2011run walk\u2011off that flips Game 5 into a Brewers\u2011only playoff summit!"
+  "John Schreiber burns the Rays\u2019 backstop\u2014five breathtaking innings, a reverse\u2011curveball that turns a Braves\u2011style jam into a Brewers canny blowout!"
  ],
- "script_hint": "Whoa\u2014Tyler Glasnow meets Jansen: a rain\u2011swung, 3\u2011run walk\u2011off that flips Game 5 into a Brewers\u2011only playoff summit!  [brain]"
+ "script_hint": "John Schreiber burns the Rays\u2019 backstop\u2014five breathtaking innings, a reverse\u2011curveball that turns a Braves\u2011style jam into a Brewers canny blowout!  [brain]"
 }
