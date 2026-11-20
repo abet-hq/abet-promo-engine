@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T04:22:12.256881+00:00",
+ "generated": "2026-11-20T13:27:45.841543+00:00",
  "version": 2,
  "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50537725",
-  "title": "C.J. Stroud throws for 3 TDs as the Texans roll past the Colts 26-3",
-  "source": "ESPN NFL",
-  "age_min": 2.5349888833333334
+  "id": "espn:50540563",
+  "title": "Sources: Jonathan Lo\u00e1isiga returning to Yankees on 2-year deal",
+  "source": "ESPN MLB",
+  "age_min": 4.233213533333333
  },
  "games": [
   {
@@ -141,24 +141,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1567h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1576h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 93995
+   "data_age_min": 94541
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1567h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1576h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 93995
+   "data_age_min": 94541
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1567h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1576h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 93995
+   "data_age_min": 94541
   }
  ],
  "sources": {
@@ -169,17 +169,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: C.J. Stroud throws for 3 TDs as the Texans roll past the Colts 26-3",
+  "BREAKING: Sources: Jonathan Lo\u00e1isiga returning to Yankees on 2-year deal",
   "IND 3 - HOU 26 (Final)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1567h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1567h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1567h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1576h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1576h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1576h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "John Schreiber burns the Rays\u2019 backstop\u2014five breathtaking innings, a reverse\u2011curveball that turns a Braves\u2011style jam into a Brewers canny blowout!"
+  "Brewers dismantle Rays\u2014Simpson\u2019s .306 hustle sparks a rally, no home runs, just relentless contact that flips the game to victory."
  ],
- "script_hint": "John Schreiber burns the Rays\u2019 backstop\u2014five breathtaking innings, a reverse\u2011curveball that turns a Braves\u2011style jam into a Brewers canny blowout!  [brain]"
+ "script_hint": "Brewers dismantle Rays\u2014Simpson\u2019s .306 hustle sparks a rally, no home runs, just relentless contact that flips the game to victory.  [brain]"
 }

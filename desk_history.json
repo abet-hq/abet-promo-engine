@@ -1,18 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50443924",
-  "espn:50444283",
-  "espn:50443435",
-  "espn:50443540",
-  "espn:50443078",
-  "espn:50442954",
-  "espn:50442434",
-  "espn:50288815",
-  "espn:50444528",
-  "espn:50446669",
-  "espn:49954186",
-  "espn:50446805",
-  "espn:50446131",
   "espn:50442265",
   "espn:50446625",
   "espn:50446604",
@@ -399,17 +386,30 @@
   "espn:50537250",
   "espn:50537184",
   "espn:50536986",
-  "espn:50536728"
+  "espn:50536728",
+  "espn:50530738",
+  "espn:50532737",
+  "espn:50532835",
+  "espn:50531472",
+  "espn:50525533",
+  "espn:50524821",
+  "espn:50534111",
+  "espn:49960162",
+  "espn:50533958",
+  "espn:49959975",
+  "espn:50538594",
+  "espn:50540563",
+  "espn:50531850"
  ],
  "recent_topics": [
-  "A scorching strikeout finale: the Brewers stamped authority, sending the Rays reeling and sealing a dramatic Game 5 triumph.",
   "McArthur\u2019s gutsy burst in the sixth slices the Rays\u2019 lead, igniting a Brewers rally that\u2019s impossible to ignore.",
   "Brewers snuck out a late\u2011game motor, sparking the Rays' offense to a frantic, gutter\u2011ball comeback that left the crowd roaring.",
   "A blazing rookie cannon blasts the outfield\u2014Chandler Simpson slams a two\u2011run homer, turning Game 5 into a Brewers fireworks finale!",
   "Last inning's rain\u2011slick Wallace dive didn\u2019t fly; Aguilar\u2019s walk\u2011off single seals Game 5, sparking a furious Brewers rally.",
   "Rays\u2019 power surge reigns supreme: 2 grand slams, a 4\u2011run rally, Brewers knocked out\u2014next up, who\u2019s got the hottest ace?",
   "Whoa\u2014Tyler Glasnow meets Jansen: a rain\u2011swung, 3\u2011run walk\u2011off that flips Game 5 into a Brewers\u2011only playoff summit!",
-  "John Schreiber burns the Rays\u2019 backstop\u2014five breathtaking innings, a reverse\u2011curveball that turns a Braves\u2011style jam into a Brewers canny blowout!"
+  "John Schreiber burns the Rays\u2019 backstop\u2014five breathtaking innings, a reverse\u2011curveball that turns a Braves\u2011style jam into a Brewers canny blowout!",
+  "Brewers dismantle Rays\u2014Simpson\u2019s .306 hustle sparks a rally, no home runs, just relentless contact that flips the game to victory."
  ],
  "used_highlight_pks": [
   849818,
