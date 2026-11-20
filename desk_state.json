@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T13:27:45.841543+00:00",
+ "generated": "2026-11-20T21:28:14.838314+00:00",
  "version": 2,
  "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50540563",
-  "title": "Sources: Jonathan Lo\u00e1isiga returning to Yankees on 2-year deal",
-  "source": "ESPN MLB",
-  "age_min": 4.233213533333333
+  "id": "espn:50543381",
+  "title": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
+  "source": "ESPN NFL",
+  "age_min": 22.877671833333334
  },
  "games": [
   {
@@ -71,43 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "GS @ MEM",
-   "away": "GS",
-   "away_score": "98",
-   "home": "MEM",
-   "home_score": "126",
-   "status": "Final",
-   "date": "2026-11-20T01:00Z"
+   "name": "CHA @ ATL",
+   "away": "CHA",
+   "away_score": "0",
+   "home": "ATL",
+   "home_score": "0",
+   "status": "11/20 - 7:00 PM EST",
+   "date": "2026-11-21T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "POR @ MIL",
-   "away": "POR",
-   "away_score": "124",
-   "home": "MIL",
-   "home_score": "114",
-   "status": "Final",
-   "date": "2026-11-20T01:00Z"
+   "name": "ORL @ BKN",
+   "away": "ORL",
+   "away_score": "0",
+   "home": "BKN",
+   "home_score": "0",
+   "status": "11/20 - 7:30 PM EST",
+   "date": "2026-11-21T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "NY @ MIN",
-   "away": "NY",
-   "away_score": "102",
-   "home": "MIN",
-   "home_score": "99",
-   "status": "Final",
-   "date": "2026-11-20T01:00Z"
+   "name": "IND @ CLE",
+   "away": "IND",
+   "away_score": "0",
+   "home": "CLE",
+   "home_score": "0",
+   "status": "11/20 - 7:30 PM EST",
+   "date": "2026-11-21T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "LAC @ SA",
-   "away": "LAC",
-   "away_score": "112",
-   "home": "SA",
-   "home_score": "124",
-   "status": "Final",
-   "date": "2026-11-20T01:00Z"
+   "name": "TOR @ DET",
+   "away": "TOR",
+   "away_score": "0",
+   "home": "DET",
+   "home_score": "0",
+   "status": "11/20 - 7:30 PM EST",
+   "date": "2026-11-21T00:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "WSH @ CHI",
+   "away": "WSH",
+   "away_score": "0",
+   "home": "CHI",
+   "home_score": "0",
+   "status": "11/20 - 8:00 PM EST",
+   "date": "2026-11-21T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "NO @ OKC",
+   "away": "NO",
+   "away_score": "0",
+   "home": "OKC",
+   "home_score": "0",
+   "status": "11/20 - 8:00 PM EST",
+   "date": "2026-11-21T01:00Z"
   },
   {
    "league": "MLB",
@@ -141,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1576h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1584h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 94541
+   "data_age_min": 95021
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1576h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1584h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 94541
+   "data_age_min": 95021
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1576h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1584h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 94541
+   "data_age_min": 95021
   }
  ],
  "sources": {
@@ -169,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Sources: Jonathan Lo\u00e1isiga returning to Yankees on 2-year deal",
+  "BREAKING: Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
   "IND 3 - HOU 26 (Final)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1576h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1576h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1576h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1584h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1584h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1584h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers dismantle Rays\u2014Simpson\u2019s .306 hustle sparks a rally, no home runs, just relentless contact that flips the game to victory."
+  "Game five fireworks: Braves\u2019 retaliation, Rays flounder\u2014Kek is lighting a shameful blaze while his .306 split screams redemption."
  ],
- "script_hint": "Brewers dismantle Rays\u2014Simpson\u2019s .306 hustle sparks a rally, no home runs, just relentless contact that flips the game to victory.  [brain]"
+ "script_hint": "Game five fireworks: Braves\u2019 retaliation, Rays flounder\u2014Kek is lighting a shameful blaze while his .306 split screams redemption.  [brain]"
 }
