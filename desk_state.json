@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-21T10:16:19.752694+00:00",
+ "generated": "2026-11-21T17:44:08.236439+00:00",
  "version": 2,
  "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "gnews:Rob Manfred blasts union, says he \u2018can\u2019t",
-  "title": "Rob Manfred blasts union, says he \u2018can\u2019t imagine\u2019 labor deal without salary cap - The Athletic - The New York Times",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50550460",
+  "title": "Fantasy basketball adds and NBA bets: Zero in on Acuff Jr., Queta on Saturday",
+  "source": "ESPN NBA",
+  "age_min": 23.819336616666664
  },
  "games": [
   {
@@ -72,63 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "CHA @ ATL",
-   "away": "CHA",
-   "away_score": "97",
-   "home": "ATL",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-11-21T00:00Z"
+   "name": "MIL @ PHI",
+   "away": "MIL",
+   "away_score": "0",
+   "home": "PHI",
+   "home_score": "0",
+   "status": "11/21 - 1:00 PM EST",
+   "date": "2026-11-21T18:00Z"
   },
   {
    "league": "NBA",
-   "name": "ORL @ BKN",
-   "away": "ORL",
-   "away_score": "113",
-   "home": "BKN",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-11-21T00:30Z"
+   "name": "POR @ NY",
+   "away": "POR",
+   "away_score": "0",
+   "home": "NY",
+   "home_score": "0",
+   "status": "11/21 - 7:30 PM EST",
+   "date": "2026-11-22T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "IND @ CLE",
-   "away": "IND",
-   "away_score": "119",
-   "home": "CLE",
-   "home_score": "128",
-   "status": "Final",
-   "date": "2026-11-21T00:30Z"
+   "name": "LAC @ DAL",
+   "away": "LAC",
+   "away_score": "0",
+   "home": "DAL",
+   "home_score": "0",
+   "status": "11/21 - 8:00 PM EST",
+   "date": "2026-11-22T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "TOR @ DET",
-   "away": "TOR",
-   "away_score": "105",
-   "home": "DET",
-   "home_score": "102",
-   "status": "Final",
-   "date": "2026-11-21T00:30Z"
+   "name": "MEM @ MIN",
+   "away": "MEM",
+   "away_score": "0",
+   "home": "MIN",
+   "home_score": "0",
+   "status": "11/21 - 8:00 PM EST",
+   "date": "2026-11-22T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "WSH @ CHI",
-   "away": "WSH",
-   "away_score": "98",
-   "home": "CHI",
-   "home_score": "94",
-   "status": "Final",
-   "date": "2026-11-21T01:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "NO @ OKC",
+   "name": "NO @ SA",
    "away": "NO",
-   "away_score": "120",
-   "home": "OKC",
-   "home_score": "126",
-   "status": "Final",
-   "date": "2026-11-21T01:00Z"
+   "away_score": "0",
+   "home": "SA",
+   "home_score": "0",
+   "status": "11/21 - 8:00 PM EST",
+   "date": "2026-11-22T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "BOS @ SAC",
+   "away": "BOS",
+   "away_score": "0",
+   "home": "SAC",
+   "home_score": "0",
+   "status": "11/21 - 10:00 PM EST",
+   "date": "2026-11-22T03:00Z"
   },
   {
    "league": "MLB",
@@ -162,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1596h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1604h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 95790
+   "data_age_min": 96237
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1596h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1604h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 95790
+   "data_age_min": 96237
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1596h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1604h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 95790
+   "data_age_min": 96237
   }
  ],
  "sources": {
@@ -190,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Rob Manfred blasts union, says he \u2018can\u2019t imagine\u2019 labor deal without salary cap - The Athletic - The New York Times",
+  "BREAKING: Fantasy basketball adds and NBA bets: Zero in on Acuff Jr., Queta on Saturday",
   "IND 3 - HOU 26 (Final)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1596h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1596h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1596h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1604h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1604h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1604h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Game 5 exploded: a stunning 12\u2011run inning that turned a Braves\u2011style win into a Brewers\u2019 hurricane, proving momentum\u2019s wildest weapon."
+  "Baker\u2019s slick 5-run outburst tore the Rays\u2019 hope to pieces\u2014now the Brewers have the drama, the Rays the tangle."
  ],
- "script_hint": "Game 5 exploded: a stunning 12\u2011run inning that turned a Braves\u2011style win into a Brewers\u2019 hurricane, proving momentum\u2019s wildest weapon.  [brain]"
+ "script_hint": "Baker\u2019s slick 5-run outburst tore the Rays\u2019 hope to pieces\u2014now the Brewers have the drama, the Rays the tangle.  [brain]"
 }
