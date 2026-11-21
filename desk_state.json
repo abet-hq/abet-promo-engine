@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T21:28:14.838314+00:00",
+ "generated": "2026-11-21T02:44:47.379266+00:00",
  "version": 2,
  "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50543381",
-  "title": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
-  "source": "ESPN NFL",
-  "age_min": 22.877671833333334
+  "id": "espn:50545784",
+  "title": "Gavin Sheets returns to Padres with $11 million, 3-year deal",
+  "source": "ESPN MLB",
+  "age_min": 3.8593393333333332
  },
  "games": [
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "CHA @ ATL",
    "away": "CHA",
-   "away_score": "0",
+   "away_score": "97",
    "home": "ATL",
-   "home_score": "0",
-   "status": "11/20 - 7:00 PM EST",
+   "home_score": "111",
+   "status": "Final",
    "date": "2026-11-21T00:00Z"
   },
   {
    "league": "NBA",
    "name": "ORL @ BKN",
    "away": "ORL",
-   "away_score": "0",
+   "away_score": "95",
    "home": "BKN",
-   "home_score": "0",
-   "status": "11/20 - 7:30 PM EST",
+   "home_score": "98",
+   "status": "7:51 - 4th",
    "date": "2026-11-21T00:30Z"
   },
   {
    "league": "NBA",
    "name": "IND @ CLE",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "103",
    "home": "CLE",
-   "home_score": "0",
-   "status": "11/20 - 7:30 PM EST",
+   "home_score": "115",
+   "status": "4:01 - 4th",
    "date": "2026-11-21T00:30Z"
   },
   {
    "league": "NBA",
    "name": "TOR @ DET",
    "away": "TOR",
-   "away_score": "0",
+   "away_score": "89",
    "home": "DET",
-   "home_score": "0",
-   "status": "11/20 - 7:30 PM EST",
+   "home_score": "85",
+   "status": "5:31 - 4th",
    "date": "2026-11-21T00:30Z"
   },
   {
    "league": "NBA",
    "name": "WSH @ CHI",
    "away": "WSH",
-   "away_score": "0",
+   "away_score": "75",
    "home": "CHI",
-   "home_score": "0",
-   "status": "11/20 - 8:00 PM EST",
+   "home_score": "69",
+   "status": "End of 3rd",
    "date": "2026-11-21T01:00Z"
   },
   {
    "league": "NBA",
    "name": "NO @ OKC",
    "away": "NO",
-   "away_score": "0",
+   "away_score": "97",
    "home": "OKC",
-   "home_score": "0",
-   "status": "11/20 - 8:00 PM EST",
+   "home_score": "90",
+   "status": "1:00 - 3rd",
    "date": "2026-11-21T01:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1584h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1589h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 95021
+   "data_age_min": 95338
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1584h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1589h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 95021
+   "data_age_min": 95338
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1584h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1589h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 95021
+   "data_age_min": 95338
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
+  "BREAKING: Gavin Sheets returns to Padres with $11 million, 3-year deal",
   "IND 3 - HOU 26 (Final)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1584h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1584h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1584h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1589h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1589h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1589h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Game five fireworks: Braves\u2019 retaliation, Rays flounder\u2014Kek is lighting a shameful blaze while his .306 split screams redemption."
+  "Brewers hammered Rays in Game 5\u2014Scottsdale\u2019s bullpen unleashed a fiery comeback, leaving Tampa shaking and ball\u2011tracking the impossible."
  ],
- "script_hint": "Game five fireworks: Braves\u2019 retaliation, Rays flounder\u2014Kek is lighting a shameful blaze while his .306 split screams redemption.  [brain]"
+ "script_hint": "Brewers hammered Rays in Game 5\u2014Scottsdale\u2019s bullpen unleashed a fiery comeback, leaving Tampa shaking and ball\u2011tracking the impossible.  [brain]"
 }
