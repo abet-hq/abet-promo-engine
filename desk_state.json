@@ -1,12 +1,13 @@
 {
- "generated": "2026-11-21T17:44:08.236439+00:00",
+ "generated": "2026-11-21T22:27:17.938892+00:00",
  "version": 2,
  "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50550460",
-  "title": "Fantasy basketball adds and NBA bets: Zero in on Acuff Jr., Queta on Saturday",
-  "source": "ESPN NBA",
-  "age_min": 23.819336616666664
+  "id": "gnews:MLB owners want what NBA, NFL owners hav",
+  "title": "MLB owners want what NBA, NFL owners have: soaring franchise values, and a salary cap - The Athletic - The New York Times",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
@@ -73,10 +74,10 @@
    "league": "NBA",
    "name": "MIL @ PHI",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "129",
    "home": "PHI",
-   "home_score": "0",
-   "status": "11/21 - 1:00 PM EST",
+   "home_score": "132",
+   "status": "Final",
    "date": "2026-11-21T18:00Z"
   },
   {
@@ -161,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1604h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1609h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 96237
+   "data_age_min": 96521
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1604h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1609h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 96237
+   "data_age_min": 96521
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1604h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1609h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 96237
+   "data_age_min": 96521
   }
  ],
  "sources": {
@@ -189,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Fantasy basketball adds and NBA bets: Zero in on Acuff Jr., Queta on Saturday",
+  "BREAKING: MLB owners want what NBA, NFL owners have: soaring franchise values, and a salary cap - The Athletic - The New York Times",
   "IND 3 - HOU 26 (Final)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1604h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1604h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1604h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1609h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1609h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1609h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Baker\u2019s slick 5-run outburst tore the Rays\u2019 hope to pieces\u2014now the Brewers have the drama, the Rays the tangle."
+  "Tigers\u2019 Tigers? Brewers blast a dramatic 4\u20112 win\u2014all thanks to Sim\u2011Shin\u2019s razor\u2011sharp Sunday swing, and the Rays? Surrendered."
  ],
- "script_hint": "Baker\u2019s slick 5-run outburst tore the Rays\u2019 hope to pieces\u2014now the Brewers have the drama, the Rays the tangle.  [brain]"
+ "script_hint": "Tigers\u2019 Tigers? Brewers blast a dramatic 4\u20112 win\u2014all thanks to Sim\u2011Shin\u2019s razor\u2011sharp Sunday swing, and the Rays? Surrendered.  [brain]"
 }
