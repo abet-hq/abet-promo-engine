@@ -1,12 +1,13 @@
 {
- "generated": "2026-11-21T02:44:47.379266+00:00",
+ "generated": "2026-11-21T10:16:19.752694+00:00",
  "version": 2,
  "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50545784",
-  "title": "Gavin Sheets returns to Padres with $11 million, 3-year deal",
-  "source": "ESPN MLB",
-  "age_min": 3.8593393333333332
+  "id": "gnews:Rob Manfred blasts union, says he \u2018can\u2019t",
+  "title": "Rob Manfred blasts union, says he \u2018can\u2019t imagine\u2019 labor deal without salary cap - The Athletic - The New York Times",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
   {
@@ -83,50 +84,50 @@
    "league": "NBA",
    "name": "ORL @ BKN",
    "away": "ORL",
-   "away_score": "95",
+   "away_score": "113",
    "home": "BKN",
-   "home_score": "98",
-   "status": "7:51 - 4th",
+   "home_score": "111",
+   "status": "Final",
    "date": "2026-11-21T00:30Z"
   },
   {
    "league": "NBA",
    "name": "IND @ CLE",
    "away": "IND",
-   "away_score": "103",
+   "away_score": "119",
    "home": "CLE",
-   "home_score": "115",
-   "status": "4:01 - 4th",
+   "home_score": "128",
+   "status": "Final",
    "date": "2026-11-21T00:30Z"
   },
   {
    "league": "NBA",
    "name": "TOR @ DET",
    "away": "TOR",
-   "away_score": "89",
+   "away_score": "105",
    "home": "DET",
-   "home_score": "85",
-   "status": "5:31 - 4th",
+   "home_score": "102",
+   "status": "Final",
    "date": "2026-11-21T00:30Z"
   },
   {
    "league": "NBA",
    "name": "WSH @ CHI",
    "away": "WSH",
-   "away_score": "75",
+   "away_score": "98",
    "home": "CHI",
-   "home_score": "69",
-   "status": "End of 3rd",
+   "home_score": "94",
+   "status": "Final",
    "date": "2026-11-21T01:00Z"
   },
   {
    "league": "NBA",
    "name": "NO @ OKC",
    "away": "NO",
-   "away_score": "97",
+   "away_score": "120",
    "home": "OKC",
-   "home_score": "90",
-   "status": "1:00 - 3rd",
+   "home_score": "126",
+   "status": "Final",
    "date": "2026-11-21T01:00Z"
   },
   {
@@ -161,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1589h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1596h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 95338
+   "data_age_min": 95790
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1589h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1596h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 95338
+   "data_age_min": 95790
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1589h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1596h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 95338
+   "data_age_min": 95790
   }
  ],
  "sources": {
@@ -189,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Gavin Sheets returns to Padres with $11 million, 3-year deal",
+  "BREAKING: Rob Manfred blasts union, says he \u2018can\u2019t imagine\u2019 labor deal without salary cap - The Athletic - The New York Times",
   "IND 3 - HOU 26 (Final)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1589h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1589h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1589h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1596h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1596h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1596h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers hammered Rays in Game 5\u2014Scottsdale\u2019s bullpen unleashed a fiery comeback, leaving Tampa shaking and ball\u2011tracking the impossible."
+  "Game 5 exploded: a stunning 12\u2011run inning that turned a Braves\u2011style win into a Brewers\u2019 hurricane, proving momentum\u2019s wildest weapon."
  ],
- "script_hint": "Brewers hammered Rays in Game 5\u2014Scottsdale\u2019s bullpen unleashed a fiery comeback, leaving Tampa shaking and ball\u2011tracking the impossible.  [brain]"
+ "script_hint": "Game 5 exploded: a stunning 12\u2011run inning that turned a Braves\u2011style win into a Brewers\u2019 hurricane, proving momentum\u2019s wildest weapon.  [brain]"
 }
