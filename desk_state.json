@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-21T22:27:17.938892+00:00",
+ "generated": "2026-11-22T02:35:12.128986+00:00",
  "version": 2,
  "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "gnews:MLB owners want what NBA, NFL owners hav",
-  "title": "MLB owners want what NBA, NFL owners have: soaring franchise values, and a salary cap - The Athletic - The New York Times",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50556613",
+  "title": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
+  "source": "ESPN NFL",
+  "age_min": 15.475418083333333
  },
  "games": [
   {
@@ -84,40 +83,40 @@
    "league": "NBA",
    "name": "POR @ NY",
    "away": "POR",
-   "away_score": "0",
+   "away_score": "84",
    "home": "NY",
-   "home_score": "0",
-   "status": "11/21 - 7:30 PM EST",
+   "home_score": "94",
+   "status": "5:14 - 4th",
    "date": "2026-11-22T00:30Z"
   },
   {
    "league": "NBA",
    "name": "LAC @ DAL",
    "away": "LAC",
-   "away_score": "0",
+   "away_score": "49",
    "home": "DAL",
-   "home_score": "0",
-   "status": "11/21 - 8:00 PM EST",
+   "home_score": "58",
+   "status": "8:33 - 3rd",
    "date": "2026-11-22T01:00Z"
   },
   {
    "league": "NBA",
    "name": "MEM @ MIN",
    "away": "MEM",
-   "away_score": "0",
+   "away_score": "60",
    "home": "MIN",
-   "home_score": "0",
-   "status": "11/21 - 8:00 PM EST",
+   "home_score": "74",
+   "status": "4:14 - 3rd",
    "date": "2026-11-22T01:00Z"
   },
   {
    "league": "NBA",
    "name": "NO @ SA",
    "away": "NO",
-   "away_score": "0",
+   "away_score": "48",
    "home": "SA",
-   "home_score": "0",
-   "status": "11/21 - 8:00 PM EST",
+   "home_score": "69",
+   "status": "8:32 - 3rd",
    "date": "2026-11-22T01:00Z"
   },
   {
@@ -162,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1609h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1613h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 96521
+   "data_age_min": 96768
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1609h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1613h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 96521
+   "data_age_min": 96768
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1609h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1613h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 96521
+   "data_age_min": 96768
   }
  ],
  "sources": {
@@ -190,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: MLB owners want what NBA, NFL owners have: soaring franchise values, and a salary cap - The Athletic - The New York Times",
+  "BREAKING: Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
   "IND 3 - HOU 26 (Final)",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1609h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1609h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1609h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1613h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1613h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1613h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Tigers\u2019 Tigers? Brewers blast a dramatic 4\u20112 win\u2014all thanks to Sim\u2011Shin\u2019s razor\u2011sharp Sunday swing, and the Rays? Surrendered."
+  "\u201cBraves batter Chandler Simpson proved his power, driving in 38 RBIs\u2014knocking the Rays out of the playoff conversation tonight!\u201d"
  ],
- "script_hint": "Tigers\u2019 Tigers? Brewers blast a dramatic 4\u20112 win\u2014all thanks to Sim\u2011Shin\u2019s razor\u2011sharp Sunday swing, and the Rays? Surrendered.  [brain]"
+ "script_hint": "\u201cBraves batter Chandler Simpson proved his power, driving in 38 RBIs\u2014knocking the Rays out of the playoff conversation tonight!\u201d  [brain]"
 }
