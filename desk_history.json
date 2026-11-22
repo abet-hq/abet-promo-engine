@@ -1,11 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50459330",
-  "espn:50459637",
-  "espn:50459636",
-  "espn:50459635",
-  "espn:50459634",
-  "espn:50459633",
   "espn:50459632",
   "espn:50463010",
   "espn:49804332",
@@ -399,17 +393,23 @@
   "espn:50559624",
   "espn:50558602",
   "espn:50558379",
-  "gnews:NFL, NBA, MLB, NHL, MLS urge action agai"
+  "gnews:NFL, NBA, MLB, NHL, MLS urge action agai",
+  "espn:50562956",
+  "espn:50535179",
+  "espn:49881131",
+  "espn:50562283",
+  "espn:50562182",
+  "espn:50560887"
  ],
  "recent_topics": [
-  "Brewers dismantle Rays\u2014Simpson\u2019s .306 hustle sparks a rally, no home runs, just relentless contact that flips the game to victory.",
   "Game five fireworks: Braves\u2019 retaliation, Rays flounder\u2014Kek is lighting a shameful blaze while his .306 split screams redemption.",
   "Brewers hammered Rays in Game 5\u2014Scottsdale\u2019s bullpen unleashed a fiery comeback, leaving Tampa shaking and ball\u2011tracking the impossible.",
   "Game 5 exploded: a stunning 12\u2011run inning that turned a Braves\u2011style win into a Brewers\u2019 hurricane, proving momentum\u2019s wildest weapon.",
   "Baker\u2019s slick 5-run outburst tore the Rays\u2019 hope to pieces\u2014now the Brewers have the drama, the Rays the tangle.",
   "Tigers\u2019 Tigers? Brewers blast a dramatic 4\u20112 win\u2014all thanks to Sim\u2011Shin\u2019s razor\u2011sharp Sunday swing, and the Rays? Surrendered.",
   "\u201cBraves batter Chandler Simpson proved his power, driving in 38 RBIs\u2014knocking the Rays out of the playoff conversation tonight!\u201d",
-  "Brew crew\u2019s collapse a nightmare\u2014Rays\u2019 slugger flipped the script, turning a Wednesday into a Sunday scorch of domination."
+  "Brew crew\u2019s collapse a nightmare\u2014Rays\u2019 slugger flipped the script, turning a Wednesday into a Sunday scorch of domination.",
+  "BLU\u2010IT\u2010MAD! The Brewers slammed the Rays\u2019 defense with a 7\u2011to\u20112 blast\u2014vicious cannon, unstoppable surge, & a game\u2011changing explosion!"
  ],
  "used_highlight_pks": [
   849818,

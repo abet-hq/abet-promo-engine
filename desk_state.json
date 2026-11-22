@@ -1,13 +1,12 @@
 {
- "generated": "2026-11-22T10:20:50.899844+00:00",
+ "generated": "2026-11-22T17:58:43.593724+00:00",
  "version": 2,
  "ticker": "NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST  //  NFL: ARI 0 - KC 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "gnews:NFL, NBA, MLB, NHL, MLS urge action agai",
-  "title": "NFL, NBA, MLB, NHL, MLS urge action against threats from bettors - ESPN",
-  "source": "Google News",
-  "age_min": 30,
-  "score": 0
+  "id": "espn:50562956",
+  "title": "Week 11 NFL highlights: Best plays, moments, touchdowns, more",
+  "source": "ESPN NFL",
+  "age_min": 11.772144733333333
  },
  "games": [
   {
@@ -72,63 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "MIL @ PHI",
-   "away": "MIL",
-   "away_score": "129",
-   "home": "PHI",
-   "home_score": "132",
-   "status": "Final",
-   "date": "2026-11-21T18:00Z"
+   "name": "DET @ ATL",
+   "away": "DET",
+   "away_score": "0",
+   "home": "ATL",
+   "home_score": "0",
+   "status": "11/22 - 3:30 PM EST",
+   "date": "2026-11-22T20:30Z"
   },
   {
    "league": "NBA",
-   "name": "POR @ NY",
-   "away": "POR",
-   "away_score": "96",
+   "name": "OKC @ MIA",
+   "away": "OKC",
+   "away_score": "0",
+   "home": "MIA",
+   "home_score": "0",
+   "status": "11/22 - 6:00 PM EST",
+   "date": "2026-11-22T23:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "ORL @ WSH",
+   "away": "ORL",
+   "away_score": "0",
+   "home": "WSH",
+   "home_score": "0",
+   "status": "11/22 - 7:00 PM EST",
+   "date": "2026-11-23T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "DEN @ CHI",
+   "away": "DEN",
+   "away_score": "0",
+   "home": "CHI",
+   "home_score": "0",
+   "status": "11/22 - 7:00 PM EST",
+   "date": "2026-11-23T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "DAL @ UTAH",
+   "away": "DAL",
+   "away_score": "0",
+   "home": "UTAH",
+   "home_score": "0",
+   "status": "11/22 - 7:00 PM EST",
+   "date": "2026-11-23T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "IND @ NY",
+   "away": "IND",
+   "away_score": "0",
    "home": "NY",
-   "home_score": "97",
-   "status": "Final",
-   "date": "2026-11-22T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "LAC @ DAL",
-   "away": "LAC",
-   "away_score": "100",
-   "home": "DAL",
-   "home_score": "110",
-   "status": "Final",
-   "date": "2026-11-22T01:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MEM @ MIN",
-   "away": "MEM",
-   "away_score": "95",
-   "home": "MIN",
-   "home_score": "104",
-   "status": "Final",
-   "date": "2026-11-22T01:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "NO @ SA",
-   "away": "NO",
-   "away_score": "91",
-   "home": "SA",
-   "home_score": "114",
-   "status": "Final",
-   "date": "2026-11-22T01:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "BOS @ SAC",
-   "away": "BOS",
-   "away_score": "96",
-   "home": "SAC",
-   "home_score": "97",
-   "status": "Final",
-   "date": "2026-11-22T03:00Z"
+   "home_score": "0",
+   "status": "11/22 - 8:00 PM EST",
+   "date": "2026-11-23T01:00Z"
   },
   {
    "league": "MLB",
@@ -162,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1621h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1628h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 97234
+   "data_age_min": 97692
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1621h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1628h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 97234
+   "data_age_min": 97692
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1621h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1628h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 97234
+   "data_age_min": 97692
   }
  ],
  "sources": {
@@ -190,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: NFL, NBA, MLB, NHL, MLS urge action against threats from bettors - ESPN",
+  "BREAKING: Week 11 NFL highlights: Best plays, moments, touchdowns, more",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
   "TB 0 - DET 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1621h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1621h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1621h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1628h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1628h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1628h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brew crew\u2019s collapse a nightmare\u2014Rays\u2019 slugger flipped the script, turning a Wednesday into a Sunday scorch of domination."
+  "BLU\u2010IT\u2010MAD! The Brewers slammed the Rays\u2019 defense with a 7\u2011to\u20112 blast\u2014vicious cannon, unstoppable surge, & a game\u2011changing explosion!"
  ],
- "script_hint": "Brew crew\u2019s collapse a nightmare\u2014Rays\u2019 slugger flipped the script, turning a Wednesday into a Sunday scorch of domination.  [brain]"
+ "script_hint": "BLU\u2010IT\u2010MAD! The Brewers slammed the Rays\u2019 defense with a 7\u2011to\u20112 blast\u2014vicious cannon, unstoppable surge, & a game\u2011changing explosion!  [brain]"
 }
