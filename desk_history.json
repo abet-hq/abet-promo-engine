@@ -1,18 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50459632",
-  "espn:50463010",
-  "espn:49804332",
-  "espn:49804273",
-  "espn:50456429",
-  "espn:50462869",
-  "espn:50462761",
-  "espn:50463008",
-  "espn:50435461",
-  "espn:50462899",
-  "espn:50462110",
-  "espn:50456190",
-  "espn:50434044",
   "espn:50452846",
   "espn:50328768",
   "espn:50465194",
@@ -399,17 +386,30 @@
   "espn:49881131",
   "espn:50562283",
   "espn:50562182",
-  "espn:50560887"
+  "espn:50560887",
+  "espn:50566873",
+  "espn:50566741",
+  "espn:50566642",
+  "espn:39286200",
+  "espn:50565801",
+  "espn:50563342",
+  "espn:50566635",
+  "espn:50566482",
+  "espn:50564924",
+  "espn:50564049",
+  "espn:50565674",
+  "espn:50521081",
+  "espn:50565569"
  ],
  "recent_topics": [
-  "Game five fireworks: Braves\u2019 retaliation, Rays flounder\u2014Kek is lighting a shameful blaze while his .306 split screams redemption.",
   "Brewers hammered Rays in Game 5\u2014Scottsdale\u2019s bullpen unleashed a fiery comeback, leaving Tampa shaking and ball\u2011tracking the impossible.",
   "Game 5 exploded: a stunning 12\u2011run inning that turned a Braves\u2011style win into a Brewers\u2019 hurricane, proving momentum\u2019s wildest weapon.",
   "Baker\u2019s slick 5-run outburst tore the Rays\u2019 hope to pieces\u2014now the Brewers have the drama, the Rays the tangle.",
   "Tigers\u2019 Tigers? Brewers blast a dramatic 4\u20112 win\u2014all thanks to Sim\u2011Shin\u2019s razor\u2011sharp Sunday swing, and the Rays? Surrendered.",
   "\u201cBraves batter Chandler Simpson proved his power, driving in 38 RBIs\u2014knocking the Rays out of the playoff conversation tonight!\u201d",
   "Brew crew\u2019s collapse a nightmare\u2014Rays\u2019 slugger flipped the script, turning a Wednesday into a Sunday scorch of domination.",
-  "BLU\u2010IT\u2010MAD! The Brewers slammed the Rays\u2019 defense with a 7\u2011to\u20112 blast\u2014vicious cannon, unstoppable surge, & a game\u2011changing explosion!"
+  "BLU\u2010IT\u2010MAD! The Brewers slammed the Rays\u2019 defense with a 7\u2011to\u20112 blast\u2014vicious cannon, unstoppable surge, & a game\u2011changing explosion!",
+  "Brewers\u2019 rally turned the page\u2014Rays\u2019 pitching crumbled, and Mike Kinnunen's walk-off single sealed a wild Game 5 triumph!"
  ],
  "used_highlight_pks": [
   849818,

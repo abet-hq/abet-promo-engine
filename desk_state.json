@@ -1,92 +1,92 @@
 {
- "generated": "2026-11-22T17:58:43.593724+00:00",
+ "generated": "2026-11-22T23:31:58.052974+00:00",
  "version": 2,
- "ticker": "NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST  //  NFL: ARI 0 - KC 0 11/22 - 1:00 PM EST",
+ "ticker": "NFL: NYJ 27 - LAC 17 3:17 - 4th  //  NFL: LV 10 - DEN 17 7:38 - 3rd  //  NFL: JAX 6 - NYG 20 8:28 - 3rd  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final",
  "breaking": {
-  "id": "espn:50562956",
-  "title": "Week 11 NFL highlights: Best plays, moments, touchdowns, more",
+  "id": "espn:50566873",
+  "title": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
   "source": "ESPN NFL",
-  "age_min": 11.772144733333333
+  "age_min": 1.9560593833333333
  },
  "games": [
   {
    "league": "NFL",
+   "name": "NYJ @ LAC",
+   "away": "NYJ",
+   "away_score": "27",
+   "home": "LAC",
+   "home_score": "17",
+   "status": "3:17 - 4th",
+   "date": "2026-11-22T21:05Z"
+  },
+  {
+   "league": "NFL",
+   "name": "LV @ DEN",
+   "away": "LV",
+   "away_score": "10",
+   "home": "DEN",
+   "home_score": "17",
+   "status": "7:38 - 3rd",
+   "date": "2026-11-22T21:25Z"
+  },
+  {
+   "league": "NFL",
+   "name": "JAX @ NYG",
+   "away": "JAX",
+   "away_score": "6",
+   "home": "NYG",
+   "home_score": "20",
+   "status": "8:28 - 3rd",
+   "date": "2026-11-22T21:25Z"
+  },
+  {
+   "league": "NFL",
    "name": "MIA @ BUF",
    "away": "MIA",
-   "away_score": "0",
+   "away_score": "9",
    "home": "BUF",
-   "home_score": "0",
-   "status": "11/22 - 1:00 PM EST",
+   "home_score": "26",
+   "status": "Final",
    "date": "2026-11-22T18:00Z"
   },
   {
    "league": "NFL",
    "name": "NO @ CHI",
    "away": "NO",
-   "away_score": "0",
+   "away_score": "13",
    "home": "CHI",
-   "home_score": "0",
-   "status": "11/22 - 1:00 PM EST",
+   "home_score": "21",
+   "status": "Final",
    "date": "2026-11-22T18:00Z"
   },
   {
    "league": "NFL",
    "name": "TEN @ DAL",
    "away": "TEN",
-   "away_score": "0",
+   "away_score": "30",
    "home": "DAL",
-   "home_score": "0",
-   "status": "11/22 - 1:00 PM EST",
-   "date": "2026-11-22T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "TB @ DET",
-   "away": "TB",
-   "away_score": "0",
-   "home": "DET",
-   "home_score": "0",
-   "status": "11/22 - 1:00 PM EST",
-   "date": "2026-11-22T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "ARI @ KC",
-   "away": "ARI",
-   "away_score": "0",
-   "home": "KC",
-   "home_score": "0",
-   "status": "11/22 - 1:00 PM EST",
-   "date": "2026-11-22T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "PIT @ PHI",
-   "away": "PIT",
-   "away_score": "0",
-   "home": "PHI",
-   "home_score": "0",
-   "status": "11/22 - 1:00 PM EST",
+   "home_score": "51",
+   "status": "Final",
    "date": "2026-11-22T18:00Z"
   },
   {
    "league": "NBA",
    "name": "DET @ ATL",
    "away": "DET",
-   "away_score": "0",
+   "away_score": "97",
    "home": "ATL",
-   "home_score": "0",
-   "status": "11/22 - 3:30 PM EST",
+   "home_score": "107",
+   "status": "Final",
    "date": "2026-11-22T20:30Z"
   },
   {
    "league": "NBA",
    "name": "OKC @ MIA",
    "away": "OKC",
-   "away_score": "0",
+   "away_score": "22",
    "home": "MIA",
-   "home_score": "0",
-   "status": "11/22 - 6:00 PM EST",
+   "home_score": "27",
+   "status": "2:22 - 1st",
    "date": "2026-11-22T23:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1628h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1634h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 97692
+   "data_age_min": 98025
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1628h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1634h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 97692
+   "data_age_min": 98025
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1628h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1634h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 97692
+   "data_age_min": 98025
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Week 11 NFL highlights: Best plays, moments, touchdowns, more",
-  "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
-  "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
-  "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "TB 0 - DET 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1628h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1628h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1628h old]",
+  "BREAKING: Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
+  "NYJ 27 - LAC 17 (3:17 - 4th)",
+  "LV 10 - DEN 17 (7:38 - 3rd)",
+  "JAX 6 - NYG 20 (8:28 - 3rd)",
+  "MIA 9 - BUF 26 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1634h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1634h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1634h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "BLU\u2010IT\u2010MAD! The Brewers slammed the Rays\u2019 defense with a 7\u2011to\u20112 blast\u2014vicious cannon, unstoppable surge, & a game\u2011changing explosion!"
+  "Brewers\u2019 rally turned the page\u2014Rays\u2019 pitching crumbled, and Mike Kinnunen's walk-off single sealed a wild Game 5 triumph!"
  ],
- "script_hint": "BLU\u2010IT\u2010MAD! The Brewers slammed the Rays\u2019 defense with a 7\u2011to\u20112 blast\u2014vicious cannon, unstoppable surge, & a game\u2011changing explosion!  [brain]"
+ "script_hint": "Brewers\u2019 rally turned the page\u2014Rays\u2019 pitching crumbled, and Mike Kinnunen's walk-off single sealed a wild Game 5 triumph!  [brain]"
 }
