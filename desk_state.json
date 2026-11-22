@@ -1,24 +1,15 @@
 {
- "generated": "2026-11-22T02:35:12.128986+00:00",
+ "generated": "2026-11-22T10:20:50.899844+00:00",
  "version": 2,
- "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST",
+ "ticker": "NFL: MIA 0 - BUF 0 11/22 - 1:00 PM EST  //  NFL: NO 0 - CHI 0 11/22 - 1:00 PM EST  //  NFL: TEN 0 - DAL 0 11/22 - 1:00 PM EST  //  NFL: TB 0 - DET 0 11/22 - 1:00 PM EST  //  NFL: ARI 0 - KC 0 11/22 - 1:00 PM EST",
  "breaking": {
-  "id": "espn:50556613",
-  "title": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
-  "source": "ESPN NFL",
-  "age_min": 15.475418083333333
+  "id": "gnews:NFL, NBA, MLB, NHL, MLS urge action agai",
+  "title": "NFL, NBA, MLB, NHL, MLS urge action against threats from bettors - ESPN",
+  "source": "Google News",
+  "age_min": 30,
+  "score": 0
  },
  "games": [
-  {
-   "league": "NFL",
-   "name": "IND @ HOU",
-   "away": "IND",
-   "away_score": "3",
-   "home": "HOU",
-   "home_score": "26",
-   "status": "Final",
-   "date": "2026-11-20T01:15Z"
-  },
   {
    "league": "NFL",
    "name": "MIA @ BUF",
@@ -70,6 +61,16 @@
    "date": "2026-11-22T18:00Z"
   },
   {
+   "league": "NFL",
+   "name": "PIT @ PHI",
+   "away": "PIT",
+   "away_score": "0",
+   "home": "PHI",
+   "home_score": "0",
+   "status": "11/22 - 1:00 PM EST",
+   "date": "2026-11-22T18:00Z"
+  },
+  {
    "league": "NBA",
    "name": "MIL @ PHI",
    "away": "MIL",
@@ -83,50 +84,50 @@
    "league": "NBA",
    "name": "POR @ NY",
    "away": "POR",
-   "away_score": "84",
+   "away_score": "96",
    "home": "NY",
-   "home_score": "94",
-   "status": "5:14 - 4th",
+   "home_score": "97",
+   "status": "Final",
    "date": "2026-11-22T00:30Z"
   },
   {
    "league": "NBA",
    "name": "LAC @ DAL",
    "away": "LAC",
-   "away_score": "49",
+   "away_score": "100",
    "home": "DAL",
-   "home_score": "58",
-   "status": "8:33 - 3rd",
+   "home_score": "110",
+   "status": "Final",
    "date": "2026-11-22T01:00Z"
   },
   {
    "league": "NBA",
    "name": "MEM @ MIN",
    "away": "MEM",
-   "away_score": "60",
+   "away_score": "95",
    "home": "MIN",
-   "home_score": "74",
-   "status": "4:14 - 3rd",
+   "home_score": "104",
+   "status": "Final",
    "date": "2026-11-22T01:00Z"
   },
   {
    "league": "NBA",
    "name": "NO @ SA",
    "away": "NO",
-   "away_score": "48",
+   "away_score": "91",
    "home": "SA",
-   "home_score": "69",
-   "status": "8:32 - 3rd",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-11-22T01:00Z"
   },
   {
    "league": "NBA",
    "name": "BOS @ SAC",
    "away": "BOS",
-   "away_score": "0",
+   "away_score": "96",
    "home": "SAC",
-   "home_score": "0",
-   "status": "11/21 - 10:00 PM EST",
+   "home_score": "97",
+   "status": "Final",
    "date": "2026-11-22T03:00Z"
   },
   {
@@ -161,24 +162,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1613h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1621h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 96768
+   "data_age_min": 97234
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1613h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1621h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 96768
+   "data_age_min": 97234
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1613h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1621h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 96768
+   "data_age_min": 97234
   }
  ],
  "sources": {
@@ -189,17 +190,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
-  "IND 3 - HOU 26 (Final)",
+  "BREAKING: NFL, NBA, MLB, NHL, MLS urge action against threats from bettors - ESPN",
   "MIA 0 - BUF 0 (11/22 - 1:00 PM EST)",
   "NO 0 - CHI 0 (11/22 - 1:00 PM EST)",
   "TEN 0 - DAL 0 (11/22 - 1:00 PM EST)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1613h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1613h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1613h old]",
+  "TB 0 - DET 0 (11/22 - 1:00 PM EST)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1621h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1621h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1621h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "\u201cBraves batter Chandler Simpson proved his power, driving in 38 RBIs\u2014knocking the Rays out of the playoff conversation tonight!\u201d"
+  "Brew crew\u2019s collapse a nightmare\u2014Rays\u2019 slugger flipped the script, turning a Wednesday into a Sunday scorch of domination."
  ],
- "script_hint": "\u201cBraves batter Chandler Simpson proved his power, driving in 38 RBIs\u2014knocking the Rays out of the playoff conversation tonight!\u201d  [brain]"
+ "script_hint": "Brew crew\u2019s collapse a nightmare\u2014Rays\u2019 slugger flipped the script, turning a Wednesday into a Sunday scorch of domination.  [brain]"
 }
