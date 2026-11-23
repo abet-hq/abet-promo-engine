@@ -1,43 +1,23 @@
 {
- "generated": "2026-11-22T23:31:58.052974+00:00",
+ "generated": "2026-11-23T04:01:36.071678+00:00",
  "version": 2,
- "ticker": "NFL: NYJ 27 - LAC 17 3:17 - 4th  //  NFL: LV 10 - DEN 17 7:38 - 3rd  //  NFL: JAX 6 - NYG 20 8:28 - 3rd  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final",
+ "ticker": "NFL: MIN 10 - SF 35 10:21 - 4th  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final  //  NFL: TEN 30 - DAL 51 Final  //  NFL: TB 21 - DET 31 Final",
  "breaking": {
-  "id": "espn:50566873",
-  "title": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
+  "id": "espn:50569582",
+  "title": "Ja'Quan McMillian hoping long-term future is in Denver after latest clutch play",
   "source": "ESPN NFL",
-  "age_min": 1.9560593833333333
+  "age_min": 0.6630665833333332
  },
  "games": [
   {
    "league": "NFL",
-   "name": "NYJ @ LAC",
-   "away": "NYJ",
-   "away_score": "27",
-   "home": "LAC",
-   "home_score": "17",
-   "status": "3:17 - 4th",
-   "date": "2026-11-22T21:05Z"
-  },
-  {
-   "league": "NFL",
-   "name": "LV @ DEN",
-   "away": "LV",
+   "name": "MIN VS SF",
+   "away": "MIN",
    "away_score": "10",
-   "home": "DEN",
-   "home_score": "17",
-   "status": "7:38 - 3rd",
-   "date": "2026-11-22T21:25Z"
-  },
-  {
-   "league": "NFL",
-   "name": "JAX @ NYG",
-   "away": "JAX",
-   "away_score": "6",
-   "home": "NYG",
-   "home_score": "20",
-   "status": "8:28 - 3rd",
-   "date": "2026-11-22T21:25Z"
+   "home": "SF",
+   "home_score": "35",
+   "status": "10:21 - 4th",
+   "date": "2026-11-23T01:20Z"
   },
   {
    "league": "NFL",
@@ -70,6 +50,26 @@
    "date": "2026-11-22T18:00Z"
   },
   {
+   "league": "NFL",
+   "name": "TB @ DET",
+   "away": "TB",
+   "away_score": "21",
+   "home": "DET",
+   "home_score": "31",
+   "status": "Final",
+   "date": "2026-11-22T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "ARI @ KC",
+   "away": "ARI",
+   "away_score": "7",
+   "home": "KC",
+   "home_score": "34",
+   "status": "Final",
+   "date": "2026-11-22T18:00Z"
+  },
+  {
    "league": "NBA",
    "name": "DET @ ATL",
    "away": "DET",
@@ -83,50 +83,50 @@
    "league": "NBA",
    "name": "OKC @ MIA",
    "away": "OKC",
-   "away_score": "22",
+   "away_score": "113",
    "home": "MIA",
-   "home_score": "27",
-   "status": "2:22 - 1st",
+   "home_score": "123",
+   "status": "Final",
    "date": "2026-11-22T23:00Z"
   },
   {
    "league": "NBA",
    "name": "ORL @ WSH",
    "away": "ORL",
-   "away_score": "0",
+   "away_score": "96",
    "home": "WSH",
-   "home_score": "0",
-   "status": "11/22 - 7:00 PM EST",
+   "home_score": "116",
+   "status": "Final",
    "date": "2026-11-23T00:00Z"
   },
   {
    "league": "NBA",
    "name": "DEN @ CHI",
    "away": "DEN",
-   "away_score": "0",
+   "away_score": "151",
    "home": "CHI",
-   "home_score": "0",
-   "status": "11/22 - 7:00 PM EST",
+   "home_score": "145",
+   "status": "Final/OT",
    "date": "2026-11-23T00:00Z"
   },
   {
    "league": "NBA",
    "name": "DAL @ UTAH",
    "away": "DAL",
-   "away_score": "0",
+   "away_score": "116",
    "home": "UTAH",
-   "home_score": "0",
-   "status": "11/22 - 7:00 PM EST",
+   "home_score": "114",
+   "status": "Final",
    "date": "2026-11-23T00:00Z"
   },
   {
    "league": "NBA",
    "name": "IND @ NY",
    "away": "IND",
-   "away_score": "0",
+   "away_score": "106",
    "home": "NY",
-   "home_score": "0",
-   "status": "11/22 - 8:00 PM EST",
+   "home_score": "113",
+   "status": "Final",
    "date": "2026-11-23T01:00Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1634h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1638h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 98025
+   "data_age_min": 98295
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1634h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1638h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 98025
+   "data_age_min": 98295
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1634h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1638h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 98025
+   "data_age_min": 98295
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
-  "NYJ 27 - LAC 17 (3:17 - 4th)",
-  "LV 10 - DEN 17 (7:38 - 3rd)",
-  "JAX 6 - NYG 20 (8:28 - 3rd)",
+  "BREAKING: Ja'Quan McMillian hoping long-term future is in Denver after latest clutch play",
+  "MIN 10 - SF 35 (10:21 - 4th)",
   "MIA 9 - BUF 26 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1634h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1634h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1634h old]",
+  "NO 13 - CHI 21 (Final)",
+  "TEN 30 - DAL 51 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1638h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1638h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1638h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers\u2019 rally turned the page\u2014Rays\u2019 pitching crumbled, and Mike Kinnunen's walk-off single sealed a wild Game 5 triumph!"
+  "Batter by batter, the Brewers turn the tide, finally smashing the Rays\u2019 pitch arsenal in a jaw\u2011dropping Game 5 rally."
  ],
- "script_hint": "Brewers\u2019 rally turned the page\u2014Rays\u2019 pitching crumbled, and Mike Kinnunen's walk-off single sealed a wild Game 5 triumph!  [brain]"
+ "script_hint": "Batter by batter, the Brewers turn the tide, finally smashing the Rays\u2019 pitch arsenal in a jaw\u2011dropping Game 5 rally.  [brain]"
 }
