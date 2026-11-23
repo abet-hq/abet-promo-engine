@@ -1,23 +1,33 @@
 {
- "generated": "2026-11-23T04:01:36.071678+00:00",
+ "generated": "2026-11-23T14:40:41.261913+00:00",
  "version": 2,
- "ticker": "NFL: MIN 10 - SF 35 10:21 - 4th  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final  //  NFL: TEN 30 - DAL 51 Final  //  NFL: TB 21 - DET 31 Final",
+ "ticker": "NFL: CIN 0 - WSH 0 11/23 - 8:15 PM EST  //  NFL: IND 3 - HOU 26 Final  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final  //  NFL: TEN 30 - DAL 51 Final",
  "breaking": {
-  "id": "espn:50569582",
-  "title": "Ja'Quan McMillian hoping long-term future is in Denver after latest clutch play",
+  "id": "espn:50572280",
+  "title": "Fantasy football free agent pickups: Grab your Rams and Packers quickly",
   "source": "ESPN NFL",
-  "age_min": 0.6630665833333332
+  "age_min": 2.8475355333333336
  },
  "games": [
   {
    "league": "NFL",
-   "name": "MIN VS SF",
-   "away": "MIN",
-   "away_score": "10",
-   "home": "SF",
-   "home_score": "35",
-   "status": "10:21 - 4th",
-   "date": "2026-11-23T01:20Z"
+   "name": "CIN @ WSH",
+   "away": "CIN",
+   "away_score": "0",
+   "home": "WSH",
+   "home_score": "0",
+   "status": "11/23 - 8:15 PM EST",
+   "date": "2026-11-24T01:15Z"
+  },
+  {
+   "league": "NFL",
+   "name": "IND @ HOU",
+   "away": "IND",
+   "away_score": "3",
+   "home": "HOU",
+   "home_score": "26",
+   "status": "Final",
+   "date": "2026-11-20T01:15Z"
   },
   {
    "league": "NFL",
@@ -56,16 +66,6 @@
    "away_score": "21",
    "home": "DET",
    "home_score": "31",
-   "status": "Final",
-   "date": "2026-11-22T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "ARI @ KC",
-   "away": "ARI",
-   "away_score": "7",
-   "home": "KC",
-   "home_score": "34",
    "status": "Final",
    "date": "2026-11-22T18:00Z"
   },
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1638h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1649h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 98295
+   "data_age_min": 98934
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1638h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1649h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 98295
+   "data_age_min": 98934
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1638h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1649h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 98295
+   "data_age_min": 98934
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Ja'Quan McMillian hoping long-term future is in Denver after latest clutch play",
-  "MIN 10 - SF 35 (10:21 - 4th)",
+  "BREAKING: Fantasy football free agent pickups: Grab your Rams and Packers quickly",
+  "CIN 0 - WSH 0 (11/23 - 8:15 PM EST)",
+  "IND 3 - HOU 26 (Final)",
   "MIA 9 - BUF 26 (Final)",
   "NO 13 - CHI 21 (Final)",
-  "TEN 30 - DAL 51 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1638h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1638h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1638h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1649h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1649h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1649h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Batter by batter, the Brewers turn the tide, finally smashing the Rays\u2019 pitch arsenal in a jaw\u2011dropping Game 5 rally."
+  "Yo, that Game 5 blew this town\u2014Rays grinding down the Brewers with a 4-1 thriller, MVP Tachibana erupting on the right side!"
  ],
- "script_hint": "Batter by batter, the Brewers turn the tide, finally smashing the Rays\u2019 pitch arsenal in a jaw\u2011dropping Game 5 rally.  [brain]"
+ "script_hint": "Yo, that Game 5 blew this town\u2014Rays grinding down the Brewers with a 4-1 thriller, MVP Tachibana erupting on the right side!  [brain]"
 }
