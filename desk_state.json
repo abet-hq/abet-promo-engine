@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T14:40:41.261913+00:00",
+ "generated": "2026-11-24T01:54:57.639891+00:00",
  "version": 2,
- "ticker": "NFL: CIN 0 - WSH 0 11/23 - 8:15 PM EST  //  NFL: IND 3 - HOU 26 Final  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final  //  NFL: TEN 30 - DAL 51 Final",
+ "ticker": "NFL: CIN 0 - WSH 0 14:14 - 2nd  //  NFL: IND 3 - HOU 26 Final  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final  //  NFL: TEN 30 - DAL 51 Final",
  "breaking": {
-  "id": "espn:50572280",
-  "title": "Fantasy football free agent pickups: Grab your Rams and Packers quickly",
+  "id": "espn:50578357",
+  "title": "Seahawks to monitor Sam Darnold status this week before final call vs. 49ers",
   "source": "ESPN NFL",
-  "age_min": 2.8475355333333336
+  "age_min": 12.694790000000001
  },
  "games": [
   {
@@ -16,7 +16,7 @@
    "away_score": "0",
    "home": "WSH",
    "home_score": "0",
-   "status": "11/23 - 8:15 PM EST",
+   "status": "14:14 - 2nd",
    "date": "2026-11-24T01:15Z"
   },
   {
@@ -71,63 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "DET @ ATL",
-   "away": "DET",
-   "away_score": "97",
-   "home": "ATL",
-   "home_score": "107",
-   "status": "Final",
-   "date": "2026-11-22T20:30Z"
+   "name": "MEM @ CHA",
+   "away": "MEM",
+   "away_score": "89",
+   "home": "CHA",
+   "home_score": "82",
+   "status": "11:58 - 4th",
+   "date": "2026-11-24T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "OKC @ MIA",
+   "name": "POR @ PHI",
+   "away": "POR",
+   "away_score": "101",
+   "home": "PHI",
+   "home_score": "92",
+   "status": "11:57 - 4th",
+   "date": "2026-11-24T00:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "OKC @ IND",
    "away": "OKC",
-   "away_score": "113",
-   "home": "MIA",
-   "home_score": "123",
-   "status": "Final",
-   "date": "2026-11-22T23:00Z"
+   "away_score": "58",
+   "home": "IND",
+   "home_score": "70",
+   "status": "8:55 - 3rd",
+   "date": "2026-11-24T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "ORL @ WSH",
-   "away": "ORL",
-   "away_score": "96",
-   "home": "WSH",
-   "home_score": "116",
-   "status": "Final",
-   "date": "2026-11-23T00:00Z"
+   "name": "MIL @ TOR",
+   "away": "MIL",
+   "away_score": "49",
+   "home": "TOR",
+   "home_score": "55",
+   "status": "11:09 - 3rd",
+   "date": "2026-11-24T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "DEN @ CHI",
-   "away": "DEN",
-   "away_score": "151",
+   "name": "BKN @ MIN",
+   "away": "BKN",
+   "away_score": "61",
+   "home": "MIN",
+   "home_score": "74",
+   "status": "11:57 - 3rd",
+   "date": "2026-11-24T00:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "CLE @ CHI",
+   "away": "CLE",
+   "away_score": "38",
    "home": "CHI",
-   "home_score": "145",
-   "status": "Final/OT",
-   "date": "2026-11-23T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "DAL @ UTAH",
-   "away": "DAL",
-   "away_score": "116",
-   "home": "UTAH",
-   "home_score": "114",
-   "status": "Final",
-   "date": "2026-11-23T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "IND @ NY",
-   "away": "IND",
-   "away_score": "106",
-   "home": "NY",
-   "home_score": "113",
-   "status": "Final",
-   "date": "2026-11-23T01:00Z"
+   "home_score": "54",
+   "status": "6:37 - 2nd",
+   "date": "2026-11-24T01:00Z"
   },
   {
    "league": "MLB",
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1649h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1660h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 98934
+   "data_age_min": 99608
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1649h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1660h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 98934
+   "data_age_min": 99608
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1649h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1660h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 98934
+   "data_age_min": 99608
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Fantasy football free agent pickups: Grab your Rams and Packers quickly",
-  "CIN 0 - WSH 0 (11/23 - 8:15 PM EST)",
+  "BREAKING: Seahawks to monitor Sam Darnold status this week before final call vs. 49ers",
+  "CIN 0 - WSH 0 (14:14 - 2nd)",
   "IND 3 - HOU 26 (Final)",
   "MIA 9 - BUF 26 (Final)",
   "NO 13 - CHI 21 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1649h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1649h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1649h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1660h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1660h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1660h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Yo, that Game 5 blew this town\u2014Rays grinding down the Brewers with a 4-1 thriller, MVP Tachibana erupting on the right side!"
+  "Brewers stormed the walk\u2011off, Sterling Merrill\u2019s ninth inning double sparks a staggering run surge that leaves the Rays\u2019 bullpen sputtering\u2014what a reversal, folks!"
  ],
- "script_hint": "Yo, that Game 5 blew this town\u2014Rays grinding down the Brewers with a 4-1 thriller, MVP Tachibana erupting on the right side!  [brain]"
+ "script_hint": "Brewers stormed the walk\u2011off, Sterling Merrill\u2019s ninth inning double sparks a staggering run surge that leaves the Rays\u2019 bullpen sputtering\u2014what a reversal, folks!  [brain]"
 }
