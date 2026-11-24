@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T12:07:25.259965+00:00",
+ "generated": "2026-11-24T22:27:46.069262+00:00",
  "version": 2,
  "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final  //  NFL: TEN 30 - DAL 51 Final  //  NFL: TB 21 - DET 31 Final",
  "breaking": {
-  "id": "espn:50563522",
-  "title": "Seven things Solak thinks for NFL Week 12: Takes on Chiefs-Bills, Giants, Lions",
+  "id": "espn:50586087",
+  "title": "Broncos' Sean Payton: J.K. Dobbins suspended one game for detrimental conduct",
   "source": "ESPN NFL",
-  "age_min": 2.9922077333333332
+  "age_min": 8.501465066666666
  },
  "games": [
   {
@@ -71,63 +71,33 @@
   },
   {
    "league": "NBA",
-   "name": "MEM @ CHA",
-   "away": "MEM",
-   "away_score": "117",
-   "home": "CHA",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-11-24T00:00Z"
+   "name": "DET @ ORL",
+   "away": "DET",
+   "away_score": "0",
+   "home": "ORL",
+   "home_score": "0",
+   "status": "11/24 - 7:00 PM EST",
+   "date": "2026-11-25T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "POR @ PHI",
-   "away": "POR",
-   "away_score": "128",
-   "home": "PHI",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-11-24T00:00Z"
+   "name": "BOS @ WSH",
+   "away": "BOS",
+   "away_score": "0",
+   "home": "WSH",
+   "home_score": "0",
+   "status": "11/24 - 8:00 PM EST",
+   "date": "2026-11-25T01:00Z"
   },
   {
    "league": "NBA",
-   "name": "OKC @ IND",
-   "away": "OKC",
-   "away_score": "120",
-   "home": "IND",
-   "home_score": "125",
-   "status": "Final",
-   "date": "2026-11-24T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "MIL @ TOR",
-   "away": "MIL",
-   "away_score": "116",
-   "home": "TOR",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-11-24T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "BKN @ MIN",
-   "away": "BKN",
-   "away_score": "116",
-   "home": "MIN",
-   "home_score": "142",
-   "status": "Final",
-   "date": "2026-11-24T00:30Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CLE @ CHI",
-   "away": "CLE",
-   "away_score": "108",
-   "home": "CHI",
-   "home_score": "122",
-   "status": "Final",
-   "date": "2026-11-24T01:00Z"
+   "name": "DAL @ DEN",
+   "away": "DAL",
+   "away_score": "0",
+   "home": "DEN",
+   "home_score": "0",
+   "status": "11/24 - 10:00 PM EST",
+   "date": "2026-11-25T03:00Z"
   },
   {
    "league": "MLB",
@@ -161,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1670h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1681h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 100221
+   "data_age_min": 100841
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1670h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1681h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 100221
+   "data_age_min": 100841
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1670h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1681h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 100221
+   "data_age_min": 100841
   }
  ],
  "sources": {
@@ -189,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Seven things Solak thinks for NFL Week 12: Takes on Chiefs-Bills, Giants, Lions",
+  "BREAKING: Broncos' Sean Payton: J.K. Dobbins suspended one game for detrimental conduct",
   "IND 3 - HOU 26 (Final)",
   "MIA 9 - BUF 26 (Final)",
   "NO 13 - CHI 21 (Final)",
   "TEN 30 - DAL 51 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1670h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1670h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1670h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1681h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1681h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1681h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "St. Luis\u2019 pitcher was pure fire\u2014seven innings, 10 strikeouts, a 0.51 ERA, and a 5\u2011run rally that turned the Tide into a talking headline!"
+  "\u201cIn Game 5, the Brewers clamped down, using that brutal, unbreakable defense to quietly crush the Rays\u2019 hopes.\u201d"
  ],
- "script_hint": "St. Luis\u2019 pitcher was pure fire\u2014seven innings, 10 strikeouts, a 0.51 ERA, and a 5\u2011run rally that turned the Tide into a talking headline!  [brain]"
+ "script_hint": "\u201cIn Game 5, the Brewers clamped down, using that brutal, unbreakable defense to quietly crush the Rays\u2019 hopes.\u201d  [brain]"
 }
