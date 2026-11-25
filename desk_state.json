@@ -1,73 +1,73 @@
 {
- "generated": "2026-11-25T04:59:52.887467+00:00",
+ "generated": "2026-11-25T15:27:54.895283+00:00",
  "version": 2,
- "ticker": "NFL: IND 3 - HOU 26 Final  //  NFL: MIA 9 - BUF 26 Final  //  NFL: NO 13 - CHI 21 Final  //  NFL: TEN 30 - DAL 51 Final  //  NFL: TB 21 - DET 31 Final",
+ "ticker": "NFL: GB 0 - LAR 0 11/25 - 8:00 PM EST  //  NFL: CHI 0 - DET 0 11/26 - 1:00 PM EST  //  NFL: PHI 0 - DAL 0 11/26 - 4:30 PM EST  //  NFL: KC 0 - BUF 0 11/26 - 8:20 PM EST  //  NFL: DEN 0 - PIT 0 11/27 - 3:00 PM EST",
  "breaking": {
-  "id": "espn:50589757",
-  "title": "Steelers bench struggling QB Aaron Rodgers, to start Mason Rudolph",
+  "id": "espn:50593112",
+  "title": "DK Metcalf's Week 12 fantasy preview",
   "source": "ESPN NFL",
-  "age_min": 10.65644545
+  "age_min": 7.996945999999999
  },
  "games": [
   {
    "league": "NFL",
-   "name": "IND @ HOU",
-   "away": "IND",
-   "away_score": "3",
-   "home": "HOU",
-   "home_score": "26",
-   "status": "Final",
-   "date": "2026-11-20T01:15Z"
+   "name": "GB @ LAR",
+   "away": "GB",
+   "away_score": "0",
+   "home": "LAR",
+   "home_score": "0",
+   "status": "11/25 - 8:00 PM EST",
+   "date": "2026-11-26T01:00Z"
   },
   {
    "league": "NFL",
-   "name": "MIA @ BUF",
-   "away": "MIA",
-   "away_score": "9",
-   "home": "BUF",
-   "home_score": "26",
-   "status": "Final",
-   "date": "2026-11-22T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "NO @ CHI",
-   "away": "NO",
-   "away_score": "13",
-   "home": "CHI",
-   "home_score": "21",
-   "status": "Final",
-   "date": "2026-11-22T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "TEN @ DAL",
-   "away": "TEN",
-   "away_score": "30",
-   "home": "DAL",
-   "home_score": "51",
-   "status": "Final",
-   "date": "2026-11-22T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "TB @ DET",
-   "away": "TB",
-   "away_score": "21",
+   "name": "CHI @ DET",
+   "away": "CHI",
+   "away_score": "0",
    "home": "DET",
-   "home_score": "31",
-   "status": "Final",
-   "date": "2026-11-22T18:00Z"
+   "home_score": "0",
+   "status": "11/26 - 1:00 PM EST",
+   "date": "2026-11-26T18:00Z"
   },
   {
    "league": "NFL",
-   "name": "ARI @ KC",
-   "away": "ARI",
-   "away_score": "7",
-   "home": "KC",
-   "home_score": "34",
-   "status": "Final",
-   "date": "2026-11-22T18:00Z"
+   "name": "PHI @ DAL",
+   "away": "PHI",
+   "away_score": "0",
+   "home": "DAL",
+   "home_score": "0",
+   "status": "11/26 - 4:30 PM EST",
+   "date": "2026-11-26T21:30Z"
+  },
+  {
+   "league": "NFL",
+   "name": "KC @ BUF",
+   "away": "KC",
+   "away_score": "0",
+   "home": "BUF",
+   "home_score": "0",
+   "status": "11/26 - 8:20 PM EST",
+   "date": "2026-11-27T01:20Z"
+  },
+  {
+   "league": "NFL",
+   "name": "DEN @ PIT",
+   "away": "DEN",
+   "away_score": "0",
+   "home": "PIT",
+   "home_score": "0",
+   "status": "11/27 - 3:00 PM EST",
+   "date": "2026-11-27T20:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "NO @ CIN",
+   "away": "NO",
+   "away_score": "0",
+   "home": "CIN",
+   "home_score": "0",
+   "status": "11/29 - 1:00 PM EST",
+   "date": "2026-11-29T18:00Z"
   },
   {
    "league": "NBA",
@@ -93,10 +93,10 @@
    "league": "NBA",
    "name": "DAL @ DEN",
    "away": "DAL",
-   "away_score": "90",
+   "away_score": "120",
    "home": "DEN",
-   "home_score": "79",
-   "status": "10:11 - 4th",
+   "home_score": "101",
+   "status": "Final",
    "date": "2026-11-25T03:00Z"
   },
   {
@@ -131,24 +131,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1687h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1698h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 101233
+   "data_age_min": 101861
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1687h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1698h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 101233
+   "data_age_min": 101861
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1687h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1698h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 101233
+   "data_age_min": 101861
   }
  ],
  "sources": {
@@ -159,17 +159,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Steelers bench struggling QB Aaron Rodgers, to start Mason Rudolph",
-  "IND 3 - HOU 26 (Final)",
-  "MIA 9 - BUF 26 (Final)",
-  "NO 13 - CHI 21 (Final)",
-  "TEN 30 - DAL 51 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1687h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1687h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1687h old]",
+  "BREAKING: DK Metcalf's Week 12 fantasy preview",
+  "GB 0 - LAR 0 (11/25 - 8:00 PM EST)",
+  "CHI 0 - DET 0 (11/26 - 1:00 PM EST)",
+  "PHI 0 - DAL 0 (11/26 - 4:30 PM EST)",
+  "KC 0 - BUF 0 (11/26 - 8:20 PM EST)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1698h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1698h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1698h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Brewers lay a crushing 12\u20113 over the Rays\u2014Chandler Simpson\u2019s line drives cut through the diamond, cementing a swaggering, blood\u2011thirsty win."
+  "Brewers crush Rays, turning Game 5 into a championship\u2011cliffhanger!"
  ],
- "script_hint": "Brewers lay a crushing 12\u20113 over the Rays\u2014Chandler Simpson\u2019s line drives cut through the diamond, cementing a swaggering, blood\u2011thirsty win.  [brain]"
+ "script_hint": "Brewers crush Rays, turning Game 5 into a championship\u2011cliffhanger!  [brain]"
 }
