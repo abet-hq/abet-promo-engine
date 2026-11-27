@@ -1,12 +1,5 @@
 {
  "seen_news_ids": [
-  "espn:50503255",
-  "espn:50502886",
-  "espn:50502739",
-  "espn:50502266",
-  "espn:50028196",
-  "espn:50490202",
-  "espn:50502891",
   "espn:50454235",
   "gnews:Best-Looking Head Coaches: Dolphins Jeff",
   "gnews:NFL Revenue for 2025 Revealed as Teams M",
@@ -399,17 +392,24 @@
   "espn:50602494",
   "espn:50602493",
   "espn:50602492",
-  "espn:50602024"
+  "espn:50602024",
+  "espn:50607220",
+  "espn:50607202",
+  "espn:50607165",
+  "espn:50606739",
+  "espn:50606625",
+  "espn:50606614",
+  "espn:50576889"
  ],
  "recent_topics": [
-  "Brewers stormed the walk\u2011off, Sterling Merrill\u2019s ninth inning double sparks a staggering run surge that leaves the Rays\u2019 bullpen sputtering\u2014what a reversal, fol",
   "St. Luis\u2019 pitcher was pure fire\u2014seven innings, 10 strikeouts, a 0.51 ERA, and a 5\u2011run rally that turned the Tide into a talking headline!",
   "\u201cIn Game 5, the Brewers clamped down, using that brutal, unbreakable defense to quietly crush the Rays\u2019 hopes.\u201d",
   "Brewers lay a crushing 12\u20113 over the Rays\u2014Chandler Simpson\u2019s line drives cut through the diamond, cementing a swaggering, blood\u2011thirsty win.",
   "Brewers crush Rays, turning Game 5 into a championship\u2011cliffhanger!",
   "Sweeping the outfield for that first\u2011innings RBI, the Brewers\u2019 Tom Murphy sent the Ray\u2019s defense scrambling, setting the game\u2019s furious tone.",
   "With a jaw\u2011dropping blast for a walk\u2011off, the Brewers threw the Rays into a Monday night nightmare!",
-  "Cole\u2019s raw, two\u2011run blast catapulted the Brewers to a 4\u20111 triumph, clinching a brutal Game 5 over the Rays."
+  "Cole\u2019s raw, two\u2011run blast catapulted the Brewers to a 4\u20111 triumph, clinching a brutal Game 5 over the Rays.",
+  "What a swing\u2011off! Matt Moore gives the Brewers a cue\u2011in, then left\u2011fielder Bryson Johnson turns the Rays\u2019 high\u2011scoring spree into a breathtaking .300\u2011off eight "
  ],
  "used_highlight_pks": [
   849818,

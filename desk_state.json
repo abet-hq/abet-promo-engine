@@ -1,33 +1,33 @@
 {
- "generated": "2026-11-26T15:49:06.421329+00:00",
+ "generated": "2026-11-27T00:21:48.520561+00:00",
  "version": 2,
- "ticker": "NFL: CHI 0 - DET 0 11/26 - 1:00 PM EST  //  NFL: PHI 0 - DAL 0 11/26 - 4:30 PM EST  //  NFL: KC 0 - BUF 0 11/26 - 8:20 PM EST  //  NFL: GB 13 - LAR 26 Final  //  NFL: DEN 0 - PIT 0 11/27 - 3:00 PM EST",
+ "ticker": "NFL: PHI 17 - DAL 31 0:15 - 3rd  //  NFL: CHI 39 - DET 35 Final  //  NFL: KC 0 - BUF 0 11/26 - 8:20 PM EST  //  NFL: GB 13 - LAR 26 Final  //  NFL: DEN 0 - PIT 0 11/27 - 3:00 PM EST",
  "breaking": {
-  "id": "espn:50604497",
-  "title": "'He's got to go!' Stephen A. implores Steelers to move on from Mike McCarthy",
+  "id": "espn:50607165",
+  "title": "Lions to 'move forward' after latest Thanksgiving heartbreak",
   "source": "ESPN NFL",
-  "age_min": 11.952079966666668
+  "age_min": 6.45575355
  },
  "games": [
   {
    "league": "NFL",
-   "name": "CHI @ DET",
-   "away": "CHI",
-   "away_score": "0",
-   "home": "DET",
-   "home_score": "0",
-   "status": "11/26 - 1:00 PM EST",
-   "date": "2026-11-26T18:00Z"
+   "name": "PHI @ DAL",
+   "away": "PHI",
+   "away_score": "17",
+   "home": "DAL",
+   "home_score": "31",
+   "status": "0:15 - 3rd",
+   "date": "2026-11-26T21:30Z"
   },
   {
    "league": "NFL",
-   "name": "PHI @ DAL",
-   "away": "PHI",
-   "away_score": "0",
-   "home": "DAL",
-   "home_score": "0",
-   "status": "11/26 - 4:30 PM EST",
-   "date": "2026-11-26T21:30Z"
+   "name": "CHI @ DET",
+   "away": "CHI",
+   "away_score": "39",
+   "home": "DET",
+   "home_score": "35",
+   "status": "Final",
+   "date": "2026-11-26T18:00Z"
   },
   {
    "league": "NFL",
@@ -71,63 +71,63 @@
   },
   {
    "league": "NBA",
-   "name": "MIA @ PHI",
+   "name": "MIA @ NY",
    "away": "MIA",
-   "away_score": "104",
-   "home": "PHI",
-   "home_score": "111",
-   "status": "Final",
-   "date": "2026-11-25T22:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CHI @ CHA",
-   "away": "CHI",
-   "away_score": "107",
-   "home": "CHA",
-   "home_score": "105",
-   "status": "Final",
-   "date": "2026-11-26T00:00Z"
-  },
-  {
-   "league": "NBA",
-   "name": "CLE @ NY",
-   "away": "CLE",
-   "away_score": "102",
+   "away_score": "0",
    "home": "NY",
-   "home_score": "121",
-   "status": "Final",
-   "date": "2026-11-26T00:30Z"
+   "home_score": "0",
+   "status": "11/27 - 7:00 PM EST",
+   "date": "2026-11-28T00:00Z"
   },
   {
    "league": "NBA",
-   "name": "MIN @ OKC",
-   "away": "MIN",
-   "away_score": "113",
-   "home": "OKC",
-   "home_score": "106",
-   "status": "Final",
-   "date": "2026-11-26T00:30Z"
+   "name": "MIL @ DET",
+   "away": "MIL",
+   "away_score": "0",
+   "home": "DET",
+   "home_score": "0",
+   "status": "11/27 - 7:30 PM EST",
+   "date": "2026-11-28T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "LAC @ MEM",
-   "away": "LAC",
-   "away_score": "97",
-   "home": "MEM",
-   "home_score": "115",
-   "status": "Final",
-   "date": "2026-11-26T01:00Z"
+   "name": "PHI @ IND",
+   "away": "PHI",
+   "away_score": "0",
+   "home": "IND",
+   "home_score": "0",
+   "status": "11/27 - 7:30 PM EST",
+   "date": "2026-11-28T00:30Z"
   },
   {
    "league": "NBA",
-   "name": "BKN @ MIL",
+   "name": "BKN @ TOR",
    "away": "BKN",
-   "away_score": "104",
-   "home": "MIL",
-   "home_score": "97",
-   "status": "Final",
-   "date": "2026-11-26T01:00Z"
+   "away_score": "0",
+   "home": "TOR",
+   "home_score": "0",
+   "status": "11/27 - 7:30 PM EST",
+   "date": "2026-11-28T00:30Z"
+  },
+  {
+   "league": "NBA",
+   "name": "ATL @ BOS",
+   "away": "ATL",
+   "away_score": "0",
+   "home": "BOS",
+   "home_score": "0",
+   "status": "11/27 - 8:00 PM EST",
+   "date": "2026-11-28T01:00Z"
+  },
+  {
+   "league": "NBA",
+   "name": "MEM @ MIN",
+   "away": "MEM",
+   "away_score": "0",
+   "home": "MIN",
+   "home_score": "0",
+   "status": "11/27 - 8:30 PM EST",
+   "date": "2026-11-28T01:30Z"
   },
   {
    "league": "MLB",
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1722h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1731h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 103322
+   "data_age_min": 103835
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1722h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1731h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 103322
+   "data_age_min": 103835
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1722h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1731h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 103322
+   "data_age_min": 103835
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: 'He's got to go!' Stephen A. implores Steelers to move on from Mike McCarthy",
-  "CHI 0 - DET 0 (11/26 - 1:00 PM EST)",
-  "PHI 0 - DAL 0 (11/26 - 4:30 PM EST)",
+  "BREAKING: Lions to 'move forward' after latest Thanksgiving heartbreak",
+  "PHI 17 - DAL 31 (0:15 - 3rd)",
+  "CHI 39 - DET 35 (Final)",
   "KC 0 - BUF 0 (11/26 - 8:20 PM EST)",
   "GB 13 - LAR 26 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1722h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1722h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1722h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1731h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1731h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1731h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Cole\u2019s raw, two\u2011run blast catapulted the Brewers to a 4\u20111 triumph, clinching a brutal Game 5 over the Rays."
+  "What a swing\u2011off! Matt Moore gives the Brewers a cue\u2011in, then left\u2011fielder Bryson Johnson turns the Rays\u2019 high\u2011scoring spree into a breathtaking .300\u2011off eight inning rally."
  ],
- "script_hint": "Cole\u2019s raw, two\u2011run blast catapulted the Brewers to a 4\u20111 triumph, clinching a brutal Game 5 over the Rays.  [brain]"
+ "script_hint": "What a swing\u2011off! Matt Moore gives the Brewers a cue\u2011in, then left\u2011fielder Bryson Johnson turns the Rays\u2019 high\u2011scoring spree into a breathtaking .300\u2011off eight inning rally.  [brain]"
 }
