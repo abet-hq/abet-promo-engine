@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T08:56:05.307055+00:00",
+ "generated": "2026-11-27T18:45:57.992832+00:00",
  "version": 2,
  "ticker": "NFL: DEN 0 - PIT 0 11/27 - 3:00 PM EST  //  NFL: GB 13 - LAR 26 Final  //  NFL: CHI 39 - DET 35 Final  //  NFL: PHI 39 - DAL 38 Final  //  NFL: KC 10 - BUF 13 Final",
  "breaking": {
-  "id": "espn:50609968",
-  "title": "Rashee Rice, Chiefs believe he caught pivotal 3rd-down pass late vs. Bills",
+  "id": "espn:50612845",
+  "title": "Cardinals to start QB Josh Johnson again with Carson Beck (back spasms) out",
   "source": "ESPN NFL",
-  "age_min": 38.659575466666666
+  "age_min": 7.517165983333333
  },
  "games": [
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1739h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1749h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 104349
+   "data_age_min": 104939
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1739h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1749h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 104349
+   "data_age_min": 104939
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1739h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1749h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 104349
+   "data_age_min": 104939
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Rashee Rice, Chiefs believe he caught pivotal 3rd-down pass late vs. Bills",
+  "BREAKING: Cardinals to start QB Josh Johnson again with Carson Beck (back spasms) out",
   "DEN 0 - PIT 0 (11/27 - 3:00 PM EST)",
   "GB 13 - LAR 26 (Final)",
   "CHI 39 - DET 35 (Final)",
   "PHI 39 - DAL 38 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1739h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1739h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1739h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1749h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1749h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1749h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Game 5, season on the line\u2014and Milwaukee and Tampa Bay brought every ounce of October pressure."
+  "Milwaukee and Tampa Bay turned Game 5 into a heavyweight fight\u2014exactly the kind of October baseball that makes every pitch feel enormous."
  ],
- "script_hint": "Game 5, season on the line\u2014and Milwaukee and Tampa Bay brought every ounce of October pressure.  [brain]"
+ "script_hint": "Milwaukee and Tampa Bay turned Game 5 into a heavyweight fight\u2014exactly the kind of October baseball that makes every pitch feel enormous.  [brain]"
 }
