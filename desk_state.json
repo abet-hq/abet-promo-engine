@@ -1,43 +1,23 @@
 {
- "generated": "2026-11-27T00:21:48.520561+00:00",
+ "generated": "2026-11-27T08:56:05.307055+00:00",
  "version": 2,
- "ticker": "NFL: PHI 17 - DAL 31 0:15 - 3rd  //  NFL: CHI 39 - DET 35 Final  //  NFL: KC 0 - BUF 0 11/26 - 8:20 PM EST  //  NFL: GB 13 - LAR 26 Final  //  NFL: DEN 0 - PIT 0 11/27 - 3:00 PM EST",
+ "ticker": "NFL: DEN 0 - PIT 0 11/27 - 3:00 PM EST  //  NFL: GB 13 - LAR 26 Final  //  NFL: CHI 39 - DET 35 Final  //  NFL: PHI 39 - DAL 38 Final  //  NFL: KC 10 - BUF 13 Final",
  "breaking": {
-  "id": "espn:50607165",
-  "title": "Lions to 'move forward' after latest Thanksgiving heartbreak",
+  "id": "espn:50609968",
+  "title": "Rashee Rice, Chiefs believe he caught pivotal 3rd-down pass late vs. Bills",
   "source": "ESPN NFL",
-  "age_min": 6.45575355
+  "age_min": 38.659575466666666
  },
  "games": [
   {
    "league": "NFL",
-   "name": "PHI @ DAL",
-   "away": "PHI",
-   "away_score": "17",
-   "home": "DAL",
-   "home_score": "31",
-   "status": "0:15 - 3rd",
-   "date": "2026-11-26T21:30Z"
-  },
-  {
-   "league": "NFL",
-   "name": "CHI @ DET",
-   "away": "CHI",
-   "away_score": "39",
-   "home": "DET",
-   "home_score": "35",
-   "status": "Final",
-   "date": "2026-11-26T18:00Z"
-  },
-  {
-   "league": "NFL",
-   "name": "KC @ BUF",
-   "away": "KC",
+   "name": "DEN @ PIT",
+   "away": "DEN",
    "away_score": "0",
-   "home": "BUF",
+   "home": "PIT",
    "home_score": "0",
-   "status": "11/26 - 8:20 PM EST",
-   "date": "2026-11-27T01:20Z"
+   "status": "11/27 - 3:00 PM EST",
+   "date": "2026-11-27T20:00Z"
   },
   {
    "league": "NFL",
@@ -51,13 +31,33 @@
   },
   {
    "league": "NFL",
-   "name": "DEN @ PIT",
-   "away": "DEN",
-   "away_score": "0",
-   "home": "PIT",
-   "home_score": "0",
-   "status": "11/27 - 3:00 PM EST",
-   "date": "2026-11-27T20:00Z"
+   "name": "CHI @ DET",
+   "away": "CHI",
+   "away_score": "39",
+   "home": "DET",
+   "home_score": "35",
+   "status": "Final",
+   "date": "2026-11-26T18:00Z"
+  },
+  {
+   "league": "NFL",
+   "name": "PHI @ DAL",
+   "away": "PHI",
+   "away_score": "39",
+   "home": "DAL",
+   "home_score": "38",
+   "status": "Final",
+   "date": "2026-11-26T21:30Z"
+  },
+  {
+   "league": "NFL",
+   "name": "KC @ BUF",
+   "away": "KC",
+   "away_score": "10",
+   "home": "BUF",
+   "home_score": "13",
+   "status": "Final",
+   "date": "2026-11-27T01:20Z"
   },
   {
    "league": "NFL",
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1731h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1739h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 103835
+   "data_age_min": 104349
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1731h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1739h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 103835
+   "data_age_min": 104349
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1731h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1739h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 103835
+   "data_age_min": 104349
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Lions to 'move forward' after latest Thanksgiving heartbreak",
-  "PHI 17 - DAL 31 (0:15 - 3rd)",
-  "CHI 39 - DET 35 (Final)",
-  "KC 0 - BUF 0 (11/26 - 8:20 PM EST)",
+  "BREAKING: Rashee Rice, Chiefs believe he caught pivotal 3rd-down pass late vs. Bills",
+  "DEN 0 - PIT 0 (11/27 - 3:00 PM EST)",
   "GB 13 - LAR 26 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1731h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1731h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1731h old]",
+  "CHI 39 - DET 35 (Final)",
+  "PHI 39 - DAL 38 (Final)",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1739h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1739h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1739h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "What a swing\u2011off! Matt Moore gives the Brewers a cue\u2011in, then left\u2011fielder Bryson Johnson turns the Rays\u2019 high\u2011scoring spree into a breathtaking .300\u2011off eight inning rally."
+  "Game 5, season on the line\u2014and Milwaukee and Tampa Bay brought every ounce of October pressure."
  ],
- "script_hint": "What a swing\u2011off! Matt Moore gives the Brewers a cue\u2011in, then left\u2011fielder Bryson Johnson turns the Rays\u2019 high\u2011scoring spree into a breathtaking .300\u2011off eight inning rally.  [brain]"
+ "script_hint": "Game 5, season on the line\u2014and Milwaukee and Tampa Bay brought every ounce of October pressure.  [brain]"
 }
