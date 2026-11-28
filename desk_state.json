@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-27T18:45:57.992832+00:00",
+ "generated": "2026-11-28T01:47:32.442186+00:00",
  "version": 2,
- "ticker": "NFL: DEN 0 - PIT 0 11/27 - 3:00 PM EST  //  NFL: GB 13 - LAR 26 Final  //  NFL: CHI 39 - DET 35 Final  //  NFL: PHI 39 - DAL 38 Final  //  NFL: KC 10 - BUF 13 Final",
+ "ticker": "NFL: DEN 5 - PIT 27 Final  //  NFL: GB 13 - LAR 26 Final  //  NFL: CHI 39 - DET 35 Final  //  NFL: PHI 39 - DAL 38 Final  //  NFL: KC 10 - BUF 13 Final",
  "breaking": {
-  "id": "espn:50612845",
-  "title": "Cardinals to start QB Josh Johnson again with Carson Beck (back spasms) out",
+  "id": "espn:50616624",
+  "title": "Sam Darnold 'ready to roll' vs. 49ers as Seahawks fight to stay in NFC West race",
   "source": "ESPN NFL",
-  "age_min": 7.517165983333333
+  "age_min": 9.937975666666667
  },
  "games": [
   {
    "league": "NFL",
    "name": "DEN @ PIT",
    "away": "DEN",
-   "away_score": "0",
+   "away_score": "5",
    "home": "PIT",
-   "home_score": "0",
-   "status": "11/27 - 3:00 PM EST",
+   "home_score": "27",
+   "status": "Final",
    "date": "2026-11-27T20:00Z"
   },
   {
@@ -73,60 +73,60 @@
    "league": "NBA",
    "name": "MIA @ NY",
    "away": "MIA",
-   "away_score": "0",
+   "away_score": "77",
    "home": "NY",
-   "home_score": "0",
-   "status": "11/27 - 7:00 PM EST",
+   "home_score": "68",
+   "status": "3:32 - 3rd",
    "date": "2026-11-28T00:00Z"
   },
   {
    "league": "NBA",
    "name": "MIL @ DET",
    "away": "MIL",
-   "away_score": "0",
+   "away_score": "50",
    "home": "DET",
-   "home_score": "0",
-   "status": "11/27 - 7:30 PM EST",
+   "home_score": "48",
+   "status": "Halftime",
    "date": "2026-11-28T00:30Z"
   },
   {
    "league": "NBA",
    "name": "PHI @ IND",
    "away": "PHI",
-   "away_score": "0",
+   "away_score": "55",
    "home": "IND",
-   "home_score": "0",
-   "status": "11/27 - 7:30 PM EST",
+   "home_score": "44",
+   "status": "Halftime",
    "date": "2026-11-28T00:30Z"
   },
   {
    "league": "NBA",
    "name": "BKN @ TOR",
    "away": "BKN",
-   "away_score": "0",
+   "away_score": "55",
    "home": "TOR",
-   "home_score": "0",
-   "status": "11/27 - 7:30 PM EST",
+   "home_score": "63",
+   "status": "Halftime",
    "date": "2026-11-28T00:30Z"
   },
   {
    "league": "NBA",
    "name": "ATL @ BOS",
    "away": "ATL",
-   "away_score": "0",
+   "away_score": "25",
    "home": "BOS",
-   "home_score": "0",
-   "status": "11/27 - 8:00 PM EST",
+   "home_score": "39",
+   "status": "7:36 - 2nd",
    "date": "2026-11-28T01:00Z"
   },
   {
    "league": "NBA",
    "name": "MEM @ MIN",
    "away": "MEM",
-   "away_score": "0",
+   "away_score": "10",
    "home": "MIN",
-   "home_score": "0",
-   "status": "11/27 - 8:30 PM EST",
+   "home_score": "6",
+   "status": "7:52 - 1st",
    "date": "2026-11-28T01:30Z"
   },
   {
@@ -161,24 +161,24 @@
  "abet_lines": [
   {
    "event": "PHI @ WSH",
-   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1749h old]",
+   "note": "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1756h old]",
    "pp": 10.91,
    "books": 3,
-   "data_age_min": 104939
+   "data_age_min": 105361
   },
   {
    "event": "PHI @ WSH",
-   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1749h old]",
+   "note": "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1756h old]",
    "pp": 10.47,
    "books": 3,
-   "data_age_min": 104939
+   "data_age_min": 105361
   },
   {
    "event": "PHI @ WSH",
-   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1749h old]",
+   "note": "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1756h old]",
    "pp": 8.54,
    "books": 4,
-   "data_age_min": 104939
+   "data_age_min": 105361
   }
  ],
  "sources": {
@@ -189,17 +189,17 @@
  },
  "chat": [],
  "ticker_items": [
-  "BREAKING: Cardinals to start QB Josh Johnson again with Carson Beck (back spasms) out",
-  "DEN 0 - PIT 0 (11/27 - 3:00 PM EST)",
+  "BREAKING: Sam Darnold 'ready to roll' vs. 49ers as Seahawks fight to stay in NFC West race",
+  "DEN 5 - PIT 27 (Final)",
   "GB 13 - LAR 26 (Final)",
   "CHI 39 - DET 35 (Final)",
   "PHI 39 - DAL 38 (Final)",
-  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1749h old]",
-  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1749h old]",
-  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1749h old]",
+  "WSH Moneyline: 160 to 100 (3 books, 10.91pp, shorter) [events 1756h old]",
+  "PHI Moneyline: -222 to -137 (3 books, 10.47pp, longer) [events 1756h old]",
+  "WSH Run Line: -138 to -320 (4 books, 8.54pp, shorter) [events 1756h old]",
   "Chandler Simpson AVG .306 HR 0",
   "HIGHLIGHT: Brewers vs. Rays Game 5 Highlights",
-  "Milwaukee and Tampa Bay turned Game 5 into a heavyweight fight\u2014exactly the kind of October baseball that makes every pitch feel enormous."
+  "Milwaukee and Tampa Bay turned Game 5 into a pressure cooker, and the Brewers found the nerve to slam the door."
  ],
- "script_hint": "Milwaukee and Tampa Bay turned Game 5 into a heavyweight fight\u2014exactly the kind of October baseball that makes every pitch feel enormous.  [brain]"
+ "script_hint": "Milwaukee and Tampa Bay turned Game 5 into a pressure cooker, and the Brewers found the nerve to slam the door.  [brain]"
 }
